@@ -98,7 +98,7 @@ def send_alert_email(alerts: list, config: dict = None):
     to_email = cfg.get("to") or os.environ.get("ALERT_EMAIL_TO")
     from_email = cfg.get("from") or os.environ.get("ALERT_EMAIL_FROM")
     smtp_host = cfg.get("smtp_host") or os.environ.get("ALERT_SMTP_HOST")
-    smtp_port = int(cfg.get("smtp_port") or os.environ.get("ALERT_SMTP_PORT", "587"))
+    smtp_port = int(cfg.get("smtp_port") or os.environ.get("ALERT_SMTP_PORT") or "587")
     smtp_user = cfg.get("smtp_user") or os.environ.get("ALERT_SMTP_USER")
     smtp_pass = cfg.get("smtp_pass") or os.environ.get("ALERT_SMTP_PASS")
 
