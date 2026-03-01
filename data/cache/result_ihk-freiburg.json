@@ -1,0 +1,20 @@
+{
+  "id": "ihk-freiburg",
+  "name": "IHK Südlicher Oberrhein",
+  "city": "Freiburg",
+  "lat": 47.999,
+  "lon": 7.8421,
+  "availability": "online_js",
+  "status": "degraded",
+  "stage": "degraded",
+  "dates_2026": [],
+  "exam_events": [],
+  "fees": [],
+  "keyword_score": "",
+  "strategies_used": [],
+  "url_used": "https://www.ihk.de/freiburg/unternehmen-beraten/gruendung-sicherung/unterrichtungsverfahren-und-sach-fachkundepruefungen/zertifizierter-wohnimmobilienverwalter-6795604",
+  "from_cache": false,
+  "validation_errors": [],
+  "validation_warnings": [],
+  "timestamp": "2026-03-01T00:40:10.431051"
+}

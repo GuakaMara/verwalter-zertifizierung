@@ -1,0 +1,44 @@
+{
+  "id": "ihk-reutlingen",
+  "name": "IHK Reutlingen",
+  "city": "Reutlingen",
+  "lat": 48.4914,
+  "lon": 9.2043,
+  "availability": "online",
+  "status": "ok",
+  "stage": "parser_a",
+  "dates_2026": [
+    "16.03.2026",
+    "26.03.2026"
+  ],
+  "exam_events": [
+    {
+      "dates": [
+        "16.03.2026",
+        "26.03.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "16.03.2026",
+      "muendlich": "26.03.2026",
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "section",
+      "evidence": "Prüfungstermine 2026 Schriftliche Prüfung: 16. März 2026 Mündliche Prüfung: 24., 25. oder 26. März 2026 Zur Anmeldung Die IHK Reutlingen behält sich vor, Termine mangels ausreichender Teilnehmerzahl abzusagen. In diesem Fall werden bereits bezahlte Gebühren erstattet. Anmeldeschluss ist jeweils 3 Wo",
+      "confidence": 1.0
+    }
+  ],
+  "fees": [
+    "150 €",
+    "310 €"
+  ],
+  "keyword_score": "11/12",
+  "strategies_used": [
+    "section",
+    "text_block"
+  ],
+  "url_used": "https://www.reutlingen.ihk.de/gruendung/gruenden-nach-branchen/erlaubnis-gemaess-34-c-gewo/zertifizierter-weg-verwalter/",
+  "from_cache": false,
+  "validation_errors": [],
+  "validation_warnings": [],
+  "timestamp": "2026-03-01T00:40:02.094789"
+}

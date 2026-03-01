@@ -1,0 +1,122 @@
+{
+  "id": "ihk-heilbronn",
+  "name": "IHK Heilbronn-Franken",
+  "city": "Heilbronn",
+  "lat": 49.1427,
+  "lon": 9.2109,
+  "availability": "online",
+  "status": "ok",
+  "stage": "parser_a",
+  "dates_2026": [
+    "05.03.2026",
+    "06.03.2026",
+    "22.10.2026",
+    "23.04.2026",
+    "23.07.2026",
+    "23.10.2026",
+    "24.02.2026",
+    "24.04.2026",
+    "24.07.2026",
+    "25.06.2026",
+    "26.06.2026",
+    "26.11.2026",
+    "27.11.2026"
+  ],
+  "exam_events": [
+    {
+      "dates": [
+        "05.03.2026",
+        "06.03.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "05.03.2026",
+      "muendlich": "06.03.2026",
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "table",
+      "evidence": "05.03.2026 06.03.2026",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "23.04.2026",
+        "24.04.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "23.04.2026",
+      "muendlich": "24.04.2026",
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "table",
+      "evidence": "23.04.2026 24.04.2026",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "25.06.2026",
+        "26.06.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "25.06.2026",
+      "muendlich": "26.06.2026",
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "table",
+      "evidence": "25.06.2026 26.06.2026",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "23.07.2026",
+        "24.07.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "23.07.2026",
+      "muendlich": "24.07.2026",
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "table",
+      "evidence": "23.07.2026 24.07.2026",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "22.10.2026",
+        "23.10.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "22.10.2026",
+      "muendlich": "23.10.2026",
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "table",
+      "evidence": "22.10.2026 23.10.2026",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "26.11.2026",
+        "27.11.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "26.11.2026",
+      "muendlich": "27.11.2026",
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "table",
+      "evidence": "26.11.2026 27.11.2026",
+      "confidence": 1.0
+    }
+  ],
+  "fees": [],
+  "keyword_score": "9/12",
+  "strategies_used": [
+    "table",
+    "section"
+  ],
+  "url_used": "https://www.ihk.de/heilbronn-franken/produktmarken/branchen/gewerbeportal/immobilien/wohnimmobilienverwalter/einfuehrung-zertifizierter-verwalter-6049444",
+  "from_cache": false,
+  "validation_errors": [],
+  "validation_warnings": [],
+  "timestamp": "2026-03-01T00:40:08.400815"
+}

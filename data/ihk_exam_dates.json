@@ -1,0 +1,575 @@
+[
+  {
+    "id": "ihk-rhein-neckar",
+    "name": "IHK Rhein-Neckar",
+    "city": "Mannheim",
+    "lat": 49.4875,
+    "lon": 8.466,
+    "availability": "online",
+    "status": "ok",
+    "stage": "parser_a",
+    "dates_2026": [
+      "03.03.2026",
+      "05.05.2026",
+      "06.02.2026",
+      "06.03.2026",
+      "08.05.2026",
+      "10.04.2026",
+      "17.11.2026",
+      "20.11.2026",
+      "22.09.2026",
+      "23.10.2026",
+      "25.09.2026",
+      "28.08.2026"
+    ],
+    "exam_events": [
+      {
+        "dates": [
+          "03.03.2026",
+          "06.03.2026",
+          "06.02.2026"
+        ],
+        "type": "combined",
+        "schriftlich": "03.03.2026",
+        "muendlich": "06.03.2026",
+        "anmeldeschluss": "06.02.2026",
+        "status": "ausgebucht",
+        "source": "table",
+        "evidence": "03. März 2026 06. März 2026 06. Februar 2026 ausgebucht",
+        "confidence": 1.0
+      },
+      {
+        "dates": [
+          "05.05.2026",
+          "08.05.2026",
+          "10.04.2026"
+        ],
+        "type": "combined",
+        "schriftlich": "05.05.2026",
+        "muendlich": "08.05.2026",
+        "anmeldeschluss": "10.04.2026",
+        "status": "anmeldung_moeglich",
+        "source": "table",
+        "evidence": "05. Mai 2026 08. Mai 2026 10. April 2026 Anmeldung möglich",
+        "confidence": 1.0
+      },
+      {
+        "dates": [
+          "22.09.2026",
+          "25.09.2026",
+          "28.08.2026"
+        ],
+        "type": "combined",
+        "schriftlich": "22.09.2026",
+        "muendlich": "25.09.2026",
+        "anmeldeschluss": "28.08.2026",
+        "status": "anmeldung_moeglich",
+        "source": "table",
+        "evidence": "22. September 2026 25. September 2026 28. August 2026 Anmeldung möglich",
+        "confidence": 1.0
+      },
+      {
+        "dates": [
+          "17.11.2026",
+          "20.11.2026",
+          "23.10.2026"
+        ],
+        "type": "combined",
+        "schriftlich": "17.11.2026",
+        "muendlich": "20.11.2026",
+        "anmeldeschluss": "23.10.2026",
+        "status": "anmeldung_moeglich",
+        "source": "table",
+        "evidence": "17. November 2026 20. November 2026 23. Oktober 2026 Anmeldung möglich",
+        "confidence": 1.0
+      }
+    ],
+    "fees": [],
+    "keyword_score": "10/12",
+    "strategies_used": [
+      "table",
+      "section"
+    ],
+    "url_used": "https://www.ihk.de/rhein-neckar/wirtschaftsstandort/branchen/dienstleistungen/immobilienwirtschaft/pruefung-zertifizierter-verwalter-5033716",
+    "from_cache": false,
+    "validation_errors": [],
+    "validation_warnings": [],
+    "timestamp": "2026-03-01T00:40:00.206605"
+  },
+  {
+    "id": "ihk-reutlingen",
+    "name": "IHK Reutlingen",
+    "city": "Reutlingen",
+    "lat": 48.4914,
+    "lon": 9.2043,
+    "availability": "online",
+    "status": "ok",
+    "stage": "parser_a",
+    "dates_2026": [
+      "16.03.2026",
+      "26.03.2026"
+    ],
+    "exam_events": [
+      {
+        "dates": [
+          "16.03.2026",
+          "26.03.2026"
+        ],
+        "type": "combined",
+        "schriftlich": "16.03.2026",
+        "muendlich": "26.03.2026",
+        "anmeldeschluss": null,
+        "status": "unknown",
+        "source": "section",
+        "evidence": "Prüfungstermine 2026 Schriftliche Prüfung: 16. März 2026 Mündliche Prüfung: 24., 25. oder 26. März 2026 Zur Anmeldung Die IHK Reutlingen behält sich vor, Termine mangels ausreichender Teilnehmerzahl abzusagen. In diesem Fall werden bereits bezahlte Gebühren erstattet. Anmeldeschluss ist jeweils 3 Wo",
+        "confidence": 1.0
+      }
+    ],
+    "fees": [
+      "150 €",
+      "310 €"
+    ],
+    "keyword_score": "11/12",
+    "strategies_used": [
+      "section",
+      "text_block"
+    ],
+    "url_used": "https://www.reutlingen.ihk.de/gruendung/gruenden-nach-branchen/erlaubnis-gemaess-34-c-gewo/zertifizierter-weg-verwalter/",
+    "from_cache": false,
+    "validation_errors": [],
+    "validation_warnings": [],
+    "timestamp": "2026-03-01T00:40:02.094789"
+  },
+  {
+    "id": "ihk-stuttgart",
+    "name": "IHK Region Stuttgart",
+    "city": "Stuttgart",
+    "lat": 48.7758,
+    "lon": 9.1829,
+    "availability": "online_js",
+    "status": "manual",
+    "stage": "manual",
+    "dates_2026": [
+      "08.06.2026",
+      "24.06.2026"
+    ],
+    "exam_events": [
+      {
+        "dates": [
+          "08.06.2026",
+          "24.06.2026"
+        ],
+        "type": "combined",
+        "schriftlich": "08.06.2026",
+        "muendlich": "24.06.2026",
+        "anmeldeschluss": null,
+        "source": "manual",
+        "evidence": "manuell geprüft 28.02.2026",
+        "confidence": 1.0
+      }
+    ],
+    "fee": "250 €"
+  },
+  {
+    "id": "ihk-karlsruhe",
+    "name": "IHK Karlsruhe",
+    "city": "Karlsruhe",
+    "lat": 49.0069,
+    "lon": 8.4037,
+    "availability": "online",
+    "status": "ok",
+    "stage": "parser_a",
+    "dates_2026": [
+      "01.06.2026",
+      "01.10.2026",
+      "02.02.2026",
+      "07.04.2026",
+      "13.07.2026",
+      "19.01.2026",
+      "20.04.2026",
+      "25.02.2026"
+    ],
+    "exam_events": [
+      {
+        "dates": [
+          "25.02.2026"
+        ],
+        "type": "combined",
+        "schriftlich": "25.02.2026",
+        "muendlich": "25.02.2026",
+        "anmeldeschluss": null,
+        "status": "unknown",
+        "source": "line",
+        "evidence": "25.02.2026 – schriftliche/mündliche Prüfung -",
+        "confidence": 1.0
+      },
+      {
+        "dates": [
+          "20.04.2026"
+        ],
+        "type": "combined",
+        "schriftlich": "20.04.2026",
+        "muendlich": "20.04.2026",
+        "anmeldeschluss": null,
+        "status": "anmeldung_moeglich",
+        "source": "line",
+        "evidence": "20.04.2026 – schriftliche/mündliche Prüfung | Anmeldung ab 02.02.2026 möglich",
+        "confidence": 1.0
+      },
+      {
+        "dates": [
+          "01.06.2026"
+        ],
+        "type": "combined",
+        "schriftlich": "01.06.2026",
+        "muendlich": "01.06.2026",
+        "anmeldeschluss": null,
+        "status": "anmeldung_moeglich",
+        "source": "line",
+        "evidence": "01.06.2026 – schriftliche/mündliche Prüfung | Anmeldung ab 07.04.2026 möglich",
+        "confidence": 1.0
+      },
+      {
+        "dates": [
+          "01.10.2026"
+        ],
+        "type": "combined",
+        "schriftlich": "01.10.2026",
+        "muendlich": "01.10.2026",
+        "anmeldeschluss": null,
+        "status": "anmeldung_moeglich",
+        "source": "line",
+        "evidence": "01.10.2026 – schriftliche/mündliche Prüfung | Anmeldung ab 13.07.2026 möglich",
+        "confidence": 1.0
+      }
+    ],
+    "fees": [
+      "50 €",
+      "240 €",
+      "145 €"
+    ],
+    "keyword_score": "9/12",
+    "strategies_used": [
+      "line",
+      "section",
+      "text_block"
+    ],
+    "url_used": "https://www.ihk.de/karlsruhe/fachthemen/recht/gewerbetreibende-nach-34c-gewo/wohnimmobilienverwalter/zertifizierter-wohnimmobilienverwalter-4926478",
+    "from_cache": false,
+    "validation_errors": [],
+    "validation_warnings": [],
+    "timestamp": "2026-03-01T00:40:04.300589"
+  },
+  {
+    "id": "ihk-konstanz",
+    "name": "IHK Hochrhein-Bodensee",
+    "city": "Konstanz",
+    "lat": 47.6603,
+    "lon": 9.1758,
+    "availability": "online",
+    "status": "ok",
+    "stage": "parser_a",
+    "dates_2026": [
+      "01.10.2026",
+      "01.12.2026",
+      "03.09.2026",
+      "07.05.2026",
+      "12.03.2026",
+      "13.05.2026",
+      "16.04.2026",
+      "19.02.2026",
+      "19.03.2026",
+      "19.11.2026",
+      "24.09.2026",
+      "29.10.2026"
+    ],
+    "exam_events": [
+      {
+        "dates": [
+          "12.03.2026",
+          "19.02.2026",
+          "19.03.2026"
+        ],
+        "type": "combined",
+        "schriftlich": "12.03.2026",
+        "muendlich": "19.03.2026",
+        "anmeldeschluss": null,
+        "status": "unknown",
+        "source": "table",
+        "evidence": "12. März 2026 , (Anmeldeschluss: 19. Februar 2026) mündliche Prüfung: 17./19.03.2026",
+        "confidence": 1.0
+      },
+      {
+        "dates": [
+          "07.05.2026",
+          "16.04.2026",
+          "13.05.2026"
+        ],
+        "type": "combined",
+        "schriftlich": "07.05.2026",
+        "muendlich": "13.05.2026",
+        "anmeldeschluss": null,
+        "status": "unknown",
+        "source": "table",
+        "evidence": "07. Mai 2026 , (Anmeldeschluss: 16. April 2026) mündliche Prüfung: 12./13.05.2026",
+        "confidence": 1.0
+      },
+      {
+        "dates": [
+          "24.09.2026",
+          "03.09.2026",
+          "01.10.2026"
+        ],
+        "type": "combined",
+        "schriftlich": "24.09.2026",
+        "muendlich": "01.10.2026",
+        "anmeldeschluss": null,
+        "status": "unknown",
+        "source": "table",
+        "evidence": "24. September 2026 , (Anmeldeschluss: 03. September 2026) mündliche Prüfung: 29.09./01.10.2026",
+        "confidence": 1.0
+      },
+      {
+        "dates": [
+          "19.11.2026",
+          "29.10.2026",
+          "01.12.2026"
+        ],
+        "type": "combined",
+        "schriftlich": "19.11.2026",
+        "muendlich": "01.12.2026",
+        "anmeldeschluss": null,
+        "status": "unknown",
+        "source": "table",
+        "evidence": "19. November 2026 , (Anmeldeschluss: 29. Oktober 2026) mündliche Prüfung: 27.11./01.12.2026",
+        "confidence": 1.0
+      }
+    ],
+    "fees": [],
+    "keyword_score": "7/12",
+    "strategies_used": [
+      "table",
+      "section",
+      "text_block"
+    ],
+    "url_used": "https://www.ihk.de/konstanz/berufliche-bildung/unterrichtungen-sachkunde/zertifizierter-hausverwalter/pruefungstermine-5689984",
+    "from_cache": false,
+    "validation_errors": [],
+    "validation_warnings": [],
+    "timestamp": "2026-03-01T00:40:06.351414"
+  },
+  {
+    "id": "ihk-heilbronn",
+    "name": "IHK Heilbronn-Franken",
+    "city": "Heilbronn",
+    "lat": 49.1427,
+    "lon": 9.2109,
+    "availability": "online",
+    "status": "ok",
+    "stage": "parser_a",
+    "dates_2026": [
+      "05.03.2026",
+      "06.03.2026",
+      "22.10.2026",
+      "23.04.2026",
+      "23.07.2026",
+      "23.10.2026",
+      "24.02.2026",
+      "24.04.2026",
+      "24.07.2026",
+      "25.06.2026",
+      "26.06.2026",
+      "26.11.2026",
+      "27.11.2026"
+    ],
+    "exam_events": [
+      {
+        "dates": [
+          "05.03.2026",
+          "06.03.2026"
+        ],
+        "type": "combined",
+        "schriftlich": "05.03.2026",
+        "muendlich": "06.03.2026",
+        "anmeldeschluss": null,
+        "status": "unknown",
+        "source": "table",
+        "evidence": "05.03.2026 06.03.2026",
+        "confidence": 1.0
+      },
+      {
+        "dates": [
+          "23.04.2026",
+          "24.04.2026"
+        ],
+        "type": "combined",
+        "schriftlich": "23.04.2026",
+        "muendlich": "24.04.2026",
+        "anmeldeschluss": null,
+        "status": "unknown",
+        "source": "table",
+        "evidence": "23.04.2026 24.04.2026",
+        "confidence": 1.0
+      },
+      {
+        "dates": [
+          "25.06.2026",
+          "26.06.2026"
+        ],
+        "type": "combined",
+        "schriftlich": "25.06.2026",
+        "muendlich": "26.06.2026",
+        "anmeldeschluss": null,
+        "status": "unknown",
+        "source": "table",
+        "evidence": "25.06.2026 26.06.2026",
+        "confidence": 1.0
+      },
+      {
+        "dates": [
+          "23.07.2026",
+          "24.07.2026"
+        ],
+        "type": "combined",
+        "schriftlich": "23.07.2026",
+        "muendlich": "24.07.2026",
+        "anmeldeschluss": null,
+        "status": "unknown",
+        "source": "table",
+        "evidence": "23.07.2026 24.07.2026",
+        "confidence": 1.0
+      },
+      {
+        "dates": [
+          "22.10.2026",
+          "23.10.2026"
+        ],
+        "type": "combined",
+        "schriftlich": "22.10.2026",
+        "muendlich": "23.10.2026",
+        "anmeldeschluss": null,
+        "status": "unknown",
+        "source": "table",
+        "evidence": "22.10.2026 23.10.2026",
+        "confidence": 1.0
+      },
+      {
+        "dates": [
+          "26.11.2026",
+          "27.11.2026"
+        ],
+        "type": "combined",
+        "schriftlich": "26.11.2026",
+        "muendlich": "27.11.2026",
+        "anmeldeschluss": null,
+        "status": "unknown",
+        "source": "table",
+        "evidence": "26.11.2026 27.11.2026",
+        "confidence": 1.0
+      }
+    ],
+    "fees": [],
+    "keyword_score": "9/12",
+    "strategies_used": [
+      "table",
+      "section"
+    ],
+    "url_used": "https://www.ihk.de/heilbronn-franken/produktmarken/branchen/gewerbeportal/immobilien/wohnimmobilienverwalter/einfuehrung-zertifizierter-verwalter-6049444",
+    "from_cache": false,
+    "validation_errors": [],
+    "validation_warnings": [],
+    "timestamp": "2026-03-01T00:40:08.400815"
+  },
+  {
+    "id": "ihk-freiburg",
+    "name": "IHK Südlicher Oberrhein",
+    "city": "Freiburg",
+    "lat": 47.999,
+    "lon": 7.8421,
+    "availability": "online_js",
+    "status": "degraded",
+    "stage": "degraded",
+    "dates_2026": [],
+    "exam_events": [],
+    "fees": [],
+    "keyword_score": "",
+    "strategies_used": [],
+    "url_used": "https://www.ihk.de/freiburg/unternehmen-beraten/gruendung-sicherung/unterrichtungsverfahren-und-sach-fachkundepruefungen/zertifizierter-wohnimmobilienverwalter-6795604",
+    "from_cache": false,
+    "validation_errors": [],
+    "validation_warnings": [],
+    "timestamp": "2026-03-01T00:40:10.431051"
+  },
+  {
+    "id": "ihk-pforzheim",
+    "name": "IHK Nordschwarzwald",
+    "city": "Pforzheim",
+    "lat": 48.8922,
+    "lon": 8.6946,
+    "availability": "not_offered",
+    "status": "skip",
+    "dates_2026": [],
+    "exam_events": [],
+    "note": "IHK Nordschwarzwald bietet die Prüfung nicht an (Stand Feb 2026)."
+  },
+  {
+    "id": "ihk-vs",
+    "name": "IHK Schwarzwald-Baar-Heuberg",
+    "city": "Villingen-Schwenningen",
+    "lat": 48.0623,
+    "lon": 8.4935,
+    "availability": "on_request",
+    "status": "skip",
+    "dates_2026": [],
+    "exam_events": [],
+    "contact": {
+      "name": "Florian Merz",
+      "phone": "07721 922-129",
+      "email": "florian.merz@vs.ihk.de"
+    },
+    "note": "Bietet Prüfung an, aber keine Termine online. Nur auf Anfrage."
+  },
+  {
+    "id": "ihk-bodensee",
+    "name": "IHK Bodensee-Oberschwaben",
+    "city": "Weingarten",
+    "lat": 47.8105,
+    "lon": 9.6384,
+    "availability": "on_request",
+    "status": "skip",
+    "dates_2026": [],
+    "exam_events": [],
+    "contact": {
+      "name": "Team Vermittlergewerbe",
+      "phone": "0751 409-146",
+      "email": "info@weingarten.ihk.de"
+    },
+    "note": "Infoseite vorhanden, aber keine Prüfungstermine online."
+  },
+  {
+    "id": "ihk-ulm",
+    "name": "IHK Ulm",
+    "city": "Ulm",
+    "lat": 48.4011,
+    "lon": 9.9876,
+    "availability": "refers_to",
+    "status": "skip",
+    "dates_2026": [],
+    "exam_events": [],
+    "refers_to": "ihk-reutlingen",
+    "note": "Verweist auf IHK Reutlingen."
+  },
+  {
+    "id": "ihk-ostwuerttemberg",
+    "name": "IHK Ostwürttemberg",
+    "city": "Heidenheim",
+    "lat": 48.6761,
+    "lon": 10.1543,
+    "availability": "refers_to",
+    "status": "skip",
+    "dates_2026": [],
+    "exam_events": [],
+    "refers_to": "ihk-stuttgart",
+    "note": "Verweist auf IHK Stuttgart. Prüfung findet in Stuttgart statt."
+  }
+]

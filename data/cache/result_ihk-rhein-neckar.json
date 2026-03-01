@@ -1,0 +1,97 @@
+{
+  "id": "ihk-rhein-neckar",
+  "name": "IHK Rhein-Neckar",
+  "city": "Mannheim",
+  "lat": 49.4875,
+  "lon": 8.466,
+  "availability": "online",
+  "status": "ok",
+  "stage": "parser_a",
+  "dates_2026": [
+    "03.03.2026",
+    "05.05.2026",
+    "06.02.2026",
+    "06.03.2026",
+    "08.05.2026",
+    "10.04.2026",
+    "17.11.2026",
+    "20.11.2026",
+    "22.09.2026",
+    "23.10.2026",
+    "25.09.2026",
+    "28.08.2026"
+  ],
+  "exam_events": [
+    {
+      "dates": [
+        "03.03.2026",
+        "06.03.2026",
+        "06.02.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "03.03.2026",
+      "muendlich": "06.03.2026",
+      "anmeldeschluss": "06.02.2026",
+      "status": "ausgebucht",
+      "source": "table",
+      "evidence": "03. März 2026 06. März 2026 06. Februar 2026 ausgebucht",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "05.05.2026",
+        "08.05.2026",
+        "10.04.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "05.05.2026",
+      "muendlich": "08.05.2026",
+      "anmeldeschluss": "10.04.2026",
+      "status": "anmeldung_moeglich",
+      "source": "table",
+      "evidence": "05. Mai 2026 08. Mai 2026 10. April 2026 Anmeldung möglich",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "22.09.2026",
+        "25.09.2026",
+        "28.08.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "22.09.2026",
+      "muendlich": "25.09.2026",
+      "anmeldeschluss": "28.08.2026",
+      "status": "anmeldung_moeglich",
+      "source": "table",
+      "evidence": "22. September 2026 25. September 2026 28. August 2026 Anmeldung möglich",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "17.11.2026",
+        "20.11.2026",
+        "23.10.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "17.11.2026",
+      "muendlich": "20.11.2026",
+      "anmeldeschluss": "23.10.2026",
+      "status": "anmeldung_moeglich",
+      "source": "table",
+      "evidence": "17. November 2026 20. November 2026 23. Oktober 2026 Anmeldung möglich",
+      "confidence": 1.0
+    }
+  ],
+  "fees": [],
+  "keyword_score": "10/12",
+  "strategies_used": [
+    "table",
+    "section"
+  ],
+  "url_used": "https://www.ihk.de/rhein-neckar/wirtschaftsstandort/branchen/dienstleistungen/immobilienwirtschaft/pruefung-zertifizierter-verwalter-5033716",
+  "from_cache": false,
+  "validation_errors": [],
+  "validation_warnings": [],
+  "timestamp": "2026-03-01T00:40:00.206605"
+}

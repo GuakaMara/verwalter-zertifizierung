@@ -1,0 +1,98 @@
+{
+  "id": "ihk-konstanz",
+  "name": "IHK Hochrhein-Bodensee",
+  "city": "Konstanz",
+  "lat": 47.6603,
+  "lon": 9.1758,
+  "availability": "online",
+  "status": "ok",
+  "stage": "parser_a",
+  "dates_2026": [
+    "01.10.2026",
+    "01.12.2026",
+    "03.09.2026",
+    "07.05.2026",
+    "12.03.2026",
+    "13.05.2026",
+    "16.04.2026",
+    "19.02.2026",
+    "19.03.2026",
+    "19.11.2026",
+    "24.09.2026",
+    "29.10.2026"
+  ],
+  "exam_events": [
+    {
+      "dates": [
+        "12.03.2026",
+        "19.02.2026",
+        "19.03.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "12.03.2026",
+      "muendlich": "19.03.2026",
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "table",
+      "evidence": "12. März 2026 , (Anmeldeschluss: 19. Februar 2026) mündliche Prüfung: 17./19.03.2026",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "07.05.2026",
+        "16.04.2026",
+        "13.05.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "07.05.2026",
+      "muendlich": "13.05.2026",
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "table",
+      "evidence": "07. Mai 2026 , (Anmeldeschluss: 16. April 2026) mündliche Prüfung: 12./13.05.2026",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "24.09.2026",
+        "03.09.2026",
+        "01.10.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "24.09.2026",
+      "muendlich": "01.10.2026",
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "table",
+      "evidence": "24. September 2026 , (Anmeldeschluss: 03. September 2026) mündliche Prüfung: 29.09./01.10.2026",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "19.11.2026",
+        "29.10.2026",
+        "01.12.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "19.11.2026",
+      "muendlich": "01.12.2026",
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "table",
+      "evidence": "19. November 2026 , (Anmeldeschluss: 29. Oktober 2026) mündliche Prüfung: 27.11./01.12.2026",
+      "confidence": 1.0
+    }
+  ],
+  "fees": [],
+  "keyword_score": "7/12",
+  "strategies_used": [
+    "table",
+    "section",
+    "text_block"
+  ],
+  "url_used": "https://www.ihk.de/konstanz/berufliche-bildung/unterrichtungen-sachkunde/zertifizierter-hausverwalter/pruefungstermine-5689984",
+  "from_cache": false,
+  "validation_errors": [],
+  "validation_warnings": [],
+  "timestamp": "2026-03-01T00:40:06.351414"
+}
