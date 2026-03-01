@@ -25,7 +25,7 @@ sys.path.insert(0, str(ROOT))
 from scraper.pipeline import run_pipeline
 
 # ─── Registry aus JSON laden ─────────────────────────────────────────
-REGISTRY_FILE = ROOT / "data" / "ihk_registry_bw.json"
+REGISTRY_FILE = ROOT / "data" / "ihk_registry_de.json"
 REGISTRY = json.loads(REGISTRY_FILE.read_text(encoding="utf-8"))
 
 
