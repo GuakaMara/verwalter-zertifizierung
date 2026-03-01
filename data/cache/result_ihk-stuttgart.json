@@ -5,16 +5,80 @@
   "lat": 48.7758,
   "lon": 9.1829,
   "availability": "online_js",
-  "status": "degraded",
-  "stage": "degraded",
-  "dates_2026": [],
-  "exam_events": [],
-  "fees": [],
-  "keyword_score": "",
-  "strategies_used": [],
+  "status": "ok",
+  "stage": "parser_c",
+  "dates_2026": [
+    "18.05.2026",
+    "23.03.2026",
+    "08.06.2026",
+    "13.04.2026"
+  ],
+  "exam_events": [
+    {
+      "dates": [
+        "23.03.2026"
+      ],
+      "type": "exam_date",
+      "schriftlich": "23.03.2026",
+      "muendlich": null,
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "browser_lux_portal",
+      "evidence": "",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "13.04.2026"
+      ],
+      "type": "exam_date",
+      "schriftlich": "13.04.2026",
+      "muendlich": null,
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "browser_lux_portal",
+      "evidence": "",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "18.05.2026"
+      ],
+      "type": "exam_date",
+      "schriftlich": "18.05.2026",
+      "muendlich": null,
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "browser_lux_portal",
+      "evidence": "",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "08.06.2026"
+      ],
+      "type": "exam_date",
+      "schriftlich": "08.06.2026",
+      "muendlich": null,
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "browser_lux_portal",
+      "evidence": "",
+      "confidence": 1.0
+    }
+  ],
+  "fees": [
+    "250,00 €"
+  ],
+  "keyword_score": "6/12",
+  "strategies_used": [
+    "browser+lux_dates"
+  ],
   "url_used": "https://www.ihk.de/stuttgart/bildung-schulung-pruefung/pruefungen/dienstleistungen/anmeldung-zum-zertifizierten-verwalter-5619738",
   "from_cache": false,
   "validation_errors": [],
-  "validation_warnings": [],
-  "timestamp": "2026-03-01T20:57:19.507599"
+  "validation_warnings": [
+    "NEUE Termine: 08.06.2026, 13.04.2026, 18.05.2026, 23.03.2026"
+  ],
+  "timestamp": "2026-03-01T23:11:12.896199"
 }

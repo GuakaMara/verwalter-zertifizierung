@@ -5,16 +5,81 @@
   "lat": 52.3759,
   "lon": 9.732,
   "availability": "online_js",
-  "status": "degraded",
-  "stage": "degraded",
-  "dates_2026": [],
-  "exam_events": [],
-  "fees": [],
-  "keyword_score": "",
-  "strategies_used": [],
+  "status": "ok",
+  "stage": "parser_c",
+  "dates_2026": [
+    "16.10.2026",
+    "16.06.2026",
+    "05.11.2026",
+    "27.05.2026"
+  ],
+  "exam_events": [
+    {
+      "dates": [
+        "27.05.2026"
+      ],
+      "type": "exam_date",
+      "schriftlich": "27.05.2026",
+      "muendlich": null,
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "browser_lux_portal",
+      "evidence": "",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "16.06.2026"
+      ],
+      "type": "exam_date",
+      "schriftlich": "16.06.2026",
+      "muendlich": null,
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "browser_lux_portal",
+      "evidence": "",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "16.10.2026"
+      ],
+      "type": "exam_date",
+      "schriftlich": "16.10.2026",
+      "muendlich": null,
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "browser_lux_portal",
+      "evidence": "",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "05.11.2026"
+      ],
+      "type": "exam_date",
+      "schriftlich": "05.11.2026",
+      "muendlich": null,
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "browser_lux_portal",
+      "evidence": "",
+      "confidence": 1.0
+    }
+  ],
+  "fees": [
+    "343,00 €",
+    "185 €"
+  ],
+  "keyword_score": "8/12",
+  "strategies_used": [
+    "browser+lux_dates"
+  ],
   "url_used": "https://www.ihk.de/hannover/hauptnavigation/ausbildung-und-weiterbildung/pruefungen-und-unterrichtungen/sach-und-fachkundepruefungen-unterrichtungen/sachkundepruefung-zertifizierter-wohnungsverwalter-5585270",
   "from_cache": false,
   "validation_errors": [],
-  "validation_warnings": [],
-  "timestamp": "2026-03-01T21:05:34.082531"
+  "validation_warnings": [
+    "NEUE Termine: 05.11.2026, 16.06.2026, 16.10.2026, 27.05.2026"
+  ],
+  "timestamp": "2026-03-01T23:15:57.702696"
 }

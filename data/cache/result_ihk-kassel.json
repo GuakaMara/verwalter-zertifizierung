@@ -5,16 +5,78 @@
   "lat": 51.3127,
   "lon": 9.4797,
   "availability": "online_js",
-  "status": "degraded",
-  "stage": "degraded",
-  "dates_2026": [],
-  "exam_events": [],
+  "status": "ok",
+  "stage": "parser_c",
+  "dates_2026": [
+    "06.04.2026",
+    "27.04.2026",
+    "20.07.2026",
+    "29.06.2026"
+  ],
+  "exam_events": [
+    {
+      "dates": [
+        "06.04.2026"
+      ],
+      "type": "exam_date",
+      "schriftlich": "06.04.2026",
+      "muendlich": null,
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "browser_lux_portal",
+      "evidence": "",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "27.04.2026"
+      ],
+      "type": "exam_date",
+      "schriftlich": "27.04.2026",
+      "muendlich": null,
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "browser_lux_portal",
+      "evidence": "",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "29.06.2026"
+      ],
+      "type": "exam_date",
+      "schriftlich": "29.06.2026",
+      "muendlich": null,
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "browser_lux_portal",
+      "evidence": "",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "20.07.2026"
+      ],
+      "type": "exam_date",
+      "schriftlich": "20.07.2026",
+      "muendlich": null,
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "browser_lux_portal",
+      "evidence": "",
+      "confidence": 1.0
+    }
+  ],
   "fees": [],
-  "keyword_score": "",
-  "strategies_used": [],
+  "keyword_score": "8/12",
+  "strategies_used": [
+    "browser+lux_dates"
+  ],
   "url_used": "https://www.ihk.de/kassel-marburg/hauptnavigation/gruendung/branchen-a-bis-z/pruefung-zum-zertifizierten-verwalter-5711706",
   "from_cache": false,
   "validation_errors": [],
-  "validation_warnings": [],
-  "timestamp": "2026-03-01T21:03:29.735234"
+  "validation_warnings": [
+    "NEUE Termine: 06.04.2026, 20.07.2026, 27.04.2026, 29.06.2026"
+  ],
+  "timestamp": "2026-03-01T23:14:27.758390"
 }

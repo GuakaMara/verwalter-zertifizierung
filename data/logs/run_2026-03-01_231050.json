@@ -1,0 +1,446 @@
+{
+  "timestamp": "2026-03-01T23:10:50.513261",
+  "duration_note": "~10s delay between requests",
+  "summary": {
+    "last_update": "01.03.2026",
+    "last_update_iso": "2026-03-01T23:10:50.513261",
+    "total_ihks": 79,
+    "ihks_with_data": 33,
+    "total_events": 148,
+    "failed": 0,
+    "skipped": 46
+  },
+  "successful": [
+    {
+      "id": "ihk-rhein-neckar",
+      "name": "IHK Rhein-Neckar",
+      "events": 4,
+      "stage": "parser_a"
+    },
+    {
+      "id": "ihk-reutlingen",
+      "name": "IHK Reutlingen",
+      "events": 1,
+      "stage": "parser_a"
+    },
+    {
+      "id": "ihk-stuttgart",
+      "name": "IHK Region Stuttgart",
+      "events": 4,
+      "stage": "parser_c"
+    },
+    {
+      "id": "ihk-karlsruhe",
+      "name": "IHK Karlsruhe",
+      "events": 4,
+      "stage": "parser_a"
+    },
+    {
+      "id": "ihk-konstanz",
+      "name": "IHK Hochrhein-Bodensee",
+      "events": 4,
+      "stage": "parser_a"
+    },
+    {
+      "id": "ihk-heilbronn",
+      "name": "IHK Heilbronn-Franken",
+      "events": 6,
+      "stage": "parser_a"
+    },
+    {
+      "id": "ihk-freiburg",
+      "name": "IHK Südlicher Oberrhein",
+      "events": 2,
+      "stage": "parser_c"
+    },
+    {
+      "id": "ihk-muenchen",
+      "name": "IHK für München und Oberbayern",
+      "events": 7,
+      "stage": "parser_b"
+    },
+    {
+      "id": "ihk-augsburg",
+      "name": "IHK Schwaben",
+      "events": 4,
+      "stage": "parser_a"
+    },
+    {
+      "id": "ihk-passau",
+      "name": "IHK für Niederbayern in Passau",
+      "events": 4,
+      "stage": "parser_a"
+    },
+    {
+      "id": "ihk-wuerzburg",
+      "name": "IHK Würzburg-Schweinfurt",
+      "events": 12,
+      "stage": "parser_a"
+    },
+    {
+      "id": "ihk-berlin",
+      "name": "IHK zu Berlin",
+      "events": 5,
+      "stage": "parser_a"
+    },
+    {
+      "id": "ihk-hamburg",
+      "name": "Handelskammer Hamburg",
+      "events": 4,
+      "stage": "parser_c"
+    },
+    {
+      "id": "ihk-frankfurt",
+      "name": "IHK Frankfurt am Main",
+      "events": 4,
+      "stage": "parser_a"
+    },
+    {
+      "id": "ihk-kassel",
+      "name": "IHK Kassel-Marburg",
+      "events": 4,
+      "stage": "parser_c"
+    },
+    {
+      "id": "ihk-giessen",
+      "name": "IHK Gießen-Friedberg",
+      "events": 2,
+      "stage": "parser_a"
+    },
+    {
+      "id": "ihk-hanau",
+      "name": "IHK Hanau-Gelnhausen-Schlüchtern",
+      "events": 4,
+      "stage": "parser_a"
+    },
+    {
+      "id": "ihk-rostock",
+      "name": "IHK zu Rostock",
+      "events": 3,
+      "stage": "parser_a"
+    },
+    {
+      "id": "ihk-hannover",
+      "name": "IHK Hannover",
+      "events": 4,
+      "stage": "parser_c"
+    },
+    {
+      "id": "ihk-braunschweig",
+      "name": "IHK Braunschweig",
+      "events": 2,
+      "stage": "parser_a"
+    },
+    {
+      "id": "ihk-stade",
+      "name": "IHK Stade",
+      "events": 3,
+      "stage": "parser_a"
+    },
+    {
+      "id": "ihk-duesseldorf",
+      "name": "IHK zu Düsseldorf",
+      "events": 6,
+      "stage": "parser_a"
+    },
+    {
+      "id": "ihk-muenster",
+      "name": "IHK Nord Westfalen",
+      "events": 3,
+      "stage": "parser_a"
+    },
+    {
+      "id": "ihk-bielefeld",
+      "name": "IHK Ostwestfalen zu Bielefeld",
+      "events": 7,
+      "stage": "parser_a"
+    },
+    {
+      "id": "ihk-bonn",
+      "name": "IHK Bonn/Rhein-Sieg",
+      "events": 5,
+      "stage": "parser_a"
+    },
+    {
+      "id": "ihk-krefeld",
+      "name": "IHK Mittlerer Niederrhein",
+      "events": 3,
+      "stage": "parser_a"
+    },
+    {
+      "id": "ihk-hagen",
+      "name": "Südwestfälische IHK zu Hagen",
+      "events": 3,
+      "stage": "parser_a"
+    },
+    {
+      "id": "ihk-koblenz",
+      "name": "IHK zu Koblenz",
+      "events": 7,
+      "stage": "parser_a"
+    },
+    {
+      "id": "ihk-ludwigshafen",
+      "name": "IHK für die Pfalz",
+      "events": 3,
+      "stage": "parser_a"
+    },
+    {
+      "id": "ihk-saarbruecken",
+      "name": "IHK des Saarlandes",
+      "events": 2,
+      "stage": "manual"
+    },
+    {
+      "id": "ihk-dresden",
+      "name": "IHK Dresden",
+      "events": 4,
+      "stage": "parser_a"
+    },
+    {
+      "id": "ihk-leipzig",
+      "name": "IHK zu Leipzig",
+      "events": 6,
+      "stage": "parser_c"
+    },
+    {
+      "id": "ihk-gera",
+      "name": "IHK Ostthüringen zu Gera",
+      "events": 12,
+      "stage": "parser_c"
+    }
+  ],
+  "failed": [],
+  "skipped": [
+    {
+      "id": "ihk-pforzheim",
+      "name": "IHK Nordschwarzwald",
+      "reason": "not_offered"
+    },
+    {
+      "id": "ihk-vs",
+      "name": "IHK Schwarzwald-Baar-Heuberg",
+      "reason": "on_request"
+    },
+    {
+      "id": "ihk-bodensee",
+      "name": "IHK Bodensee-Oberschwaben",
+      "reason": "on_request"
+    },
+    {
+      "id": "ihk-ulm",
+      "name": "IHK Ulm",
+      "reason": "refers_to"
+    },
+    {
+      "id": "ihk-ostwuerttemberg",
+      "name": "IHK Ostwürttemberg",
+      "reason": "refers_to"
+    },
+    {
+      "id": "ihk-nuernberg",
+      "name": "IHK Nürnberg für Mittelfranken",
+      "reason": "on_request"
+    },
+    {
+      "id": "ihk-bayreuth",
+      "name": "IHK für Oberfranken Bayreuth",
+      "reason": "on_request"
+    },
+    {
+      "id": "ihk-regensburg",
+      "name": "IHK Regensburg für Oberpfalz/Kelheim",
+      "reason": "on_request"
+    },
+    {
+      "id": "ihk-coburg",
+      "name": "IHK zu Coburg",
+      "reason": "on_request"
+    },
+    {
+      "id": "ihk-aschaffenburg",
+      "name": "IHK Aschaffenburg",
+      "reason": "on_request"
+    },
+    {
+      "id": "ihk-potsdam",
+      "name": "IHK Potsdam",
+      "reason": "on_request"
+    },
+    {
+      "id": "ihk-cottbus",
+      "name": "IHK Cottbus",
+      "reason": "refers_to"
+    },
+    {
+      "id": "ihk-frankfurt-oder",
+      "name": "IHK Ostbrandenburg",
+      "reason": "refers_to"
+    },
+    {
+      "id": "ihk-bremen",
+      "name": "Handelskammer Bremen",
+      "reason": "on_request"
+    },
+    {
+      "id": "ihk-darmstadt",
+      "name": "IHK Darmstadt",
+      "reason": "refers_to"
+    },
+    {
+      "id": "ihk-wiesbaden",
+      "name": "IHK Wiesbaden",
+      "reason": "refers_to"
+    },
+    {
+      "id": "ihk-fulda",
+      "name": "IHK Fulda",
+      "reason": "refers_to"
+    },
+    {
+      "id": "ihk-offenbach",
+      "name": "IHK Offenbach am Main",
+      "reason": "refers_to"
+    },
+    {
+      "id": "ihk-dillenburg",
+      "name": "IHK Lahn-Dill",
+      "reason": "refers_to"
+    },
+    {
+      "id": "ihk-limburg",
+      "name": "IHK Limburg",
+      "reason": "refers_to"
+    },
+    {
+      "id": "ihk-schwerin",
+      "name": "IHK zu Schwerin",
+      "reason": "on_request"
+    },
+    {
+      "id": "ihk-neubrandenburg",
+      "name": "IHK zu Neubrandenburg",
+      "reason": "on_request"
+    },
+    {
+      "id": "ihk-oldenburg",
+      "name": "Oldenburgische IHK",
+      "reason": "refers_to"
+    },
+    {
+      "id": "ihk-osnabrueck",
+      "name": "IHK Osnabrück-Emsland-Grafschaft Bentheim",
+      "reason": "refers_to"
+    },
+    {
+      "id": "ihk-lueneburg",
+      "name": "IHK Lüneburg-Wolfsburg",
+      "reason": "refers_to"
+    },
+    {
+      "id": "ihk-emden",
+      "name": "IHK für Ostfriesland und Papenburg",
+      "reason": "refers_to"
+    },
+    {
+      "id": "ihk-koeln",
+      "name": "IHK zu Köln",
+      "reason": "refers_to"
+    },
+    {
+      "id": "ihk-dortmund",
+      "name": "IHK zu Dortmund",
+      "reason": "refers_to"
+    },
+    {
+      "id": "ihk-essen",
+      "name": "IHK für Essen, Mülheim, Oberhausen",
+      "reason": "refers_to"
+    },
+    {
+      "id": "ihk-aachen",
+      "name": "IHK Aachen",
+      "reason": "not_offered"
+    },
+    {
+      "id": "ihk-wuppertal",
+      "name": "Bergische IHK Wuppertal-Solingen-Remscheid",
+      "reason": "not_offered"
+    },
+    {
+      "id": "ihk-duisburg",
+      "name": "Niederrheinische IHK Duisburg-Wesel-Kleve",
+      "reason": "refers_to"
+    },
+    {
+      "id": "ihk-bochum",
+      "name": "IHK Mittleres Ruhrgebiet",
+      "reason": "refers_to"
+    },
+    {
+      "id": "ihk-arnsberg",
+      "name": "IHK Arnsberg, Hellweg-Sauerland",
+      "reason": "refers_to"
+    },
+    {
+      "id": "ihk-siegen",
+      "name": "IHK Siegen",
+      "reason": "refers_to"
+    },
+    {
+      "id": "ihk-detmold",
+      "name": "IHK Lippe zu Detmold",
+      "reason": "refers_to"
+    },
+    {
+      "id": "ihk-mainz",
+      "name": "IHK für Rheinhessen",
+      "reason": "refers_to"
+    },
+    {
+      "id": "ihk-trier",
+      "name": "IHK Trier",
+      "reason": "refers_to"
+    },
+    {
+      "id": "ihk-chemnitz",
+      "name": "IHK Chemnitz",
+      "reason": "refers_to"
+    },
+    {
+      "id": "ihk-magdeburg",
+      "name": "IHK Magdeburg",
+      "reason": "on_request"
+    },
+    {
+      "id": "ihk-halle",
+      "name": "IHK Halle-Dessau",
+      "reason": "refers_to"
+    },
+    {
+      "id": "ihk-kiel",
+      "name": "IHK zu Kiel",
+      "reason": "on_request"
+    },
+    {
+      "id": "ihk-luebeck",
+      "name": "IHK zu Lübeck",
+      "reason": "refers_to"
+    },
+    {
+      "id": "ihk-flensburg",
+      "name": "IHK zu Flensburg",
+      "reason": "refers_to"
+    },
+    {
+      "id": "ihk-erfurt",
+      "name": "IHK Erfurt",
+      "reason": "refers_to"
+    },
+    {
+      "id": "ihk-suhl",
+      "name": "IHK Südthüringen",
+      "reason": "refers_to"
+    }
+  ]
+}

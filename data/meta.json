@@ -1,9 +1,9 @@
 {
   "last_update": "01.03.2026",
-  "last_update_iso": "2026-03-01T20:56:17.158813",
+  "last_update_iso": "2026-03-01T23:10:50.513261",
   "total_ihks": 79,
-  "ihks_with_data": 26,
-  "total_events": 112,
-  "failed": 7,
+  "ihks_with_data": 33,
+  "total_events": 148,
+  "failed": 0,
   "skipped": 46
 }

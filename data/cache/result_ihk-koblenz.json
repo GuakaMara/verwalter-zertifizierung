@@ -131,8 +131,8 @@
     }
   ],
   "fees": [
-    "121,00 €",
-    "242,00 €"
+    "242,00 €",
+    "121,00 €"
   ],
   "keyword_score": "9/12",
   "strategies_used": [
@@ -150,5 +150,5 @@
     "Datum in der Vergangenheit: 30.01.2026",
     "Event komplett vergangen, entfernt: 29.01.2026, 30.01.2026, 08.01.2026"
   ],
-  "timestamp": "2026-03-01T21:10:10.611713"
+  "timestamp": "2026-03-01T23:17:55.786926"
 }

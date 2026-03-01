@@ -5,16 +5,108 @@
   "lat": 51.3397,
   "lon": 12.3731,
   "availability": "online_js",
-  "status": "degraded",
-  "stage": "degraded",
-  "dates_2026": [],
-  "exam_events": [],
-  "fees": [],
-  "keyword_score": "",
-  "strategies_used": [],
+  "status": "ok",
+  "stage": "parser_c",
+  "dates_2026": [
+    "25.03.2026",
+    "23.09.2026",
+    "24.06.2026",
+    "14.10.2026",
+    "15.04.2026",
+    "15.07.2026"
+  ],
+  "exam_events": [
+    {
+      "dates": [
+        "25.03.2026"
+      ],
+      "type": "exam_date",
+      "schriftlich": "25.03.2026",
+      "muendlich": null,
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "browser_lux_portal",
+      "evidence": "",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "15.04.2026"
+      ],
+      "type": "exam_date",
+      "schriftlich": "15.04.2026",
+      "muendlich": null,
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "browser_lux_portal",
+      "evidence": "",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "24.06.2026"
+      ],
+      "type": "exam_date",
+      "schriftlich": "24.06.2026",
+      "muendlich": null,
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "browser_lux_portal",
+      "evidence": "",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "15.07.2026"
+      ],
+      "type": "exam_date",
+      "schriftlich": "15.07.2026",
+      "muendlich": null,
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "browser_lux_portal",
+      "evidence": "",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "23.09.2026"
+      ],
+      "type": "exam_date",
+      "schriftlich": "23.09.2026",
+      "muendlich": null,
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "browser_lux_portal",
+      "evidence": "",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "14.10.2026"
+      ],
+      "type": "exam_date",
+      "schriftlich": "14.10.2026",
+      "muendlich": null,
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "browser_lux_portal",
+      "evidence": "",
+      "confidence": 1.0
+    }
+  ],
+  "fees": [
+    "316,00 €"
+  ],
+  "keyword_score": "7/12",
+  "strategies_used": [
+    "browser+lux_dates"
+  ],
   "url_used": "https://www.leipzig.ihk.de/infos-zu-pruefungen/sach-fachkundepruefungen/zertifizierter-verwalter-nach-26a-weg/",
   "from_cache": false,
   "validation_errors": [],
-  "validation_warnings": [],
-  "timestamp": "2026-03-01T21:11:43.217914"
+  "validation_warnings": [
+    "NEUE Termine: 14.10.2026, 15.04.2026, 15.07.2026, 23.09.2026, 24.06.2026, 25.03.2026"
+  ],
+  "timestamp": "2026-03-01T23:18:27.121069"
 }

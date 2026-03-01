@@ -5,16 +5,192 @@
   "lat": 50.881,
   "lon": 12.0833,
   "availability": "online_js",
-  "status": "degraded",
-  "stage": "degraded",
-  "dates_2026": [],
-  "exam_events": [],
-  "fees": [],
-  "keyword_score": "",
-  "strategies_used": [],
+  "status": "ok",
+  "stage": "parser_c",
+  "dates_2026": [
+    "31.03.2026",
+    "11.11.2026",
+    "28.07.2026",
+    "09.06.2026",
+    "28.10.2026",
+    "06.05.2026",
+    "18.08.2026",
+    "02.12.2026",
+    "07.10.2026",
+    "15.04.2026",
+    "30.06.2026",
+    "10.03.2026"
+  ],
+  "exam_events": [
+    {
+      "dates": [
+        "10.03.2026"
+      ],
+      "type": "exam_date",
+      "schriftlich": "10.03.2026",
+      "muendlich": null,
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "browser_lux_portal",
+      "evidence": "",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "31.03.2026"
+      ],
+      "type": "exam_date",
+      "schriftlich": "31.03.2026",
+      "muendlich": null,
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "browser_lux_portal",
+      "evidence": "",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "15.04.2026"
+      ],
+      "type": "exam_date",
+      "schriftlich": "15.04.2026",
+      "muendlich": null,
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "browser_lux_portal",
+      "evidence": "",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "06.05.2026"
+      ],
+      "type": "exam_date",
+      "schriftlich": "06.05.2026",
+      "muendlich": null,
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "browser_lux_portal",
+      "evidence": "",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "09.06.2026"
+      ],
+      "type": "exam_date",
+      "schriftlich": "09.06.2026",
+      "muendlich": null,
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "browser_lux_portal",
+      "evidence": "",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "30.06.2026"
+      ],
+      "type": "exam_date",
+      "schriftlich": "30.06.2026",
+      "muendlich": null,
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "browser_lux_portal",
+      "evidence": "",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "28.07.2026"
+      ],
+      "type": "exam_date",
+      "schriftlich": "28.07.2026",
+      "muendlich": null,
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "browser_lux_portal",
+      "evidence": "",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "18.08.2026"
+      ],
+      "type": "exam_date",
+      "schriftlich": "18.08.2026",
+      "muendlich": null,
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "browser_lux_portal",
+      "evidence": "",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "07.10.2026"
+      ],
+      "type": "exam_date",
+      "schriftlich": "07.10.2026",
+      "muendlich": null,
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "browser_lux_portal",
+      "evidence": "",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "28.10.2026"
+      ],
+      "type": "exam_date",
+      "schriftlich": "28.10.2026",
+      "muendlich": null,
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "browser_lux_portal",
+      "evidence": "",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "11.11.2026"
+      ],
+      "type": "exam_date",
+      "schriftlich": "11.11.2026",
+      "muendlich": null,
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "browser_lux_portal",
+      "evidence": "",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "02.12.2026"
+      ],
+      "type": "exam_date",
+      "schriftlich": "02.12.2026",
+      "muendlich": null,
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "browser_lux_portal",
+      "evidence": "",
+      "confidence": 1.0
+    }
+  ],
+  "fees": [
+    "237,00 €"
+  ],
+  "keyword_score": "5/12",
+  "strategies_used": [
+    "browser+lux_dates"
+  ],
   "url_used": "https://www.ihk.de/gera/ausbildung-weiterbildung/pruefungen-pruefer/sachkundepruefungen/pruefung-zum-zertifizierten-weg-verwalter-5610032",
   "from_cache": false,
   "validation_errors": [],
-  "validation_warnings": [],
-  "timestamp": "2026-03-01T21:12:13.969884"
+  "validation_warnings": [
+    "NEUE Termine: 02.12.2026, 06.05.2026, 07.10.2026, 09.06.2026, 10.03.2026, 11.11.2026, 15.04.2026, 18.08.2026, 28.07.2026, 28.10.2026, 30.06.2026, 31.03.2026"
+  ],
+  "timestamp": "2026-03-01T23:19:00.191434"
 }
