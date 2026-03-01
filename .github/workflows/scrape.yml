@@ -2,10 +2,8 @@ name: IHK Prüfungstermine Scraper
 
 on:
   schedule:
-    # Alle 2 Wochen: 1. und 15. jedes Monats, 6:00 UTC
-    # (Randomisierung auf 8-18 Uhr DE passiert im Job selbst)
     - cron: '0 6 1,15 * *'
-  workflow_dispatch:  # Manueller Trigger über GitHub UI
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -39,7 +37,6 @@ jobs:
           sleep $((WAIT_MINUTES * 60))
 
       - name: Scraper ausführen
-        id: scrape
         run: python3 scripts/ci_scrape.py
         env:
           ALERT_EMAIL_TO: ${{ secrets.ALERT_EMAIL_TO }}
@@ -49,15 +46,16 @@ jobs:
           ALERT_SMTP_USER: ${{ secrets.ALERT_SMTP_USER }}
           ALERT_SMTP_PASS: ${{ secrets.ALERT_SMTP_PASS }}
 
+      - name: Bundle aktualisieren
+        run: python3 scripts/build_bundle.py
+
       - name: Änderungen committen und deployen
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           
-          # Nur data/ Dateien committen (Logs, Termine, Fail-Tracker)
-          git add data/
+          git add data/ assets/
           
-          # Prüfen ob es Änderungen gibt
           if git diff --cached --quiet; then
             echo "ℹ️  Keine Änderungen — nichts zu committen"
           else
