@@ -1,0 +1,74 @@
+name: IHK Prüfungstermine Scraper
+
+on:
+  schedule:
+    # Alle 2 Wochen: 1. und 15. jedes Monats, 6:00 UTC
+    # (Randomisierung auf 8-18 Uhr DE passiert im Job selbst)
+    - cron: '0 6 1,15 * *'
+  workflow_dispatch:  # Manueller Trigger über GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Dependencies
+        run: pip install requests beautifulsoup4 pdfplumber
+
+      - name: Randomisierte Wartezeit (8-18 Uhr DE)
+        run: |
+          # Zufällige Wartezeit: 0-600 Minuten (= 0-10 Stunden)
+          # 6:00 UTC + 0-10h = 6:00-16:00 UTC = ~8:00-18:00 Uhr DE
+          WAIT_MINUTES=$((RANDOM % 600))
+          echo "⏳ Warte $WAIT_MINUTES Minuten (randomisiert)..."
+          sleep $((WAIT_MINUTES * 60))
+
+      - name: Scraper ausführen
+        id: scrape
+        run: python3 scripts/ci_scrape.py
+        env:
+          ALERT_EMAIL_TO: ${{ secrets.ALERT_EMAIL_TO }}
+          ALERT_EMAIL_FROM: ${{ secrets.ALERT_EMAIL_FROM }}
+          ALERT_SMTP_HOST: ${{ secrets.ALERT_SMTP_HOST }}
+          ALERT_SMTP_PORT: ${{ secrets.ALERT_SMTP_PORT }}
+          ALERT_SMTP_USER: ${{ secrets.ALERT_SMTP_USER }}
+          ALERT_SMTP_PASS: ${{ secrets.ALERT_SMTP_PASS }}
+
+      - name: Änderungen committen und deployen
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Nur data/ Dateien committen (Logs, Termine, Fail-Tracker)
+          git add data/
+          
+          # Prüfen ob es Änderungen gibt
+          if git diff --cached --quiet; then
+            echo "ℹ️  Keine Änderungen — nichts zu committen"
+          else
+            DATUM=$(date +%d.%m.%Y)
+            TERMINE=$(python3 -c "
+          import json
+          data = json.load(open('data/ihk_exam_dates.json'))
+          n = sum(1 for d in data if d.get('exam_events'))
+          print(n)
+          " 2>/dev/null || echo "?")
+            
+            git commit -m "🔄 Scraper-Update $DATUM — $TERMINE IHKs mit Terminen"
+            git push
+            echo "✅ Änderungen gepusht"
+          fi
