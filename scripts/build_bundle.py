@@ -176,6 +176,17 @@ def build_entries(exam_data, registry):
             mdl = event.get("muendlich")
             frist = event.get("anmeldeschluss")
 
+            # Fallback: wenn schriftlich fehlt, erstes Datum nehmen
+            if not schr and event.get("dates"):
+                schr = event["dates"][0]
+                # Zweites Datum als mündlich wenn vorhanden
+                if not mdl and len(event["dates"]) > 1:
+                    mdl = event["dates"][1]
+
+            # Skip if still no date
+            if not schr:
+                continue
+
             # Skip past events
             check_date = schr or mdl
             if check_date and not is_future(check_date):
@@ -232,6 +243,19 @@ def build_entries(exam_data, registry):
                 "lon": round(ref_lon, 4),
                 "_ihk_id": ref_id,
             })
+
+    # Deduplicate: same (schr, ihk) = same entry
+    seen = set()
+    unique = []
+    for e in entries:
+        key = (e["schr"], e["ihk"])
+        if key not in seen:
+            seen.add(key)
+            unique.append(e)
+    
+    if len(entries) != len(unique):
+        print(f"   🧹 {len(entries) - len(unique)} Duplikate entfernt")
+    entries = unique
 
     # Sort by date
     def sort_key(e):
