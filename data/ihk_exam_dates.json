@@ -84,7 +84,9 @@
         "confidence": 1.0
       }
     ],
-    "fees": [],
+    "fees": [
+      "310,00 €"
+    ],
     "keyword_score": "10/12",
     "strategies_used": [
       "table",
@@ -94,7 +96,7 @@
     "from_cache": false,
     "validation_errors": [],
     "validation_warnings": [],
-    "timestamp": "2026-03-01T00:40:00.206605"
+    "timestamp": "2026-03-01T20:42:09.794846"
   },
   {
     "id": "ihk-reutlingen",
@@ -121,7 +123,7 @@
         "anmeldeschluss": null,
         "status": "unknown",
         "source": "section",
-        "evidence": "Prüfungstermine 2026 Schriftliche Prüfung: 16. März 2026 Mündliche Prüfung: 24., 25. oder 26. März 2026 Zur Anmeldung Die IHK Reutlingen behält sich vor, Termine mangels ausreichender Teilnehmerzahl abzusagen. In diesem Fall werden bereits bezahlte Gebühren erstattet. Anmeldeschluss ist jeweils 3 Wo",
+        "evidence": "Prüfungstermine und Anmeldung Prüfungstermine 2026 Schriftliche Prüfung: 16. März 2026 Mündliche Prüfung: 24., 25. oder 26. März 2026 Zur Anmeldung Die IHK Reutlingen behält sich vor, Termine mangels ausreichender Teilnehmerzahl abzusagen. In diesem Fall werden bereits bezahlte Gebühren erstattet. A",
         "confidence": 1.0
       }
     ],
@@ -138,7 +140,7 @@
     "from_cache": false,
     "validation_errors": [],
     "validation_warnings": [],
-    "timestamp": "2026-03-01T00:40:02.094789"
+    "timestamp": "2026-03-01T20:42:30.377048"
   },
   {
     "id": "ihk-stuttgart",
@@ -168,7 +170,8 @@
         "confidence": 1.0
       }
     ],
-    "fee": "250 €"
+    "fee": "250 €",
+    "fees": []
   },
   {
     "id": "ihk-karlsruhe",
@@ -245,8 +248,8 @@
     ],
     "fees": [
       "50 €",
-      "240 €",
-      "145 €"
+      "145 €",
+      "240 €"
     ],
     "keyword_score": "9/12",
     "strategies_used": [
@@ -258,7 +261,7 @@
     "from_cache": false,
     "validation_errors": [],
     "validation_warnings": [],
-    "timestamp": "2026-03-01T00:40:04.300589"
+    "timestamp": "2026-03-01T20:42:51.691740"
   },
   {
     "id": "ihk-konstanz",
@@ -345,7 +348,10 @@
         "confidence": 1.0
       }
     ],
-    "fees": [],
+    "fees": [
+      "265,00 €",
+      "151,00 €"
+    ],
     "keyword_score": "7/12",
     "strategies_used": [
       "table",
@@ -356,7 +362,7 @@
     "from_cache": false,
     "validation_errors": [],
     "validation_warnings": [],
-    "timestamp": "2026-03-01T00:40:06.351414"
+    "timestamp": "2026-03-01T20:43:12.548563"
   },
   {
     "id": "ihk-heilbronn",
@@ -468,7 +474,11 @@
         "confidence": 1.0
       }
     ],
-    "fees": [],
+    "fees": [
+      "54,00 €",
+      "147,00 €",
+      "245,00 €"
+    ],
     "keyword_score": "9/12",
     "strategies_used": [
       "table",
@@ -478,7 +488,7 @@
     "from_cache": false,
     "validation_errors": [],
     "validation_warnings": [],
-    "timestamp": "2026-03-01T00:40:08.400815"
+    "timestamp": "2026-03-01T20:43:33.004923"
   },
   {
     "id": "ihk-freiburg",
@@ -498,7 +508,7 @@
     "from_cache": false,
     "validation_errors": [],
     "validation_warnings": [],
-    "timestamp": "2026-03-01T00:40:10.431051"
+    "timestamp": "2026-03-01T20:43:53.359310"
   },
   {
     "id": "ihk-pforzheim",

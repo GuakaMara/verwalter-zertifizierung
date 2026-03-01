@@ -23,7 +23,7 @@
       "anmeldeschluss": null,
       "status": "unknown",
       "source": "section",
-      "evidence": "Prüfungstermine 2026 Schriftliche Prüfung: 16. März 2026 Mündliche Prüfung: 24., 25. oder 26. März 2026 Zur Anmeldung Die IHK Reutlingen behält sich vor, Termine mangels ausreichender Teilnehmerzahl abzusagen. In diesem Fall werden bereits bezahlte Gebühren erstattet. Anmeldeschluss ist jeweils 3 Wo",
+      "evidence": "Prüfungstermine und Anmeldung Prüfungstermine 2026 Schriftliche Prüfung: 16. März 2026 Mündliche Prüfung: 24., 25. oder 26. März 2026 Zur Anmeldung Die IHK Reutlingen behält sich vor, Termine mangels ausreichender Teilnehmerzahl abzusagen. In diesem Fall werden bereits bezahlte Gebühren erstattet. A",
       "confidence": 1.0
     }
   ],
@@ -40,5 +40,5 @@
   "from_cache": false,
   "validation_errors": [],
   "validation_warnings": [],
-  "timestamp": "2026-03-01T00:40:02.094789"
+  "timestamp": "2026-03-01T20:42:30.377048"
 }

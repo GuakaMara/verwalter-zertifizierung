@@ -1,0 +1,85 @@
+{
+  "timestamp": "2026-03-01T20:42:08.955984",
+  "duration_note": "~20s delay between requests",
+  "summary": {
+    "last_update": "01.03.2026",
+    "last_update_iso": "2026-03-01T20:42:08.955984",
+    "total_ihks": 12,
+    "ihks_with_data": 6,
+    "total_events": 20,
+    "failed": 1,
+    "skipped": 5
+  },
+  "successful": [
+    {
+      "id": "ihk-rhein-neckar",
+      "name": "IHK Rhein-Neckar",
+      "events": 4,
+      "stage": "parser_a"
+    },
+    {
+      "id": "ihk-reutlingen",
+      "name": "IHK Reutlingen",
+      "events": 1,
+      "stage": "parser_a"
+    },
+    {
+      "id": "ihk-stuttgart",
+      "name": "IHK Region Stuttgart",
+      "events": 1,
+      "stage": "manual"
+    },
+    {
+      "id": "ihk-karlsruhe",
+      "name": "IHK Karlsruhe",
+      "events": 4,
+      "stage": "parser_a"
+    },
+    {
+      "id": "ihk-konstanz",
+      "name": "IHK Hochrhein-Bodensee",
+      "events": 4,
+      "stage": "parser_a"
+    },
+    {
+      "id": "ihk-heilbronn",
+      "name": "IHK Heilbronn-Franken",
+      "events": 6,
+      "stage": "parser_a"
+    }
+  ],
+  "failed": [
+    {
+      "id": "ihk-freiburg",
+      "name": "IHK Südlicher Oberrhein",
+      "error": "Keine Daten"
+    }
+  ],
+  "skipped": [
+    {
+      "id": "ihk-pforzheim",
+      "name": "IHK Nordschwarzwald",
+      "reason": "not_offered"
+    },
+    {
+      "id": "ihk-vs",
+      "name": "IHK Schwarzwald-Baar-Heuberg",
+      "reason": "on_request"
+    },
+    {
+      "id": "ihk-bodensee",
+      "name": "IHK Bodensee-Oberschwaben",
+      "reason": "on_request"
+    },
+    {
+      "id": "ihk-ulm",
+      "name": "IHK Ulm",
+      "reason": "refers_to"
+    },
+    {
+      "id": "ihk-ostwuerttemberg",
+      "name": "IHK Ostwürttemberg",
+      "reason": "refers_to"
+    }
+  ]
+}
