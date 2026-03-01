@@ -38,13 +38,20 @@ PAT_GERMAN = re.compile(
     re.IGNORECASE
 )
 
+# German date range: "28. - 29. April 2026" (schr day 1, mdl day 2)
+PAT_GERMAN_RANGE = re.compile(
+    r"\b(\d{1,2})\.\s*[-–—]\s*(\d{1,2})\.\s*(" + "|".join(MONTHS_DE.keys()) + r")\s+(\d{4})\b",
+    re.IGNORECASE
+)
+
 # Context patterns
 CTX_SCHRIFTLICH = re.compile(r"schriftlich", re.IGNORECASE)
 CTX_MUENDLICH = re.compile(r"m[üu]ndlich", re.IGNORECASE)
 CTX_SAME_DAY = re.compile(r"schriftlich\w*/m[üu]ndlich|schriftlich\w?\s+und\s+m[üu]ndlich|schriftlich\w?\s+(?:sowie|&)\s+m[üu]ndlich", re.IGNORECASE)
 CTX_DEADLINE = re.compile(r"anmelde(?:schluss|frist)|anmeldung\s+bis|(?:bis\s+(?:zum\s+)?)\d{1,2}\.", re.IGNORECASE)
 CTX_ANMELDUNG_AB = re.compile(r"anmeldung\s+ab\s+(\d{1,2}\.\d{1,2}\.\d{4})", re.IGNORECASE)
-CTX_FEE = re.compile(r"(\d{2,4})\s*(?:€|EUR|Euro)", re.IGNORECASE)
+CTX_FEE = re.compile(r"(\d{2,4}(?:[,.]\d{2})?)\s*(?:€|EUR|Euro)", re.IGNORECASE)
+CTX_FEE_REV = re.compile(r"(?:€|EUR|Euro)\s*(\d{2,4}(?:[,.]\d{2})?)", re.IGNORECASE)
 CTX_AUSGEBUCHT = re.compile(r"ausgebucht|belegt|voll|keine\s+(?:Anmeldung|Plätze)", re.IGNORECASE)
 CTX_WARTELISTE = re.compile(r"warteliste|nachrücker", re.IGNORECASE)
 CTX_ANMELDUNG_MOEGLICH = re.compile(r"anmeldung\s+(?:ab\s+\S+\s+)?möglich|plätze\s+frei|freie\s+plätze", re.IGNORECASE)
@@ -127,6 +134,22 @@ def extract_all_dates(text, filter_non_exam=False):
                 dates.append({"date": d, "year": year, "pos": m.start()})
                 seen.add(d)
 
+    # German date ranges: "28. - 29. April 2026" → two dates
+    for m in PAT_GERMAN_RANGE.finditer(text):
+        day1, day2 = m.group(1), m.group(2)
+        month_name = m.group(3).lower()
+        year = m.group(4)
+        month_num = MONTHS_DE.get(month_name)
+        if month_num:
+            d1 = normalize_date(day1, month_num, year)
+            d2 = normalize_date(day2, month_num, year)
+            for d in (d1, d2):
+                if d not in seen:
+                    if filter_non_exam and d in non_exam_dates:
+                        continue
+                    dates.append({"date": d, "year": year, "pos": m.start()})
+                    seen.add(d)
+
     dates.sort(key=lambda x: x["pos"])
     return dates
 
@@ -173,9 +196,9 @@ def parse(html: str, ihk_id: str, url: str = "") -> ScrapeResult:
     kw_hits = sum(1 for kw in EXAM_KEYWORDS if kw in text_lower)
     result.keyword_score = f"{kw_hits}/{len(EXAM_KEYWORDS)}"
 
-    # Fee extraction
-    fees = list(set(CTX_FEE.findall(full_text)))
-    result.fees = [f"{f} €" for f in fees if int(f) >= 50]
+    # Fee extraction (both "430 €" and "€ 430" patterns)
+    fees = list(set(CTX_FEE.findall(full_text) + CTX_FEE_REV.findall(full_text)))
+    result.fees = [f"{f} €" for f in fees if int(f.split(",")[0].split(".")[0]) >= 50]
 
     # All dates
     all_dates = extract_all_dates(full_text)
@@ -437,11 +460,19 @@ def _extract_from_sections(soup):
             count += 1
 
         if not content_parts:
+            # Even without siblings, heading itself may contain dates
+            heading_full = heading.get_text(separator=" ", strip=True)
+            heading_dates = extract_all_dates(heading_full, filter_non_exam=True)
+            heading_dates_2026 = [d for d in heading_dates if d["year"] == "2026"]
+            if heading_dates_2026:
+                event = _build_single_event(heading_full, heading_dates_2026)
+                event.source = "section"
+                events.append(event)
             continue
 
         combined_html = "\n".join(content_parts)
         container = BeautifulSoup(combined_html, "html.parser")
-        section_text = container.get_text(separator=" ", strip=True)
+        section_text = heading.get_text(separator=" ", strip=True) + " " + container.get_text(separator=" ", strip=True)
         section_dates = extract_all_dates(section_text, filter_non_exam=True)
         dates_2026 = [d for d in section_dates if d["year"] == "2026"]
 
@@ -675,7 +706,21 @@ def _build_single_event(text, dates_2026):
     has_muend = muend_pos is not None
     has_deadline = deadline_pos is not None
 
-    # Step 0: Check for same-day combined (e.g. "schriftliche/mündliche Prüfung")
+    # Step 0a: "mündliche Prüfung findet am Folgetag statt" + 2 dates = combined
+    folgetag = bool(re.search(r"m[üu]ndlich\w*\s+(?:Prüfung\s+)?(?:findet\s+)?(?:am\s+)?Folgetag", text, re.IGNORECASE))
+    if folgetag and len(dates_2026) >= 2:
+        sorted_d = sorted(dates_2026, key=lambda d: parse_date(d["date"]) or datetime.max)
+        d1 = parse_date(sorted_d[0]["date"])
+        d2 = parse_date(sorted_d[1]["date"])
+        if d1 and d2 and (d2 - d1).days == 1:
+            event.type = "combined"
+            event.schriftlich = sorted_d[0]["date"]
+            event.muendlich = sorted_d[1]["date"]
+            event.dates = [sorted_d[0]["date"], sorted_d[1]["date"]]
+            _detect_status(event, text)
+            return event
+
+    # Step 0b: Check for same-day combined (e.g. "schriftliche/mündliche Prüfung")
     if same_day and len(dates_2026) >= 1:
         # Both exam parts on the same day
         # Filter out "Anmeldung ab" dates from exam dates

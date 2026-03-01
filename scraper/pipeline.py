@@ -34,9 +34,11 @@ AVAIL_LABELS = {
     "online": "✅ Online-Termine",
     "online_js": "🔧 JS-Formular",
     "online_pdf": "📄 PDF-Dokument",
+    "pdf": "📄 PDF-Dokument",
     "on_request": "📞 Nur auf Anfrage",
     "not_offered": "❌ Nicht angeboten",
     "refers_to": "↗️  Verweist auf andere IHK",
+    "unknown": "🔍 Noch nicht klassifiziert",
 }
 
 
@@ -186,12 +188,69 @@ def run_pipeline(registry: list, options: dict = None) -> list:
     return all_results
 
 
+def _discover_pdf_links(html: str, base_url: str) -> list:
+    """
+    Auto-discover PDF links in fetched HTML that might contain exam dates.
+    
+    Looks for:
+    - Direct .pdf links
+    - IHK Integrale media links (e.g. Saarland pattern)
+    - Links with relevant anchor text (Anmeldeformular, Prüfungstermine, etc.)
+    """
+    import re
+    from urllib.parse import urljoin
+
+    pdf_links = []
+    
+    # Pattern 1: Direct PDF links
+    for m in re.finditer(r'href=["\']([^"\']*\.pdf[^"\']*)["\']', html, re.IGNORECASE):
+        href = m.group(1)
+        full_url = urljoin(base_url, href)
+        pdf_links.append(full_url)
+
+    # Pattern 2: IHK Integrale media links (serve PDFs without .pdf extension)
+    for m in re.finditer(
+        r'href=["\']([^"\']*(?:Frontend\.Media|ViewMediaObject|Media\.PK)[^"\']*)["\']',
+        html, re.IGNORECASE
+    ):
+        href = m.group(1)
+        full_url = urljoin(base_url, href)
+        if full_url not in pdf_links:
+            pdf_links.append(full_url)
+
+    # Pattern 3: Links with relevant anchor text pointing to any URL
+    relevant_texts = re.compile(
+        r'(?:Anmeldeformular|Prüfungstermin|Terminübersicht|Termine\s+\d{4})',
+        re.IGNORECASE
+    )
+    for m in re.finditer(r'<a\s[^>]*href=["\']([^"\']+)["\'][^>]*>(.*?)</a>', html, re.DOTALL):
+        href, text = m.group(1), m.group(2)
+        # Strip HTML tags from anchor text
+        clean_text = re.sub(r'<[^>]+>', '', text).strip()
+        if relevant_texts.search(clean_text):
+            full_url = urljoin(base_url, href)
+            if full_url not in pdf_links:
+                pdf_links.append(full_url)
+
+    return pdf_links
+
+
 def _run_fallback_chain(ihk: dict, opts: dict, verbose: bool) -> ScrapeResult:
     """Run the fallback chain: Cache → Parser A → Parser B → Parser C → LLM → Degrade"""
     ihk_id = ihk["id"]
-    url = ihk["url"]
+    url = ihk.get("url", "")
     avail = ihk.get("availability", "online")
     parser_type = ihk.get("parser", "A")
+
+    # ── Empty URL? Try source discovery first ──
+    if not url or not url.startswith("http"):
+        if verbose:
+            print(f"   ⚠️  Keine URL hinterlegt")
+        if not opts.get("skip_discovery"):
+            disc_result = _try_source_discovery(ihk, opts, verbose)
+            if disc_result and disc_result.success:
+                return disc_result
+        return ScrapeResult(ihk_id=ihk_id, stage="degraded", error="Keine URL", url_used="")
 
     # ── Stufe 0: Fetch with Cache ──
     if verbose:
@@ -219,42 +278,72 @@ def _run_fallback_chain(ihk: dict, opts: dict, verbose: bool) -> ScrapeResult:
 
     html = fetch["html"]
 
-    # ── Stufe 1: Parser A (deterministic HTML) ──
-    if parser_type in ("A", "A+B"):
-        if verbose:
-            print(f"   🔧 Stufe 1: Parser A...")
-        result = parser_a.parse(html, ihk_id, url)
-        result.http_status = fetch.get("status_code")
+    # ── Stufe 1: Parser A (deterministic HTML) — always try first ──
+    if verbose:
+        print(f"   🔧 Stufe 1: Parser A...")
+    result = parser_a.parse(html, ihk_id, url)
+    result.http_status = fetch.get("status_code")
 
-        if result.success:
-            if verbose:
-                _print_result(result)
-            return result
-        elif verbose:
-            print(f"   ⚠️  Parser A: 0 Termine gefunden")
+    if result.success:
+        if verbose:
+            _print_result(result)
+        return result
+    elif verbose:
+        print(f"   ⚠️  Parser A: 0 Termine gefunden")
 
     # ── Stufe 1b: Parser B (PDF) ──
-    pdf_url = ihk.get("pdf_url")
-    if pdf_url or parser_type in ("B", "A+B"):
-        target_url = pdf_url or url
-        if verbose:
-            print(f"   🔧 Stufe 1b: Parser B (PDF)...")
-        result = parser_b.parse(target_url, ihk_id)
+    # Skip PDF discovery for online_js IHKs — they should go straight to Parser C
+    skip_pdf_discovery = avail == "online_js"
 
-        if result.success:
+    pdf_url = ihk.get("pdf_url")
+    pdf_urls_to_try = []
+
+    # Explicit pdf_url from registry (always honored)
+    if pdf_url:
+        pdf_urls_to_try.append(pdf_url)
+
+    # Auto-discover PDF links from fetched HTML (skip for online_js)
+    if html and not pdf_url and not skip_pdf_discovery:
+        discovered = _discover_pdf_links(html, url)
+        pdf_urls_to_try.extend(discovered)
+
+    if pdf_urls_to_try or parser_type in ("B", "A+B"):
+        if not pdf_urls_to_try:
+            pdf_urls_to_try = [url]
+        for p_url in pdf_urls_to_try[:3]:  # max 3 PDFs
             if verbose:
-                _print_result(result)
-            return result
-        elif verbose:
-            msg = result.error or "0 Termine"
-            print(f"   ⚠️  Parser B: {msg}")
+                label = p_url.split("/")[-1][:50] if "/" in p_url else p_url[:50]
+                print(f"   🔧 Stufe 1b: Parser B (PDF) → {label}...")
+            result = parser_b.parse(p_url, ihk_id)
+
+            if result.success:
+                if verbose:
+                    _print_result(result)
+                return result
+            elif verbose:
+                msg = result.error or "0 Termine"
+                print(f"   ⚠️  Parser B: {msg}")
 
     # ── Stufe 2: Parser C (Playwright Browser) ──
-    if not opts.get("skip_browser") and (avail == "online_js" or parser_type == "C"):
+    if not opts.get("skip_browser") and (avail in ("online_js", "unknown") or parser_type == "C"):
         if parser_c.is_available():
             if verbose:
                 print(f"   🔧 Stufe 2: Parser C (Browser)...")
-            result = parser_c.parse(url, ihk_id)
+
+            # Auto-discover Lux URL from already-fetched HTML
+            effective_lux_url = ihk.get("lux_url")
+            if not effective_lux_url:
+                import re
+                lux_match = re.search(
+                    r'(https?://eoa2\.bildung1\.gfi\.ihk\.de/kammer/[^"\'<>\s]+)',
+                    html
+                )
+                if lux_match:
+                    effective_lux_url = lux_match.group(1)
+                    if verbose:
+                        print(f"   🔍 Lux-URL aus HTML erkannt: {effective_lux_url[:80]}")
+
+            result = parser_c.parse(url, ihk_id, lux_url=effective_lux_url)
 
             if result.success:
                 if verbose:
@@ -380,6 +469,8 @@ def _handle_non_scrapeable(ihk, avail, verbose):
             print(f"   ⏭️  Verweist auf: {ref}")
     elif avail == "on_request":
         contact = ihk.get("contact", {})
+        if isinstance(contact, str):
+            contact = {"name": contact}
         entry["contact"] = contact
         if verbose:
             print(f"   📞 Termine nur auf Anfrage")
@@ -437,6 +528,7 @@ def _handle_manual_data(ihk, verbose):
         "dates_2026": dates,
         "exam_events": events,
         "fee": ihk.get("fee"),
+        "fees": ihk.get("fees", []),
     }
 
 

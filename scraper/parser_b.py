@@ -11,7 +11,7 @@ import re
 import tempfile
 import os
 from .models import ScrapeResult, ExamEvent
-from .parser_a import extract_all_dates, CTX_SCHRIFTLICH, CTX_MUENDLICH, CTX_DEADLINE, CTX_FEE, CTX_AUSGEBUCHT, EXAM_KEYWORDS
+from .parser_a import extract_all_dates, CTX_SCHRIFTLICH, CTX_MUENDLICH, CTX_DEADLINE, CTX_FEE, CTX_FEE_REV, CTX_AUSGEBUCHT, EXAM_KEYWORDS
 
 try:
     import requests
@@ -100,9 +100,10 @@ def parse(url: str, ihk_id: str) -> ScrapeResult:
                     para_dates = extract_all_dates(para)
                     dates_2026 = [d for d in para_dates if d["year"] == "2026"]
                     if dates_2026 and any(kw in para.lower() for kw in ["prüfung", "termin", "schriftlich", "mündlich"]):
-                        event = _build_text_event(para, dates_2026)
-                        if not _is_dup(event, events):
-                            events.append(event)
+                        new_events = _build_text_events(para, dates_2026)
+                        for event in new_events:
+                            if not _is_dup(event, events):
+                                events.append(event)
 
     except Exception as e:
         result.error = f"PDF-Parse-Fehler: {str(e)[:100]}"
@@ -120,9 +121,9 @@ def parse(url: str, ihk_id: str) -> ScrapeResult:
     result.success = len(result.raw_dates_2026) > 0
     result.content_length = len(all_text)
 
-    # Fees
-    fees = list(set(CTX_FEE.findall(all_text)))
-    result.fees = [f"{f} €" for f in fees if int(f) >= 50]
+    # Fees (both "430 €" and "€ 430" patterns)
+    fees = list(set(CTX_FEE.findall(all_text) + CTX_FEE_REV.findall(all_text)))
+    result.fees = [f"{f} €" for f in fees if int(f.split(",")[0].split(".")[0]) >= 50]
 
     # Keywords
     text_lower = all_text.lower()
@@ -157,6 +158,32 @@ def _build_pdf_event(row, header_lower, row_text, dates_2026):
             event.muendlich = cell_2026[0]["date"]
         elif ("frist" in h or "anmeld" in h) and cell_2026:
             event.anmeldeschluss = cell_2026[0]["date"]
+        # München-style: "Termin" column = schriftlich date
+        elif ("termin" in h or "datum" in h or "prüfung" in h) and cell_2026:
+            if not event.schriftlich:
+                event.schriftlich = cell_2026[0]["date"]
+        # "Bemerkung" column may contain "mündliche Prüfung am DD.MM.YYYY"
+        elif ("bemerkung" in h or "hinweis" in h or "anmerkung" in h):
+            if cell_2026 and not event.muendlich:
+                # Check if text mentions mündlich
+                if re.search(r"m[üu]ndlich", cell_text, re.IGNORECASE):
+                    event.muendlich = cell_2026[0]["date"]
+
+    # If no column mapping found mündlich, check row text for pattern
+    # "mündliche Prüfung voraussichtlich am DD.MM.YYYY"
+    if not event.muendlich:
+        m = re.search(
+            r"m[üu]ndlich\w*\s+(?:Prüfung\s+)?(?:voraussichtlich\s+)?(?:am\s+)?(\d{1,2}\.\d{1,2}\.\d{4})",
+            row_text, re.IGNORECASE
+        )
+        if m:
+            mdl_date = m.group(1)
+            parts = mdl_date.split(".")
+            if len(parts) == 3 and parts[2] == "2026":
+                from .parser_a import normalize_date
+                event.muendlich = normalize_date(parts[0], parts[1], parts[2])
+                if event.muendlich not in event.dates:
+                    event.dates.append(event.muendlich)
 
     # Set type
     if event.schriftlich and event.muendlich:
@@ -166,12 +193,21 @@ def _build_pdf_event(row, header_lower, row_text, dates_2026):
     elif event.muendlich:
         event.type = "muendlich"
     else:
-        # Fallback context detection
-        if CTX_SCHRIFTLICH.search(row_text) and CTX_MUENDLICH.search(row_text):
+        # Fallback: if row has mündlich context + dates, first date is likely schriftlich
+        has_muend_ctx = bool(CTX_MUENDLICH.search(row_text))
+        has_schrift_ctx = bool(CTX_SCHRIFTLICH.search(row_text))
+        if has_schrift_ctx and has_muend_ctx:
             event.type = "combined"
-        elif CTX_SCHRIFTLICH.search(row_text):
+        elif has_muend_ctx and len(dates_2026) >= 2:
+            # Typical pattern: schriftlich date first, then Bemerkung with mündlich
+            # If we have 2+ dates and only mündlich context, first = schriftlich
+            sorted_d = sorted(dates_2026, key=lambda d: d["date"])
+            event.schriftlich = sorted_d[0]["date"]
+            event.muendlich = sorted_d[-1]["date"]
+            event.type = "combined" if event.schriftlich != event.muendlich else "exam_date"
+        elif has_schrift_ctx:
             event.type = "schriftlich"
-        elif CTX_MUENDLICH.search(row_text):
+        elif has_muend_ctx:
             event.type = "muendlich"
         else:
             event.type = "exam_date"
@@ -183,16 +219,29 @@ def _build_pdf_event(row, header_lower, row_text, dates_2026):
     return event
 
 
-def _build_text_event(text, dates_2026):
-    """Build event from plain text paragraph."""
+def _build_text_events(text, dates_2026):
+    """Build event(s) from plain text paragraph. Returns list of events."""
+    has_schrift = bool(CTX_SCHRIFTLICH.search(text))
+    has_muend = bool(CTX_MUENDLICH.search(text))
+
+    # Multiple dates, same type → separate events
+    if len(dates_2026) >= 2 and has_schrift and not has_muend:
+        events = []
+        for d in dates_2026:
+            ev = ExamEvent(
+                dates=[d["date"]], source="pdf_text",
+                evidence=text[:300], type="schriftlich",
+                schriftlich=d["date"],
+            )
+            events.append(ev)
+        return events
+
+    # Single event (default)
     event = ExamEvent(
         dates=[d["date"] for d in dates_2026],
         source="pdf_text",
         evidence=text[:300],
     )
-
-    has_schrift = bool(CTX_SCHRIFTLICH.search(text))
-    has_muend = bool(CTX_MUENDLICH.search(text))
 
     if has_schrift and has_muend:
         event.type = "combined"
@@ -206,7 +255,7 @@ def _build_text_event(text, dates_2026):
         event.type = "muendlich"
         event.muendlich = dates_2026[0]["date"]
 
-    return event
+    return [event]
 
 
 def _is_dup(new_event, existing):

@@ -150,6 +150,22 @@ def validate_scrape_result(result, previous_result=None) -> ValidationResult:
     # ── Priority-based duplicate removal ──
     cleaned = _remove_duplicates_by_priority(cleaned)
 
+    # ── Drop events where ALL dates are in the past ──
+    cutoff = datetime.now() - timedelta(days=MAX_PAST_DAYS)
+    final_cleaned = []
+    for ev in cleaned:
+        dates = ev.get("dates", [])
+        if not dates:
+            continue
+        has_future = any(_parse_date(d) and _parse_date(d) >= cutoff for d in dates)
+        if has_future:
+            # Keep only future dates in the event
+            ev["dates"] = [d for d in dates if _parse_date(d) and _parse_date(d) >= cutoff]
+            final_cleaned.append(ev)
+        else:
+            vr.warnings.append(f"Event komplett vergangen, entfernt: {', '.join(dates)}")
+    cleaned = final_cleaned
+
     # ── Change detection ──
     if previous_result:
         changes = _detect_changes(cleaned, previous_result)
@@ -197,9 +213,11 @@ def _get_source_priority(event: dict) -> int:
 def _remove_duplicates_by_priority(events: list) -> list:
     """
     Remove duplicate events, keeping the highest-priority source.
-    Two events are duplicates if:
-    - They have the exact same date set (regardless of order), OR
-    - They share the same schriftlich or mündlich date
+    
+    Aggressive dedup: an event is a duplicate if ANY of its dates
+    already belongs to a kept event. This works because each real exam date
+    should only appear in exactly one event.
+    
     Table > PDF > Browser > List > Section > Text > LLM
     """
     if not events:
@@ -212,49 +230,29 @@ def _remove_duplicates_by_priority(events: list) -> list:
         if ev.get("schriftlich"): score += 2
         if ev.get("muendlich"): score += 2
         if ev.get("anmeldeschluss"): score += 2
+        if ev.get("type") == "combined": score += 3
         # Penalty for unclassified events
         if ev.get("type") in ("unknown", None): score -= 3
+        if ev.get("type") == "exam_date": score -= 1
         return score
 
     events_sorted = sorted(events, key=quality_score, reverse=True)
 
     kept = []
-    used_date_sets = set()  # frozensets of date combos
-    used_exam_dates = set()  # individual schriftlich/mündlich dates
+    used_dates = set()  # ALL individual dates already claimed
 
     for ev in events_sorted:
         ev_dates = set(ev.get("dates", []))
         if not ev_dates:
             continue
 
-        ev_date_key = frozenset(ev_dates)
-
-        # Check 1: Exact same date set already seen?
-        if ev_date_key in used_date_sets:
-            continue
-
-        # Check 2: Do the core exam dates (schriftlich/mündlich) overlap?
-        ev_schrift = ev.get("schriftlich")
-        ev_muend = ev.get("muendlich")
-        core_overlap = False
-        if ev_schrift and ev_schrift in used_exam_dates:
-            core_overlap = True
-        if ev_muend and ev_muend in used_exam_dates:
-            core_overlap = True
-
-        # Check 3: High date overlap (>=50%)?
-        overlap = ev_dates & set().union(*(s for s in [set(k.get("dates", [])) for k in kept]))
-        date_overlap = len(overlap) >= len(ev_dates) * 0.5 if ev_dates else False
-
-        if core_overlap or date_overlap:
+        # Core rule: if ANY date in this event is already claimed → skip
+        overlap = ev_dates & used_dates
+        if overlap:
             continue
 
         kept.append(ev)
-        used_date_sets.add(ev_date_key)
-        if ev_schrift:
-            used_exam_dates.add(ev_schrift)
-        if ev_muend:
-            used_exam_dates.add(ev_muend)
+        used_dates.update(ev_dates)
 
     # Re-sort chronologically
     def sort_key(e):
