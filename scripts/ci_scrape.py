@@ -52,7 +52,7 @@ def main():
 
     # ── Pipeline ausführen ──
     options = {
-        "skip_browser": True,     # Kein Playwright in CI
+        "skip_browser": False,    # Playwright für JS-Seiten
         "skip_llm": True,         # Kein Claude API (noch kein Key)
         "skip_discovery": True,   # Kein Source Discovery
         "skip_cache": True,       # Immer frisch fetchen in CI

@@ -27,7 +27,9 @@ jobs:
           python-version: '3.12'
 
       - name: Install Dependencies
-        run: pip install requests beautifulsoup4 pdfplumber
+        run: |
+          pip install requests beautifulsoup4 pdfplumber playwright
+          python -m playwright install chromium --with-deps
 
       - name: Randomisierte Wartezeit (nur bei automatischem Run)
         if: github.event_name == 'schedule'
