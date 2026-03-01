@@ -1,0 +1,84 @@
+{
+  "id": "ihk-hanau",
+  "name": "IHK Hanau-Gelnhausen-Schlüchtern",
+  "city": "Hanau",
+  "lat": 50.1268,
+  "lon": 8.9168,
+  "availability": "online",
+  "status": "ok",
+  "stage": "parser_a",
+  "dates_2026": [
+    "04.03.2026",
+    "08.05.2026",
+    "08.12.2026",
+    "17.09.2026"
+  ],
+  "exam_events": [
+    {
+      "dates": [
+        "04.03.2026"
+      ],
+      "type": "exam_date",
+      "schriftlich": null,
+      "muendlich": null,
+      "anmeldeschluss": null,
+      "status": "ausgebucht",
+      "source": "table",
+      "evidence": "Mittwoch 4. März 2026 IHK Hanau Am Pedro-Jung-Park 14 63450 Hanau ausgebucht",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "08.05.2026"
+      ],
+      "type": "exam_date",
+      "schriftlich": null,
+      "muendlich": null,
+      "anmeldeschluss": null,
+      "status": "anmeldung_moeglich",
+      "source": "table",
+      "evidence": "Freitag 08. Mai 2026 IHK Hanau Am Pedro-Jung-Park 14 63450 Hanau Anmeldung möglich",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "17.09.2026"
+      ],
+      "type": "exam_date",
+      "schriftlich": null,
+      "muendlich": null,
+      "anmeldeschluss": null,
+      "status": "anmeldung_moeglich",
+      "source": "table",
+      "evidence": "Donnerstag 17. September 2026 IHK Hanau Am Pedro-Jung-Park 14 63450 Hanau Anmeldung möglich",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "08.12.2026"
+      ],
+      "type": "exam_date",
+      "schriftlich": null,
+      "muendlich": null,
+      "anmeldeschluss": null,
+      "status": "anmeldung_moeglich",
+      "source": "table",
+      "evidence": "Dienstag 08. Dezember 2026 IHK Hanau Am Pedro-Jung-Park 14 63450 Hanau Anmeldung möglich",
+      "confidence": 1.0
+    }
+  ],
+  "fees": [
+    "185 €",
+    "235 €"
+  ],
+  "keyword_score": "9/12",
+  "strategies_used": [
+    "table",
+    "section"
+  ],
+  "url_used": "https://www.ihk.de/hanau/standort/immobilien/pruefung-zum-zertifizierter-weg-verwalter-5716906",
+  "from_cache": false,
+  "validation_errors": [],
+  "validation_warnings": [],
+  "timestamp": "2026-03-01T21:04:31.228904"
+}

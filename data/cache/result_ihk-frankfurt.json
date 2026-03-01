@@ -1,0 +1,100 @@
+{
+  "id": "ihk-frankfurt",
+  "name": "IHK Frankfurt am Main",
+  "city": "Frankfurt am Main",
+  "lat": 50.1109,
+  "lon": 8.6821,
+  "availability": "online",
+  "status": "ok",
+  "stage": "parser_a",
+  "dates_2026": [
+    "03.06.2026",
+    "04.11.2026",
+    "06.05.2026",
+    "08.05.2026",
+    "08.10.2026",
+    "09.09.2026",
+    "13.04.2026",
+    "14.08.2026",
+    "15.05.2026",
+    "16.11.2026",
+    "25.09.2026",
+    "26.06.2026"
+  ],
+  "exam_events": [
+    {
+      "dates": [
+        "06.05.2026",
+        "15.05.2026",
+        "13.04.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "06.05.2026",
+      "muendlich": "15.05.2026",
+      "anmeldeschluss": "13.04.2026",
+      "status": "unknown",
+      "source": "table",
+      "evidence": "06.05.2026 15.05.2026 13.04.2026",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "03.06.2026",
+        "26.06.2026",
+        "08.05.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "03.06.2026",
+      "muendlich": "26.06.2026",
+      "anmeldeschluss": "08.05.2026",
+      "status": "unknown",
+      "source": "table",
+      "evidence": "03.06.2026 26.06.2026 08.05.2026",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "09.09.2026",
+        "25.09.2026",
+        "14.08.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "09.09.2026",
+      "muendlich": "25.09.2026",
+      "anmeldeschluss": "14.08.2026",
+      "status": "unknown",
+      "source": "table",
+      "evidence": "09.09.2026 25.09.2026 14.08.2026",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "04.11.2026",
+        "16.11.2026",
+        "08.10.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "04.11.2026",
+      "muendlich": "16.11.2026",
+      "anmeldeschluss": "08.10.2026",
+      "status": "unknown",
+      "source": "table",
+      "evidence": "04.11.2026 16.11.2026 08.10.2026",
+      "confidence": 1.0
+    }
+  ],
+  "fees": [
+    "205,00 €",
+    "305,00 €"
+  ],
+  "keyword_score": "8/12",
+  "strategies_used": [
+    "table",
+    "section"
+  ],
+  "url_used": "https://www.frankfurt-main.ihk.de/hauptnavigation/sach-und-fachkundepruefungen-gewerbezulassungen/pruefung-zum-zertifizierten-verwalter-5589704",
+  "from_cache": false,
+  "validation_errors": [],
+  "validation_warnings": [],
+  "timestamp": "2026-03-01T21:02:59.235674"
+}

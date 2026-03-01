@@ -1,0 +1,85 @@
+{
+  "id": "ihk-dresden",
+  "name": "IHK Dresden",
+  "city": "Dresden",
+  "lat": 51.0504,
+  "lon": 13.7373,
+  "availability": "online",
+  "status": "ok",
+  "stage": "parser_a",
+  "dates_2026": [
+    "08.06.2026",
+    "09.11.2026",
+    "12.01.2026",
+    "20.04.2026",
+    "21.09.2026"
+  ],
+  "exam_events": [
+    {
+      "dates": [
+        "20.04.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "20.04.2026",
+      "muendlich": "20.04.2026",
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "table",
+      "evidence": "20.04.2026 20.04.2026",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "08.06.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "08.06.2026",
+      "muendlich": "08.06.2026",
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "table",
+      "evidence": "08.06.2026 08.06.2026",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "21.09.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "21.09.2026",
+      "muendlich": "21.09.2026",
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "table",
+      "evidence": "21.09.2026 21.09.2026",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "09.11.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "09.11.2026",
+      "muendlich": "09.11.2026",
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "table",
+      "evidence": "09.11.2026 09.11.2026",
+      "confidence": 1.0
+    }
+  ],
+  "fees": [],
+  "keyword_score": "9/12",
+  "strategies_used": [
+    "table",
+    "section"
+  ],
+  "url_used": "https://www.ihk.de/dresden/hauptnavigation/gewerbe-und-berufszugang/pruefung-zertifizierter-verwalter-5929696",
+  "from_cache": false,
+  "validation_errors": [],
+  "validation_warnings": [
+    "Datum in der Vergangenheit: 12.01.2026",
+    "Event komplett vergangen, entfernt: 12.01.2026"
+  ],
+  "timestamp": "2026-03-01T21:11:12.769167"
+}

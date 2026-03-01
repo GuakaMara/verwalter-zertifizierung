@@ -1,0 +1,20 @@
+{
+  "id": "ihk-gera",
+  "name": "IHK Ostthüringen zu Gera",
+  "city": "Gera",
+  "lat": 50.881,
+  "lon": 12.0833,
+  "availability": "online_js",
+  "status": "degraded",
+  "stage": "degraded",
+  "dates_2026": [],
+  "exam_events": [],
+  "fees": [],
+  "keyword_score": "",
+  "strategies_used": [],
+  "url_used": "https://www.ihk.de/gera/ausbildung-weiterbildung/pruefungen-pruefer/sachkundepruefungen/pruefung-zum-zertifizierten-weg-verwalter-5610032",
+  "from_cache": false,
+  "validation_errors": [],
+  "validation_warnings": [],
+  "timestamp": "2026-03-01T21:12:13.969884"
+}

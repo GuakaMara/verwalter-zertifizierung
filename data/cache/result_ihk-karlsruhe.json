@@ -73,8 +73,8 @@
   ],
   "fees": [
     "50 €",
-    "145 €",
-    "240 €"
+    "240 €",
+    "145 €"
   ],
   "keyword_score": "9/12",
   "strategies_used": [
@@ -86,5 +86,5 @@
   "from_cache": false,
   "validation_errors": [],
   "validation_warnings": [],
-  "timestamp": "2026-03-01T20:42:51.691740"
+  "timestamp": "2026-03-01T20:57:50.133473"
 }

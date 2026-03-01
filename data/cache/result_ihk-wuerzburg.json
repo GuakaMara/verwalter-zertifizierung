@@ -1,0 +1,212 @@
+{
+  "id": "ihk-wuerzburg",
+  "name": "IHK Würzburg-Schweinfurt",
+  "city": "Würzburg",
+  "lat": 49.7913,
+  "lon": 9.9534,
+  "availability": "online",
+  "status": "ok",
+  "stage": "parser_a",
+  "dates_2026": [
+    "02.06.2026",
+    "02.12.2026",
+    "03.06.2026",
+    "03.11.2026",
+    "04.11.2026",
+    "08.07.2026",
+    "08.09.2026",
+    "09.09.2026",
+    "10.11.2026",
+    "11.11.2026",
+    "15.09.2026",
+    "16.09.2026",
+    "20.05.2026",
+    "21.04.2026",
+    "21.10.2026",
+    "22.04.2026",
+    "26.05.2026",
+    "27.05.2026",
+    "28.04.2026",
+    "29.04.2026"
+  ],
+  "exam_events": [
+    {
+      "dates": [
+        "21.04.2026",
+        "22.04.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "21.04.2026",
+      "muendlich": "22.04.2026",
+      "anmeldeschluss": null,
+      "status": "anmeldung_moeglich",
+      "source": "section",
+      "evidence": "Veranstaltung wählen 21.04.2026 - 20.05.2026 Stundenplan Live-Online Teilzeit Plätze frei 1.850,00 € i Preisinformation zzgl. Prüfungsgebühren Buchen 21.04.2026 - 20.05.2026 1.850,00 € i Preisinformation zzgl. Prüfungsgebühren Plätze frei Buchen Live-Online i , Live-Online Teilzeit Stundenplan Plätz",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "28.04.2026",
+        "29.04.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "28.04.2026",
+      "muendlich": "29.04.2026",
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "section",
+      "evidence": "is Anz. UE 21.04.2026 Di. 16:45 17:00 21.04.2026 Di. 17:00 20:00 4.0 22.04.2026 Mi. 17:00 20:00 4.0 28.04.2026 Di. 17:00 20:00 4.0 29.04.2026 Mi. 17:00 20:00 4.0 F P 1 2 3 N E Export als PDF 26.05.2026 - 08.07.2026 Stundenplan Live",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "20.05.2026"
+      ],
+      "type": "exam_date",
+      "schriftlich": null,
+      "muendlich": null,
+      "anmeldeschluss": null,
+      "status": "anmeldung_moeglich",
+      "source": "section",
+      "evidence": "Veranstaltung wählen 21.04.2026 - 20.05.2026 Stundenplan Live-Online Teilzeit Plätze frei 1.850,00 € i Preisinformation zzgl. Prüfungs",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "26.05.2026",
+        "27.05.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "26.05.2026",
+      "muendlich": "27.05.2026",
+      "anmeldeschluss": null,
+      "status": "anmeldung_moeglich",
+      "source": "section",
+      "evidence": "0:00 4.0 28.04.2026 Di. 17:00 20:00 4.0 29.04.2026 Mi. 17:00 20:00 4.0 F P 1 2 3 N E Export als PDF 26.05.2026 - 08.07.2026 Stundenplan Live-Online Teilzeit Plätze frei 1.850,00 € i Preisinformation zzgl. Prüfungsgebühren Buchen 26.05.2026 - 08.07.2026 1.850,00 € i Preisinformation zzgl. Prüfungsgeb",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "02.06.2026",
+        "03.06.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "02.06.2026",
+      "muendlich": "03.06.2026",
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "section",
+      "evidence": "is Anz. UE 26.05.2026 Di. 16:45 17:00 26.05.2026 Di. 17:00 20:00 4.0 27.05.2026 Mi. 17:00 20:00 4.0 02.06.2026 Di. 17:00 20:00 4.0 03.06.2026 Mi. 17:00 20:00 4.0 F P 1 2 3 N E Export als PDF 08.09.2026 - 21.10.2026 Stundenplan Live",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "08.07.2026"
+      ],
+      "type": "exam_date",
+      "schriftlich": null,
+      "muendlich": null,
+      "anmeldeschluss": null,
+      "status": "anmeldung_moeglich",
+      "source": "section",
+      "evidence": "4.2026 Di. 17:00 20:00 4.0 29.04.2026 Mi. 17:00 20:00 4.0 F P 1 2 3 N E Export als PDF 26.05.2026 - 08.07.2026 Stundenplan Live-Online Teilzeit Plätze frei 1.850,00 € i Preisinformation zzgl. Prüfungs",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "08.09.2026",
+        "09.09.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "08.09.2026",
+      "muendlich": "09.09.2026",
+      "anmeldeschluss": null,
+      "status": "anmeldung_moeglich",
+      "source": "section",
+      "evidence": "0:00 4.0 02.06.2026 Di. 17:00 20:00 4.0 03.06.2026 Mi. 17:00 20:00 4.0 F P 1 2 3 N E Export als PDF 08.09.2026 - 21.10.2026 Stundenplan Live-Online Teilzeit Plätze frei 1.850,00 € i Preisinformation zzgl. Prüfungsgebühren Buchen 08.09.2026 - 21.10.2026 1.850,00 € i Preisinformation zzgl. Prüfungsgeb",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "15.09.2026",
+        "16.09.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "15.09.2026",
+      "muendlich": "16.09.2026",
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "section",
+      "evidence": "is Anz. UE 08.09.2026 Di. 16:45 17:00 08.09.2026 Di. 17:00 20:00 4.0 09.09.2026 Mi. 17:00 20:00 4.0 15.09.2026 Di. 17:00 20:00 4.0 16.09.2026 Mi. 17:00 20:00 4.0 F P 1 2 3 N E Export als PDF 03.11.2026 - 02.12.2026 Stundenplan Live",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "21.10.2026"
+      ],
+      "type": "exam_date",
+      "schriftlich": null,
+      "muendlich": null,
+      "anmeldeschluss": null,
+      "status": "anmeldung_moeglich",
+      "source": "section",
+      "evidence": "6.2026 Di. 17:00 20:00 4.0 03.06.2026 Mi. 17:00 20:00 4.0 F P 1 2 3 N E Export als PDF 08.09.2026 - 21.10.2026 Stundenplan Live-Online Teilzeit Plätze frei 1.850,00 € i Preisinformation zzgl. Prüfungs",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "03.11.2026",
+        "04.11.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "03.11.2026",
+      "muendlich": "04.11.2026",
+      "anmeldeschluss": null,
+      "status": "anmeldung_moeglich",
+      "source": "section",
+      "evidence": "0:00 4.0 15.09.2026 Di. 17:00 20:00 4.0 16.09.2026 Mi. 17:00 20:00 4.0 F P 1 2 3 N E Export als PDF 03.11.2026 - 02.12.2026 Stundenplan Live-Online Teilzeit Plätze frei 1.850,00 € i Preisinformation zzgl. Prüfungsgebühren Buchen 03.11.2026 - 02.12.2026 1.850,00 € i Preisinformation zzgl. Prüfungsgeb",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "10.11.2026",
+        "11.11.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "10.11.2026",
+      "muendlich": "11.11.2026",
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "section",
+      "evidence": "is Anz. UE 03.11.2026 Di. 16:45 17:00 03.11.2026 Di. 17:00 20:00 4.0 04.11.2026 Mi. 17:00 20:00 4.0 10.11.2026 Di. 17:00 20:00 4.0 11.11.2026 Mi. 17:00 20:00 4.0 F P 1 2 3 N E Export als PDF",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "02.12.2026"
+      ],
+      "type": "exam_date",
+      "schriftlich": null,
+      "muendlich": null,
+      "anmeldeschluss": null,
+      "status": "anmeldung_moeglich",
+      "source": "section",
+      "evidence": "9.2026 Di. 17:00 20:00 4.0 16.09.2026 Mi. 17:00 20:00 4.0 F P 1 2 3 N E Export als PDF 03.11.2026 - 02.12.2026 Stundenplan Live-Online Teilzeit Plätze frei 1.850,00 € i Preisinformation zzgl. Prüfungs",
+      "confidence": 1.0
+    }
+  ],
+  "fees": [
+    "850,00 €"
+  ],
+  "keyword_score": "6/12",
+  "strategies_used": [
+    "table",
+    "section",
+    "text_block"
+  ],
+  "url_used": "https://www.wuerzburg.ihk.de/weiterbildungsprogramm/zertifizierter-verwalter-in-231178",
+  "from_cache": false,
+  "validation_errors": [],
+  "validation_warnings": [],
+  "timestamp": "2026-03-01T21:01:26.422640"
+}

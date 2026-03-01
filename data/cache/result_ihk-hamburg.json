@@ -1,0 +1,20 @@
+{
+  "id": "ihk-hamburg",
+  "name": "Handelskammer Hamburg",
+  "city": "Hamburg",
+  "lat": 53.5511,
+  "lon": 9.9937,
+  "availability": "online_js",
+  "status": "degraded",
+  "stage": "degraded",
+  "dates_2026": [],
+  "exam_events": [],
+  "fees": [],
+  "keyword_score": "",
+  "strategies_used": [],
+  "url_used": "https://www.ihk.de/hamburg/ausbildung-weiterbildung/sachkunde-fachkunde-pruefungen/zertifizierter-verwalter-5440522",
+  "from_cache": false,
+  "validation_errors": [],
+  "validation_warnings": [],
+  "timestamp": "2026-03-01T21:02:28.670047"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "ihk-stuttgart",
+  "name": "IHK Region Stuttgart",
+  "city": "Stuttgart",
+  "lat": 48.7758,
+  "lon": 9.1829,
+  "availability": "online_js",
+  "status": "degraded",
+  "stage": "degraded",
+  "dates_2026": [],
+  "exam_events": [],
+  "fees": [],
+  "keyword_score": "",
+  "strategies_used": [],
+  "url_used": "https://www.ihk.de/stuttgart/bildung-schulung-pruefung/pruefungen/dienstleistungen/anmeldung-zum-zertifizierten-verwalter-5619738",
+  "from_cache": false,
+  "validation_errors": [],
+  "validation_warnings": [],
+  "timestamp": "2026-03-01T20:57:19.507599"
+}

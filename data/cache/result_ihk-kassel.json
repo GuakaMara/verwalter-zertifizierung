@@ -1,0 +1,20 @@
+{
+  "id": "ihk-kassel",
+  "name": "IHK Kassel-Marburg",
+  "city": "Kassel",
+  "lat": 51.3127,
+  "lon": 9.4797,
+  "availability": "online_js",
+  "status": "degraded",
+  "stage": "degraded",
+  "dates_2026": [],
+  "exam_events": [],
+  "fees": [],
+  "keyword_score": "",
+  "strategies_used": [],
+  "url_used": "https://www.ihk.de/kassel-marburg/hauptnavigation/gruendung/branchen-a-bis-z/pruefung-zum-zertifizierten-verwalter-5711706",
+  "from_cache": false,
+  "validation_errors": [],
+  "validation_warnings": [],
+  "timestamp": "2026-03-01T21:03:29.735234"
+}

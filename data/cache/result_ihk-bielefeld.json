@@ -1,0 +1,152 @@
+{
+  "id": "ihk-bielefeld",
+  "name": "IHK Ostwestfalen zu Bielefeld",
+  "city": "Bielefeld",
+  "lat": 52.0302,
+  "lon": 8.5325,
+  "availability": "online",
+  "status": "ok",
+  "stage": "parser_a",
+  "dates_2026": [
+    "01.12.2026",
+    "03.02.2026",
+    "04.03.2026",
+    "04.08.2026",
+    "04.11.2026",
+    "06.10.2026",
+    "07.01.2026",
+    "08.07.2026",
+    "09.09.2026",
+    "15.04.2026",
+    "16.12.2026",
+    "17.04.2026",
+    "18.02.2026",
+    "18.12.2026",
+    "19.08.2026",
+    "20.02.2026",
+    "21.08.2026",
+    "21.10.2026",
+    "23.10.2026",
+    "31.03.2026"
+  ],
+  "exam_events": [
+    {
+      "dates": [
+        "18.02.2026",
+        "20.02.2026",
+        "03.02.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "18.02.2026",
+      "muendlich": "20.02.2026",
+      "anmeldeschluss": "03.02.2026",
+      "status": "unknown",
+      "source": "table",
+      "evidence": "18.02.2026 20.02.2026 07.01.2026 03.02.2026",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "15.04.2026",
+        "17.04.2026",
+        "31.03.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "15.04.2026",
+      "muendlich": "17.04.2026",
+      "anmeldeschluss": "31.03.2026",
+      "status": "unknown",
+      "source": "table",
+      "evidence": "15.04.2026 17.04.2026 04.03.2026 31.03.2026",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "08.07.2026"
+      ],
+      "type": "exam_date",
+      "schriftlich": null,
+      "muendlich": null,
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "section",
+      "evidence": " 20.02.2026 07.01.2026 03.02.2026 15.04.2026 17.04.2026 04.03.2026 31.03.2026 19.08.2026 21.08.2026 08.07.2026 04.08.2026 21.10.2026 23.10.2026 09.09.2026 06.10.2026 16.12.2026 18.12.2026 04.11.2026 0",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "19.08.2026",
+        "21.08.2026",
+        "04.08.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "19.08.2026",
+      "muendlich": "21.08.2026",
+      "anmeldeschluss": "04.08.2026",
+      "status": "unknown",
+      "source": "table",
+      "evidence": "19.08.2026 21.08.2026 08.07.2026 04.08.2026",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "09.09.2026"
+      ],
+      "type": "exam_date",
+      "schriftlich": null,
+      "muendlich": null,
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "section",
+      "evidence": " 17.04.2026 04.03.2026 31.03.2026 19.08.2026 21.08.2026 08.07.2026 04.08.2026 21.10.2026 23.10.2026 09.09.2026 06.10.2026 16.12.2026 18.12.2026 04.11.2026 01.12.2026 Eine Abmeldung ist ausschließlich ",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "21.10.2026",
+        "23.10.2026",
+        "06.10.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "21.10.2026",
+      "muendlich": "23.10.2026",
+      "anmeldeschluss": "06.10.2026",
+      "status": "unknown",
+      "source": "table",
+      "evidence": "21.10.2026 23.10.2026 09.09.2026 06.10.2026",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "16.12.2026",
+        "18.12.2026",
+        "01.12.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "16.12.2026",
+      "muendlich": "18.12.2026",
+      "anmeldeschluss": "01.12.2026",
+      "status": "unknown",
+      "source": "table",
+      "evidence": "16.12.2026 18.12.2026 04.11.2026 01.12.2026",
+      "confidence": 1.0
+    }
+  ],
+  "fees": [
+    "170 €",
+    "290 €"
+  ],
+  "keyword_score": "11/12",
+  "strategies_used": [
+    "table",
+    "section"
+  ],
+  "url_used": "https://www.ostwestfalen.ihk.de/pruefung/sach-und-fachkundepruefungen-und-unterrichtung/wohnimmobilienverwalter/",
+  "from_cache": false,
+  "validation_errors": [],
+  "validation_warnings": [
+    "Datum in der Vergangenheit: 07.01.2026",
+    "Event komplett vergangen, entfernt: 07.01.2026"
+  ],
+  "timestamp": "2026-03-01T21:08:08.024630"
+}

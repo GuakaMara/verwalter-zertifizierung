@@ -1,0 +1,61 @@
+{
+  "id": "ihk-giessen",
+  "name": "IHK Gießen-Friedberg",
+  "city": "Gießen",
+  "lat": 50.584,
+  "lon": 8.6784,
+  "availability": "online",
+  "status": "ok",
+  "stage": "parser_a",
+  "dates_2026": [
+    "09.06.2026",
+    "12.03.2026",
+    "16.06.2026",
+    "19.03.2026",
+    "21.01.2026"
+  ],
+  "exam_events": [
+    {
+      "dates": [
+        "12.03.2026",
+        "19.03.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "12.03.2026",
+      "muendlich": "19.03.2026",
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "table",
+      "evidence": "Do, 12.03.2026 Hanauer Str. 5, Friedberg Do, 19.03.2026 Hanauer Str. 5, Friedberg",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "09.06.2026",
+        "16.06.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "09.06.2026",
+      "muendlich": "16.06.2026",
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "table",
+      "evidence": "Di, 09.06.2026 Hanauer Str. 5, Friedberg Di, 16.06.2026 Hanauer Str. 5, Friedberg",
+      "confidence": 1.0
+    }
+  ],
+  "fees": [
+    "285,00 €",
+    "200,00 €"
+  ],
+  "keyword_score": "9/12",
+  "strategies_used": [
+    "table",
+    "section"
+  ],
+  "url_used": "https://www.ihk.de/giessen-friedberg/geschaeftsbereiche/recht-und-steuern/recht/versicherungsvermittlerrichtlinie/ihk-zertifizierung-fuer-wohnimmobilienverwalter-5266286",
+  "from_cache": false,
+  "validation_errors": [],
+  "validation_warnings": [],
+  "timestamp": "2026-03-01T21:04:00.819628"
+}

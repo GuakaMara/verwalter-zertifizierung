@@ -1,0 +1,154 @@
+{
+  "id": "ihk-koblenz",
+  "name": "IHK zu Koblenz",
+  "city": "Koblenz",
+  "lat": 50.3569,
+  "lon": 7.589,
+  "availability": "online",
+  "status": "ok",
+  "stage": "parser_a",
+  "dates_2026": [
+    "05.02.2026",
+    "05.03.2026",
+    "07.05.2026",
+    "08.01.2026",
+    "08.05.2026",
+    "19.11.2026",
+    "20.11.2026",
+    "23.07.2026",
+    "24.07.2026",
+    "24.09.2026",
+    "25.09.2026",
+    "26.02.2026",
+    "26.03.2026",
+    "27.02.2026",
+    "27.03.2026",
+    "29.01.2026",
+    "29.10.2026",
+    "30.01.2026",
+    "30.10.2026"
+  ],
+  "exam_events": [
+    {
+      "dates": [
+        "26.02.2026",
+        "27.02.2026",
+        "05.02.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "26.02.2026",
+      "muendlich": "27.02.2026",
+      "anmeldeschluss": "05.02.2026",
+      "status": "unknown",
+      "source": "table",
+      "evidence": "26. Februar 2026 27. Februar 2026 05. Februar 2026",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "26.03.2026",
+        "27.03.2026",
+        "05.03.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "26.03.2026",
+      "muendlich": "27.03.2026",
+      "anmeldeschluss": "05.03.2026",
+      "status": "unknown",
+      "source": "table",
+      "evidence": "26. März 2026 27. März 2026 05. März 2026",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "07.05.2026",
+        "08.05.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "07.05.2026",
+      "muendlich": "08.05.2026",
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "table",
+      "evidence": "07. Mai 2026 08. Mai 2026 noch nicht zur Buchung freigeschaltet",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "23.07.2026",
+        "24.07.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "23.07.2026",
+      "muendlich": "24.07.2026",
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "table",
+      "evidence": "23. Juli 2026 24. Juli 2026 noch nicht zur Buchung freigeschaltet",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "24.09.2026",
+        "25.09.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "24.09.2026",
+      "muendlich": "25.09.2026",
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "table",
+      "evidence": "24. September 2026 25. September 2026 noch nicht zur Buchung freigeschaltet",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "29.10.2026",
+        "30.10.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "29.10.2026",
+      "muendlich": "30.10.2026",
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "table",
+      "evidence": "29. Oktober 2026 30. Oktober 2026 noch nicht zur Buchung freigeschaltet",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "19.11.2026",
+        "20.11.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "19.11.2026",
+      "muendlich": "20.11.2026",
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "table",
+      "evidence": "19. November 2026 20. November 2026 noch nicht zur Buchung freigeschaltet",
+      "confidence": 1.0
+    }
+  ],
+  "fees": [
+    "121,00 €",
+    "242,00 €"
+  ],
+  "keyword_score": "9/12",
+  "strategies_used": [
+    "table",
+    "section"
+  ],
+  "url_used": "https://www.ihk.de/koblenz/bildung/berufszugang/zertifizierter-wohnimmmobilienverwalter/pruefung-zertifizierter-verwalter-5605052",
+  "from_cache": false,
+  "validation_errors": [],
+  "validation_warnings": [
+    "Datum in der Vergangenheit: 29.01.2026",
+    "Datum in der Vergangenheit: 30.01.2026",
+    "Datum in der Vergangenheit: 08.01.2026",
+    "Datum in der Vergangenheit: 29.01.2026",
+    "Datum in der Vergangenheit: 30.01.2026",
+    "Event komplett vergangen, entfernt: 29.01.2026, 30.01.2026, 08.01.2026"
+  ],
+  "timestamp": "2026-03-01T21:10:10.611713"
+}

@@ -1,0 +1,75 @@
+{
+  "id": "ihk-rostock",
+  "name": "IHK zu Rostock",
+  "city": "Rostock",
+  "lat": 54.0887,
+  "lon": 12.1407,
+  "availability": "online",
+  "status": "ok",
+  "stage": "parser_a",
+  "dates_2026": [
+    "20.10.2026",
+    "21.07.2026",
+    "21.10.2026",
+    "22.07.2026",
+    "28.04.2026",
+    "29.04.2026"
+  ],
+  "exam_events": [
+    {
+      "dates": [
+        "28.04.2026",
+        "29.04.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "28.04.2026",
+      "muendlich": "29.04.2026",
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "section",
+      "evidence": "Prüfung zum zertifizierten WEG-Verwalter April 2026 | 28. - 29. April 2026",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "21.07.2026",
+        "22.07.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "21.07.2026",
+      "muendlich": "22.07.2026",
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "section",
+      "evidence": "Prüfung zum zertifizierten WEG-Verwalter Juli 2026 | 21. - 22. Juli 2026",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "20.10.2026",
+        "21.10.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "20.10.2026",
+      "muendlich": "21.10.2026",
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "section",
+      "evidence": "Prüfung zum zertifizierten WEG-Verwalter Oktober 2026 | 20. - 21. Oktober 2026",
+      "confidence": 1.0
+    }
+  ],
+  "fees": [
+    "315,00 €"
+  ],
+  "keyword_score": "5/12",
+  "strategies_used": [
+    "section",
+    "text_block"
+  ],
+  "url_used": "https://veranstaltungen.unikam.de/rostock.ihk.de/?kategorie=6&veranstaltungstyp=1",
+  "from_cache": false,
+  "validation_errors": [],
+  "validation_warnings": [],
+  "timestamp": "2026-03-01T21:05:03.541146"
+}

@@ -1,0 +1,134 @@
+{
+  "id": "ihk-duesseldorf",
+  "name": "IHK zu Düsseldorf",
+  "city": "Düsseldorf",
+  "lat": 51.2277,
+  "lon": 6.7735,
+  "availability": "online",
+  "status": "ok",
+  "stage": "parser_a",
+  "dates_2026": [
+    "01.01.2026",
+    "03.01.2026",
+    "03.09.2026",
+    "04.05.2026",
+    "07.05.2026",
+    "07.12.2026",
+    "08.06.2026",
+    "09.02.2026",
+    "09.03.2026",
+    "10.12.2026",
+    "14.09.2026",
+    "17.08.2026",
+    "20.04.2026",
+    "23.03.2026",
+    "23.11.2026",
+    "26.03.2026",
+    "31.08.2026"
+  ],
+  "exam_events": [
+    {
+      "dates": [
+        "09.02.2026"
+      ],
+      "type": "exam_date",
+      "schriftlich": null,
+      "muendlich": null,
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "section",
+      "evidence": "ab (10.00 Uhr) Anmeldeschluss bis 23.03.2026 26.03.2026 03.01.2026 09.03.2026 04.05.2026 07.05.2026 09.02.2026 20.04.2026 31.08.2026 03.09.2026 08.06.2026 17.08.2026 07.12.2026 10.12.2026 14.09.2026 2",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "23.03.2026",
+        "26.03.2026",
+        "09.03.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "23.03.2026",
+      "muendlich": "26.03.2026",
+      "anmeldeschluss": "09.03.2026",
+      "status": "unknown",
+      "source": "table",
+      "evidence": "23.03.2026 26.03.2026 03.01.2026 09.03.2026",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "04.05.2026",
+        "07.05.2026",
+        "20.04.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "04.05.2026",
+      "muendlich": "07.05.2026",
+      "anmeldeschluss": "20.04.2026",
+      "status": "unknown",
+      "source": "table",
+      "evidence": "04.05.2026 07.05.2026 09.02.2026 20.04.2026",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "08.06.2026"
+      ],
+      "type": "exam_date",
+      "schriftlich": null,
+      "muendlich": null,
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "section",
+      "evidence": " 26.03.2026 03.01.2026 09.03.2026 04.05.2026 07.05.2026 09.02.2026 20.04.2026 31.08.2026 03.09.2026 08.06.2026 17.08.2026 07.12.2026 10.12.2026 14.09.2026 23.11.2026 Wichtige Informationen: Eine Abmel",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "31.08.2026",
+        "03.09.2026",
+        "17.08.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "31.08.2026",
+      "muendlich": "03.09.2026",
+      "anmeldeschluss": "17.08.2026",
+      "status": "unknown",
+      "source": "table",
+      "evidence": "31.08.2026 03.09.2026 08.06.2026 17.08.2026",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "07.12.2026",
+        "10.12.2026",
+        "23.11.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "07.12.2026",
+      "muendlich": "10.12.2026",
+      "anmeldeschluss": "23.11.2026",
+      "status": "unknown",
+      "source": "table",
+      "evidence": "07.12.2026 10.12.2026 14.09.2026 23.11.2026",
+      "confidence": 1.0
+    }
+  ],
+  "fees": [
+    "224 €",
+    "136 €"
+  ],
+  "keyword_score": "9/12",
+  "strategies_used": [
+    "table",
+    "section"
+  ],
+  "url_used": "https://www.ihk.de/duesseldorf/ausbildung/pruefungen-und-unterweisungen2/sachkundepruefungen/einfuehrung-zertifizierter-verwalter-5142948",
+  "from_cache": false,
+  "validation_errors": [],
+  "validation_warnings": [
+    "Datum in der Vergangenheit: 03.01.2026",
+    "Event komplett vergangen, entfernt: 03.01.2026"
+  ],
+  "timestamp": "2026-03-01T21:07:06.433063"
+}

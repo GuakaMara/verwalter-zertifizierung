@@ -1,0 +1,129 @@
+{
+  "id": "ihk-bonn",
+  "name": "IHK Bonn/Rhein-Sieg",
+  "city": "Bonn",
+  "lat": 50.7374,
+  "lon": 7.0982,
+  "availability": "online",
+  "status": "ok",
+  "stage": "parser_a",
+  "dates_2026": [
+    "04.02.2026",
+    "04.03.2026",
+    "04.11.2026",
+    "06.11.2026",
+    "07.04.2026",
+    "07.05.2026",
+    "08.10.2026",
+    "09.07.2026",
+    "09.09.2026",
+    "11.03.2026",
+    "11.06.2026",
+    "12.05.2026",
+    "13.08.2026",
+    "15.07.2026",
+    "15.09.2026",
+    "22.01.2026",
+    "23.01.2026",
+    "28.01.2026"
+  ],
+  "exam_events": [
+    {
+      "dates": [
+        "04.03.2026",
+        "11.03.2026",
+        "04.02.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "04.03.2026",
+      "muendlich": "11.03.2026",
+      "anmeldeschluss": "04.02.2026",
+      "status": "ausgebucht",
+      "source": "table",
+      "evidence": "04.03.2026 10./11.03.2026 ausgebucht 04.02.2026",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "07.05.2026",
+        "12.05.2026",
+        "07.04.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "07.05.2026",
+      "muendlich": "12.05.2026",
+      "anmeldeschluss": "07.04.2026",
+      "status": "unknown",
+      "source": "table",
+      "evidence": "07.05.2026 12.05.2026 07.04.2026",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "09.07.2026",
+        "15.07.2026",
+        "11.06.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "09.07.2026",
+      "muendlich": "15.07.2026",
+      "anmeldeschluss": "11.06.2026",
+      "status": "unknown",
+      "source": "table",
+      "evidence": "09.07.2026 15.07.2026 noch nicht zur Buchung freigegeben 11.06.2026",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "09.09.2026",
+        "15.09.2026",
+        "13.08.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "09.09.2026",
+      "muendlich": "15.09.2026",
+      "anmeldeschluss": "13.08.2026",
+      "status": "unknown",
+      "source": "table",
+      "evidence": "09.09.2026 15.09.2026 noch nicht zur Buchung freigegeben 13.08.2026",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "04.11.2026",
+        "06.11.2026",
+        "08.10.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "04.11.2026",
+      "muendlich": "06.11.2026",
+      "anmeldeschluss": "08.10.2026",
+      "status": "unknown",
+      "source": "table",
+      "evidence": "04.11.2026 05./06.11.2026 noch nicht zur Buchung freigegeben 08.10.2026",
+      "confidence": 1.0
+    }
+  ],
+  "fees": [],
+  "keyword_score": "8/12",
+  "strategies_used": [
+    "table",
+    "section"
+  ],
+  "url_used": "https://www.ihk-bonn.de/berufsbildung-und-fachkraeftesicherung/weiterbildung/sachkundepruefung-zum-zertifizierten-verwalter",
+  "from_cache": false,
+  "validation_errors": [],
+  "validation_warnings": [
+    "Datum in der Vergangenheit: 22.01.2026",
+    "Datum in der Vergangenheit: 28.01.2026",
+    "Datum in der Vergangenheit: 22.01.2026",
+    "Datum in der Vergangenheit: 28.01.2026",
+    "Datum in der Vergangenheit: 22.01.2026",
+    "Datum in der Vergangenheit: 23.01.2026",
+    "Datum in der Vergangenheit: 28.01.2026",
+    "Datum in der Vergangenheit: 23.01.2026",
+    "Event komplett vergangen, entfernt: 22.01.2026, 28.01.2026",
+    "Event komplett vergangen, entfernt: 23.01.2026"
+  ],
+  "timestamp": "2026-03-01T21:08:38.554560"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "ihk-hannover",
+  "name": "IHK Hannover",
+  "city": "Hannover",
+  "lat": 52.3759,
+  "lon": 9.732,
+  "availability": "online_js",
+  "status": "degraded",
+  "stage": "degraded",
+  "dates_2026": [],
+  "exam_events": [],
+  "fees": [],
+  "keyword_score": "",
+  "strategies_used": [],
+  "url_used": "https://www.ihk.de/hannover/hauptnavigation/ausbildung-und-weiterbildung/pruefungen-und-unterrichtungen/sach-und-fachkundepruefungen-unterrichtungen/sachkundepruefung-zertifizierter-wohnungsverwalter-5585270",
+  "from_cache": false,
+  "validation_errors": [],
+  "validation_warnings": [],
+  "timestamp": "2026-03-01T21:05:34.082531"
+}

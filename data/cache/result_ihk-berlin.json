@@ -1,0 +1,127 @@
+{
+  "id": "ihk-berlin",
+  "name": "IHK zu Berlin",
+  "city": "Berlin",
+  "lat": 52.52,
+  "lon": 13.405,
+  "availability": "online",
+  "status": "ok",
+  "stage": "parser_a",
+  "dates_2026": [
+    "01.07.2026",
+    "03.03.2026",
+    "03.12.2026",
+    "07.01.2026",
+    "07.05.2026",
+    "11.06.2026",
+    "12.02.2026",
+    "16.09.2026",
+    "18.03.2026",
+    "18.11.2026",
+    "22.07.2026",
+    "24.09.2026",
+    "26.03.2026",
+    "26.08.2026",
+    "28.01.2026",
+    "28.05.2026",
+    "28.10.2026",
+    "30.07.2026"
+  ],
+  "exam_events": [
+    {
+      "dates": [
+        "12.02.2026"
+      ],
+      "type": "exam_date",
+      "schriftlich": null,
+      "muendlich": null,
+      "anmeldeschluss": "07.01.2026",
+      "status": "unknown",
+      "source": "table",
+      "evidence": "Schriftlich 28.01.2026 Mündlich 1 1.02./12.02.2026 07.01.2026",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "18.03.2026",
+        "26.03.2026",
+        "03.03.2026"
+      ],
+      "type": "exam_date",
+      "schriftlich": null,
+      "muendlich": null,
+      "anmeldeschluss": "03.03.2026",
+      "status": "unknown",
+      "source": "table",
+      "evidence": "Schriftlich 18.03.2026 Mündlich 25.03./26.03.2026 03.03.2026",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "28.05.2026",
+        "11.06.2026",
+        "01.07.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "28.05.2026",
+      "muendlich": "11.06.2026",
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "section",
+      "evidence": ".02./12.02.2026 07.01.2026 Schriftlich 18.03.2026 Mündlich 25.03./26.03.2026 03.03.2026 Schriftlich 28.05.2026 Mündlich 10.06./11.06.2026 07.05.2026 Schriftlich 22.07.2026 Mündlich 29.07./30.07.2026 01.07.2026 Schriftlich 16.09.2026 Mündlich 23.09./24.09.2026 26.08.2026 Schriftlich 18.11.2026 Mündl",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "16.09.2026",
+        "24.09.2026",
+        "26.08.2026"
+      ],
+      "type": "exam_date",
+      "schriftlich": null,
+      "muendlich": null,
+      "anmeldeschluss": "26.08.2026",
+      "status": "unknown",
+      "source": "table",
+      "evidence": "Schriftlich 16.09.2026 Mündlich 23.09./24.09.2026 26.08.2026",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "18.11.2026",
+        "03.12.2026",
+        "28.10.2026"
+      ],
+      "type": "exam_date",
+      "schriftlich": null,
+      "muendlich": null,
+      "anmeldeschluss": "28.10.2026",
+      "status": "unknown",
+      "source": "table",
+      "evidence": "Schriftlich 18.11.2026 Mündlich 02.12./03.12.2026 28.10.2026",
+      "confidence": 1.0
+    }
+  ],
+  "fees": [
+    "280,00 €",
+    "360,00 €",
+    "330,00 €",
+    "65,00 €",
+    "250,00 €",
+    "50,00 €"
+  ],
+  "keyword_score": "10/12",
+  "strategies_used": [
+    "table",
+    "section",
+    "text_block"
+  ],
+  "url_used": "https://www.ihk.de/berlin/pruefungen-lehrgaenge/pruefungen/sach-und-fachkundepruefung/pruefung-zertifizierter-verwalter-5530956",
+  "from_cache": false,
+  "validation_errors": [],
+  "validation_warnings": [
+    "Datum in der Vergangenheit: 28.01.2026",
+    "Datum in der Vergangenheit: 07.01.2026"
+  ],
+  "timestamp": "2026-03-01T21:01:57.183433"
+}

@@ -1,0 +1,103 @@
+{
+  "id": "ihk-passau",
+  "name": "IHK für Niederbayern in Passau",
+  "city": "Passau",
+  "lat": 48.5667,
+  "lon": 13.4319,
+  "availability": "online",
+  "status": "ok",
+  "stage": "parser_a",
+  "dates_2026": [
+    "02.12.2026",
+    "03.12.2026",
+    "05.05.2026",
+    "06.05.2026",
+    "10.03.2026",
+    "11.03.2026",
+    "13.10.2026",
+    "14.10.2026",
+    "18.11.2026",
+    "20.01.2026",
+    "20.02.2026",
+    "21.01.2026",
+    "21.04.2026",
+    "29.09.2026"
+  ],
+  "exam_events": [
+    {
+      "dates": [
+        "10.03.2026",
+        "20.02.2026"
+      ],
+      "type": "schriftlich",
+      "schriftlich": "10.03.2026",
+      "muendlich": null,
+      "anmeldeschluss": "20.02.2026",
+      "status": "unknown",
+      "source": "table",
+      "evidence": "10.03.2026 11.03.2026 20.02.2026 nicht verfÃ¼gbar/Anmeldeschluss erreicht",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "05.05.2026",
+        "21.04.2026"
+      ],
+      "type": "schriftlich",
+      "schriftlich": "05.05.2026",
+      "muendlich": null,
+      "anmeldeschluss": "21.04.2026",
+      "status": "unknown",
+      "source": "table",
+      "evidence": "05.05.2026 06.05.2026 21.04.2026 verfÃ¼gbar",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "13.10.2026",
+        "29.09.2026"
+      ],
+      "type": "schriftlich",
+      "schriftlich": "13.10.2026",
+      "muendlich": null,
+      "anmeldeschluss": "29.09.2026",
+      "status": "unknown",
+      "source": "table",
+      "evidence": "13.10.2026 14.10.2026 29.09.2026 verfÃ¼gbar",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "02.12.2026",
+        "18.11.2026"
+      ],
+      "type": "schriftlich",
+      "schriftlich": "02.12.2026",
+      "muendlich": null,
+      "anmeldeschluss": "18.11.2026",
+      "status": "unknown",
+      "source": "table",
+      "evidence": "02.12.2026 03.12.2026 18.11.2026 verfÃ¼gbar",
+      "confidence": 1.0
+    }
+  ],
+  "fees": [
+    "320,00 €"
+  ],
+  "keyword_score": "6/12",
+  "strategies_used": [
+    "table",
+    "section",
+    "text_block"
+  ],
+  "url_used": "https://www.ihk-niederbayern.de/berufliche-bildung/fortbildung/sachkundepruefungen/zertifizierter-verwalter/",
+  "from_cache": false,
+  "validation_errors": [],
+  "validation_warnings": [
+    "Datum in der Vergangenheit: 20.01.2026",
+    "Datum in der Vergangenheit: 20.01.2026",
+    "Datum in der Vergangenheit: 21.01.2026",
+    "Event komplett vergangen, entfernt: 20.01.2026"
+  ],
+  "timestamp": "2026-03-01T21:00:55.442329"
+}

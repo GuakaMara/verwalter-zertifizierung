@@ -1,0 +1,77 @@
+{
+  "id": "ihk-ludwigshafen",
+  "name": "IHK für die Pfalz",
+  "city": "Ludwigshafen",
+  "lat": 49.4811,
+  "lon": 8.4353,
+  "availability": "online",
+  "status": "ok",
+  "stage": "parser_a",
+  "dates_2026": [
+    "05.05.2026",
+    "06.05.2026",
+    "09.06.2026",
+    "10.06.2026",
+    "24.03.2026",
+    "25.03.2026"
+  ],
+  "exam_events": [
+    {
+      "dates": [
+        "24.03.2026",
+        "25.03.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "24.03.2026",
+      "muendlich": "25.03.2026",
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "table",
+      "evidence": "24. März 2026 25. März 2026",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "05.05.2026",
+        "06.05.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "05.05.2026",
+      "muendlich": "06.05.2026",
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "table",
+      "evidence": "5. Mai 2026 6. Mai 2026",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "09.06.2026",
+        "10.06.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "09.06.2026",
+      "muendlich": "10.06.2026",
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "table",
+      "evidence": "9. Juni 2026 10. Juni 2026",
+      "confidence": 1.0
+    }
+  ],
+  "fees": [
+    "320,00 €",
+    "160,00 €"
+  ],
+  "keyword_score": "9/12",
+  "strategies_used": [
+    "table",
+    "section",
+    "text_block"
+  ],
+  "url_used": "https://www.ihk.de/pfalz/infrastruktur-und-digitale-wirtschaft/sach-und-fachkundepruefungen-unterrichtungen/sachkundepruefung-zertifizierte-weg-verwalter-5970104",
+  "from_cache": false,
+  "validation_errors": [],
+  "validation_warnings": [],
+  "timestamp": "2026-03-01T21:10:41.148714"
+}

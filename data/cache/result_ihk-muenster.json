@@ -1,0 +1,88 @@
+{
+  "id": "ihk-muenster",
+  "name": "IHK Nord Westfalen",
+  "city": "Münster",
+  "lat": 51.9607,
+  "lon": 7.6261,
+  "availability": "online",
+  "status": "ok",
+  "stage": "parser_a",
+  "dates_2026": [
+    "06.06.2026",
+    "06.07.2026",
+    "09.10.2026",
+    "09.11.2026",
+    "12.01.2026",
+    "13.03.2026",
+    "13.04.2026"
+  ],
+  "exam_events": [
+    {
+      "dates": [
+        "13.04.2026",
+        "13.03.2026"
+      ],
+      "type": "schriftlich",
+      "schriftlich": "13.04.2026",
+      "muendlich": null,
+      "anmeldeschluss": "13.03.2026",
+      "status": "unknown",
+      "source": "table",
+      "evidence": "13. April 2026 13. März 2026 17./18. KW Münster",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "06.07.2026",
+        "06.06.2026"
+      ],
+      "type": "schriftlich",
+      "schriftlich": "06.07.2026",
+      "muendlich": null,
+      "anmeldeschluss": "06.06.2026",
+      "status": "unknown",
+      "source": "table",
+      "evidence": "6. Juli 2026 6. Juni 2026 29./30. KW Münster",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "09.11.2026",
+        "09.10.2026"
+      ],
+      "type": "schriftlich",
+      "schriftlich": "09.11.2026",
+      "muendlich": null,
+      "anmeldeschluss": "09.10.2026",
+      "status": "unknown",
+      "source": "table",
+      "evidence": "9. November 2026 9. Oktober 2026 47./48. KW Münster",
+      "confidence": 1.0
+    }
+  ],
+  "fees": [
+    "265 €",
+    "160 €",
+    "116 €",
+    "62 €",
+    "100 €",
+    "125 €",
+    "117 €",
+    "166 €",
+    "149 €",
+    "293 €"
+  ],
+  "keyword_score": "9/12",
+  "strategies_used": [
+    "table",
+    "section"
+  ],
+  "url_used": "https://www.ihk.de/nordwestfalen/bildung/sach-und-fachkundepruefungen/zertifizierter-verwalter-5334538",
+  "from_cache": false,
+  "validation_errors": [],
+  "validation_warnings": [
+    "Datum in der Vergangenheit: 12.01.2026",
+    "Event komplett vergangen, entfernt: 12.01.2026"
+  ],
+  "timestamp": "2026-03-01T21:07:37.035942"
+}

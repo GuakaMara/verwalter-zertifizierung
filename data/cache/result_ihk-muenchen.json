@@ -1,0 +1,158 @@
+{
+  "id": "ihk-muenchen",
+  "name": "IHK für München und Oberbayern",
+  "city": "München",
+  "lat": 48.1351,
+  "lon": 11.582,
+  "availability": "pdf",
+  "status": "ok",
+  "stage": "parser_b",
+  "dates_2026": [
+    "14.09.2026",
+    "14.10.2026",
+    "15.04.2026",
+    "15.06.2026",
+    "15.07.2026",
+    "16.02.2026",
+    "16.03.2026",
+    "16.09.2026",
+    "17.06.2026",
+    "17.08.2026",
+    "18.03.2026",
+    "18.05.2026",
+    "18.11.2026",
+    "19.10.2026",
+    "20.10.2026",
+    "21.01.2026",
+    "21.04.2026",
+    "21.07.2026",
+    "22.09.2026",
+    "23.06.2026",
+    "24.03.2026",
+    "24.11.2026",
+    "27.01.2026"
+  ],
+  "exam_events": [
+    {
+      "dates": [
+        "18.03.2026",
+        "16.02.2026",
+        "24.03.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "18.03.2026",
+      "muendlich": "24.03.2026",
+      "anmeldeschluss": "16.02.2026",
+      "status": "unknown",
+      "source": "pdf_table",
+      "evidence": "18.03.2026 16.02.2026 mündliche Prüfung voraussichtlich am 24.03.2026",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "15.04.2026",
+        "16.03.2026",
+        "21.04.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "15.04.2026",
+      "muendlich": "21.04.2026",
+      "anmeldeschluss": "16.03.2026",
+      "status": "unknown",
+      "source": "pdf_table",
+      "evidence": "15.04.2026 16.03.2026 mündliche Prüfung voraussichtlich am 21.04.2026",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "17.06.2026",
+        "18.05.2026",
+        "23.06.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "17.06.2026",
+      "muendlich": "23.06.2026",
+      "anmeldeschluss": "18.05.2026",
+      "status": "unknown",
+      "source": "pdf_table",
+      "evidence": "17.06.2026 18.05.2026 mündliche Prüfung voraussichtlich am 23.06.2026",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "15.07.2026",
+        "15.06.2026",
+        "21.07.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "15.07.2026",
+      "muendlich": "21.07.2026",
+      "anmeldeschluss": "15.06.2026",
+      "status": "unknown",
+      "source": "pdf_table",
+      "evidence": "15.07.2026 15.06.2026 mündliche Prüfung voraussichtlich am 21.07.2026",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "16.09.2026",
+        "17.08.2026",
+        "22.09.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "16.09.2026",
+      "muendlich": "22.09.2026",
+      "anmeldeschluss": "17.08.2026",
+      "status": "unknown",
+      "source": "pdf_table",
+      "evidence": "16.09.2026 17.08.2026 mündliche Prüfung voraussichtlich am 22.09.2026",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "14.10.2026",
+        "14.09.2026",
+        "20.10.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "14.10.2026",
+      "muendlich": "20.10.2026",
+      "anmeldeschluss": "14.09.2026",
+      "status": "unknown",
+      "source": "pdf_table",
+      "evidence": "14.10.2026 14.09.2026 mündliche Prüfung voraussichtlich am 20.10.2026",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "18.11.2026",
+        "19.10.2026",
+        "24.11.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "18.11.2026",
+      "muendlich": "24.11.2026",
+      "anmeldeschluss": "19.10.2026",
+      "status": "unknown",
+      "source": "pdf_table",
+      "evidence": "18.11.2026 19.10.2026 mündliche Prüfung voraussichtlich am 24.11.2026",
+      "confidence": 1.0
+    }
+  ],
+  "fees": [],
+  "keyword_score": "3/12",
+  "strategies_used": [
+    "pdf_table"
+  ],
+  "url_used": "https://www.ihk-muenchen.de/ihk/documents/Sach-und-Fachkundepr%C3%BCfung/Verwalter/Pruefungstermine-zertifizierter-Verwalter-nach-WEG.pdf",
+  "from_cache": false,
+  "validation_errors": [],
+  "validation_warnings": [
+    "Datum in der Vergangenheit: 21.01.2026",
+    "Datum in der Vergangenheit: 27.01.2026",
+    "Datum in der Vergangenheit: 21.01.2026",
+    "Datum in der Vergangenheit: 27.01.2026",
+    "Event komplett vergangen, entfernt: 21.01.2026, 27.01.2026"
+  ],
+  "timestamp": "2026-03-01T20:59:53.120198"
+}

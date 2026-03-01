@@ -1,0 +1,20 @@
+{
+  "id": "ihk-leipzig",
+  "name": "IHK zu Leipzig",
+  "city": "Leipzig",
+  "lat": 51.3397,
+  "lon": 12.3731,
+  "availability": "online_js",
+  "status": "degraded",
+  "stage": "degraded",
+  "dates_2026": [],
+  "exam_events": [],
+  "fees": [],
+  "keyword_score": "",
+  "strategies_used": [],
+  "url_used": "https://www.leipzig.ihk.de/infos-zu-pruefungen/sach-fachkundepruefungen/zertifizierter-verwalter-nach-26a-weg/",
+  "from_cache": false,
+  "validation_errors": [],
+  "validation_warnings": [],
+  "timestamp": "2026-03-01T21:11:43.217914"
+}

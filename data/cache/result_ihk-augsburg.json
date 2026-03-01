@@ -1,0 +1,93 @@
+{
+  "id": "ihk-augsburg",
+  "name": "IHK Schwaben",
+  "city": "Augsburg",
+  "lat": 48.3705,
+  "lon": 10.8978,
+  "availability": "online",
+  "status": "ok",
+  "stage": "parser_a",
+  "dates_2026": [
+    "02.10.2026",
+    "02.11.2026",
+    "05.06.2026",
+    "06.07.2026",
+    "12.01.2026",
+    "21.08.2026",
+    "21.09.2026",
+    "23.02.2026",
+    "23.03.2026"
+  ],
+  "exam_events": [
+    {
+      "dates": [
+        "23.03.2026",
+        "23.02.2026"
+      ],
+      "type": "schriftlich",
+      "schriftlich": "23.03.2026",
+      "muendlich": null,
+      "anmeldeschluss": "23.02.2026",
+      "status": "ausgebucht",
+      "source": "table",
+      "evidence": "2. Prüfung 23.03.2026 16. Kalenderwoche 23.02.2026 ausgebucht",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "06.07.2026",
+        "05.06.2026"
+      ],
+      "type": "schriftlich",
+      "schriftlich": "06.07.2026",
+      "muendlich": null,
+      "anmeldeschluss": "05.06.2026",
+      "status": "unknown",
+      "source": "table",
+      "evidence": "3. Prüfung 06.07.2026 30. Kalenderwoche 05.06.2026",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "21.09.2026",
+        "21.08.2026"
+      ],
+      "type": "schriftlich",
+      "schriftlich": "21.09.2026",
+      "muendlich": null,
+      "anmeldeschluss": "21.08.2026",
+      "status": "unknown",
+      "source": "table",
+      "evidence": "4. Prüfung 21.09.2026 41. Kalenderwoche 21.08.2026",
+      "confidence": 1.0
+    },
+    {
+      "dates": [
+        "02.11.2026",
+        "02.10.2026"
+      ],
+      "type": "schriftlich",
+      "schriftlich": "02.11.2026",
+      "muendlich": null,
+      "anmeldeschluss": "02.10.2026",
+      "status": "unknown",
+      "source": "table",
+      "evidence": "5. Prüfung 02.11.2026 47. Kalenderwoche 02.10.2026",
+      "confidence": 1.0
+    }
+  ],
+  "fees": [],
+  "keyword_score": "8/12",
+  "strategies_used": [
+    "table",
+    "section"
+  ],
+  "url_used": "https://www.ihk.de/schwaben/produktmarken/meine-pruefung/weiterbildungspruefungen/pruefungen-a-z/zertifizierter-verwalter-5744580",
+  "from_cache": false,
+  "validation_errors": [],
+  "validation_warnings": [
+    "Datum in der Vergangenheit: 12.01.2026",
+    "Event komplett vergangen, entfernt: 12.01.2026"
+  ],
+  "timestamp": "2026-03-01T21:00:24.950141"
+}
