@@ -29,10 +29,9 @@ jobs:
       - name: Install Dependencies
         run: pip install requests beautifulsoup4 pdfplumber
 
-      - name: Randomisierte Wartezeit (8-18 Uhr DE)
+      - name: Randomisierte Wartezeit (nur bei automatischem Run)
+        if: github.event_name == 'schedule'
         run: |
-          # Zufällige Wartezeit: 0-600 Minuten (= 0-10 Stunden)
-          # 6:00 UTC + 0-10h = 6:00-16:00 UTC = ~8:00-18:00 Uhr DE
           WAIT_MINUTES=$((RANDOM % 600))
           echo "⏳ Warte $WAIT_MINUTES Minuten (randomisiert)..."
           sleep $((WAIT_MINUTES * 60))
