@@ -27,13 +27,18 @@ jobs:
           python-version: '3.12'
 
       - name: Install Dependencies
-        run: pip install requests
+        run: pip install requests Pillow
 
       - name: News-Updater ausführen
         run: python3 scripts/update_news.py
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
+      - name: Artikelbilder aktualisieren
+        run: python3 tools/news_image.py
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
       - name: Änderungen committen und deployen
         run: |
           git config user.name "github-actions[bot]"

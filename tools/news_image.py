@@ -22,11 +22,11 @@ def get_api_keys():
     anthropic_key = os.environ.get("ANTHROPIC_API_KEY")
     pexels_key = os.environ.get("PEXELS_API_KEY")
     if not anthropic_key:
-        print("❌ ANTHROPIC_API_KEY nicht gesetzt")
-        sys.exit(1)
+        print("⚠️  ANTHROPIC_API_KEY nicht gesetzt – überspringe Bildsuche")
+        sys.exit(0)
     if not pexels_key:
-        print("❌ PEXELS_API_KEY nicht gesetzt")
-        sys.exit(1)
+        print("⚠️  PEXELS_API_KEY nicht gesetzt – überspringe Bildsuche")
+        sys.exit(0)
     return anthropic_key, pexels_key
 
 def _decode(s):
@@ -39,7 +39,7 @@ def parse_articles(bundle_text):
     start = bundle_text.find("gu=[")
     if start == -1:
         print("❌ gu-Array nicht gefunden im Bundle")
-        sys.exit(1)
+        sys.exit(0)
     depth = 0
     i = start + 3
     for j, ch in enumerate(bundle_text[i:], start=i):
