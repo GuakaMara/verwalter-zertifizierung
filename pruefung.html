@@ -71,231 +71,344 @@
     ]
   }
   </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
   <style>
     *{margin:0;padding:0;box-sizing:border-box;}
-    body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#f8fafc;color:#334155;padding:32px 20px;line-height:1.7;font-size:16px;max-width:740px;margin:0 auto;}
-    h1{color:#0f172a;font-size:28px;margin-bottom:8px;}
-    .subtitle{color:#64748b;font-size:14px;margin-bottom:32px;}
-    h2{color:#1e293b;font-size:20px;margin:32px 0 14px;padding-top:16px;border-top:1px solid #e2e8f0;}
-    h3{color:#1e293b;font-size:16px;margin:20px 0 8px;}
-    p{margin-bottom:14px;}
-    ul{margin-bottom:14px;padding-left:24px;}
-    li{margin-bottom:6px;}
-    a{color:#2563eb;text-decoration:none;}
-    a:hover{text-decoration:underline;}
-    .info-box{background:#fffbeb;border:1px solid #fde68a;border-radius:8px;padding:16px;margin:20px 0;font-size:14px;color:#92400e;}
-    .tip-box{background:#f0fdf4;border:1px solid #bbf7d0;border-radius:8px;padding:16px;margin:20px 0;font-size:14px;color:#166534;}
-    .cta-box{background:linear-gradient(135deg,#0f172a,#1e3a5f);border-radius:12px;padding:28px;margin:32px 0;color:#fff;text-align:center;}
-    .cta-box h3{color:#fbbf24;margin:0 0 8px;}
-    .cta-box p{color:#cbd5e1;margin-bottom:16px;}
-    .cta-btn{display:inline-block;background:#fbbf24;color:#0f172a;padding:12px 28px;border-radius:8px;font-weight:700;font-size:15px;text-decoration:none;}
-    .cta-btn:hover{background:#f59e0b;text-decoration:none;}
-    table{width:100%;border-collapse:collapse;margin:16px 0;font-size:14px;}
-    th{background:#f1f5f9;text-align:left;padding:10px 12px;border:1px solid #e2e8f0;font-weight:600;}
-    td{padding:10px 12px;border:1px solid #e2e8f0;}
-    .toc{background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:20px 20px 20px 24px;margin:24px 0;}
-    .toc ul{list-style:none;padding-left:0;}
-    .toc li{margin-bottom:4px;}
-    .toc a{font-size:14px;color:#3b82f6;}
-    .back-link{display:inline-flex;align-items:center;gap:4px;color:#64748b;font-size:14px;margin-bottom:16px;text-decoration:none;}
-    .back-link:hover{color:#3b82f6;}
-    footer{margin-top:40px;padding-top:20px;border-top:1px solid #e2e8f0;font-size:13px;color:#94a3b8;}
-    footer a{color:#94a3b8;}
+    body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#f8fafc;color:#334155;line-height:1.7;font-size:16px;}
+
+    /* Nav */
+    nav{position:sticky;top:0;z-index:100;background:rgba(255,255,255,0.95);backdrop-filter:blur(12px);border-bottom:1px solid #e5e7eb;box-shadow:0 1px 8px rgba(0,0,0,0.06);}
+    .nav-inner{max-width:920px;margin:0 auto;padding:0 24px;display:flex;align-items:center;height:52px;gap:24px;}
+    .nav-logo{font-family:'Playfair Display',serif;font-weight:700;font-size:16px;color:#0f2b4c;white-space:nowrap;cursor:pointer;text-decoration:none;}
+    .nav-links{display:flex;gap:4px;margin-left:auto;}
+    .nav-links a{background:none;border:none;color:#475569;cursor:pointer;border-radius:6px;font-family:inherit;font-weight:500;font-size:14px;padding:8px 14px;text-decoration:none;transition:background 0.15s;}
+    .nav-links a:hover{background:#f1f5f9;}
+    .nav-links a.active{background:#f1f5f9;}
+
+    /* Hero */
+    .hero{background:linear-gradient(135deg,#0c1f38 0%,#142e52 40%,#1a3f6b 100%);position:relative;overflow:hidden;}
+    .hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 20% 80%,rgba(59,130,246,0.12) 0%,transparent 50%);}
+    .hero-inner{position:relative;z-index:1;max-width:920px;margin:0 auto;padding:52px 24px 48px;}
+    .hero h1{font-family:'Playfair Display',serif;color:#fff;font-size:clamp(28px,4.5vw,44px);font-weight:700;line-height:1.15;letter-spacing:-0.5px;margin-bottom:12px;}
+    .hero h1 span{color:#fbbf24;}
+    .hero .subtitle{color:#94a3b8;font-size:16px;line-height:1.6;max-width:560px;}
+
+    /* Content */
+    .content{max-width:920px;margin:0 auto;padding:32px 24px;}
+
+    /* TOC */
+    .toc-card{background:#fff;border:1px solid #e5e7eb;border-radius:14px;padding:24px 28px;margin-bottom:32px;}
+    .toc-card h3{font-family:'Playfair Display',serif;font-size:18px;color:#0f172a;margin-bottom:14px;}
+    .toc-card ul{list-style:none;padding:0;columns:2;column-gap:24px;}
+    .toc-card li{margin-bottom:6px;break-inside:avoid;}
+    .toc-card a{font-size:14px;color:#3b82f6;text-decoration:none;}
+    .toc-card a:hover{text-decoration:underline;}
+    @media(max-width:600px){.toc-card ul{columns:1;}}
+
+    /* Section Cards */
+    .section-card{background:#fff;border:1px solid #e5e7eb;border-radius:14px;padding:28px;margin-bottom:20px;scroll-margin-top:70px;transition:border-color 0.2s,box-shadow 0.2s;}
+    .section-card:hover{border-color:#93c5fd;box-shadow:0 2px 12px rgba(59,130,246,0.08);}
+    .section-card h2{font-family:'Playfair Display',serif;font-size:22px;color:#0f172a;margin-bottom:14px;}
+    .section-card h3{font-size:16px;color:#1e293b;margin:20px 0 10px;font-weight:700;}
+    .section-card p{margin-bottom:12px;}
+    .section-card ul{margin-bottom:14px;padding-left:22px;}
+    .section-card li{margin-bottom:6px;}
+    .section-card a{color:#3b82f6;text-decoration:none;}
+    .section-card a:hover{text-decoration:underline;}
+
+    /* Tables */
+    table{width:100%;border-collapse:separate;border-spacing:0;margin:16px 0;font-size:14px;border-radius:10px;overflow:hidden;border:1px solid #e5e7eb;}
+    th{background:#f8fafc;text-align:left;padding:10px 14px;font-weight:600;color:#1e293b;border-bottom:1px solid #e5e7eb;}
+    td{padding:10px 14px;border-bottom:1px solid #f1f5f9;}
+    tr:last-child td{border-bottom:none;}
+
+    /* Boxes */
+    .info-box{background:#fffbeb;border:1px solid #fde68a;border-radius:10px;padding:16px 20px;margin:18px 0;font-size:14px;color:#92400e;line-height:1.6;}
+    .tip-box{background:#f0fdf4;border:1px solid #bbf7d0;border-radius:10px;padding:16px 20px;margin:18px 0;font-size:14px;color:#166534;line-height:1.6;}
+    .tip-box a,.info-box a{color:inherit;text-decoration:underline;}
+
+    /* App Promo */
+    .app-promo{background:linear-gradient(135deg,#0c1f38,#1a3f6b);border-radius:14px;padding:40px 32px;margin:32px 0;display:flex;gap:24px;align-items:center;flex-wrap:wrap;}
+    .app-icon{width:72px;height:72px;border-radius:18px;background:linear-gradient(135deg,#3b82f6,#1d4ed8);display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:36px;}
+    .app-info{flex:1;min-width:240px;}
+    .app-label{font-size:12px;color:#60a5fa;font-weight:700;text-transform:uppercase;letter-spacing:1px;margin-bottom:6px;}
+    .app-info h3{font-family:'Playfair Display',serif;color:#fff;font-size:22px;font-weight:700;margin-bottom:8px;}
+    .app-info p{color:#94a3b8;font-size:15px;line-height:1.6;margin-bottom:16px;}
+    .app-btn{display:inline-flex;align-items:center;gap:8px;padding:10px 20px;background:#fff;color:#0f172a;border-radius:10px;font-size:14px;font-weight:700;text-decoration:none;transition:background 0.15s;}
+    .app-btn:hover{background:#f1f5f9;}
+    .app-android{font-size:13px;color:#64748b;margin-left:12px;}
+
+    /* CTA */
+    .cta-center{text-align:center;margin:32px 0;}
+    .cta-btn-main{display:inline-flex;align-items:center;gap:6px;padding:14px 32px;background:#3b82f6;color:#fff;border-radius:10px;font-weight:700;font-size:16px;text-decoration:none;transition:background 0.15s;}
+    .cta-btn-main:hover{background:#2563eb;}
+
+    /* Footer */
+    footer{max-width:920px;margin:0 auto;padding:32px 24px;}
+    .footer-grid{display:flex;justify-content:space-between;gap:40px;flex-wrap:wrap;margin-bottom:24px;}
+    .footer-col-title{font-weight:700;font-size:14px;color:#1e293b;margin-bottom:8px;}
+    .footer-col p{font-size:13px;color:#64748b;line-height:1.6;max-width:280px;}
+    .footer-col a{display:block;font-size:13px;color:#3b82f6;text-decoration:none;margin-bottom:4px;}
+    .footer-col a:hover{text-decoration:underline;}
+    .footer-bottom{border-top:1px solid #e5e7eb;padding-top:16px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;font-size:12px;color:#94a3b8;}
+    .footer-bottom a{color:#94a3b8;text-decoration:none;}
+
+    @media(max-width:600px){
+      .nav-links a{padding:8px 10px;font-size:13px;}
+      .section-card{padding:20px;}
+      .app-promo{padding:28px 20px;}
+      .hero-inner{padding:40px 24px 36px;}
+    }
   </style>
 </head>
 <body>
 
-<a href="/" class="back-link">&larr; Zurück zur Startseite</a>
+<!-- Nav -->
+<nav>
+  <div class="nav-inner">
+    <a href="/" class="nav-logo">verwalter-zertifizierung.de</a>
+    <div class="nav-links">
+      <a href="/">Termine</a>
+      <a href="/pruefung.html" class="active">Ratgeber</a>
+      <a href="https://apps.apple.com/app/id6759011975" target="_blank" rel="noopener">App</a>
+    </div>
+  </div>
+</nav>
 
-<h1>Sachkundeprüfung Zertifizierter Verwalter</h1>
-<p class="subtitle">Alles was du zur IHK-Prüfung nach &sect; 26a WEG wissen musst &middot; Stand: März 2026</p>
+<!-- Hero -->
+<header class="hero">
+  <div class="hero-inner">
+    <h1>Sachkundeprüfung<br><span>Zertifizierter Verwalter</span></h1>
+    <p class="subtitle">Alles was du zur IHK-Prüfung nach &sect; 26a WEG wissen musst &middot; Ablauf, Themen, Gebühren und Tipps für die Vorbereitung.</p>
+  </div>
+</header>
 
-<div class="toc">
-  <strong>Inhaltsübersicht</strong>
-  <ul>
-    <li><a href="#was-ist">1. Was ist der Zertifizierte Verwalter?</a></li>
-    <li><a href="#wer-braucht">2. Wer braucht die Prüfung?</a></li>
-    <li><a href="#befreiung">3. Wer ist von der Prüfung befreit?</a></li>
-    <li><a href="#ablauf">4. Ablauf der Prüfung</a></li>
-    <li><a href="#themen">5. Prüfungsthemen im Detail</a></li>
-    <li><a href="#gebuehren">6. Prüfungsgebühren</a></li>
-    <li><a href="#anmeldung">7. Anmeldung und Fristen</a></li>
-    <li><a href="#tipps">8. Tipps für die Vorbereitung</a></li>
-    <li><a href="#gmbh">9. Zertifizierung für GmbH und Personengesellschaften</a></li>
-    <li><a href="#weiterbildung">10. Weiterbildungspflicht nach der Prüfung</a></li>
-    <li><a href="#termine">11. Prüfungstermine finden</a></li>
-  </ul>
-</div>
+<!-- Content -->
+<div class="content">
 
-<h2 id="was-ist">1. Was ist der Zertifizierte Verwalter?</h2>
-<p>Mit der Reform des Wohnungseigentumsgesetzes (WEG) im Dezember 2020 wurde der Begriff des <strong>&bdquo;Zertifizierten Verwalters&ldquo;</strong> eingeführt (&sect; 26a WEG). Als Zertifizierter Verwalter darf sich bezeichnen, wer vor einer Industrie- und Handelskammer (IHK) durch eine Sachkundeprüfung nachgewiesen hat, dass er über die notwendigen <strong>rechtlichen, kaufmännischen und technischen Kenntnisse</strong> für die Tätigkeit als WEG-Verwalter verfügt.</p>
-<p>Die Rechtsgrundlage bildet die <strong>Zertifizierter-Verwalter-Prüfungsverordnung (ZertVerwV)</strong> vom 2. Dezember 2021, die alle Details zu Prüfungsinhalten, Ablauf und Anforderungen regelt.</p>
-
-<h2 id="wer-braucht">2. Wer braucht die Prüfung?</h2>
-<p>Seit dem <strong>1. Dezember 2023</strong> hat jeder Wohnungseigentümer das Recht, im Rahmen ordnungsgemäßer Verwaltung die Bestellung eines zertifizierten Verwalters zu verlangen (&sect; 19 Abs. 2 Nr. 6 WEG). Das bedeutet: Wer als WEG-Verwalter tätig ist oder sein möchte, sollte die Zertifizierung anstreben.</p>
-
-<div class="info-box">
-  <strong>Wichtig:</strong> Die Zertifizierung ist keine gewerberechtliche Voraussetzung für die Erlaubnis nach &sect; 34c GewO. Ein Verwalter kann also grundsätzlich auch ohne Zertifizierung tätig sein. Wohnungseigentümer können aber die Bestellung eines zertifizierten Verwalters verlangen.
-</div>
-
-<p><strong>Ausnahme:</strong> Bei kleineren Anlagen mit weniger als neun Sondereigentumsrechten, bei denen ein Wohnungseigentümer selbst zum Verwalter bestellt wurde und weniger als ein Drittel der Eigentümer die Zertifizierung verlangen, kann darauf verzichtet werden.</p>
-
-<h2 id="befreiung">3. Wer ist von der Prüfung befreit?</h2>
-<p>Nach &sect; 7 ZertVerwV sind folgende Qualifikationen einem Zertifizierten Verwalter <strong>gleichgestellt</strong> &ndash; diese Personen müssen keine Prüfung ablegen:</p>
-<ul>
-  <li>Abgeschlossene Berufsausbildung als <strong>Immobilienkaufmann/-frau</strong> oder Kaufmann/-frau in der Grundstücks- und Wohnungswirtschaft</li>
-  <li>Anerkannter Abschluss als <strong>Geprüfter Immobilienfachwirt/in (IHK)</strong></li>
-  <li><strong>Hochschulabschluss</strong> mit immobilienwirtschaftlichem Schwerpunkt</li>
-</ul>
-<p>Diese Personen dürfen sich als Zertifizierte Verwalter bezeichnen, ohne eine Prüfung ablegen zu müssen. Eine formale Bescheinigung durch die IHK ist dafür vom Gesetzgeber nicht vorgesehen.</p>
-
-<h2 id="ablauf">4. Ablauf der Prüfung</h2>
-<p>Die Sachkundeprüfung besteht aus <strong>zwei Teilen</strong>:</p>
-
-<h3>Schriftlicher Teil</h3>
-<table>
-  <tr><th>Dauer</th><td>90 Minuten</td></tr>
-  <tr><th>Format</th><td>Multiple-Choice (Single Choice und Multiple Choice)</td></tr>
-  <tr><th>Umfang</th><td>Ca. 50 Aufgaben in 4 Themenbereichen</td></tr>
-  <tr><th>Durchführung</th><td>Digital am PC/Laptop/Tablet im Prüfungszentrum der IHK</td></tr>
-  <tr><th>Bestehen</th><td>Mindestens 50% in <strong>jedem</strong> der 4 Themenbereiche</td></tr>
-</table>
-
-<div class="tip-box">
-  <strong>Tipp:</strong> Du hast rechnerisch nur etwa 108 Sekunden pro Frage. Beantworte im ersten Durchlauf alle Fragen, die du sicher weißt, und widme dich erst dann den schwierigeren Aufgaben.
-</div>
-
-<h3>Mündlicher Teil</h3>
-<table>
-  <tr><th>Dauer</th><td>Mindestens 15 Minuten</td></tr>
-  <tr><th>Zeitpunkt</th><td>In der Regel 1&ndash;3 Wochen nach dem schriftlichen Teil</td></tr>
-  <tr><th>Schwerpunkt</th><td>Wohnungseigentumsgesetz (WEG)</td></tr>
-  <tr><th>Voraussetzung</th><td>Bestehen des schriftlichen Teils</td></tr>
-  <tr><th>Form</th><td>Einzelprüfung oder Gruppenprüfung (je nach IHK)</td></tr>
-</table>
-
-<p>Nach erfolgreichem Bestehen beider Prüfungsteile stellt die IHK ein <strong>Zertifikat</strong> aus.</p>
-
-<h2 id="themen">5. Prüfungsthemen im Detail</h2>
-<p>Die Prüfungsthemen sind in der <strong>Anlage 1 der ZertVerwV</strong> festgelegt und gliedern sich in vier Bereiche:</p>
-
-<h3>Bereich 1: Grundlagen der Immobilienwirtschaft</h3>
-<ul>
-  <li>Gebäudepläne, Bauzeichnungen und Baubeschreibungen</li>
-  <li>Relevante Versicherungsarten im Immobilienbereich</li>
-  <li>Umwelt- und Energiethemen im Immobilienbereich</li>
-</ul>
-
-<h3>Bereich 2: Rechtliche Grundlagen</h3>
-<p>Dies ist der <strong>umfangreichste und wichtigste Bereich</strong>. Der Schwerpunkt liegt auf dem WEG:</p>
-<ul>
-  <li><strong>Wohnungseigentumsrecht (WEG)</strong> &ndash; größter Anteil!
+  <div class="toc-card">
+    <h3>Inhaltsübersicht</h3>
     <ul>
-      <li>Begründung von Wohnungs- und Teileigentum</li>
-      <li>Teilungserklärung, Aufteilungsplan und Gemeinschaftsordnung</li>
-      <li>Rechtsfähige Gemeinschaft der Wohnungseigentümer</li>
-      <li>Rechte und Pflichten der Wohnungseigentümer</li>
-      <li>Wohnungseigentümerversammlung</li>
-      <li>Bestellung und Abberufung des WEG-Verwalters, Verwaltervertrag</li>
-      <li>Rechte und Pflichten des WEG-Verwalters</li>
-      <li>Rechte des Verwaltungsbeirats</li>
+      <li><a href="#was-ist">1. Was ist der Zertifizierte Verwalter?</a></li>
+      <li><a href="#wer-braucht">2. Wer braucht die Prüfung?</a></li>
+      <li><a href="#befreiung">3. Wer ist befreit?</a></li>
+      <li><a href="#ablauf">4. Ablauf der Prüfung</a></li>
+      <li><a href="#themen">5. Prüfungsthemen im Detail</a></li>
+      <li><a href="#gebuehren">6. Prüfungsgebühren</a></li>
+      <li><a href="#anmeldung">7. Anmeldung und Fristen</a></li>
+      <li><a href="#tipps">8. Tipps für die Vorbereitung</a></li>
+      <li><a href="#gmbh">9. Zertifizierung für GmbH</a></li>
+      <li><a href="#weiterbildung">10. Weiterbildungspflicht</a></li>
+      <li><a href="#termine">11. Prüfungstermine finden</a></li>
     </ul>
-  </li>
-  <li>Bürgerliches Gesetzbuch (BGB) &ndash; Grundlagen des Vertragsrechts</li>
-  <li>Grundbuchrecht</li>
-  <li>Mietrecht (Grundzüge)</li>
-</ul>
+  </div>
 
-<div class="info-box">
-  <strong>Achtung:</strong> Von den ca. 25 Aufgaben im rechtlichen Teil entfallen rund <strong>14 Aufgaben auf das WEG</strong> &ndash; das sind mehr als 25% der gesamten Prüfung! Bereite dich besonders gründlich auf diesen Bereich vor.
+  <div class="section-card" id="was-ist">
+    <h2>1. Was ist der Zertifizierte Verwalter?</h2>
+    <p>Mit der Reform des Wohnungseigentumsgesetzes (WEG) im Dezember 2020 wurde der Begriff des <strong>&bdquo;Zertifizierten Verwalters&ldquo;</strong> eingeführt (&sect; 26a WEG). Als Zertifizierter Verwalter darf sich bezeichnen, wer vor einer Industrie- und Handelskammer (IHK) durch eine Sachkundeprüfung nachgewiesen hat, dass er über die notwendigen <strong>rechtlichen, kaufmännischen und technischen Kenntnisse</strong> für die Tätigkeit als WEG-Verwalter verfügt.</p>
+    <p>Die Rechtsgrundlage bildet die <strong>Zertifizierter-Verwalter-Prüfungsverordnung (ZertVerwV)</strong> vom 2. Dezember 2021, die alle Details zu Prüfungsinhalten, Ablauf und Anforderungen regelt.</p>
+  </div>
+
+  <div class="section-card" id="wer-braucht">
+    <h2>2. Wer braucht die Prüfung?</h2>
+    <p>Seit dem <strong>1. Dezember 2023</strong> hat jeder Wohnungseigentümer das Recht, im Rahmen ordnungsgemäßer Verwaltung die Bestellung eines zertifizierten Verwalters zu verlangen (&sect; 19 Abs. 2 Nr. 6 WEG). Das bedeutet: Wer als WEG-Verwalter tätig ist oder sein möchte, sollte die Zertifizierung anstreben.</p>
+    <div class="info-box">
+      <strong>Wichtig:</strong> Die Zertifizierung ist keine gewerberechtliche Voraussetzung für die Erlaubnis nach &sect; 34c GewO. Ein Verwalter kann also grundsätzlich auch ohne Zertifizierung tätig sein. Wohnungseigentümer können aber die Bestellung eines zertifizierten Verwalters verlangen.
+    </div>
+    <p><strong>Ausnahme:</strong> Bei kleineren Anlagen mit weniger als neun Sondereigentumsrechten, bei denen ein Wohnungseigentümer selbst zum Verwalter bestellt wurde und weniger als ein Drittel der Eigentümer die Zertifizierung verlangen, kann darauf verzichtet werden.</p>
+  </div>
+
+  <div class="section-card" id="befreiung">
+    <h2>3. Wer ist von der Prüfung befreit?</h2>
+    <p>Nach &sect; 7 ZertVerwV sind folgende Qualifikationen einem Zertifizierten Verwalter <strong>gleichgestellt</strong> &ndash; diese Personen müssen keine Prüfung ablegen:</p>
+    <ul>
+      <li>Abgeschlossene Berufsausbildung als <strong>Immobilienkaufmann/-frau</strong> oder Kaufmann/-frau in der Grundstücks- und Wohnungswirtschaft</li>
+      <li>Anerkannter Abschluss als <strong>Geprüfter Immobilienfachwirt/in (IHK)</strong></li>
+      <li><strong>Hochschulabschluss</strong> mit immobilienwirtschaftlichem Schwerpunkt</li>
+    </ul>
+    <p>Diese Personen dürfen sich als Zertifizierte Verwalter bezeichnen, ohne eine Prüfung ablegen zu müssen. Eine formale Bescheinigung durch die IHK ist dafür vom Gesetzgeber nicht vorgesehen.</p>
+  </div>
+
+  <div class="section-card" id="ablauf">
+    <h2>4. Ablauf der Prüfung</h2>
+    <p>Die Sachkundeprüfung besteht aus <strong>zwei Teilen</strong>:</p>
+    <h3>Schriftlicher Teil</h3>
+    <table>
+      <tr><th>Dauer</th><td>90 Minuten</td></tr>
+      <tr><th>Format</th><td>Multiple-Choice (Single Choice und Multiple Choice)</td></tr>
+      <tr><th>Umfang</th><td>Ca. 50 Aufgaben in 4 Themenbereichen</td></tr>
+      <tr><th>Durchführung</th><td>Digital am PC/Laptop/Tablet im Prüfungszentrum der IHK</td></tr>
+      <tr><th>Bestehen</th><td>Mindestens 50% in <strong>jedem</strong> der 4 Themenbereiche</td></tr>
+    </table>
+    <div class="tip-box">
+      <strong>Tipp:</strong> Du hast rechnerisch nur etwa 108 Sekunden pro Frage. Beantworte im ersten Durchlauf alle Fragen, die du sicher weißt, und widme dich erst dann den schwierigeren Aufgaben.
+    </div>
+    <h3>Mündlicher Teil</h3>
+    <table>
+      <tr><th>Dauer</th><td>Mindestens 15 Minuten</td></tr>
+      <tr><th>Zeitpunkt</th><td>In der Regel 1&ndash;3 Wochen nach dem schriftlichen Teil</td></tr>
+      <tr><th>Schwerpunkt</th><td>Wohnungseigentumsgesetz (WEG)</td></tr>
+      <tr><th>Voraussetzung</th><td>Bestehen des schriftlichen Teils</td></tr>
+      <tr><th>Form</th><td>Einzelprüfung oder Gruppenprüfung (je nach IHK)</td></tr>
+    </table>
+    <p>Nach erfolgreichem Bestehen beider Prüfungsteile stellt die IHK ein <strong>Zertifikat</strong> aus.</p>
+  </div>
+
+  <div class="section-card" id="themen">
+    <h2>5. Prüfungsthemen im Detail</h2>
+    <p>Die Prüfungsthemen sind in der <strong>Anlage 1 der ZertVerwV</strong> festgelegt und gliedern sich in vier Bereiche:</p>
+    <h3>Bereich 1: Grundlagen der Immobilienwirtschaft</h3>
+    <ul>
+      <li>Gebäudepläne, Bauzeichnungen und Baubeschreibungen</li>
+      <li>Relevante Versicherungsarten im Immobilienbereich</li>
+      <li>Umwelt- und Energiethemen im Immobilienbereich</li>
+    </ul>
+    <h3>Bereich 2: Rechtliche Grundlagen</h3>
+    <p>Dies ist der <strong>umfangreichste und wichtigste Bereich</strong>. Der Schwerpunkt liegt auf dem WEG:</p>
+    <ul>
+      <li><strong>Wohnungseigentumsrecht (WEG)</strong> &ndash; größter Anteil!
+        <ul>
+          <li>Begründung von Wohnungs- und Teileigentum</li>
+          <li>Teilungserklärung, Aufteilungsplan und Gemeinschaftsordnung</li>
+          <li>Rechtsfähige Gemeinschaft der Wohnungseigentümer</li>
+          <li>Rechte und Pflichten der Wohnungseigentümer</li>
+          <li>Wohnungseigentümerversammlung</li>
+          <li>Bestellung und Abberufung des WEG-Verwalters, Verwaltervertrag</li>
+          <li>Rechte und Pflichten des WEG-Verwalters</li>
+          <li>Rechte des Verwaltungsbeirats</li>
+        </ul>
+      </li>
+      <li>Bürgerliches Gesetzbuch (BGB) &ndash; Grundlagen des Vertragsrechts</li>
+      <li>Grundbuchrecht</li>
+      <li>Mietrecht (Grundzüge)</li>
+    </ul>
+    <div class="info-box">
+      <strong>Achtung:</strong> Von den ca. 25 Aufgaben im rechtlichen Teil entfallen rund <strong>14 Aufgaben auf das WEG</strong> &ndash; das sind mehr als 25% der gesamten Prüfung! Bereite dich besonders gründlich auf diesen Bereich vor.
+    </div>
+    <h3>Bereich 3: Kaufmännische Grundlagen</h3>
+    <ul>
+      <li>Buchhaltung und Rechnungswesen in der WEG-Verwaltung</li>
+      <li>Hausgeldabrechnung und Wirtschaftsplan</li>
+      <li>Instandhaltungsrücklage</li>
+      <li>Grundzüge der Kosten- und Leistungsrechnung</li>
+    </ul>
+    <h3>Bereich 4: Technische Grundlagen</h3>
+    <ul>
+      <li>Baukonstruktion und Baustoffe</li>
+      <li>Haustechnik (Heizung, Sanitär, Elektro)</li>
+      <li>Energetische Gebäudesanierung</li>
+      <li>Instandhaltung und Instandsetzung</li>
+      <li>Verkehrssicherungspflichten</li>
+    </ul>
+  </div>
+
+  <div class="section-card" id="gebuehren">
+    <h2>6. Prüfungsgebühren</h2>
+    <p>Die Prüfungsgebühren werden von jeder IHK individuell festgelegt:</p>
+    <table>
+      <tr><th>Prüfungsart</th><th>Gebührenspanne</th></tr>
+      <tr><td>Vollprüfung (schriftlich + mündlich)</td><td>ca. 150 &ndash; 500 &euro;</td></tr>
+      <tr><td>Nur mündliche Nachprüfung</td><td>ca. 80 &ndash; 200 &euro;</td></tr>
+    </table>
+    <p>Die meisten IHKs liegen bei <strong>200&ndash;350 &euro;</strong> für die Vollprüfung. Die genauen Gebühren findest du auf unserer <a href="/">Startseite mit der Terminübersicht</a>.</p>
+  </div>
+
+  <div class="section-card" id="anmeldung">
+    <h2>7. Anmeldung und Fristen</h2>
+    <p>Die Anmeldung erfolgt <strong>direkt bei der gewünschten IHK</strong>. Du bist nicht an deine zuständige IHK gebunden &ndash; du kannst die Prüfung bei jeder IHK in Deutschland ablegen, die sie anbietet.</p>
+    <p>Der Anmeldeschluss liegt in der Regel <strong>3&ndash;6 Wochen vor dem Prüfungstermin</strong>. Bei einigen IHKs kann online gebucht werden, bei anderen ist eine Anmeldung per Formular oder E-Mail erforderlich.</p>
+    <div class="tip-box">
+      <strong>Tipp:</strong> Melde dich frühzeitig an! Beliebte Termine sind schnell ausgebucht. Auf unserer <a href="/">Startseite</a> findest du alle aktuellen Prüfungstermine mit Anmeldefristen.
+    </div>
+  </div>
+
+  <div class="section-card" id="tipps">
+    <h2>8. Tipps für die Vorbereitung</h2>
+    <h3>Vorbereitungszeit</h3>
+    <p>Der DIHK-Rahmenplan sieht <strong>120 Unterrichtseinheiten</strong> (&agrave; 45 Minuten) vor. Das entspricht etwa <strong>90 Zeitstunden</strong>. Je nach Vorwissen kann die tatsächlich benötigte Vorbereitungszeit variieren.</p>
+    <h3>Vorbereitungsmöglichkeiten</h3>
+    <ul>
+      <li><strong>Selbststudium</strong> mit Fachliteratur und Übungsfragen</li>
+      <li><strong>Vorbereitungsseminare</strong> verschiedener Bildungsträger (2&ndash;10 Tage)</li>
+      <li><strong>Online-Lernplattformen</strong> und Apps mit Prüfungsfragen</li>
+      <li><strong>DIHK Live-Online-Training</strong> als gezielte Prüfungsvorbereitung</li>
+    </ul>
+    <h3>Prüfungsstrategie</h3>
+    <ul>
+      <li><strong>Erster Durchlauf:</strong> Beantworte zunächst alle Fragen, die du sicher weißt</li>
+      <li><strong>Zweiter Durchlauf:</strong> Widme dich den schwierigeren Fragen in Ruhe</li>
+      <li><strong>Schwerpunkt WEG:</strong> Da jeder Themenbereich einzeln bestanden werden muss, achte darauf, keinen Bereich zu vernachlässigen</li>
+      <li><strong>Zeitmanagement:</strong> Übe vorab mit einem Timer, um ein Gefühl für die 108 Sekunden pro Frage zu bekommen</li>
+    </ul>
+  </div>
+
+  <!-- App Promo -->
+  <div class="app-promo">
+    <div class="app-icon">📱</div>
+    <div class="app-info">
+      <div class="app-label">Prüfungsvorbereitung</div>
+      <h3>WEG Verwalter Prüfungstrainer</h3>
+      <p>700+ Übungsfragen &middot; Prüfungssimulation mit Timer &middot; 8 Themengebiete &middot; Ausführliche Erklärungen &middot; Offline nutzbar</p>
+      <div>
+        <a class="app-btn" href="https://apps.apple.com/app/id6759011975" target="_blank" rel="noopener">🍎 Im App Store laden</a>
+        <span class="app-android">🤖 Android: Bald verfügbar</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-card" id="gmbh">
+    <h2>9. Zertifizierung für GmbH und Personengesellschaften</h2>
+    <p>Nach &sect; 8 ZertVerwV dürfen sich juristische Personen (z.B. GmbH) und Personengesellschaften (z.B. OHG) als Zertifizierte Verwalter bezeichnen, wenn <strong>alle Beschäftigten</strong>, die unmittelbar mit Aufgaben der Wohnungseigentumsverwaltung betraut sind, die Prüfung bestanden haben oder nach &sect; 7 ZertVerwV gleichgestellt sind.</p>
+    <p>Das betrifft Personen, die Eigentümerversammlungen leiten oder außerhalb einer Versammlung als Verwalter Entscheidungen treffen. Nicht betroffen sind beispielsweise Hausmeister oder Führungskräfte, die ausschließlich Leitungsaufgaben wahrnehmen.</p>
+  </div>
+
+  <div class="section-card" id="weiterbildung">
+    <h2>10. Weiterbildungspflicht nach der Prüfung</h2>
+    <p>Die Zertifizierung ersetzt <strong>nicht</strong> die gesetzliche Weiterbildungspflicht. Auch zertifizierte Verwalter müssen sich gemäß &sect; 34c Abs. 2a GewO im Umfang von <strong>20 Stunden binnen drei Kalenderjahren</strong> weiterbilden.</p>
+  </div>
+
+  <div class="section-card" id="termine">
+    <h2>11. Prüfungstermine finden</h2>
+    <p>Auf unserer <a href="/"><strong>Startseite</strong></a> findest du eine aktuelle Übersicht aller IHK-Prüfungstermine in Deutschland. Du kannst nach deiner Stadt oder PLZ suchen und bekommst die nächsten Termine in deiner Nähe angezeigt &ndash; inklusive Gebühren und Anmeldefristen.</p>
+  </div>
+
+  <div class="cta-center">
+    <a class="cta-btn-main" href="/">&rarr; Alle Prüfungstermine ansehen</a>
+  </div>
+
+  <div class="info-box" style="margin-bottom:0;">
+    <strong>Hinweis:</strong> Diese Seite ist ein unabhängiges Informationsangebot. Es besteht keine Verbindung zur IHK oder anderen offiziellen Prüfungsstellen. Verbindliche Informationen erhältst du ausschließlich bei der jeweiligen IHK.
+  </div>
+
 </div>
 
-<h3>Bereich 3: Kaufmännische Grundlagen</h3>
-<ul>
-  <li>Buchhaltung und Rechnungswesen in der WEG-Verwaltung</li>
-  <li>Hausgeldabrechnung und Wirtschaftsplan</li>
-  <li>Instandhaltungsrücklage</li>
-  <li>Grundzüge der Kosten- und Leistungsrechnung</li>
-</ul>
-
-<h3>Bereich 4: Technische Grundlagen</h3>
-<ul>
-  <li>Baukonstruktion und Baustoffe</li>
-  <li>Haustechnik (Heizung, Sanitär, Elektro)</li>
-  <li>Energetische Gebäudesanierung</li>
-  <li>Instandhaltung und Instandsetzung</li>
-  <li>Verkehrssicherungspflichten</li>
-</ul>
-
-<h2 id="gebuehren">6. Prüfungsgebühren</h2>
-<p>Die Prüfungsgebühren werden von jeder IHK individuell festgelegt:</p>
-<table>
-  <tr><th>Prüfungsart</th><th>Gebührenspanne</th></tr>
-  <tr><td>Vollprüfung (schriftlich + mündlich)</td><td>ca. 150 &ndash; 500 &euro;</td></tr>
-  <tr><td>Nur mündliche Nachprüfung</td><td>ca. 80 &ndash; 200 &euro;</td></tr>
-</table>
-<p>Die meisten IHKs liegen bei <strong>200&ndash;350 &euro;</strong> für die Vollprüfung. Die genauen Gebühren findest du auf unserer <a href="/">Startseite mit der Terminübersicht</a>.</p>
-
-<h2 id="anmeldung">7. Anmeldung und Fristen</h2>
-<p>Die Anmeldung erfolgt <strong>direkt bei der gewünschten IHK</strong>. Du bist nicht an deine zuständige IHK gebunden &ndash; du kannst die Prüfung bei jeder IHK in Deutschland ablegen, die sie anbietet.</p>
-<p>Der Anmeldeschluss liegt in der Regel <strong>3&ndash;6 Wochen vor dem Prüfungstermin</strong>. Bei einigen IHKs kann online gebucht werden, bei anderen ist eine Anmeldung per Formular oder E-Mail erforderlich.</p>
-
-<div class="tip-box">
-  <strong>Tipp:</strong> Melde dich frühzeitig an! Beliebte Termine sind schnell ausgebucht. Auf unserer <a href="/">Startseite</a> findest du alle aktuellen Prüfungstermine mit Anmeldefristen.
-</div>
-
-<h2 id="tipps">8. Tipps für die Vorbereitung</h2>
-
-<h3>Vorbereitungszeit</h3>
-<p>Der DIHK-Rahmenplan sieht <strong>120 Unterrichtseinheiten</strong> (&agrave; 45 Minuten) vor. Das entspricht etwa <strong>90 Zeitstunden</strong>. Je nach Vorwissen kann die tatsächlich benötigte Vorbereitungszeit variieren.</p>
-
-<h3>Vorbereitungsmöglichkeiten</h3>
-<ul>
-  <li><strong>Selbststudium</strong> mit Fachliteratur und Übungsfragen</li>
-  <li><strong>Vorbereitungsseminare</strong> verschiedener Bildungsträger (2&ndash;10 Tage)</li>
-  <li><strong>Online-Lernplattformen</strong> und Apps mit Prüfungsfragen</li>
-  <li><strong>DIHK Live-Online-Training</strong> als gezielte Prüfungsvorbereitung</li>
-</ul>
-
-<h3>Prüfungsstrategie</h3>
-<ul>
-  <li><strong>Erster Durchlauf:</strong> Beantworte zunächst alle Fragen, die du sicher weißt</li>
-  <li><strong>Zweiter Durchlauf:</strong> Widme dich den schwierigeren Fragen in Ruhe</li>
-  <li><strong>Schwerpunkt WEG:</strong> Da jeder Themenbereich einzeln bestanden werden muss, achte darauf, keinen Bereich zu vernachlässigen</li>
-  <li><strong>Zeitmanagement:</strong> Übe vorab mit einem Timer, um ein Gefühl für die 108 Sekunden pro Frage zu bekommen</li>
-</ul>
-
-<div class="cta-box">
-  <h3>&#128241; WEG Verwalter Prüfungstrainer</h3>
-  <p>Übe mit über 700 Prüfungsfragen aus allen 8 Themengebieten. Mit Prüfungssimulation, Timer und ausführlichen Erklärungen &ndash; perfekt für die Vorbereitung auf die IHK-Sachkundeprüfung.</p>
-  <a class="cta-btn" href="https://apps.apple.com/app/weg-verwalter-pr%C3%BCfungstrainer/id6759011975" target="_blank" rel="noopener">Im App Store ansehen</a>
-</div>
-
-<h2 id="gmbh">9. Zertifizierung für GmbH und Personengesellschaften</h2>
-<p>Nach &sect; 8 ZertVerwV dürfen sich juristische Personen (z.B. GmbH) und Personengesellschaften (z.B. OHG) als Zertifizierte Verwalter bezeichnen, wenn <strong>alle Beschäftigten</strong>, die unmittelbar mit Aufgaben der Wohnungseigentumsverwaltung betraut sind, die Prüfung bestanden haben oder nach &sect; 7 ZertVerwV gleichgestellt sind.</p>
-<p>Das betrifft Personen, die Eigentümerversammlungen leiten oder außerhalb einer Versammlung als Verwalter Entscheidungen treffen. Nicht betroffen sind beispielsweise Hausmeister oder Führungskräfte, die ausschließlich Leitungsaufgaben wahrnehmen.</p>
-
-<h2 id="weiterbildung">10. Weiterbildungspflicht nach der Prüfung</h2>
-<p>Die Zertifizierung ersetzt <strong>nicht</strong> die gesetzliche Weiterbildungspflicht. Auch zertifizierte Verwalter müssen sich gemäß &sect; 34c Abs. 2a GewO im Umfang von <strong>20 Stunden binnen drei Kalenderjahren</strong> weiterbilden.</p>
-
-<h2 id="termine">11. Prüfungstermine finden</h2>
-<p>Auf unserer <a href="/"><strong>Startseite</strong></a> findest du eine aktuelle Übersicht aller IHK-Prüfungstermine in Deutschland. Du kannst nach deiner Stadt oder PLZ suchen und bekommst die nächsten Termine in deiner Nähe angezeigt &ndash; inklusive Gebühren und Anmeldefristen.</p>
-
-<div style="text-align:center;margin:32px 0;">
-  <a href="/" style="display:inline-block;background:#3b82f6;color:#fff;padding:14px 32px;border-radius:8px;font-weight:700;font-size:16px;text-decoration:none;">&rarr; Alle Prüfungstermine ansehen</a>
-</div>
-
-<div class="info-box">
-  <strong>Hinweis:</strong> Diese Seite ist ein unabhängiges Informationsangebot. Es besteht keine Verbindung zur IHK oder anderen offiziellen Prüfungsstellen. Verbindliche Informationen erhältst du ausschließlich bei der jeweiligen IHK.
-</div>
-
+<!-- Footer -->
 <footer>
-  <a href="/">Startseite</a> &middot;
-  <a href="/impressum.html">Impressum</a> &middot;
-  <a href="/datenschutz.html">Datenschutz</a> &middot;
-  <a href="/nutzungsbedingungen.html">Nutzungsbedingungen</a> &middot;
-  <a href="/support.html">Support</a><br>
-  &copy; 2026 Jan Macho &middot; Krähenweg Ventures
+  <div class="footer-grid">
+    <div class="footer-col">
+      <div class="footer-col-title">verwalter-zertifizierung.de</div>
+      <p>Alle IHK-Prüfungstermine für die Zertifizierung zum WEG-Verwalter nach &sect; 26a WEG. Keine offizielle IHK-Seite.</p>
+    </div>
+    <div class="footer-col">
+      <div class="footer-col-title">Rechtliches</div>
+      <a href="/pruefung.html">Prüfungsratgeber</a>
+      <a href="/impressum.html">Impressum</a>
+      <a href="/datenschutz.html">Datenschutz</a>
+      <a href="/nutzungsbedingungen.html">Nutzungsbedingungen</a>
+      <a href="/support.html">Support</a>
+    </div>
+    <div class="footer-col">
+      <div class="footer-col-title">App</div>
+      <a href="https://apps.apple.com/app/id6759011975">iOS: Im App Store</a>
+      <span style="font-size:13px;color:#94a3b8;">Android: Bald verfügbar</span>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>&copy; 2026 Krähenweg Ventures &middot; Heidelberg &middot; <a href="/nutzungsbedingungen.html">Datenbankschutz gem. &sect;&sect; 87a ff. UrhG</a></span>
+    <span>Alle Angaben ohne Gewähr.</span>
+  </div>
 </footer>
 
 </body>
