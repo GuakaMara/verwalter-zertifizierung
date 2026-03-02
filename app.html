@@ -23,8 +23,6 @@
     a{color:#2563eb;text-decoration:none;}
     a:hover{text-decoration:underline;}
     body{font-family:'Source Sans 3','Segoe UI',sans-serif;background:#f8f8f6;color:#1e293b;line-height:1.7;font-size:16px;}
-
-    /* Nav – identical to homepage */
     nav{position:sticky;top:0;z-index:100;background:rgba(255,255,255,0.95);backdrop-filter:blur(12px);border-bottom:1px solid #e5e7eb;box-shadow:0 1px 8px rgba(0,0,0,0.06);}
     .nav-inner{max-width:920px;margin:0 auto;padding:0 24px;display:flex;align-items:center;height:52px;gap:24px;}
     .nav-logo{font-family:'Playfair Display',serif;font-weight:700;font-size:16px;color:#0f2b4c;white-space:nowrap;cursor:pointer;text-decoration:none;}
@@ -36,8 +34,6 @@
     .nav-label-short{display:none;}
     @media(max-width:640px){.nav-logo{display:none !important;}}
     @media(max-width:400px){.nav-label-full{display:none;}.nav-label-short{display:inline;}.nav-btn{padding:4px 10px;font-size:13px;}}
-
-    /* Hero */
     .hero{background:linear-gradient(135deg,#0c1f38 0%,#142e52 40%,#1a3f6b 100%);position:relative;overflow:hidden;}
     .hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 20% 80%,rgba(59,130,246,0.12) 0%,transparent 50%);}
     .hero-inner{position:relative;z-index:1;max-width:920px;margin:0 auto;padding:52px 24px 48px;display:flex;align-items:center;gap:28px;flex-wrap:wrap;}
@@ -48,8 +44,8 @@
     .hero h1 span{color:#fbbf24;}
     .hero .subtitle{color:#94a3b8;font-size:17px;line-height:1.65;max-width:560px;margin-bottom:8px;}
     .hero .note{color:#64748b;font-size:13px;}
-
-    /* Stats */
+    .hero .hero-cta{display:inline-flex;align-items:center;gap:8px;padding:12px 24px;background:#3b82f6;color:#fff;border-radius:10px;font-size:15px;font-weight:700;text-decoration:none;transition:background 0.15s;margin-top:16px;}
+    .hero .hero-cta:hover{background:#2563eb;text-decoration:none;}
     .stats{max-width:920px;margin:-28px auto 0;padding:0 24px;position:relative;z-index:2;}
     .stats-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;}
     .stat-card{background:#fff;border:1px solid #e5e7eb;border-radius:14px;padding:24px;text-align:center;transition:border-color 0.2s,box-shadow 0.2s;}
@@ -57,34 +53,34 @@
     .stat-num{font-family:'Playfair Display',serif;font-size:36px;font-weight:700;color:#0f172a;line-height:1.1;}
     .stat-label{font-size:14px;color:#64748b;margin-top:4px;}
     @media(max-width:500px){.stats-grid{grid-template-columns:1fr;}.stat-card{padding:16px;}}
-
-    /* Content */
     .content{max-width:920px;margin:0 auto;padding:32px 24px;}
-
-    /* Section Cards */
+    .showcase{max-width:920px;margin:0 auto;padding:0 24px;}
+    .showcase-section{display:flex;align-items:center;gap:40px;padding:48px 0;border-bottom:1px solid #e5e7eb;}
+    .showcase-section:last-child{border-bottom:none;}
+    .showcase-section.reverse{flex-direction:row-reverse;}
+    .showcase-text{flex:1;min-width:260px;}
+    .showcase-text h2{font-family:'Playfair Display',serif;font-size:clamp(22px,3.5vw,32px);color:#0f172a;font-weight:700;line-height:1.15;margin-bottom:10px;}
+    .showcase-text h2 span{color:#3b82f6;}
+    .showcase-text .showcase-sub{font-size:17px;color:#64748b;line-height:1.6;margin-bottom:16px;}
+    .showcase-text p{font-size:15px;color:#475569;line-height:1.65;}
+    .showcase-phone{flex:0 0 280px;position:relative;}
+    .showcase-phone img{width:100%;border-radius:24px;box-shadow:0 8px 40px rgba(0,0,0,0.12);display:block;}
+    @media(max-width:700px){
+      .showcase-section,.showcase-section.reverse{flex-direction:column;gap:24px;padding:32px 0;}
+      .showcase-phone{flex:0 0 auto;max-width:260px;margin:0 auto;}
+    }
     .section-card{background:#fff;border:1px solid #e5e7eb;border-radius:14px;padding:28px;margin-bottom:20px;transition:border-color 0.2s,box-shadow 0.2s;}
     .section-card:hover{border-color:#93c5fd;box-shadow:0 2px 12px rgba(59,130,246,0.08);}
     .section-card h2{font-family:'Playfair Display',serif;font-size:22px;color:#0f172a;margin-bottom:14px;}
     .section-card h3{font-size:16px;color:#1e293b;margin:20px 0 10px;font-weight:700;}
     .section-card p{margin-bottom:12px;}
-    .section-card ul{margin-bottom:14px;padding-left:22px;}
-    .section-card li{margin-bottom:6px;}
-
-    /* Feature Grid */
-    .feature-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:16px;}
-    .feature-item{display:flex;gap:12px;align-items:flex-start;}
-    .feature-icon{font-size:24px;flex-shrink:0;width:40px;height:40px;display:flex;align-items:center;justify-content:center;background:#f0f9ff;border-radius:10px;}
-    .feature-text h4{font-size:15px;font-weight:700;color:#0f172a;margin-bottom:2px;}
-    .feature-text p{font-size:14px;color:#64748b;margin:0;line-height:1.5;}
-    @media(max-width:600px){.feature-grid{grid-template-columns:1fr;}}
-
-    /* Topics Grid */
     .topics-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:14px;}
-    .topic-item{background:#f8fafc;border:1px solid #e5e7eb;border-radius:10px;padding:14px 16px;font-size:14px;font-weight:600;color:#1e293b;display:flex;align-items:center;gap:8px;}
-    .topic-num{background:#3b82f6;color:#fff;width:24px;height:24px;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;flex-shrink:0;}
+    .topic-item{background:#f8fafc;border:1px solid #e5e7eb;border-radius:10px;padding:14px 16px;font-size:14px;font-weight:600;color:#1e293b;display:flex;align-items:center;gap:10px;}
+    .topic-icon{font-size:20px;flex-shrink:0;}
+    .topic-info{display:flex;flex-direction:column;}
+    .topic-name{font-weight:700;font-size:15px;}
+    .topic-count{font-weight:400;font-size:13px;color:#64748b;}
     @media(max-width:500px){.topics-grid{grid-template-columns:1fr;}}
-
-    /* App Promo – identical to homepage */
     .app-promo{background:linear-gradient(135deg,#0c1f38,#1a3f6b);padding:48px 24px;margin:32px 0 0;}
     .app-promo-inner{max-width:700px;margin:0 auto;display:flex;gap:24px;align-items:center;flex-wrap:wrap;}
     .app-promo-icon{width:72px;height:72px;border-radius:18px;flex-shrink:0;overflow:hidden;}
@@ -97,16 +93,10 @@
     .app-btn{display:inline-flex;align-items:center;gap:8px;padding:10px 20px;background:#fff;color:#0f172a;border-radius:10px;font-size:14px;font-weight:700;text-decoration:none;transition:background 0.15s;}
     .app-btn:hover{background:#f1f5f9;text-decoration:none;}
     .app-android{font-size:13px;color:#64748b;}
-
-    /* CTA */
     .cta-center{text-align:center;margin:32px 0;}
     .cta-btn-main{display:inline-flex;align-items:center;gap:6px;padding:14px 32px;background:#3b82f6;color:#fff;border-radius:10px;font-weight:700;font-size:16px;text-decoration:none;transition:background 0.15s;}
     .cta-btn-main:hover{background:#2563eb;text-decoration:none;}
-
-    /* Info Box */
     .info-box{background:#fffbeb;border:1px solid #fde68a;border-radius:10px;padding:16px 20px;margin:18px 0;font-size:14px;color:#92400e;line-height:1.6;}
-
-    /* Footer */
     footer{max-width:920px;margin:0 auto;padding:32px 24px;}
     .footer-grid{display:flex;justify-content:space-between;gap:40px;flex-wrap:wrap;margin-bottom:24px;}
     .footer-col-title{font-weight:700;font-size:14px;color:#1e293b;margin-bottom:8px;}
@@ -115,25 +105,10 @@
     .footer-col a:hover{text-decoration:underline;}
     .footer-bottom{border-top:1px solid #e5e7eb;padding-top:16px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;font-size:12px;color:#94a3b8;}
     .footer-bottom a{color:#94a3b8;text-decoration:none;}
-
-    /* Screenshot Gallery */
-    .screenshots{width:100%;overflow:hidden;display:flex;flex-wrap:nowrap;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;gap:0;}
-    .screenshots img{width:100%;flex-shrink:0;scroll-snap-align:start;display:block;height:auto;}
-    @media(min-width:601px){
-      .screenshots{flex-wrap:wrap;overflow-x:visible;}
-      .screenshots img{width:100%;}
-    }
-
-    @media(max-width:600px){
-      .hero-inner{padding:40px 24px 36px;}
-      .hero-icon{width:68px;height:68px;border-radius:17px;}
-      .section-card{padding:20px;}
-    }
+    @media(max-width:600px){.hero-inner{padding:40px 24px 36px;}.hero-icon{width:68px;height:68px;border-radius:17px;}.section-card{padding:20px;}}
   </style>
 </head>
 <body>
-
-<!-- Nav -->
 <nav>
   <div class="nav-inner">
     <a href="/" class="nav-logo">verwalter-zertifizierung.de</a>
@@ -145,8 +120,6 @@
     </div>
   </div>
 </nav>
-
-<!-- Hero -->
 <header class="hero">
   <div class="hero-inner">
     <div class="hero-icon"><img src="/assets/icon.png" alt="WEG Verwalter Prüfungstrainer App"></div>
@@ -154,107 +127,74 @@
       <h1>WEG Verwalter<br><span>Prüfungstrainer</span></h1>
       <p class="subtitle">Deine Vorbereitung auf die IHK-Sachkundeprüfung zum Zertifizierten Verwalter nach &sect; 26a WEG.</p>
       <p class="note">Inoffizielle Lernapp &middot; Keine Verbindung zur IHK &middot; Keine Originalfragen</p>
+      <a class="hero-cta" href="https://apps.apple.com/app/id6759011975" target="_blank" rel="noopener">&#127822; Jetzt im App Store laden</a>
     </div>
   </div>
 </header>
-
-<!-- Stats -->
 <div class="stats">
   <div class="stats-grid">
-    <div class="stat-card">
-      <div class="stat-num">700+</div>
-      <div class="stat-label">Fragen</div>
-    </div>
-    <div class="stat-card">
-      <div class="stat-num">8</div>
-      <div class="stat-label">Themengebiete</div>
-    </div>
-    <div class="stat-card">
-      <div class="stat-num">100%</div>
-      <div class="stat-label">Offline nutzbar</div>
-    </div>
+    <div class="stat-card"><div class="stat-num">700+</div><div class="stat-label">Fragen</div></div>
+    <div class="stat-card"><div class="stat-num">8</div><div class="stat-label">Themengebiete</div></div>
+    <div class="stat-card"><div class="stat-num">100%</div><div class="stat-label">Offline nutzbar</div></div>
   </div>
 </div>
-
-<!-- Screenshots -->
-<div class="screenshots">
-  <img src="/assets/screenshot_1.png" alt="WEG Verwalter Prüfungstrainer – Startbildschirm mit 700 Prüfungsfragen" loading="lazy">
-  <img src="/assets/screenshot_2.png" alt="Alle 8 Themengebiete – Von WEG-Recht bis Energie & Umwelt" loading="lazy">
-  <img src="/assets/screenshot_3.png" alt="Prüfungssimulation – 30 Fragen mit Zeitlimit" loading="lazy">
-  <img src="/assets/screenshot_4.png" alt="Sofort lernen – Ausführliche Erklärung nach jeder Frage" loading="lazy">
-  <img src="/assets/screenshot_5.png" alt="Aus Fehlern lernen – Detaillierte Erklärungen bei falschen Antworten" loading="lazy">
+<div class="showcase">
+  <div class="showcase-section">
+    <div class="showcase-text">
+      <h2>700 <span>Prüfungsfragen</span></h2>
+      <p class="showcase-sub">8 Themengebiete &middot; Komplett offline</p>
+      <p>Über 700 sorgfältig erstellte Übungsfragen decken alle prüfungsrelevanten Themen der Sachkundeprüfung ab. Wähle gezielt ein Themengebiet oder starte eine realistische Prüfungssimulation &ndash; alles direkt auf deinem Smartphone.</p>
+    </div>
+    <div class="showcase-phone"><img src="/assets/screenshot_1.png" alt="WEG Verwalter Prüfungstrainer – Startbildschirm mit 700 Prüfungsfragen" loading="lazy"></div>
+  </div>
+  <div class="showcase-section reverse">
+    <div class="showcase-text">
+      <h2>Alle Themen <span>abgedeckt</span></h2>
+      <p class="showcase-sub">Von WEG-Recht bis Energie &amp; Umwelt</p>
+      <p>Die Fragen orientieren sich an den Prüfungsthemen der ZertVerwV und decken alle 8 Themengebiete ab &ndash; von den Grundlagen des WEG-Rechts über kaufmännische Verwaltung bis hin zu Technik, Versicherungen und Energierecht.</p>
+    </div>
+    <div class="showcase-phone"><img src="/assets/screenshot_2.png" alt="Alle 8 Themengebiete – Von WEG-Recht bis Energie und Umwelt" loading="lazy"></div>
+  </div>
+  <div class="showcase-section">
+    <div class="showcase-text">
+      <h2><span>Prüfungssimulation</span></h2>
+      <p class="showcase-sub">30 Fragen mit Zeitlimit &middot; Wie in der echten Prüfung</p>
+      <p>Teste dein Wissen unter realen Bedingungen: 30 zufällig ausgewählte Fragen aus allen Themengebieten mit laufendem Timer. So weißt du genau, wo du stehst &ndash; und ob du prüfungsbereit bist.</p>
+    </div>
+    <div class="showcase-phone"><img src="/assets/screenshot_3.png" alt="Prüfungssimulation – 30 Fragen mit Zeitlimit wie in der echten IHK-Prüfung" loading="lazy"></div>
+  </div>
+  <div class="showcase-section reverse">
+    <div class="showcase-text">
+      <h2>Sofort <span>lernen</span></h2>
+      <p class="showcase-sub">Ausführliche Erklärung nach jeder Frage</p>
+      <p>Im Lernmodus erhältst du nach jeder Antwort sofort eine ausführliche Erklärung &ndash; egal ob richtig oder falsch. So vertiefst du dein Wissen und verstehst die Zusammenhänge hinter jeder Frage.</p>
+    </div>
+    <div class="showcase-phone"><img src="/assets/screenshot_4.png" alt="Sofort lernen – Ausführliche Erklärung nach jeder richtig beantworteten Frage" loading="lazy"></div>
+  </div>
+  <div class="showcase-section">
+    <div class="showcase-text">
+      <h2>Aus Fehlern <span>lernen</span></h2>
+      <p class="showcase-sub">Detaillierte Erklärungen bei falschen Antworten</p>
+      <p>Fehler sind die besten Lehrmeister. Bei jeder falschen Antwort erklärt die App genau, warum deine Wahl nicht richtig war und was die korrekte Antwort ist &ndash; mit verständlichen Erklärungen und Hintergrundwissen.</p>
+    </div>
+    <div class="showcase-phone"><img src="/assets/screenshot_5.png" alt="Aus Fehlern lernen – Detaillierte Erklärungen bei falschen Antworten" loading="lazy"></div>
+  </div>
 </div>
-
-<!-- Content -->
 <div class="content">
-
-  <!-- Features -->
-  <div class="section-card">
-    <h2>Alles was du für die Prüfung brauchst</h2>
-    <p>Der WEG Verwalter Prüfungstrainer bereitet dich gezielt auf die IHK-Sachkundeprüfung vor &ndash; mit über 700 Übungsfragen aus allen prüfungsrelevanten Themenbereichen.</p>
-    <div class="feature-grid">
-      <div class="feature-item">
-        <div class="feature-icon">📝</div>
-        <div class="feature-text">
-          <h4>Prüfungssimulation</h4>
-          <p>Realistische Simulation mit 50 Fragen und 90-Minuten-Timer &ndash; genau wie in der echten Prüfung.</p>
-        </div>
-      </div>
-      <div class="feature-item">
-        <div class="feature-icon">📊</div>
-        <div class="feature-text">
-          <h4>Fortschrittsanalyse</h4>
-          <p>Behalte den Überblick über deinen Lernfortschritt in jedem Themengebiet.</p>
-        </div>
-      </div>
-      <div class="feature-item">
-        <div class="feature-icon">💡</div>
-        <div class="feature-text">
-          <h4>Ausführliche Erklärungen</h4>
-          <p>Zu jeder Frage gibt es eine detaillierte Erklärung mit Gesetzesverweisen.</p>
-        </div>
-      </div>
-      <div class="feature-item">
-        <div class="feature-icon">📱</div>
-        <div class="feature-text">
-          <h4>Offline nutzbar</h4>
-          <p>Lerne überall &ndash; auch ohne Internetverbindung, z.B. unterwegs in der Bahn.</p>
-        </div>
-      </div>
-      <div class="feature-item">
-        <div class="feature-icon">🔄</div>
-        <div class="feature-text">
-          <h4>Lernmodus</h4>
-          <p>Übe in deinem eigenen Tempo mit sofortigem Feedback nach jeder Antwort.</p>
-        </div>
-      </div>
-      <div class="feature-item">
-        <div class="feature-icon">⭐</div>
-        <div class="feature-text">
-          <h4>Favoriten merken</h4>
-          <p>Markiere schwierige Fragen und wiederhole sie gezielt.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Themengebiete -->
   <div class="section-card">
     <h2>8 Themengebiete &ndash; alle prüfungsrelevant</h2>
     <p>Die Fragen decken alle Themen der Sachkundeprüfung gemäß <strong>ZertVerwV</strong> ab:</p>
     <div class="topics-grid">
-      <div class="topic-item"><span class="topic-num">1</span> Grundlagen WEG</div>
-      <div class="topic-item"><span class="topic-num">2</span> Wohnungseigentumsrecht</div>
-      <div class="topic-item"><span class="topic-num">3</span> BGB &amp; Vertragsrecht</div>
-      <div class="topic-item"><span class="topic-num">4</span> Mietrecht</div>
-      <div class="topic-item"><span class="topic-num">5</span> Grundbuchrecht</div>
-      <div class="topic-item"><span class="topic-num">6</span> Kaufmännische Grundlagen</div>
-      <div class="topic-item"><span class="topic-num">7</span> Technische Grundlagen</div>
-      <div class="topic-item"><span class="topic-num">8</span> Versicherungen &amp; Energie</div>
+      <div class="topic-item"><span class="topic-icon">&#9878;&#65039;</span><div class="topic-info"><span class="topic-name">Grundlagen WEG-Recht</span><span class="topic-count">100 Fragen</span></div></div>
+      <div class="topic-item"><span class="topic-icon">&#127963;&#65039;</span><div class="topic-info"><span class="topic-name">Versammlung &amp; Beschlüsse</span><span class="topic-count">93 Fragen</span></div></div>
+      <div class="topic-item"><span class="topic-icon">&#128100;</span><div class="topic-info"><span class="topic-name">Verwalter &amp; Beirat</span><span class="topic-count">89 Fragen</span></div></div>
+      <div class="topic-item"><span class="topic-icon">&#128202;</span><div class="topic-info"><span class="topic-name">Kaufmännische Verwaltung</span><span class="topic-count">84 Fragen</span></div></div>
+      <div class="topic-item"><span class="topic-icon">&#128220;</span><div class="topic-info"><span class="topic-name">Allgemeines Recht</span><span class="topic-count">88 Fragen</span></div></div>
+      <div class="topic-item"><span class="topic-icon">&#128737;&#65039;</span><div class="topic-info"><span class="topic-name">Versicherungen</span><span class="topic-count">53 Fragen</span></div></div>
+      <div class="topic-item"><span class="topic-icon">&#128295;</span><div class="topic-info"><span class="topic-name">Technik &amp; Instandhaltung</span><span class="topic-count">84 Fragen</span></div></div>
+      <div class="topic-item"><span class="topic-icon">&#127807;</span><div class="topic-info"><span class="topic-name">Energie &amp; Umwelt</span><span class="topic-count">109 Fragen</span></div></div>
     </div>
   </div>
-
-  <!-- So funktioniert's -->
   <div class="section-card">
     <h2>So funktioniert die App</h2>
     <h3>1. Thema wählen</h3>
@@ -264,8 +204,6 @@
     <h3>3. Auswertung &amp; Lernen</h3>
     <p>Nach jeder Frage oder am Ende der Simulation erhältst du eine detaillierte Auswertung. Falsch beantwortete Fragen werden erklärt, damit du daraus lernst.</p>
   </div>
-
-  <!-- Häufige Fragen -->
   <div class="section-card">
     <h2>Häufige Fragen zur App</h2>
     <h3>Sind das die echten IHK-Fragen?</h3>
@@ -277,18 +215,13 @@
     <h3>Gibt es die App auch für Android?</h3>
     <p>Die Android-Version ist aktuell in Entwicklung und wird bald verfügbar sein.</p>
   </div>
-
   <div class="cta-center">
-    <a class="cta-btn-main" href="https://apps.apple.com/app/id6759011975" target="_blank" rel="noopener">🍎 Jetzt im App Store laden</a>
+    <a class="cta-btn-main" href="https://apps.apple.com/app/id6759011975" target="_blank" rel="noopener">&#127822; Jetzt im App Store laden</a>
   </div>
-
   <div class="info-box" style="margin-bottom:0;">
     <strong>Hinweis:</strong> Dies ist eine inoffizielle Lernapp. Es besteht keine Verbindung zur IHK oder anderen offiziellen Prüfungsstellen. Die enthaltenen Fragen sind keine Originalprüfungsfragen.
   </div>
-
 </div>
-
-<!-- App Promo -->
 <section class="app-promo">
   <div class="app-promo-inner">
     <div class="app-promo-icon"><img src="/assets/icon.png" alt="WEG Verwalter Prüfungstrainer App"></div>
@@ -297,14 +230,12 @@
       <h3>WEG Verwalter Prüfungstrainer</h3>
       <p>700+ Übungsfragen &middot; Prüfungssimulation mit Timer &middot; 8 Themengebiete &middot; Ausführliche Erklärungen &middot; Offline nutzbar</p>
       <div class="app-btns">
-        <a class="app-btn" href="https://apps.apple.com/app/id6759011975" target="_blank" rel="noopener">🍎 Im App Store laden</a>
-        <span class="app-android">🤖 Android: Bald verfügbar</span>
+        <a class="app-btn" href="https://apps.apple.com/app/id6759011975" target="_blank" rel="noopener">&#127822; Im App Store laden</a>
+        <span class="app-android">&#129302; Android: Bald verfügbar</span>
       </div>
     </div>
   </div>
 </section>
-
-<!-- Footer -->
 <footer>
   <div class="footer-grid">
     <div class="footer-col">
@@ -330,6 +261,5 @@
     <span>Alle Angaben ohne Gewähr.</span>
   </div>
 </footer>
-
 </body>
 </html>
