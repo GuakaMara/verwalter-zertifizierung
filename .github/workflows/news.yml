@@ -1,0 +1,53 @@
+name: News-Updater
+
+on:
+  schedule:
+    # Täglich um 06:00 UTC (07:00/08:00 MEZ/MESZ)
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+    # Manuell auslösbar über GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Dependencies
+        run: pip install requests
+
+      - name: News-Updater ausführen
+        run: python3 scripts/update_news.py
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+      - name: Änderungen committen und deployen
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          git add assets/ data/news_seen.json
+          
+          if git diff --cached --quiet; then
+            echo "ℹ️  Keine neuen Artikel — nichts zu committen"
+          else
+            DATUM=$(date +%d.%m.%Y)
+            NEUE=$(git diff --cached --stat assets/ | grep -c "changed" || echo "0")
+            
+            git commit -m "📰 News-Update $DATUM"
+            git push
+            echo "✅ Neue Artikel veröffentlicht"
+          fi
