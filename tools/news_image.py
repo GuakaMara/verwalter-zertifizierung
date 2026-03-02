@@ -3,7 +3,7 @@
 news_image.py – Automatische Bildsuche für News-Artikel
 """
 
-import os, re, sys, json, base64, argparse
+import os, re, sys, json, base64, hashlib, argparse
 from io import BytesIO
 from pathlib import Path
 
@@ -12,6 +12,7 @@ from PIL import Image
 
 BUNDLE_PATH = Path(__file__).parent.parent / "assets" / "index-EXWOLlBA.js"
 IMAGE_DIR = Path(__file__).parent.parent / "assets" / "news"
+DONE_FILE = Path(__file__).parent.parent / "data" / "news_images_done.json"
 IMAGE_WIDTH = 920
 IMAGE_HEIGHT = 400
 IMAGE_QUALITY = 82
@@ -72,15 +73,39 @@ def parse_articles(bundle_text):
         })
     return articles
 
-def needs_new_image(article, force=False):
+def needs_new_image(article, done_tracker, force=False):
     if force:
         return True
+    # Already processed before -> skip (saves API calls + money)
+    title_hash = hashlib.md5(article["title"].encode()).hexdigest()[:12]
+    if title_hash in done_tracker:
+        return False
     img = article["image"]
     if img.startswith("./assets/news/") or img.startswith("/assets/news/"):
         local_path = BUNDLE_PATH.parent.parent / img.lstrip("./")
         if local_path.exists():
             return False
     return True
+
+def load_done():
+    if DONE_FILE.exists():
+        try:
+            return json.loads(DONE_FILE.read_text())
+        except Exception:
+            return {}
+    return {}
+
+def save_done(done):
+    DONE_FILE.parent.mkdir(parents=True, exist_ok=True)
+    DONE_FILE.write_text(json.dumps(done, indent=2, ensure_ascii=False))
+
+def mark_done(done, article, image_path=None):
+    title_hash = hashlib.md5(article["title"].encode()).hexdigest()[:12]
+    done[title_hash] = {
+        "title": article["title"][:80],
+        "date": article["date"],
+        "image": image_path or article["image"],
+    }
 
 def claude_api(api_key, messages, system=None, max_tokens=500):
     payload = {"model": CLAUDE_MODEL, "max_tokens": max_tokens, "messages": messages}
@@ -193,12 +218,12 @@ def update_bundle_image(bundle_path, title_raw, old_image_url, new_image_path):
     print(f"   ⚠️ Konnte Bild-Referenz im Bundle nicht updaten")
     return False
 
-def process_article(article, index, anthropic_key, pexels_key, force=False):
+def process_article(article, index, anthropic_key, pexels_key, done_tracker, force=False):
     title = article["title"]
     print(f"\n{'='*60}")
     print(f"📰 [{index}] {title}")
     print(f"   Tag: {article['tag']} | Datum: {article['date']}")
-    if not needs_new_image(article, force):
+    if not needs_new_image(article, done_tracker, force):
         print(f"   ✅ Hat bereits lokales Bild – übersprungen")
         return False
     print(f"   🔍 Generiere Suchbegriffe...")
@@ -248,6 +273,7 @@ def process_article(article, index, anthropic_key, pexels_key, force=False):
     update_bundle_image(BUNDLE_PATH, article["title_raw"], old_url, output_path)
     print(f"   ✅ Bundle aktualisiert")
     print(f"   📎 Fotograf: {best['photographer']} (Pexels)")
+    mark_done(done_tracker, article, f"./assets/news/{filename}")
     return True
 
 def main():
@@ -263,6 +289,8 @@ def main():
     bundle_text = BUNDLE_PATH.read_text(encoding="utf-8")
     articles = parse_articles(bundle_text)
     print(f"   Artikel gefunden: {len(articles)}")
+    done_tracker = load_done()
+    print(f"   Bereits verarbeitet: {len(done_tracker)}")
     if args.dry_run:
         for i, a in enumerate(articles):
             print(f"\n[{i}] {a['title']}")
@@ -277,16 +305,17 @@ def main():
             print(f"❌ Index {i} existiert nicht (max: {len(articles)-1})")
             continue
         try:
-            if process_article(articles[i], i, anthropic_key, pexels_key, args.force):
+            if process_article(articles[i], i, anthropic_key, pexels_key, done_tracker, args.force):
                 updated += 1
                 bundle_text = BUNDLE_PATH.read_text(encoding="utf-8")
                 articles = parse_articles(bundle_text)
         except Exception as e:
             print(f"   ❌ Fehler: {e}")
+    save_done(done_tracker)
     print(f"\n{'='*60}")
     print(f"✅ Fertig! {updated} Bilder aktualisiert.")
     if updated > 0:
-        print(f"\n  git add assets/news/ assets/index-EXWOLlBA.js tools/")
+        print(f"\n  git add assets/news/ assets/index-EXWOLlBA.js data/news_images_done.json")
         print(f"  git commit -m 'News: Automatische Artikelbilder'")
         print(f"  git push")
 
