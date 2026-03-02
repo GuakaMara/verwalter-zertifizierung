@@ -58,6 +58,18 @@
     .stat-label{font-size:14px;color:#64748b;margin-top:4px;}
     @media(max-width:500px){.stats-grid{grid-template-columns:1fr;}.stat-card{padding:16px;}}
 
+    /* Screenshots */
+    .screenshots{max-width:920px;margin:36px auto 0;padding:0 24px;}
+    .screenshots h2{font-family:'Playfair Display',serif;font-size:22px;color:#0f172a;text-align:center;margin-bottom:20px;}
+    .screenshots-scroll{display:flex;gap:20px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;padding-bottom:12px;scrollbar-width:thin;scrollbar-color:#cbd5e1 transparent;}
+    .screenshots-scroll::-webkit-scrollbar{height:6px;}
+    .screenshots-scroll::-webkit-scrollbar-thumb{background:#cbd5e1;border-radius:3px;}
+    .screenshot-item{flex:0 0 auto;scroll-snap-align:center;text-align:center;}
+    .screenshot-frame{width:240px;border-radius:24px;overflow:hidden;box-shadow:0 8px 32px rgba(0,0,0,0.15);border:2px solid #e5e7eb;background:#0c1f38;}
+    .screenshot-frame img{width:100%;height:auto;display:block;}
+    .screenshot-caption{font-size:13px;color:#64748b;margin-top:10px;font-weight:600;}
+    @media(max-width:500px){.screenshot-frame{width:200px;border-radius:20px;}.screenshots-scroll{gap:14px;}}
+
     /* Content */
     .content{max-width:920px;margin:0 auto;padding:32px 24px;}
 
@@ -164,6 +176,31 @@
     <div class="stat-card">
       <div class="stat-num">100%</div>
       <div class="stat-label">Offline nutzbar</div>
+    </div>
+  </div>
+</div>
+
+<!-- Screenshots -->
+<div class="screenshots">
+  <h2>Die App im Überblick</h2>
+  <div class="screenshots-scroll">
+    <div class="screenshot-item">
+      <div class="screenshot-frame">
+        <img src="/assets/screenshots/screenshot_1.png" alt="WEG Verwalter Prüfungstrainer – Startbildschirm mit Themengebieten" loading="lazy">
+      </div>
+      <div class="screenshot-caption">Startbildschirm</div>
+    </div>
+    <div class="screenshot-item">
+      <div class="screenshot-frame">
+        <img src="/assets/screenshots/screenshot_3.png" alt="Prüfungssimulation mit Timer und Multiple-Choice-Fragen" loading="lazy">
+      </div>
+      <div class="screenshot-caption">Prüfungssimulation</div>
+    </div>
+    <div class="screenshot-item">
+      <div class="screenshot-frame">
+        <img src="/assets/screenshots/screenshot_4.png" alt="Lernmodus mit ausführlicher Erklärung nach jeder Frage" loading="lazy">
+      </div>
+      <div class="screenshot-caption">Lernmodus mit Erklärungen</div>
     </div>
   </div>
 </div>
