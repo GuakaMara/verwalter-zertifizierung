@@ -86,6 +86,8 @@
     .nav-links a{background:none;border:none;color:#475569;cursor:pointer;border-radius:6px;font-family:inherit;font-weight:500;font-size:14px;padding:8px 14px;text-decoration:none;transition:background 0.15s;}
     .nav-links a:hover{background:#f1f5f9;}
     .nav-links a.active{background:#f1f5f9;}
+    .nav-links .short{display:none;}
+    @media(max-width:700px){.nav-links .full{display:none;}.nav-links .short{display:inline;}}
 
     /* Hero */
     .hero{background:linear-gradient(135deg,#0c1f38 0%,#142e52 40%,#1a3f6b 100%);position:relative;overflow:hidden;}
@@ -131,7 +133,8 @@
 
     /* App Promo */
     .app-promo{background:linear-gradient(135deg,#0c1f38,#1a3f6b);border-radius:14px;padding:40px 32px;margin:32px 0;display:flex;gap:24px;align-items:center;flex-wrap:wrap;}
-    .app-icon{width:72px;height:72px;border-radius:18px;background:linear-gradient(135deg,#3b82f6,#1d4ed8);display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:36px;}
+    .app-icon{width:72px;height:72px;border-radius:18px;flex-shrink:0;overflow:hidden;}
+    .app-icon img{width:100%;height:100%;object-fit:cover;}
     .app-info{flex:1;min-width:240px;}
     .app-label{font-size:12px;color:#60a5fa;font-weight:700;text-transform:uppercase;letter-spacing:1px;margin-bottom:6px;}
     .app-info h3{font-family:'Playfair Display',serif;color:#fff;font-size:22px;font-weight:700;margin-bottom:8px;}
@@ -170,9 +173,10 @@
   <div class="nav-inner">
     <a href="/" class="nav-logo">verwalter-zertifizierung.de</a>
     <div class="nav-links">
-      <a href="/">Termine</a>
-      <a href="/pruefung.html" class="active">Ratgeber</a>
-      <a href="https://apps.apple.com/app/id6759011975" target="_blank" rel="noopener">App</a>
+      <a href="/"><span class="full">Aktuelles</span><span class="short">News</span></a>
+      <a href="/"><span class="full">Prüfungstermine</span><span class="short">Termine</span></a>
+      <a href="/pruefung.html" class="active"><span class="full">Ratgeber</span><span class="short">Ratgeber</span></a>
+      <a href="https://apps.apple.com/app/id6759011975" target="_blank" rel="noopener"><span class="full">Prüfungstrainer</span><span class="short">App</span></a>
     </div>
   </div>
 </nav>
@@ -346,7 +350,7 @@
 
   <!-- App Promo -->
   <div class="app-promo">
-    <div class="app-icon">📱</div>
+    <div class="app-icon"><img src="/assets/icon.png" alt="WEG Verwalter Prüfungstrainer App"></div>
     <div class="app-info">
       <div class="app-label">Prüfungsvorbereitung</div>
       <h3>WEG Verwalter Prüfungstrainer</h3>
