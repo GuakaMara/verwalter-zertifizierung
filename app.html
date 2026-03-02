@@ -58,18 +58,6 @@
     .stat-label{font-size:14px;color:#64748b;margin-top:4px;}
     @media(max-width:500px){.stats-grid{grid-template-columns:1fr;}.stat-card{padding:16px;}}
 
-    /* Screenshots */
-    .screenshots{max-width:920px;margin:36px auto 0;padding:0 24px;}
-    .screenshots h2{font-family:'Playfair Display',serif;font-size:22px;color:#0f172a;text-align:center;margin-bottom:20px;}
-    .screenshots-scroll{display:flex;gap:20px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;padding-bottom:12px;scrollbar-width:thin;scrollbar-color:#cbd5e1 transparent;}
-    .screenshots-scroll::-webkit-scrollbar{height:6px;}
-    .screenshots-scroll::-webkit-scrollbar-thumb{background:#cbd5e1;border-radius:3px;}
-    .screenshot-item{flex:0 0 auto;scroll-snap-align:center;text-align:center;}
-    .screenshot-frame{width:240px;border-radius:24px;overflow:hidden;box-shadow:0 8px 32px rgba(0,0,0,0.15);border:2px solid #e5e7eb;background:#0c1f38;}
-    .screenshot-frame img{width:100%;height:auto;display:block;}
-    .screenshot-caption{font-size:13px;color:#64748b;margin-top:10px;font-weight:600;}
-    @media(max-width:500px){.screenshot-frame{width:200px;border-radius:20px;}.screenshots-scroll{gap:14px;}}
-
     /* Content */
     .content{max-width:920px;margin:0 auto;padding:32px 24px;}
 
@@ -128,9 +116,13 @@
     .footer-bottom{border-top:1px solid #e5e7eb;padding-top:16px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;font-size:12px;color:#94a3b8;}
     .footer-bottom a{color:#94a3b8;text-decoration:none;}
 
-    /* Full-bleed screenshots */
-    .screenshot-section{width:100%;overflow:hidden;}
-    .screenshot-section img{width:100%;height:auto;display:block;}
+    /* Screenshot Gallery */
+    .screenshots{width:100%;overflow:hidden;display:flex;flex-wrap:nowrap;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;gap:0;}
+    .screenshots img{width:100%;flex-shrink:0;scroll-snap-align:start;display:block;height:auto;}
+    @media(min-width:601px){
+      .screenshots{flex-wrap:wrap;overflow-x:visible;}
+      .screenshots img{width:100%;}
+    }
 
     @media(max-width:600px){
       .hero-inner{padding:40px 24px 36px;}
@@ -186,32 +178,11 @@
 
 <!-- Screenshots -->
 <div class="screenshots">
-  <h2>Die App im Überblick</h2>
-  <div class="screenshots-scroll">
-    <div class="screenshot-item">
-      <div class="screenshot-frame">
-        <img src="/assets/screenshots/screenshot_1.png" alt="WEG Verwalter Prüfungstrainer – Startbildschirm mit Themengebieten" loading="lazy">
-      </div>
-      <div class="screenshot-caption">Startbildschirm</div>
-    </div>
-    <div class="screenshot-item">
-      <div class="screenshot-frame">
-        <img src="/assets/screenshots/screenshot_3.png" alt="Prüfungssimulation mit Timer und Multiple-Choice-Fragen" loading="lazy">
-      </div>
-      <div class="screenshot-caption">Prüfungssimulation</div>
-    </div>
-    <div class="screenshot-item">
-      <div class="screenshot-frame">
-        <img src="/assets/screenshots/screenshot_4.png" alt="Lernmodus mit ausführlicher Erklärung nach jeder Frage" loading="lazy">
-      </div>
-      <div class="screenshot-caption">Lernmodus mit Erklärungen</div>
-    </div>
-  </div>
-</div>
-
-<!-- Screenshot: Startseite -->
-<div class="screenshot-section">
-  <img src="/assets/screenshot_1.png" alt="WEG Verwalter Prüfungstrainer – 700 Prüfungsfragen, 8 Themengebiete, komplett offline" loading="lazy">
+  <img src="/assets/screenshot_1.png" alt="WEG Verwalter Prüfungstrainer – Startbildschirm mit 700 Prüfungsfragen" loading="lazy">
+  <img src="/assets/screenshot_2.png" alt="Alle 8 Themengebiete – Von WEG-Recht bis Energie & Umwelt" loading="lazy">
+  <img src="/assets/screenshot_3.png" alt="Prüfungssimulation – 30 Fragen mit Zeitlimit" loading="lazy">
+  <img src="/assets/screenshot_4.png" alt="Sofort lernen – Ausführliche Erklärung nach jeder Frage" loading="lazy">
+  <img src="/assets/screenshot_5.png" alt="Aus Fehlern lernen – Detaillierte Erklärungen bei falschen Antworten" loading="lazy">
 </div>
 
 <!-- Content -->
@@ -266,14 +237,7 @@
       </div>
     </div>
   </div>
-</div>
 
-<!-- Screenshot: Prüfungssimulation -->
-<div class="screenshot-section">
-  <img src="/assets/screenshot_3.png" alt="Prüfungssimulation – 30 Fragen mit Zeitlimit, wie in der echten IHK-Prüfung" loading="lazy">
-</div>
-
-<div class="content">
   <!-- Themengebiete -->
   <div class="section-card">
     <h2>8 Themengebiete &ndash; alle prüfungsrelevant</h2>
@@ -289,14 +253,7 @@
       <div class="topic-item"><span class="topic-num">8</span> Versicherungen &amp; Energie</div>
     </div>
   </div>
-</div>
 
-<!-- Screenshot: Alle Themen -->
-<div class="screenshot-section">
-  <img src="/assets/screenshot_2.png" alt="Alle 8 Themengebiete abgedeckt – Von WEG-Recht bis Energie und Umwelt" loading="lazy">
-</div>
-
-<div class="content">
   <!-- So funktioniert's -->
   <div class="section-card">
     <h2>So funktioniert die App</h2>
@@ -307,19 +264,7 @@
     <h3>3. Auswertung &amp; Lernen</h3>
     <p>Nach jeder Frage oder am Ende der Simulation erhältst du eine detaillierte Auswertung. Falsch beantwortete Fragen werden erklärt, damit du daraus lernst.</p>
   </div>
-</div>
 
-<!-- Screenshot: Sofort lernen -->
-<div class="screenshot-section">
-  <img src="/assets/screenshot_4.png" alt="Sofort lernen – Ausführliche Erklärung nach jeder Frage" loading="lazy">
-</div>
-
-<!-- Screenshot: Aus Fehlern lernen -->
-<div class="screenshot-section">
-  <img src="/assets/screenshot_5.png" alt="Aus Fehlern lernen – Detaillierte Erklärungen bei falschen Antworten" loading="lazy">
-</div>
-
-<div class="content">
   <!-- Häufige Fragen -->
   <div class="section-card">
     <h2>Häufige Fragen zur App</h2>
