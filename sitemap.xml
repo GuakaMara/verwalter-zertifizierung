@@ -6,6 +6,16 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://verwalter-zertifizierung.de/pruefung.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://verwalter-zertifizierung.de/app.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://verwalter-zertifizierung.de/impressum.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
@@ -16,17 +26,12 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://verwalter-zertifizierung.de/support.html</loc>
+    <loc>https://verwalter-zertifizierung.de/nutzungsbedingungen.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://verwalter-zertifizierung.de/pruefung.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://verwalter-zertifizierung.de/nutzungsbedingungen.html</loc>
+    <loc>https://verwalter-zertifizierung.de/support.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
