@@ -8,46 +8,18 @@
   "status": "ok",
   "stage": "parser_c",
   "dates_2026": [
-    "31.03.2026",
-    "11.11.2026",
-    "28.07.2026",
-    "09.06.2026",
-    "28.10.2026",
-    "06.05.2026",
-    "18.08.2026",
-    "02.12.2026",
     "07.10.2026",
+    "11.11.2026",
+    "02.12.2026",
+    "06.05.2026",
+    "09.06.2026",
     "15.04.2026",
+    "28.10.2026",
     "30.06.2026",
-    "10.03.2026"
+    "28.07.2026",
+    "18.08.2026"
   ],
   "exam_events": [
-    {
-      "dates": [
-        "10.03.2026"
-      ],
-      "type": "exam_date",
-      "schriftlich": "10.03.2026",
-      "muendlich": null,
-      "anmeldeschluss": null,
-      "status": "unknown",
-      "source": "browser_lux_portal",
-      "evidence": "",
-      "confidence": 1.0
-    },
-    {
-      "dates": [
-        "31.03.2026"
-      ],
-      "type": "exam_date",
-      "schriftlich": "31.03.2026",
-      "muendlich": null,
-      "anmeldeschluss": null,
-      "status": "unknown",
-      "source": "browser_lux_portal",
-      "evidence": "",
-      "confidence": 1.0
-    },
     {
       "dates": [
         "15.04.2026"
@@ -182,7 +154,7 @@
   "fees": [
     "237,00 €"
   ],
-  "keyword_score": "5/12",
+  "keyword_score": "9/12",
   "strategies_used": [
     "browser+lux_dates"
   ],
@@ -190,7 +162,7 @@
   "from_cache": false,
   "validation_errors": [],
   "validation_warnings": [
-    "NEUE Termine: 02.12.2026, 06.05.2026, 07.10.2026, 09.06.2026, 10.03.2026, 11.11.2026, 15.04.2026, 18.08.2026, 28.07.2026, 28.10.2026, 30.06.2026, 31.03.2026"
+    "ENTFERNTE Termine: 10.03.2026, 31.03.2026"
   ],
-  "timestamp": "2026-03-01T23:19:00.191434"
+  "timestamp": "2026-03-15T08:38:44.748296"
 }

@@ -26,8 +26,7 @@
       {
         "dates": [
           "03.03.2026",
-          "06.03.2026",
-          "06.02.2026"
+          "06.03.2026"
         ],
         "type": "combined",
         "schriftlich": "03.03.2026",
@@ -95,8 +94,11 @@
     "url_used": "https://www.ihk.de/rhein-neckar/wirtschaftsstandort/branchen/dienstleistungen/immobilienwirtschaft/pruefung-zertifizierter-verwalter-5033716",
     "from_cache": false,
     "validation_errors": [],
-    "validation_warnings": [],
-    "timestamp": "2026-03-01T23:10:51.380148"
+    "validation_warnings": [
+      "Datum in der Vergangenheit: 06.02.2026",
+      "ENTFERNTE Termine: 06.02.2026"
+    ],
+    "timestamp": "2026-03-15T08:31:26.300243"
   },
   {
     "id": "ihk-reutlingen",
@@ -128,8 +130,8 @@
       }
     ],
     "fees": [
-      "150 €",
-      "310 €"
+      "310 €",
+      "150 €"
     ],
     "keyword_score": "11/12",
     "strategies_used": [
@@ -140,7 +142,7 @@
     "from_cache": false,
     "validation_errors": [],
     "validation_warnings": [],
-    "timestamp": "2026-03-01T23:11:02.098281"
+    "timestamp": "2026-03-15T08:31:35.122423"
   },
   {
     "id": "ihk-stuttgart",
@@ -152,38 +154,10 @@
     "status": "ok",
     "stage": "parser_c",
     "dates_2026": [
-      "18.05.2026",
-      "23.03.2026",
       "08.06.2026",
-      "13.04.2026"
+      "18.05.2026"
     ],
     "exam_events": [
-      {
-        "dates": [
-          "23.03.2026"
-        ],
-        "type": "exam_date",
-        "schriftlich": "23.03.2026",
-        "muendlich": null,
-        "anmeldeschluss": null,
-        "status": "unknown",
-        "source": "browser_lux_portal",
-        "evidence": "",
-        "confidence": 1.0
-      },
-      {
-        "dates": [
-          "13.04.2026"
-        ],
-        "type": "exam_date",
-        "schriftlich": "13.04.2026",
-        "muendlich": null,
-        "anmeldeschluss": null,
-        "status": "unknown",
-        "source": "browser_lux_portal",
-        "evidence": "",
-        "confidence": 1.0
-      },
       {
         "dates": [
           "18.05.2026"
@@ -222,9 +196,9 @@
     "from_cache": false,
     "validation_errors": [],
     "validation_warnings": [
-      "NEUE Termine: 08.06.2026, 13.04.2026, 18.05.2026, 23.03.2026"
+      "ENTFERNTE Termine: 13.04.2026, 23.03.2026"
     ],
-    "timestamp": "2026-03-01T23:11:12.896199"
+    "timestamp": "2026-03-15T08:31:43.757110"
   },
   {
     "id": "ihk-karlsruhe",
@@ -238,27 +212,12 @@
     "dates_2026": [
       "01.06.2026",
       "01.10.2026",
-      "02.02.2026",
       "07.04.2026",
+      "12.03.2026",
       "13.07.2026",
-      "19.01.2026",
-      "20.04.2026",
-      "25.02.2026"
+      "20.04.2026"
     ],
     "exam_events": [
-      {
-        "dates": [
-          "25.02.2026"
-        ],
-        "type": "combined",
-        "schriftlich": "25.02.2026",
-        "muendlich": "25.02.2026",
-        "anmeldeschluss": null,
-        "status": "unknown",
-        "source": "line",
-        "evidence": "25.02.2026 – schriftliche/mündliche Prüfung -",
-        "confidence": 1.0
-      },
       {
         "dates": [
           "20.04.2026"
@@ -267,9 +226,9 @@
         "schriftlich": "20.04.2026",
         "muendlich": "20.04.2026",
         "anmeldeschluss": null,
-        "status": "anmeldung_moeglich",
+        "status": "unknown",
         "source": "line",
-        "evidence": "20.04.2026 – schriftliche/mündliche Prüfung | Anmeldung ab 02.02.2026 möglich",
+        "evidence": "20.04.2026 – schriftliche/mündliche Prüfung -",
         "confidence": 1.0
       },
       {
@@ -300,9 +259,9 @@
       }
     ],
     "fees": [
+      "240 €",
       "145 €",
-      "50 €",
-      "240 €"
+      "50 €"
     ],
     "keyword_score": "9/12",
     "strategies_used": [
@@ -313,8 +272,10 @@
     "url_used": "https://www.ihk.de/karlsruhe/fachthemen/recht/gewerbetreibende-nach-34c-gewo/wohnimmobilienverwalter/zertifizierter-wohnimmobilienverwalter-4926478",
     "from_cache": false,
     "validation_errors": [],
-    "validation_warnings": [],
-    "timestamp": "2026-03-01T23:11:47.915790"
+    "validation_warnings": [
+      "ENTFERNTE Termine: 25.02.2026"
+    ],
+    "timestamp": "2026-03-15T08:32:17.976199"
   },
   {
     "id": "ihk-konstanz",
@@ -402,8 +363,8 @@
       }
     ],
     "fees": [
-      "265,00 €",
-      "151,00 €"
+      "151,00 €",
+      "265,00 €"
     ],
     "keyword_score": "7/12",
     "strategies_used": [
@@ -415,7 +376,7 @@
     "from_cache": false,
     "validation_errors": [],
     "validation_warnings": [],
-    "timestamp": "2026-03-01T23:11:58.265733"
+    "timestamp": "2026-03-15T08:32:26.536295"
   },
   {
     "id": "ihk-heilbronn",
@@ -528,9 +489,9 @@
       }
     ],
     "fees": [
-      "147,00 €",
+      "54,00 €",
       "245,00 €",
-      "54,00 €"
+      "147,00 €"
     ],
     "keyword_score": "9/12",
     "strategies_used": [
@@ -541,7 +502,7 @@
     "from_cache": false,
     "validation_errors": [],
     "validation_warnings": [],
-    "timestamp": "2026-03-01T23:12:08.629578"
+    "timestamp": "2026-03-15T08:32:35.079242"
   },
   {
     "id": "ihk-freiburg",
@@ -553,10 +514,10 @@
     "status": "ok",
     "stage": "parser_c",
     "dates_2026": [
-      "03.12.2026",
-      "08.10.2026",
       "02.12.2026",
-      "07.10.2026"
+      "03.12.2026",
+      "07.10.2026",
+      "08.10.2026"
     ],
     "exam_events": [
       {
@@ -589,9 +550,9 @@
       }
     ],
     "fees": [
+      "250,00 €",
       "170,00 €",
-      "50 €",
-      "250,00 €"
+      "50 €"
     ],
     "keyword_score": "10/12",
     "strategies_used": [
@@ -600,10 +561,8 @@
     "url_used": "https://www.ihk.de/freiburg/unternehmen-beraten/gruendung-sicherung/unterrichtungsverfahren-und-sach-fachkundepruefungen/zertifizierter-wohnimmobilienverwalter-6795604",
     "from_cache": false,
     "validation_errors": [],
-    "validation_warnings": [
-      "NEUE Termine: 02.12.2026, 03.12.2026, 07.10.2026, 08.10.2026"
-    ],
-    "timestamp": "2026-03-01T23:12:18.988749"
+    "validation_warnings": [],
+    "timestamp": "2026-03-15T08:32:43.975706"
   },
   {
     "id": "ihk-pforzheim",
@@ -831,7 +790,7 @@
       "Datum in der Vergangenheit: 27.01.2026",
       "Event komplett vergangen, entfernt: 21.01.2026, 27.01.2026"
     ],
-    "timestamp": "2026-03-01T23:12:48.515914"
+    "timestamp": "2026-03-15T08:33:11.654208"
   },
   {
     "id": "ihk-nuernberg",
@@ -936,7 +895,7 @@
       "Datum in der Vergangenheit: 12.01.2026",
       "Event komplett vergangen, entfernt: 12.01.2026"
     ],
-    "timestamp": "2026-03-01T23:12:59.885826"
+    "timestamp": "2026-03-15T08:33:21.206759"
   },
   {
     "id": "ihk-bayreuth",
@@ -991,67 +950,71 @@
       {
         "dates": [
           "10.03.2026",
+          "11.03.2026",
           "20.02.2026"
         ],
-        "type": "schriftlich",
+        "type": "combined",
         "schriftlich": "10.03.2026",
-        "muendlich": null,
+        "muendlich": "11.03.2026",
         "anmeldeschluss": "20.02.2026",
         "status": "unknown",
         "source": "table",
-        "evidence": "10.03.2026 11.03.2026 20.02.2026 nicht verfÃ¼gbar/Anmeldeschluss erreicht",
+        "evidence": "10.03.2026 11.03.2026 20.02.2026 nicht verfügbar/Anmeldeschluss erreich",
         "confidence": 1.0
       },
       {
         "dates": [
           "05.05.2026",
+          "06.05.2026",
           "21.04.2026"
         ],
-        "type": "schriftlich",
+        "type": "combined",
         "schriftlich": "05.05.2026",
-        "muendlich": null,
+        "muendlich": "06.05.2026",
         "anmeldeschluss": "21.04.2026",
         "status": "unknown",
         "source": "table",
-        "evidence": "05.05.2026 06.05.2026 21.04.2026 verfÃ¼gbar",
+        "evidence": "05.05.2026 06.05.2026 21.04.2026 verfügbar",
         "confidence": 1.0
       },
       {
         "dates": [
           "13.10.2026",
+          "14.10.2026",
           "29.09.2026"
         ],
-        "type": "schriftlich",
+        "type": "combined",
         "schriftlich": "13.10.2026",
-        "muendlich": null,
+        "muendlich": "14.10.2026",
         "anmeldeschluss": "29.09.2026",
         "status": "unknown",
         "source": "table",
-        "evidence": "13.10.2026 14.10.2026 29.09.2026 verfÃ¼gbar",
+        "evidence": "13.10.2026 14.10.2026 29.09.2026 verfügbar",
         "confidence": 1.0
       },
       {
         "dates": [
           "02.12.2026",
+          "03.12.2026",
           "18.11.2026"
         ],
-        "type": "schriftlich",
+        "type": "combined",
         "schriftlich": "02.12.2026",
-        "muendlich": null,
+        "muendlich": "03.12.2026",
         "anmeldeschluss": "18.11.2026",
         "status": "unknown",
         "source": "table",
-        "evidence": "02.12.2026 03.12.2026 18.11.2026 verfÃ¼gbar",
+        "evidence": "02.12.2026 03.12.2026 18.11.2026 verfügbar",
         "confidence": 1.0
       }
     ],
     "fees": [
+      "2024 €",
       "320,00 €"
     ],
-    "keyword_score": "6/12",
+    "keyword_score": "10/12",
     "strategies_used": [
       "table",
-      "section",
       "text_block"
     ],
     "url_used": "https://www.ihk-niederbayern.de/berufliche-bildung/fortbildung/sachkundepruefungen/zertifizierter-verwalter/",
@@ -1059,11 +1022,12 @@
     "validation_errors": [],
     "validation_warnings": [
       "Datum in der Vergangenheit: 20.01.2026",
-      "Datum in der Vergangenheit: 20.01.2026",
       "Datum in der Vergangenheit: 21.01.2026",
-      "Event komplett vergangen, entfernt: 20.01.2026"
+      "Gebühr außerhalb Plausibilitätsbereich: 2024 €",
+      "Event komplett vergangen, entfernt: 20.01.2026, 21.01.2026",
+      "NEUE Termine: 03.12.2026, 06.05.2026, 11.03.2026, 14.10.2026"
     ],
-    "timestamp": "2026-03-01T23:13:10.328559"
+    "timestamp": "2026-03-15T08:33:29.883442"
   },
   {
     "id": "ihk-coburg",
@@ -1287,7 +1251,7 @@
     "from_cache": false,
     "validation_errors": [],
     "validation_warnings": [],
-    "timestamp": "2026-03-01T23:13:21.221946"
+    "timestamp": "2026-03-15T08:33:38.915956"
   },
   {
     "id": "ihk-aschaffenburg",
@@ -1331,19 +1295,6 @@
       "30.07.2026"
     ],
     "exam_events": [
-      {
-        "dates": [
-          "12.02.2026"
-        ],
-        "type": "exam_date",
-        "schriftlich": null,
-        "muendlich": null,
-        "anmeldeschluss": "07.01.2026",
-        "status": "unknown",
-        "source": "table",
-        "evidence": "Schriftlich 28.01.2026 Mündlich 1 1.02./12.02.2026 07.01.2026",
-        "confidence": 1.0
-      },
       {
         "dates": [
           "18.03.2026",
@@ -1406,12 +1357,12 @@
       }
     ],
     "fees": [
-      "360,00 €",
-      "250,00 €",
       "50,00 €",
-      "65,00 €",
+      "250,00 €",
       "330,00 €",
-      "280,00 €"
+      "280,00 €",
+      "360,00 €",
+      "65,00 €"
     ],
     "keyword_score": "10/12",
     "strategies_used": [
@@ -1424,9 +1375,12 @@
     "validation_errors": [],
     "validation_warnings": [
       "Datum in der Vergangenheit: 28.01.2026",
-      "Datum in der Vergangenheit: 07.01.2026"
+      "Datum in der Vergangenheit: 12.02.2026",
+      "Datum in der Vergangenheit: 07.01.2026",
+      "Event komplett vergangen, entfernt: 28.01.2026, 12.02.2026, 07.01.2026",
+      "ENTFERNTE Termine: 12.02.2026"
     ],
-    "timestamp": "2026-03-01T23:13:31.821457"
+    "timestamp": "2026-03-15T08:33:47.876598"
   },
   {
     "id": "ihk-potsdam",
@@ -1492,8 +1446,8 @@
     "status": "ok",
     "stage": "parser_c",
     "dates_2026": [
-      "06.04.2026",
       "08.06.2026",
+      "06.04.2026",
       "04.05.2026",
       "11.05.2026"
     ],
@@ -1561,10 +1515,8 @@
     "url_used": "https://www.ihk.de/hamburg/ausbildung-weiterbildung/sachkunde-fachkunde-pruefungen/zertifizierter-verwalter-5440522",
     "from_cache": false,
     "validation_errors": [],
-    "validation_warnings": [
-      "NEUE Termine: 04.05.2026, 06.04.2026, 08.06.2026, 11.05.2026"
-    ],
-    "timestamp": "2026-03-01T23:13:43.076248"
+    "validation_warnings": [],
+    "timestamp": "2026-03-15T08:33:57.500690"
   },
   {
     "id": "ihk-frankfurt",
@@ -1664,7 +1616,7 @@
     "from_cache": false,
     "validation_errors": [],
     "validation_warnings": [],
-    "timestamp": "2026-03-01T23:14:17.362870"
+    "timestamp": "2026-03-15T08:34:30.743836"
   },
   {
     "id": "ihk-darmstadt",
@@ -1688,38 +1640,10 @@
     "status": "ok",
     "stage": "parser_c",
     "dates_2026": [
-      "06.04.2026",
-      "27.04.2026",
       "20.07.2026",
       "29.06.2026"
     ],
     "exam_events": [
-      {
-        "dates": [
-          "06.04.2026"
-        ],
-        "type": "exam_date",
-        "schriftlich": "06.04.2026",
-        "muendlich": null,
-        "anmeldeschluss": null,
-        "status": "unknown",
-        "source": "browser_lux_portal",
-        "evidence": "",
-        "confidence": 1.0
-      },
-      {
-        "dates": [
-          "27.04.2026"
-        ],
-        "type": "exam_date",
-        "schriftlich": "27.04.2026",
-        "muendlich": null,
-        "anmeldeschluss": null,
-        "status": "unknown",
-        "source": "browser_lux_portal",
-        "evidence": "",
-        "confidence": 1.0
-      },
       {
         "dates": [
           "29.06.2026"
@@ -1756,9 +1680,9 @@
     "from_cache": false,
     "validation_errors": [],
     "validation_warnings": [
-      "NEUE Termine: 06.04.2026, 20.07.2026, 27.04.2026, 29.06.2026"
+      "ENTFERNTE Termine: 06.04.2026, 27.04.2026"
     ],
-    "timestamp": "2026-03-01T23:14:27.758390"
+    "timestamp": "2026-03-15T08:34:40.044597"
   },
   {
     "id": "ihk-giessen",
@@ -1819,7 +1743,7 @@
     "from_cache": false,
     "validation_errors": [],
     "validation_warnings": [],
-    "timestamp": "2026-03-01T23:15:25.006178"
+    "timestamp": "2026-03-15T08:35:36.801587"
   },
   {
     "id": "ihk-wiesbaden",
@@ -1915,7 +1839,7 @@
     "from_cache": false,
     "validation_errors": [],
     "validation_warnings": [],
-    "timestamp": "2026-03-01T23:15:35.317016"
+    "timestamp": "2026-03-15T08:35:45.254346"
   },
   {
     "id": "ihk-fulda",
@@ -2038,7 +1962,7 @@
     "from_cache": false,
     "validation_errors": [],
     "validation_warnings": [],
-    "timestamp": "2026-03-01T23:15:47.368921"
+    "timestamp": "2026-03-15T08:35:55.410244"
   },
   {
     "id": "ihk-schwerin",
@@ -2076,18 +2000,18 @@
     "status": "ok",
     "stage": "parser_c",
     "dates_2026": [
+      "02.09.2026",
       "16.10.2026",
-      "16.06.2026",
       "05.11.2026",
-      "27.05.2026"
+      "22.09.2026"
     ],
     "exam_events": [
       {
         "dates": [
-          "27.05.2026"
+          "02.09.2026"
         ],
         "type": "exam_date",
-        "schriftlich": "27.05.2026",
+        "schriftlich": "02.09.2026",
         "muendlich": null,
         "anmeldeschluss": null,
         "status": "unknown",
@@ -2097,10 +2021,10 @@
       },
       {
         "dates": [
-          "16.06.2026"
+          "22.09.2026"
         ],
         "type": "exam_date",
-        "schriftlich": "16.06.2026",
+        "schriftlich": "22.09.2026",
         "muendlich": null,
         "anmeldeschluss": null,
         "status": "unknown",
@@ -2147,9 +2071,10 @@
     "from_cache": false,
     "validation_errors": [],
     "validation_warnings": [
-      "NEUE Termine: 05.11.2026, 16.06.2026, 16.10.2026, 27.05.2026"
+      "NEUE Termine: 02.09.2026, 22.09.2026",
+      "ENTFERNTE Termine: 16.06.2026, 27.05.2026"
     ],
-    "timestamp": "2026-03-01T23:15:57.702696"
+    "timestamp": "2026-03-15T08:36:04.332726"
   },
   {
     "id": "ihk-braunschweig",
@@ -2162,9 +2087,23 @@
     "stage": "parser_a",
     "dates_2026": [
       "01.09.2026",
+      "17.06.2026",
       "17.11.2026"
     ],
     "exam_events": [
+      {
+        "dates": [
+          "17.06.2026"
+        ],
+        "type": "combined",
+        "schriftlich": "17.06.2026",
+        "muendlich": "17.06.2026",
+        "anmeldeschluss": null,
+        "status": "unknown",
+        "source": "section",
+        "evidence": "Prüfungstermine: 11. Juni und 17. Juni 2026 (schriftliche und mündliche Prüfung) 17. Juni 2026 (mündliche Wiederholungsprüfung) 25. August und 1. September 2026 (schriftliche und mündliche Prüfung) 1. September 2026 (mündliche Wiederholungsprüfung) 10. November und 17. November 2026 (schriftliche un",
+        "confidence": 1.0
+      },
       {
         "dates": [
           "01.09.2026"
@@ -2174,8 +2113,8 @@
         "muendlich": "01.09.2026",
         "anmeldeschluss": null,
         "status": "unknown",
-        "source": "section",
-        "evidence": "Prüfungstermine: 25. August und 01. September 2026 (schriftliche und mündliche Prüfung) 01. September 2026 (mündliche Wiederholungsprüfung) 10. November und 17. November 2026 (schriftliche und mündliche Prüfung) 17. November 2026 (mündliche Wiederholungsprüfung)",
+        "source": "list",
+        "evidence": "25. August und 1. September 2026 (schriftliche und mündliche Prüfung)",
         "confidence": 1.0
       },
       {
@@ -2202,8 +2141,10 @@
     "url_used": "https://www.ihk.de/braunschweig/aus-und-weiterbildung/weiterbildung/zertifizierter-wohnimmobilienverwalter-5605394",
     "from_cache": false,
     "validation_errors": [],
-    "validation_warnings": [],
-    "timestamp": "2026-03-01T23:16:31.805769"
+    "validation_warnings": [
+      "NEUE Termine: 17.06.2026"
+    ],
+    "timestamp": "2026-03-15T08:36:37.028827"
   },
   {
     "id": "ihk-oldenburg",
@@ -2307,7 +2248,7 @@
     "from_cache": false,
     "validation_errors": [],
     "validation_warnings": [],
-    "timestamp": "2026-03-01T23:16:42.107326"
+    "timestamp": "2026-03-15T08:36:45.598501"
   },
   {
     "id": "ihk-emden",
@@ -2362,19 +2303,6 @@
       "31.08.2026"
     ],
     "exam_events": [
-      {
-        "dates": [
-          "09.02.2026"
-        ],
-        "type": "exam_date",
-        "schriftlich": null,
-        "muendlich": null,
-        "anmeldeschluss": null,
-        "status": "unknown",
-        "source": "section",
-        "evidence": "ab (10.00 Uhr) Anmeldeschluss bis 23.03.2026 26.03.2026 03.01.2026 09.03.2026 04.05.2026 07.05.2026 09.02.2026 20.04.2026 31.08.2026 03.09.2026 08.06.2026 17.08.2026 07.12.2026 10.12.2026 14.09.2026 2",
-        "confidence": 1.0
-      },
       {
         "dates": [
           "23.03.2026",
@@ -2450,8 +2378,8 @@
       }
     ],
     "fees": [
-      "224 €",
-      "136 €"
+      "136 €",
+      "224 €"
     ],
     "keyword_score": "9/12",
     "strategies_used": [
@@ -2463,9 +2391,12 @@
     "validation_errors": [],
     "validation_warnings": [
       "Datum in der Vergangenheit: 03.01.2026",
-      "Event komplett vergangen, entfernt: 03.01.2026"
+      "Datum in der Vergangenheit: 09.02.2026",
+      "Event komplett vergangen, entfernt: 03.01.2026",
+      "Event komplett vergangen, entfernt: 09.02.2026",
+      "ENTFERNTE Termine: 09.02.2026"
     ],
-    "timestamp": "2026-03-01T23:16:52.456930"
+    "timestamp": "2026-03-15T08:36:54.034081"
   },
   {
     "id": "ihk-dortmund",
@@ -2554,16 +2485,16 @@
       }
     ],
     "fees": [
-      "149 €",
-      "160 €",
-      "116 €",
-      "293 €",
-      "100 €",
-      "125 €",
       "265 €",
-      "166 €",
       "117 €",
-      "62 €"
+      "160 €",
+      "125 €",
+      "100 €",
+      "166 €",
+      "293 €",
+      "62 €",
+      "116 €",
+      "149 €"
     ],
     "keyword_score": "9/12",
     "strategies_used": [
@@ -2577,7 +2508,7 @@
       "Datum in der Vergangenheit: 12.01.2026",
       "Event komplett vergangen, entfernt: 12.01.2026"
     ],
-    "timestamp": "2026-03-01T23:17:02.942818"
+    "timestamp": "2026-03-15T08:37:02.695419"
   },
   {
     "id": "ihk-bielefeld",
@@ -2614,8 +2545,7 @@
       {
         "dates": [
           "18.02.2026",
-          "20.02.2026",
-          "03.02.2026"
+          "20.02.2026"
         ],
         "type": "combined",
         "schriftlich": "18.02.2026",
@@ -2727,9 +2657,11 @@
     "validation_errors": [],
     "validation_warnings": [
       "Datum in der Vergangenheit: 07.01.2026",
-      "Event komplett vergangen, entfernt: 07.01.2026"
+      "Datum in der Vergangenheit: 03.02.2026",
+      "Event komplett vergangen, entfernt: 07.01.2026",
+      "ENTFERNTE Termine: 03.02.2026"
     ],
-    "timestamp": "2026-03-01T23:17:13.746156"
+    "timestamp": "2026-03-15T08:37:12.610269"
   },
   {
     "id": "ihk-aachen",
@@ -2752,6 +2684,9 @@
     "status": "ok",
     "stage": "parser_a",
     "dates_2026": [
+      "01.05.2026",
+      "01.07.2026",
+      "01.09.2026",
       "04.02.2026",
       "04.03.2026",
       "04.11.2026",
@@ -2775,8 +2710,7 @@
       {
         "dates": [
           "04.03.2026",
-          "11.03.2026",
-          "04.02.2026"
+          "11.03.2026"
         ],
         "type": "combined",
         "schriftlich": "04.03.2026",
@@ -2797,9 +2731,9 @@
         "schriftlich": "07.05.2026",
         "muendlich": "12.05.2026",
         "anmeldeschluss": "07.04.2026",
-        "status": "unknown",
+        "status": "ausgebucht",
         "source": "table",
-        "evidence": "07.05.2026 12.05.2026 07.04.2026",
+        "evidence": "07.05.2026 12.05.2026 ausgebucht 07.04.2026",
         "confidence": 1.0
       },
       {
@@ -2814,7 +2748,7 @@
         "anmeldeschluss": "11.06.2026",
         "status": "unknown",
         "source": "table",
-        "evidence": "09.07.2026 15.07.2026 noch nicht zur Buchung freigegeben 11.06.2026",
+        "evidence": "09.07.2026 15.07.2026 01.05.2026 11.06.2026",
         "confidence": 1.0
       },
       {
@@ -2829,7 +2763,7 @@
         "anmeldeschluss": "13.08.2026",
         "status": "unknown",
         "source": "table",
-        "evidence": "09.09.2026 15.09.2026 noch nicht zur Buchung freigegeben 13.08.2026",
+        "evidence": "09.09.2026 15.09.2026 01.07.2026 13.08.2026",
         "confidence": 1.0
       },
       {
@@ -2844,7 +2778,7 @@
         "anmeldeschluss": "08.10.2026",
         "status": "unknown",
         "source": "table",
-        "evidence": "04.11.2026 05./06.11.2026 noch nicht zur Buchung freigegeben 08.10.2026",
+        "evidence": "04.11.2026 05./06.11.2026 01.09.2026 08.10.2026",
         "confidence": 1.0
       }
     ],
@@ -2862,14 +2796,17 @@
       "Datum in der Vergangenheit: 28.01.2026",
       "Datum in der Vergangenheit: 22.01.2026",
       "Datum in der Vergangenheit: 28.01.2026",
+      "Datum in der Vergangenheit: 04.02.2026",
       "Datum in der Vergangenheit: 22.01.2026",
       "Datum in der Vergangenheit: 23.01.2026",
       "Datum in der Vergangenheit: 28.01.2026",
       "Datum in der Vergangenheit: 23.01.2026",
+      "Datum in der Vergangenheit: 04.02.2026",
       "Event komplett vergangen, entfernt: 22.01.2026, 28.01.2026",
-      "Event komplett vergangen, entfernt: 23.01.2026"
+      "Event komplett vergangen, entfernt: 23.01.2026",
+      "ENTFERNTE Termine: 04.02.2026"
     ],
-    "timestamp": "2026-03-01T23:17:24.228080"
+    "timestamp": "2026-03-15T08:37:21.124939"
   },
   {
     "id": "ihk-wuppertal",
@@ -2909,22 +2846,20 @@
       "10.04.2026",
       "14.10.2026",
       "17.07.2026",
-      "24.04.2026",
       "25.06.2026"
     ],
     "exam_events": [
       {
         "dates": [
-          "10.04.2026",
-          "24.04.2026"
+          "10.04.2026"
         ],
-        "type": "combined",
+        "type": "schriftlich",
         "schriftlich": "10.04.2026",
-        "muendlich": "24.04.2026",
+        "muendlich": null,
         "anmeldeschluss": null,
-        "status": "unknown",
+        "status": "ausgebucht",
         "source": "table",
-        "evidence": "April 2026 10.04.2026 23.04. oder 24.04.2026",
+        "evidence": "April 2026 10.04.2026 ausgebucht",
         "confidence": 1.0
       },
       {
@@ -2971,9 +2906,10 @@
     "validation_errors": [],
     "validation_warnings": [
       "Datum in der Vergangenheit: 01.01.2026",
-      "Event komplett vergangen, entfernt: 01.01.2026"
+      "Event komplett vergangen, entfernt: 01.01.2026",
+      "ENTFERNTE Termine: 24.04.2026"
     ],
-    "timestamp": "2026-03-01T23:17:34.895670"
+    "timestamp": "2026-03-15T08:37:30.104983"
   },
   {
     "id": "ihk-hagen",
@@ -2985,33 +2921,15 @@
     "status": "ok",
     "stage": "parser_a",
     "dates_2026": [
-      "02.06.2026",
-      "08.06.2026",
       "08.09.2026",
       "10.11.2026",
       "11.09.2026",
       "16.01.2026",
       "17.11.2026",
-      "18.05.2026",
       "25.08.2026",
       "27.10.2026"
     ],
     "exam_events": [
-      {
-        "dates": [
-          "02.06.2026",
-          "08.06.2026",
-          "18.05.2026"
-        ],
-        "type": "combined",
-        "schriftlich": "02.06.2026",
-        "muendlich": "08.06.2026",
-        "anmeldeschluss": "18.05.2026",
-        "status": "unknown",
-        "source": "table",
-        "evidence": "02.06.2026 08.06.2026 18.05.2026",
-        "confidence": 1.0
-      },
       {
         "dates": [
           "08.09.2026",
@@ -3056,9 +2974,10 @@
     "validation_errors": [],
     "validation_warnings": [
       "Datum in der Vergangenheit: 16.01.2026",
-      "Event komplett vergangen, entfernt: 16.01.2026"
+      "Event komplett vergangen, entfernt: 16.01.2026",
+      "ENTFERNTE Termine: 02.06.2026, 08.06.2026, 18.05.2026"
     ],
-    "timestamp": "2026-03-01T23:17:45.389321"
+    "timestamp": "2026-03-15T08:37:38.713968"
   },
   {
     "id": "ihk-bochum",
@@ -3118,42 +3037,23 @@
     "status": "ok",
     "stage": "parser_a",
     "dates_2026": [
-      "05.02.2026",
+      "02.07.2026",
       "05.03.2026",
       "07.05.2026",
-      "08.01.2026",
       "08.05.2026",
+      "16.04.2026",
       "19.11.2026",
       "20.11.2026",
       "23.07.2026",
       "24.07.2026",
       "24.09.2026",
       "25.09.2026",
-      "26.02.2026",
       "26.03.2026",
-      "27.02.2026",
       "27.03.2026",
-      "29.01.2026",
       "29.10.2026",
-      "30.01.2026",
       "30.10.2026"
     ],
     "exam_events": [
-      {
-        "dates": [
-          "26.02.2026",
-          "27.02.2026",
-          "05.02.2026"
-        ],
-        "type": "combined",
-        "schriftlich": "26.02.2026",
-        "muendlich": "27.02.2026",
-        "anmeldeschluss": "05.02.2026",
-        "status": "unknown",
-        "source": "table",
-        "evidence": "26. Februar 2026 27. Februar 2026 05. Februar 2026",
-        "confidence": 1.0
-      },
       {
         "dates": [
           "26.03.2026",
@@ -3172,29 +3072,31 @@
       {
         "dates": [
           "07.05.2026",
-          "08.05.2026"
+          "08.05.2026",
+          "16.04.2026"
         ],
         "type": "combined",
         "schriftlich": "07.05.2026",
         "muendlich": "08.05.2026",
-        "anmeldeschluss": null,
+        "anmeldeschluss": "16.04.2026",
         "status": "unknown",
         "source": "table",
-        "evidence": "07. Mai 2026 08. Mai 2026 noch nicht zur Buchung freigeschaltet",
+        "evidence": "07. Mai 2026 08. Mai 2026 16. April 2026",
         "confidence": 1.0
       },
       {
         "dates": [
           "23.07.2026",
-          "24.07.2026"
+          "24.07.2026",
+          "02.07.2026"
         ],
         "type": "combined",
         "schriftlich": "23.07.2026",
         "muendlich": "24.07.2026",
-        "anmeldeschluss": null,
+        "anmeldeschluss": "02.07.2026",
         "status": "unknown",
         "source": "table",
-        "evidence": "23. Juli 2026 24. Juli 2026 noch nicht zur Buchung freigeschaltet",
+        "evidence": "23. Juli 2026 24. Juli 2026 02. Juli 2026",
         "confidence": 1.0
       },
       {
@@ -3241,8 +3143,8 @@
       }
     ],
     "fees": [
-      "242,00 €",
-      "121,00 €"
+      "121,00 €",
+      "242,00 €"
     ],
     "keyword_score": "9/12",
     "strategies_used": [
@@ -3253,14 +3155,10 @@
     "from_cache": false,
     "validation_errors": [],
     "validation_warnings": [
-      "Datum in der Vergangenheit: 29.01.2026",
-      "Datum in der Vergangenheit: 30.01.2026",
-      "Datum in der Vergangenheit: 08.01.2026",
-      "Datum in der Vergangenheit: 29.01.2026",
-      "Datum in der Vergangenheit: 30.01.2026",
-      "Event komplett vergangen, entfernt: 29.01.2026, 30.01.2026, 08.01.2026"
+      "NEUE Termine: 02.07.2026, 16.04.2026",
+      "ENTFERNTE Termine: 05.02.2026, 26.02.2026, 27.02.2026"
     ],
-    "timestamp": "2026-03-01T23:17:55.786926"
+    "timestamp": "2026-03-15T08:37:47.310481"
   },
   {
     "id": "ihk-mainz",
@@ -3349,7 +3247,7 @@
     "from_cache": false,
     "validation_errors": [],
     "validation_warnings": [],
-    "timestamp": "2026-03-01T23:18:06.295987"
+    "timestamp": "2026-03-15T08:37:55.976949"
   },
   {
     "id": "ihk-trier",
@@ -3490,7 +3388,7 @@
       "Datum in der Vergangenheit: 12.01.2026",
       "Event komplett vergangen, entfernt: 12.01.2026"
     ],
-    "timestamp": "2026-03-01T23:18:16.758040"
+    "timestamp": "2026-03-15T08:38:04.701959"
   },
   {
     "id": "ihk-leipzig",
@@ -3502,40 +3400,12 @@
     "status": "ok",
     "stage": "parser_c",
     "dates_2026": [
-      "25.03.2026",
       "23.09.2026",
-      "24.06.2026",
       "14.10.2026",
-      "15.04.2026",
+      "24.06.2026",
       "15.07.2026"
     ],
     "exam_events": [
-      {
-        "dates": [
-          "25.03.2026"
-        ],
-        "type": "exam_date",
-        "schriftlich": "25.03.2026",
-        "muendlich": null,
-        "anmeldeschluss": null,
-        "status": "unknown",
-        "source": "browser_lux_portal",
-        "evidence": "",
-        "confidence": 1.0
-      },
-      {
-        "dates": [
-          "15.04.2026"
-        ],
-        "type": "exam_date",
-        "schriftlich": "15.04.2026",
-        "muendlich": null,
-        "anmeldeschluss": null,
-        "status": "unknown",
-        "source": "browser_lux_portal",
-        "evidence": "",
-        "confidence": 1.0
-      },
       {
         "dates": [
           "24.06.2026"
@@ -3600,9 +3470,9 @@
     "from_cache": false,
     "validation_errors": [],
     "validation_warnings": [
-      "NEUE Termine: 14.10.2026, 15.04.2026, 15.07.2026, 23.09.2026, 24.06.2026, 25.03.2026"
+      "ENTFERNTE Termine: 15.04.2026, 25.03.2026"
     ],
-    "timestamp": "2026-03-01T23:18:27.121069"
+    "timestamp": "2026-03-15T08:38:13.145573"
   },
   {
     "id": "ihk-chemnitz",
@@ -3700,46 +3570,18 @@
     "status": "ok",
     "stage": "parser_c",
     "dates_2026": [
-      "31.03.2026",
-      "11.11.2026",
-      "28.07.2026",
-      "09.06.2026",
-      "28.10.2026",
-      "06.05.2026",
-      "18.08.2026",
-      "02.12.2026",
       "07.10.2026",
+      "11.11.2026",
+      "02.12.2026",
+      "06.05.2026",
+      "09.06.2026",
       "15.04.2026",
+      "28.10.2026",
       "30.06.2026",
-      "10.03.2026"
+      "28.07.2026",
+      "18.08.2026"
     ],
     "exam_events": [
-      {
-        "dates": [
-          "10.03.2026"
-        ],
-        "type": "exam_date",
-        "schriftlich": "10.03.2026",
-        "muendlich": null,
-        "anmeldeschluss": null,
-        "status": "unknown",
-        "source": "browser_lux_portal",
-        "evidence": "",
-        "confidence": 1.0
-      },
-      {
-        "dates": [
-          "31.03.2026"
-        ],
-        "type": "exam_date",
-        "schriftlich": "31.03.2026",
-        "muendlich": null,
-        "anmeldeschluss": null,
-        "status": "unknown",
-        "source": "browser_lux_portal",
-        "evidence": "",
-        "confidence": 1.0
-      },
       {
         "dates": [
           "15.04.2026"
@@ -3874,7 +3716,7 @@
     "fees": [
       "237,00 €"
     ],
-    "keyword_score": "5/12",
+    "keyword_score": "9/12",
     "strategies_used": [
       "browser+lux_dates"
     ],
@@ -3882,9 +3724,9 @@
     "from_cache": false,
     "validation_errors": [],
     "validation_warnings": [
-      "NEUE Termine: 02.12.2026, 06.05.2026, 07.10.2026, 09.06.2026, 10.03.2026, 11.11.2026, 15.04.2026, 18.08.2026, 28.07.2026, 28.10.2026, 30.06.2026, 31.03.2026"
+      "ENTFERNTE Termine: 10.03.2026, 31.03.2026"
     ],
-    "timestamp": "2026-03-01T23:19:00.191434"
+    "timestamp": "2026-03-15T08:38:44.748296"
   },
   {
     "id": "ihk-suhl",

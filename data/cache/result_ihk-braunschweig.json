@@ -9,9 +9,23 @@
   "stage": "parser_a",
   "dates_2026": [
     "01.09.2026",
+    "17.06.2026",
     "17.11.2026"
   ],
   "exam_events": [
+    {
+      "dates": [
+        "17.06.2026"
+      ],
+      "type": "combined",
+      "schriftlich": "17.06.2026",
+      "muendlich": "17.06.2026",
+      "anmeldeschluss": null,
+      "status": "unknown",
+      "source": "section",
+      "evidence": "Prüfungstermine: 11. Juni und 17. Juni 2026 (schriftliche und mündliche Prüfung) 17. Juni 2026 (mündliche Wiederholungsprüfung) 25. August und 1. September 2026 (schriftliche und mündliche Prüfung) 1. September 2026 (mündliche Wiederholungsprüfung) 10. November und 17. November 2026 (schriftliche un",
+      "confidence": 1.0
+    },
     {
       "dates": [
         "01.09.2026"
@@ -21,8 +35,8 @@
       "muendlich": "01.09.2026",
       "anmeldeschluss": null,
       "status": "unknown",
-      "source": "section",
-      "evidence": "Prüfungstermine: 25. August und 01. September 2026 (schriftliche und mündliche Prüfung) 01. September 2026 (mündliche Wiederholungsprüfung) 10. November und 17. November 2026 (schriftliche und mündliche Prüfung) 17. November 2026 (mündliche Wiederholungsprüfung)",
+      "source": "list",
+      "evidence": "25. August und 1. September 2026 (schriftliche und mündliche Prüfung)",
       "confidence": 1.0
     },
     {
@@ -49,6 +63,8 @@
   "url_used": "https://www.ihk.de/braunschweig/aus-und-weiterbildung/weiterbildung/zertifizierter-wohnimmobilienverwalter-5605394",
   "from_cache": false,
   "validation_errors": [],
-  "validation_warnings": [],
-  "timestamp": "2026-03-01T23:16:31.805769"
+  "validation_warnings": [
+    "NEUE Termine: 17.06.2026"
+  ],
+  "timestamp": "2026-03-15T08:36:37.028827"
 }

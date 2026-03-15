@@ -10,27 +10,12 @@
   "dates_2026": [
     "01.06.2026",
     "01.10.2026",
-    "02.02.2026",
     "07.04.2026",
+    "12.03.2026",
     "13.07.2026",
-    "19.01.2026",
-    "20.04.2026",
-    "25.02.2026"
+    "20.04.2026"
   ],
   "exam_events": [
-    {
-      "dates": [
-        "25.02.2026"
-      ],
-      "type": "combined",
-      "schriftlich": "25.02.2026",
-      "muendlich": "25.02.2026",
-      "anmeldeschluss": null,
-      "status": "unknown",
-      "source": "line",
-      "evidence": "25.02.2026 – schriftliche/mündliche Prüfung -",
-      "confidence": 1.0
-    },
     {
       "dates": [
         "20.04.2026"
@@ -39,9 +24,9 @@
       "schriftlich": "20.04.2026",
       "muendlich": "20.04.2026",
       "anmeldeschluss": null,
-      "status": "anmeldung_moeglich",
+      "status": "unknown",
       "source": "line",
-      "evidence": "20.04.2026 – schriftliche/mündliche Prüfung | Anmeldung ab 02.02.2026 möglich",
+      "evidence": "20.04.2026 – schriftliche/mündliche Prüfung -",
       "confidence": 1.0
     },
     {
@@ -72,9 +57,9 @@
     }
   ],
   "fees": [
+    "240 €",
     "145 €",
-    "50 €",
-    "240 €"
+    "50 €"
   ],
   "keyword_score": "9/12",
   "strategies_used": [
@@ -85,6 +70,8 @@
   "url_used": "https://www.ihk.de/karlsruhe/fachthemen/recht/gewerbetreibende-nach-34c-gewo/wohnimmobilienverwalter/zertifizierter-wohnimmobilienverwalter-4926478",
   "from_cache": false,
   "validation_errors": [],
-  "validation_warnings": [],
-  "timestamp": "2026-03-01T23:11:47.915790"
+  "validation_warnings": [
+    "ENTFERNTE Termine: 25.02.2026"
+  ],
+  "timestamp": "2026-03-15T08:32:17.976199"
 }

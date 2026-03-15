@@ -13,22 +13,20 @@
     "10.04.2026",
     "14.10.2026",
     "17.07.2026",
-    "24.04.2026",
     "25.06.2026"
   ],
   "exam_events": [
     {
       "dates": [
-        "10.04.2026",
-        "24.04.2026"
+        "10.04.2026"
       ],
-      "type": "combined",
+      "type": "schriftlich",
       "schriftlich": "10.04.2026",
-      "muendlich": "24.04.2026",
+      "muendlich": null,
       "anmeldeschluss": null,
-      "status": "unknown",
+      "status": "ausgebucht",
       "source": "table",
-      "evidence": "April 2026 10.04.2026 23.04. oder 24.04.2026",
+      "evidence": "April 2026 10.04.2026 ausgebucht",
       "confidence": 1.0
     },
     {
@@ -75,7 +73,8 @@
   "validation_errors": [],
   "validation_warnings": [
     "Datum in der Vergangenheit: 01.01.2026",
-    "Event komplett vergangen, entfernt: 01.01.2026"
+    "Event komplett vergangen, entfernt: 01.01.2026",
+    "ENTFERNTE Termine: 24.04.2026"
   ],
-  "timestamp": "2026-03-01T23:17:34.895670"
+  "timestamp": "2026-03-15T08:37:30.104983"
 }

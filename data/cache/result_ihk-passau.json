@@ -27,67 +27,71 @@
     {
       "dates": [
         "10.03.2026",
+        "11.03.2026",
         "20.02.2026"
       ],
-      "type": "schriftlich",
+      "type": "combined",
       "schriftlich": "10.03.2026",
-      "muendlich": null,
+      "muendlich": "11.03.2026",
       "anmeldeschluss": "20.02.2026",
       "status": "unknown",
       "source": "table",
-      "evidence": "10.03.2026 11.03.2026 20.02.2026 nicht verfÃ¼gbar/Anmeldeschluss erreicht",
+      "evidence": "10.03.2026 11.03.2026 20.02.2026 nicht verfügbar/Anmeldeschluss erreich",
       "confidence": 1.0
     },
     {
       "dates": [
         "05.05.2026",
+        "06.05.2026",
         "21.04.2026"
       ],
-      "type": "schriftlich",
+      "type": "combined",
       "schriftlich": "05.05.2026",
-      "muendlich": null,
+      "muendlich": "06.05.2026",
       "anmeldeschluss": "21.04.2026",
       "status": "unknown",
       "source": "table",
-      "evidence": "05.05.2026 06.05.2026 21.04.2026 verfÃ¼gbar",
+      "evidence": "05.05.2026 06.05.2026 21.04.2026 verfügbar",
       "confidence": 1.0
     },
     {
       "dates": [
         "13.10.2026",
+        "14.10.2026",
         "29.09.2026"
       ],
-      "type": "schriftlich",
+      "type": "combined",
       "schriftlich": "13.10.2026",
-      "muendlich": null,
+      "muendlich": "14.10.2026",
       "anmeldeschluss": "29.09.2026",
       "status": "unknown",
       "source": "table",
-      "evidence": "13.10.2026 14.10.2026 29.09.2026 verfÃ¼gbar",
+      "evidence": "13.10.2026 14.10.2026 29.09.2026 verfügbar",
       "confidence": 1.0
     },
     {
       "dates": [
         "02.12.2026",
+        "03.12.2026",
         "18.11.2026"
       ],
-      "type": "schriftlich",
+      "type": "combined",
       "schriftlich": "02.12.2026",
-      "muendlich": null,
+      "muendlich": "03.12.2026",
       "anmeldeschluss": "18.11.2026",
       "status": "unknown",
       "source": "table",
-      "evidence": "02.12.2026 03.12.2026 18.11.2026 verfÃ¼gbar",
+      "evidence": "02.12.2026 03.12.2026 18.11.2026 verfügbar",
       "confidence": 1.0
     }
   ],
   "fees": [
+    "2024 €",
     "320,00 €"
   ],
-  "keyword_score": "6/12",
+  "keyword_score": "10/12",
   "strategies_used": [
     "table",
-    "section",
     "text_block"
   ],
   "url_used": "https://www.ihk-niederbayern.de/berufliche-bildung/fortbildung/sachkundepruefungen/zertifizierter-verwalter/",
@@ -95,9 +99,10 @@
   "validation_errors": [],
   "validation_warnings": [
     "Datum in der Vergangenheit: 20.01.2026",
-    "Datum in der Vergangenheit: 20.01.2026",
     "Datum in der Vergangenheit: 21.01.2026",
-    "Event komplett vergangen, entfernt: 20.01.2026"
+    "Gebühr außerhalb Plausibilitätsbereich: 2024 €",
+    "Event komplett vergangen, entfernt: 20.01.2026, 21.01.2026",
+    "NEUE Termine: 03.12.2026, 06.05.2026, 11.03.2026, 14.10.2026"
   ],
-  "timestamp": "2026-03-01T23:13:10.328559"
+  "timestamp": "2026-03-15T08:33:29.883442"
 }

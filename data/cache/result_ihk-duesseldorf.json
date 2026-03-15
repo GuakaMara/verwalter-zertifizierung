@@ -29,19 +29,6 @@
   "exam_events": [
     {
       "dates": [
-        "09.02.2026"
-      ],
-      "type": "exam_date",
-      "schriftlich": null,
-      "muendlich": null,
-      "anmeldeschluss": null,
-      "status": "unknown",
-      "source": "section",
-      "evidence": "ab (10.00 Uhr) Anmeldeschluss bis 23.03.2026 26.03.2026 03.01.2026 09.03.2026 04.05.2026 07.05.2026 09.02.2026 20.04.2026 31.08.2026 03.09.2026 08.06.2026 17.08.2026 07.12.2026 10.12.2026 14.09.2026 2",
-      "confidence": 1.0
-    },
-    {
-      "dates": [
         "23.03.2026",
         "26.03.2026",
         "09.03.2026"
@@ -115,8 +102,8 @@
     }
   ],
   "fees": [
-    "224 €",
-    "136 €"
+    "136 €",
+    "224 €"
   ],
   "keyword_score": "9/12",
   "strategies_used": [
@@ -128,7 +115,10 @@
   "validation_errors": [],
   "validation_warnings": [
     "Datum in der Vergangenheit: 03.01.2026",
-    "Event komplett vergangen, entfernt: 03.01.2026"
+    "Datum in der Vergangenheit: 09.02.2026",
+    "Event komplett vergangen, entfernt: 03.01.2026",
+    "Event komplett vergangen, entfernt: 09.02.2026",
+    "ENTFERNTE Termine: 09.02.2026"
   ],
-  "timestamp": "2026-03-01T23:16:52.456930"
+  "timestamp": "2026-03-15T08:36:54.034081"
 }

@@ -25,8 +25,7 @@
     {
       "dates": [
         "03.03.2026",
-        "06.03.2026",
-        "06.02.2026"
+        "06.03.2026"
       ],
       "type": "combined",
       "schriftlich": "03.03.2026",
@@ -94,6 +93,9 @@
   "url_used": "https://www.ihk.de/rhein-neckar/wirtschaftsstandort/branchen/dienstleistungen/immobilienwirtschaft/pruefung-zertifizierter-verwalter-5033716",
   "from_cache": false,
   "validation_errors": [],
-  "validation_warnings": [],
-  "timestamp": "2026-03-01T23:10:51.380148"
+  "validation_warnings": [
+    "Datum in der Vergangenheit: 06.02.2026",
+    "ENTFERNTE Termine: 06.02.2026"
+  ],
+  "timestamp": "2026-03-15T08:31:26.300243"
 }

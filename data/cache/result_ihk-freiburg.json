@@ -8,10 +8,10 @@
   "status": "ok",
   "stage": "parser_c",
   "dates_2026": [
-    "03.12.2026",
-    "08.10.2026",
     "02.12.2026",
-    "07.10.2026"
+    "03.12.2026",
+    "07.10.2026",
+    "08.10.2026"
   ],
   "exam_events": [
     {
@@ -44,9 +44,9 @@
     }
   ],
   "fees": [
+    "250,00 €",
     "170,00 €",
-    "50 €",
-    "250,00 €"
+    "50 €"
   ],
   "keyword_score": "10/12",
   "strategies_used": [
@@ -55,8 +55,6 @@
   "url_used": "https://www.ihk.de/freiburg/unternehmen-beraten/gruendung-sicherung/unterrichtungsverfahren-und-sach-fachkundepruefungen/zertifizierter-wohnimmobilienverwalter-6795604",
   "from_cache": false,
   "validation_errors": [],
-  "validation_warnings": [
-    "NEUE Termine: 02.12.2026, 03.12.2026, 07.10.2026, 08.10.2026"
-  ],
-  "timestamp": "2026-03-01T23:12:18.988749"
+  "validation_warnings": [],
+  "timestamp": "2026-03-15T08:32:43.975706"
 }

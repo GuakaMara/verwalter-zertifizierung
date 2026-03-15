@@ -30,19 +30,6 @@
   "exam_events": [
     {
       "dates": [
-        "12.02.2026"
-      ],
-      "type": "exam_date",
-      "schriftlich": null,
-      "muendlich": null,
-      "anmeldeschluss": "07.01.2026",
-      "status": "unknown",
-      "source": "table",
-      "evidence": "Schriftlich 28.01.2026 Mündlich 1 1.02./12.02.2026 07.01.2026",
-      "confidence": 1.0
-    },
-    {
-      "dates": [
         "18.03.2026",
         "26.03.2026",
         "03.03.2026"
@@ -103,12 +90,12 @@
     }
   ],
   "fees": [
-    "360,00 €",
-    "250,00 €",
     "50,00 €",
-    "65,00 €",
+    "250,00 €",
     "330,00 €",
-    "280,00 €"
+    "280,00 €",
+    "360,00 €",
+    "65,00 €"
   ],
   "keyword_score": "10/12",
   "strategies_used": [
@@ -121,7 +108,10 @@
   "validation_errors": [],
   "validation_warnings": [
     "Datum in der Vergangenheit: 28.01.2026",
-    "Datum in der Vergangenheit: 07.01.2026"
+    "Datum in der Vergangenheit: 12.02.2026",
+    "Datum in der Vergangenheit: 07.01.2026",
+    "Event komplett vergangen, entfernt: 28.01.2026, 12.02.2026, 07.01.2026",
+    "ENTFERNTE Termine: 12.02.2026"
   ],
-  "timestamp": "2026-03-01T23:13:31.821457"
+  "timestamp": "2026-03-15T08:33:47.876598"
 }

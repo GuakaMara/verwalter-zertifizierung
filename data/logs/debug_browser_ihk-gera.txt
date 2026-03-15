@@ -111,4 +111,16 @@ Frame 1: about:blank
 Frame 2: https://consentcdn.cookiebot.eu/sdk/bc-v4.min.html
   Text: 
 Frame 3: https://eoa2.bildung1.gfi.ihk.de/kammer/gera/anmeldung/weg
-  Text: 
+  Text: Anmeldeformular für die Prüfung zum zertifizierten Wohnungsverwalter
+01
+Variantenauswahl
+02
+...
+Prüfungsumfang *
+Gesamtprüfung (schriftlich + mündlich)
+Wiederholungsprüfung (mündlich)
+Weiter
+
+Bitte beachten Sie:Die Anmeldung zu einem bestimmten Termin ist für die IHK erst verbindlich, wenn der Termin schriftlich von der IHK bestätigt wurde. Gebührenbescheid und Einladung gehen Ihnen mit gesonderter Post zu.
+
+Sie können von Ihrer Anmeldung nur schriftlich zurücktreten. Sollten Sie unentschuldigt fehlen, wird die Gebühr in voller Höhe berechnet. Sollten Sie aus wichtigem Grund an der Teilnahme gehindert sein, so teilen Sie uns dies bitte unverzüglich mit. Bei einem Rücktritt aus wichtigem Grund vor Prüfungsbeginn ermäßigen sich die Gebühren um 50 %. Liegt kein wichtiger Grund vor, so kann die Gebühr einbehalten werden. Diese Bedingungen sind verbindlich und werden mit der Anmeldung anerkannt. Falls eine Prüfung durch die IHK abgesagt werden muss, werden bezahlte Prüfungsgebühren erstatte

@@ -8,8 +8,8 @@
   "status": "ok",
   "stage": "parser_c",
   "dates_2026": [
-    "06.04.2026",
     "08.06.2026",
+    "06.04.2026",
     "04.05.2026",
     "11.05.2026"
   ],
@@ -77,8 +77,6 @@
   "url_used": "https://www.ihk.de/hamburg/ausbildung-weiterbildung/sachkunde-fachkunde-pruefungen/zertifizierter-verwalter-5440522",
   "from_cache": false,
   "validation_errors": [],
-  "validation_warnings": [
-    "NEUE Termine: 04.05.2026, 06.04.2026, 08.06.2026, 11.05.2026"
-  ],
-  "timestamp": "2026-03-01T23:13:43.076248"
+  "validation_warnings": [],
+  "timestamp": "2026-03-15T08:33:57.500690"
 }

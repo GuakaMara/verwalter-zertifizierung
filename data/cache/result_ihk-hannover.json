@@ -8,18 +8,18 @@
   "status": "ok",
   "stage": "parser_c",
   "dates_2026": [
+    "02.09.2026",
     "16.10.2026",
-    "16.06.2026",
     "05.11.2026",
-    "27.05.2026"
+    "22.09.2026"
   ],
   "exam_events": [
     {
       "dates": [
-        "27.05.2026"
+        "02.09.2026"
       ],
       "type": "exam_date",
-      "schriftlich": "27.05.2026",
+      "schriftlich": "02.09.2026",
       "muendlich": null,
       "anmeldeschluss": null,
       "status": "unknown",
@@ -29,10 +29,10 @@
     },
     {
       "dates": [
-        "16.06.2026"
+        "22.09.2026"
       ],
       "type": "exam_date",
-      "schriftlich": "16.06.2026",
+      "schriftlich": "22.09.2026",
       "muendlich": null,
       "anmeldeschluss": null,
       "status": "unknown",
@@ -79,7 +79,8 @@
   "from_cache": false,
   "validation_errors": [],
   "validation_warnings": [
-    "NEUE Termine: 05.11.2026, 16.06.2026, 16.10.2026, 27.05.2026"
+    "NEUE Termine: 02.09.2026, 22.09.2026",
+    "ENTFERNTE Termine: 16.06.2026, 27.05.2026"
   ],
-  "timestamp": "2026-03-01T23:15:57.702696"
+  "timestamp": "2026-03-15T08:36:04.332726"
 }
