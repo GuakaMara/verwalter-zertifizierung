@@ -170,6 +170,8 @@ def call_claude(system: str, prompt: str, max_tokens: int = 1500) -> str:
         },
         timeout=60,
     )
+    if resp.status_code != 200:
+        print(f"    API Response ({resp.status_code}): {resp.text[:300]}")
     resp.raise_for_status()
     data = resp.json()
     return data["content"][0]["text"]
