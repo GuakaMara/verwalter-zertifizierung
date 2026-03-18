@@ -268,8 +268,9 @@ Schreibe den Artikel. Antworte NUR mit dem JSON-Objekt."""
 
 def js_escape(text: str) -> str:
     """Text für JS-Einbettung escapen."""
-    # Backticks und Dollar-Signs escapen (wir nutzen Template Literals)
+    # Backslashes, Anführungszeichen, Backticks und Dollar-Signs escapen
     text = text.replace("\\", "\\\\")
+    text = text.replace('"', '\\"')
     text = text.replace("`", "\\`")
     text = text.replace("${", "\\${")
     # Deutsche Umlaute als Unicode

@@ -44,7 +44,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           
-          git add assets/ data/news_seen.json
+          git add assets/ data/news_seen.json data/news_images_done.json
           
           if git diff --cached --quiet; then
             echo "ℹ️  Keine neuen Artikel — nichts zu committen"

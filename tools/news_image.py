@@ -17,7 +17,7 @@ IMAGE_WIDTH = 920
 IMAGE_HEIGHT = 400
 IMAGE_QUALITY = 82
 PEXELS_PER_QUERY = 5
-CLAUDE_MODEL = "claude-sonnet-4-20250514"
+CLAUDE_MODEL = "claude-sonnet-4-6"
 
 def get_api_keys():
     anthropic_key = os.environ.get("ANTHROPIC_API_KEY")
@@ -99,13 +99,28 @@ def save_done(done):
     DONE_FILE.parent.mkdir(parents=True, exist_ok=True)
     DONE_FILE.write_text(json.dumps(done, indent=2, ensure_ascii=False))
 
-def mark_done(done, article, image_path=None):
+def mark_done(done, article, image_path=None, pexels_id=None):
     title_hash = hashlib.md5(article["title"].encode()).hexdigest()[:12]
     done[title_hash] = {
         "title": article["title"][:80],
         "date": article["date"],
         "image": image_path or article["image"],
     }
+    if pexels_id:
+        done[title_hash]["pexels_id"] = pexels_id
+
+
+def get_used_pexels_ids(done):
+    """Collect all Pexels photo IDs already used."""
+    used = set()
+    for v in done.values():
+        if "pexels_id" in v:
+            used.add(v["pexels_id"])
+        img = v.get("image", "")
+        m = re.search(r'photos/(\d+)/', img)
+        if m:
+            used.add(m.group(1))
+    return used
 
 def claude_api(api_key, messages, system=None, max_tokens=500):
     payload = {"model": CLAUDE_MODEL, "max_tokens": max_tokens, "messages": messages}
@@ -226,6 +241,7 @@ def process_article(article, index, anthropic_key, pexels_key, done_tracker, for
     if not needs_new_image(article, done_tracker, force):
         print(f"   ✅ Hat bereits lokales Bild – übersprungen")
         return False
+    used_ids = get_used_pexels_ids(done_tracker)
     print(f"   🔍 Generiere Suchbegriffe...")
     queries = generate_search_queries(anthropic_key, article)
     print(f"   → Queries: {queries}")
@@ -236,15 +252,17 @@ def process_article(article, index, anthropic_key, pexels_key, done_tracker, for
         try:
             results = search_pexels(pexels_key, q, per_page=PEXELS_PER_QUERY)
             for r in results:
-                if r["id"] not in seen_ids:
+                if r["id"] not in seen_ids and str(r["id"]) not in used_ids:
                     seen_ids.add(r["id"])
                     all_results.append(r)
+                elif str(r["id"]) in used_ids:
+                    pass
         except Exception as e:
             print(f"   ⚠️ Pexels-Fehler bei '{q}': {e}")
     if not all_results:
         print(f"   ❌ Keine Bilder gefunden")
         return False
-    print(f"   → {len(all_results)} Kandidaten gefunden")
+    print(f"   → {len(all_results)} Kandidaten gefunden (Duplikate gefiltert)")
     print(f"   🖼️ Lade Thumbnails für Auswahl...")
     candidates = []
     for r in all_results[:10]:
@@ -273,7 +291,7 @@ def process_article(article, index, anthropic_key, pexels_key, done_tracker, for
     update_bundle_image(BUNDLE_PATH, article["title_raw"], old_url, output_path)
     print(f"   ✅ Bundle aktualisiert")
     print(f"   📎 Fotograf: {best['photographer']} (Pexels)")
-    mark_done(done_tracker, article, f"./assets/news/{filename}")
+    mark_done(done_tracker, article, f"./assets/news/{filename}", pexels_id=str(best["id"]))
     return True
 
 def main():
