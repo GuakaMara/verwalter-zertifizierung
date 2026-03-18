@@ -56,12 +56,7 @@ RSS_FEEDS = [
     },
     {
         "name": "Haufe Immobilien",
-        "url": "https://rss.haufe.de/steuern-finanzen/immobilien",
-        "type": "rss",
-    },
-    {
-        "name": "VDIV Nachrichten",
-        "url": "https://vdiv.de/rss/news.xml",
+        "url": "https://www.haufe.de/xml/rss_129130.xml",
         "type": "rss",
     },
 ]
