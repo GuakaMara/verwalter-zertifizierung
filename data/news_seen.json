@@ -200,5 +200,36 @@
     "passed_keywords": true,
     "score": 7,
     "published": true
+  },
+  "ed3f50413be8": {
+    "title": "BBU-Tage: KI in der Wohnungswirtschaft: Nicht ob, sondern wie",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/bbu-tage-wohnen_260_680292.html",
+    "date": "2026-03-20T06:41:01.341145",
+    "passed_keywords": false
+  },
+  "16937dde09cd": {
+    "title": "Was bedeutet das für den Immobilienmarkt?: EZB lässt Zinsen trotz Inflationsangst konstant",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/immobilienkredit-zinsanstieg-nach-ezb-entscheidung_84342_429476.html",
+    "date": "2026-03-20T06:41:01.341177",
+    "passed_keywords": false
+  },
+  "6d8b6712a468": {
+    "title": "Push für Klimasanierung: EU-Taxonomie: Regeln für \"grünen\" Gebäudebestand",
+    "url": "https://www.haufe.de/immobilien/investment/eu-taxonomie-so-wird-ein-investment-gruen_256_511586.html",
+    "date": "2026-03-20T06:41:01.341199",
+    "passed_keywords": false
+  },
+  "c34970899192": {
+    "title": "Appell an Bund und Länder: Neue Vorschläge zur Reform der Grunderwerbsteuer",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/grunderwerbsteuer-laender-nehmen-rekordsummen-ein_84342_440652.html",
+    "date": "2026-03-20T06:41:01.341223",
+    "passed_keywords": false
+  },
+  "cd9372c14a1c": {
+    "title": "Wohnungsbau soll Vorrang kriegen: BauGB-Novelle: Die Pläne der Bundesregierung",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/bundestag-beschliesst-novelle-des-baugesetzbuchs_84342_175786.html",
+    "date": "2026-03-20T06:41:01.341246",
+    "passed_keywords": true,
+    "score": 5
   }
 }
