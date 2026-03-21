@@ -231,5 +231,31 @@
     "date": "2026-03-20T06:41:01.341246",
     "passed_keywords": true,
     "score": 5
+  },
+  "9c4e15a8ffe9": {
+    "title": "Energiesprong-Prinzip: Serielles Sanieren: Leitfäden und Checklisten",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/energiesprong-serielles-sanieren_260_640472.html",
+    "date": "2026-03-21T06:30:43.572668",
+    "passed_keywords": false
+  },
+  "f10262962d42": {
+    "title": "Verwaltungsvereinbarung in Kraft getreten: Bund investiert neun Milliarden Euro in sozialen Wohnungsbau",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/sozialer-wohnungsbau-sozialwohnungen-in-deutschland_260_601978.html",
+    "date": "2026-03-21T06:30:43.572704",
+    "passed_keywords": true,
+    "score": 3
+  },
+  "2498060de2f3": {
+    "title": "ZIA-IW-Immobilienstimmungsindex (ISI): Sorgen am Wohnungsmarkt wegen Regulierungsplänen",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/zia-iw-immobilienstimmungsindex-geschaeftslage-und-aussicht_84324_525722.html",
+    "date": "2026-03-21T06:30:43.572715",
+    "passed_keywords": true,
+    "score": 3
+  },
+  "e1279ba69bac": {
+    "title": "Award Kundenkristalle: Mieter haben die besten Vermieter gewählt",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/award-kundenkristalle-mieter-beurteilen-vermieter_260_680308.html",
+    "date": "2026-03-21T06:30:43.572725",
+    "passed_keywords": false
   }
 }
