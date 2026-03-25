@@ -287,5 +287,31 @@
     "url": "https://www.haufe.de/immobilien/wirtschaft-politik/limmo-podcast-alternative-zum-mieterstrom-konzept_84342_680370.html",
     "date": "2026-03-24T06:51:51.157223",
     "passed_keywords": false
+  },
+  "3ea4cd4f8114": {
+    "title": "BGH: Faktischer Verwalter muss wie bestellter Verwalter agieren",
+    "url": "https://www.haufe.de/immobilien/verwaltung/bgh-faktischer-verwalter-muss-wie-bestellter-verwalter-agieren_258_680576.html",
+    "date": "2026-03-25T06:51:08.781454",
+    "passed_keywords": true,
+    "score": 9,
+    "published": true
+  },
+  "c20cf8f9b027": {
+    "title": "Silver Tsunami: Wo Babyboomer-Häuser den Markt fluten",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/maklerstrategie-von-menschen-und-maerkten_84324_512264.html",
+    "date": "2026-03-25T06:51:08.781472",
+    "passed_keywords": false
+  },
+  "67268d3af94d": {
+    "title": "Geopolitik: Wie der Nahostkonflikt auf Immobilienfinanzierungen wirkt",
+    "url": "https://www.haufe.de/immobilien/investment/krise-entwicklungen-am-immobilienmarkt_256_571610.html",
+    "date": "2026-03-25T06:51:08.781511",
+    "passed_keywords": false
+  },
+  "67b1f49bbd1e": {
+    "title": "Save the date!: Aareon Summit 2026 rund um KI: Jetzt anmelden",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/aareon-summit_260_650480.html",
+    "date": "2026-03-25T06:51:08.781531",
+    "passed_keywords": false
   }
 }
