@@ -319,5 +319,38 @@
     "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/erp-system-wohnungswirtschaft-beteiligungsmodell_260_680434.html",
     "date": "2026-03-26T06:56:27.522193",
     "passed_keywords": false
+  },
+  "02cbee6b2b9e": {
+    "title": "3 Fragen an Klaus Maier: Sonne für alle",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/3-fragen-an-klaus-maier_260_680710.html",
+    "date": "2026-03-27T06:56:20.882894",
+    "passed_keywords": false
+  },
+  "8dbce6d501bc": {
+    "title": "Anträge ab dem 15. April möglich: E-Mobilität im Mehrparteienhaus: Förderung startet",
+    "url": "https://www.haufe.de/immobilien/verwaltung/ladesaeulen-in-wohnanlagen-es-gibt-noch-luft-nach-oben_258_520286.html",
+    "date": "2026-03-27T06:56:20.882922",
+    "passed_keywords": true,
+    "score": 8,
+    "published": true
+  },
+  "5996274ae6ab": {
+    "title": "Awards verliehen: Deutscher Immobilienpreis 2026: die Sieger",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/deutscher-immobilienpreis_84342_530326.html",
+    "date": "2026-03-27T06:56:20.882933",
+    "passed_keywords": false
+  },
+  "2211d07e71c4": {
+    "title": "Katalysator für die Digitalisierung: Zehn Thesen zur KI",
+    "url": "https://www.haufe.de/immobilien/katalysator-fuer-die-digitalisierung-zehn-thesen-zur-ki_22_678556.html",
+    "date": "2026-03-27T06:56:20.882957",
+    "passed_keywords": true,
+    "score": 4
+  },
+  "b433805b17ac": {
+    "title": "ERP-System: Taugt das Beteiligungsmodell für die Wohnungswirtschaft?",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/erp-system-wohnungswirtschaft-beteiligungsmodell_260_680434.html",
+    "date": "2026-03-27T06:56:20.882965",
+    "passed_keywords": false
   }
 }
