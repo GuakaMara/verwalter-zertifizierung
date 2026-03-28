@@ -352,5 +352,24 @@
     "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/erp-system-wohnungswirtschaft-beteiligungsmodell_260_680434.html",
     "date": "2026-03-27T06:56:20.882965",
     "passed_keywords": false
+  },
+  "2b55067420c0": {
+    "title": "Gedanken zur Veranstaltung: Der Deutsche Immobilienpreis als Branchen-Schaufenster",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/deutscher-immobilienpreis-nachbericht_84342_680856.html",
+    "date": "2026-03-28T06:45:13.117471",
+    "passed_keywords": false
+  },
+  "9e5541f10bf2": {
+    "title": "Wohnungseigentumsrecht: BGH kassiert \"Drei-Angebote-Regel\"",
+    "url": "https://www.haufe.de/immobilien/verwaltung/bgh-vergleichsangebote-muessen-nicht-sein_258_677416.html",
+    "date": "2026-03-28T06:45:13.117504",
+    "passed_keywords": true,
+    "score": 10
+  },
+  "a15bff656f07": {
+    "title": "Branche sieht Gebäudetyp E als Lösung: Iran-Krieg macht den Wohnungsbau noch teurer",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/wohnungsbautag-wohnt-deutschland-sich-arm_84342_416722.html",
+    "date": "2026-03-28T06:45:13.117513",
+    "passed_keywords": false
   }
 }
