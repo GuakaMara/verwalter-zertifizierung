@@ -413,5 +413,36 @@
     "url": "https://www.haufe.de/immobilien/wirtschaft-politik/immobilien-veranstaltungen-und-events_84342_431772.html",
     "date": "2026-03-31T07:00:59.334197",
     "passed_keywords": false
+  },
+  "b69192837c8f": {
+    "title": "Makler: Wohnungskäufer nutzen Zinsniveau: Preise und Nachfrage",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/kaufpreise-fuer-wohnimmobilien-pendeln-sich-ein_84324_222470.html",
+    "date": "2026-04-02T06:59:33.104171",
+    "passed_keywords": true,
+    "score": 3
+  },
+  "729aef6e88fd": {
+    "title": "Zinsverbilligte Darlehen: Gewerbe zu Wohnen wird ab Juli gefördert: die Konditionen",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/foerderprogramm-gewerbe-zu-wohnen_84342_658820.html",
+    "date": "2026-04-02T06:59:33.104190",
+    "passed_keywords": false
+  },
+  "4c91eebc7259": {
+    "title": "German Real Estate Index (GREIX): Wohnungspreise: Rückkehr zum alten Zyklus",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/greix-trends-bei-immobilienpreisen-in-staedten_84324_594560.html",
+    "date": "2026-04-02T06:59:33.104216",
+    "passed_keywords": false
+  },
+  "c6a0b7f1c55c": {
+    "title": "TKG-Novelle: Glasfaserausbau in Mehrfamilienhäusern",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/kostenloser-glasfaseranschluss-fuer-die-mietwohnung_260_594892.html",
+    "date": "2026-04-02T06:59:33.104237",
+    "passed_keywords": false
+  },
+  "81810c38eab0": {
+    "title": "Techem-Umfrage: Unterjährige Verbrauchsinformation zum Energiesparen",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/heizungsverbrauch-mieter-schaetzen-regelmaessige-information_260_279456.html",
+    "date": "2026-04-02T06:59:33.104262",
+    "passed_keywords": false
   }
 }
