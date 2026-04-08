@@ -456,5 +456,19 @@
     "url": "https://www.haufe.de/immobilien/verwaltung/energiemanagement/grundlagen-des-energiemanagements-in-immobilien_258_681016.html",
     "date": "2026-04-07T07:03:58.890428",
     "passed_keywords": false
+  },
+  "d26861293855": {
+    "title": "GIS-Software: Digitale Tools für das Grünflächenmanagement",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/gis-software-digitale-tools-fuer-das-gruenflaechenmanagement_260_677238.html",
+    "date": "2026-04-08T07:05:41.885544",
+    "passed_keywords": true,
+    "score": 0
+  },
+  "77c8612770a4": {
+    "title": "Falsch geklagt: Grundsteuer: Klage muss beim richtigen Gericht landen",
+    "url": "https://www.haufe.de/immobilien/verwaltung/grundsteuer-klage-am-falschen-gericht_258_681610.html",
+    "date": "2026-04-08T07:05:41.885563",
+    "passed_keywords": true,
+    "score": 0
   }
 }
