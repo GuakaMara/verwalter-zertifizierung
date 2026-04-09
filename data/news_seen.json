@@ -470,5 +470,24 @@
     "date": "2026-04-08T07:05:41.885563",
     "passed_keywords": true,
     "score": 0
+  },
+  "2c33c192286a": {
+    "title": "Einsatz von KI für Unternehmen: \"Mit klaren Regeln wird KI in Deutschland eine Erfolgsgeschichte\"",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/ki-im-unternehmen-rechtssicher-nutzen_260_681634.html",
+    "date": "2026-04-09T07:09:35.040537",
+    "passed_keywords": false
+  },
+  "1cdc68f426e3": {
+    "title": "Ingeborg Esser im Portrait: Kopf und Zahl",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/ingeborg-esser-hauptgeschaeftsfuehrerin-des-gdw-im-portrait_260_681618.html",
+    "date": "2026-04-09T07:09:35.040572",
+    "passed_keywords": false
+  },
+  "f8ba9d3f35e3": {
+    "title": "BGH: GdWE haftet Sondereigentümern für Pflichtverletzung",
+    "url": "https://www.haufe.de/immobilien/verwaltung/bgh-gdwe-haftet-sondereigentuemern-fuer-pflichtverletzung_258_681630.html",
+    "date": "2026-04-09T07:09:35.040593",
+    "passed_keywords": true,
+    "score": 10
   }
 }
