@@ -489,5 +489,31 @@
     "date": "2026-04-09T07:09:35.040593",
     "passed_keywords": true,
     "score": 10
+  },
+  "3eaf8b8cfdea": {
+    "title": "3 Fragen an Jonathan Rey: Neue Nüchternheit in Dubai?",
+    "url": "https://www.haufe.de/immobilien/dubai-im-zeichen-des-kriegs-3-fragen-an-makler-jonathan-rey_22_682396.html",
+    "date": "2026-04-10T07:14:47.584247",
+    "passed_keywords": false
+  },
+  "9afb2009e7fc": {
+    "title": "KG Berlin: Tod des Mieters verschwiegen: Wann droht die fristlose Kündigung?",
+    "url": "https://www.haufe.de/immobilien/verwaltung/tod-des-mieters-verschwiegen-wann-droht-die-fristlose-kuendigung_258_682342.html",
+    "date": "2026-04-10T07:14:47.584283",
+    "passed_keywords": false
+  },
+  "5c7a1c0e5860": {
+    "title": "Chancen für Investoren: Defense Real Estate verspricht Dynamik",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/defense-real-estate-chancen-fuer-immobilieninvestoren_84342_682336.html",
+    "date": "2026-04-10T07:14:47.584311",
+    "passed_keywords": false
+  },
+  "8c10d2c1500e": {
+    "title": "Programm wird neu aufgelegt: Barrierefreies Wohnen: KfW startet Förderung",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/kfw-zuschuesse-fuer-barrierefreies-wohnen_84342_464458.html",
+    "date": "2026-04-10T07:14:47.584333",
+    "passed_keywords": true,
+    "score": 7,
+    "published": true
   }
 }
