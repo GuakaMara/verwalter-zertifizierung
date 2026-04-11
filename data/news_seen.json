@@ -515,5 +515,23 @@
     "passed_keywords": true,
     "score": 7,
     "published": true
+  },
+  "522d73b2bc69": {
+    "title": "Zwischen Inflationsangst und Renditedruck: Diese Wohnimmobilien sind von Investoren gesucht",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/wohnimmobilien-investmentmarkt-deutschland_84324_527002.html",
+    "date": "2026-04-11T06:48:29.103062",
+    "passed_keywords": false
+  },
+  "6ba2bded0e7d": {
+    "title": "Erschwinglichkeit von Wohneigentum: Eigenkapitalbedarf variiert je nach Grunderwerbsteuer",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/wohneigentum-in-deutschland-fehlt-es-an-foerderung_84324_386484.html",
+    "date": "2026-04-11T06:48:29.103099",
+    "passed_keywords": false
+  },
+  "dc44bbec65bc": {
+    "title": "KG Berlin: Tod von Mieter verschwiegen: Droht die fristlose Kündigung?",
+    "url": "https://www.haufe.de/immobilien/verwaltung/tod-des-mieters-verschwiegen-wann-droht-die-fristlose-kuendigung_258_682342.html",
+    "date": "2026-04-11T06:48:29.103128",
+    "passed_keywords": false
   }
 }
