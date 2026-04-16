@@ -581,5 +581,25 @@
     "url": "https://www.haufe.de/immobilien/verwaltung/urteile-zum-themenbereich-balkon-und-terrasse_258_682784.html",
     "date": "2026-04-15T07:17:36.997178",
     "passed_keywords": false
+  },
+  "885332c228b1": {
+    "title": "Mieterstromprojekte gefährdet: Streichung der EEG-Einspeisevergütung: die Folgen",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/osterpaket-eeg-und-solarstrom_84342_564586.html",
+    "date": "2026-04-16T07:18:03.123837",
+    "passed_keywords": false
+  },
+  "bcea0372e9a8": {
+    "title": "Deutsche Hypo : Investmentklima fällt auf Zwei-Jahres-Tief",
+    "url": "https://www.haufe.de/immobilien/investment/deutsche-hypo-index-immobilienklima_256_510892.html",
+    "date": "2026-04-16T07:18:03.123875",
+    "passed_keywords": false
+  },
+  "254e3662bce8": {
+    "title": "Alleineigentümer und WEGs: E-Autos in Mehrfamilienhäusern: Förderung ab sofort",
+    "url": "https://www.haufe.de/immobilien/verwaltung/ladesaeulen-in-wohnanlagen-es-gibt-noch-luft-nach-oben_258_520286.html",
+    "date": "2026-04-16T07:18:03.123902",
+    "passed_keywords": true,
+    "score": 8,
+    "published": true
   }
 }
