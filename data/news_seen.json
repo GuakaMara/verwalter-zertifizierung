@@ -601,5 +601,29 @@
     "passed_keywords": true,
     "score": 8,
     "published": true
+  },
+  "6ab11aefbbc9": {
+    "title": "Liquiditätsmanagement: Neue Regeln für Immobilienfonds",
+    "url": "https://www.haufe.de/immobilien/investment/green-bonds-nachhaltige-fonds-werden-beliebter-bei-anlegern_256_508358.html",
+    "date": "2026-04-17T07:18:23.403234",
+    "passed_keywords": false
+  },
+  "d6ca1f6b6f31": {
+    "title": "Postbank Wohnatlas 2026: Wo Eigentumswohnungen wieder an Wert gewinnen",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/postbank-wohnatlas-2018_84324_446060.html",
+    "date": "2026-04-17T07:18:23.403264",
+    "passed_keywords": false
+  },
+  "f02fd4e45a12": {
+    "title": "Nach Klingbeil-Vorschlag: Hubertz liebäugelt mit Bundesbaugesellschaft",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/wohnungsmarkt-deutschland-steckt-in-einem-baustau_84342_505656.html",
+    "date": "2026-04-17T07:18:23.403284",
+    "passed_keywords": false
+  },
+  "4345c15c2b1a": {
+    "title": "WOWI-GIX: Stimmung in der Wohnungswirtschaft trübt sich ein",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/wowi-gix-index-fuer-die-wohnungswirtschaft_260_670948.html",
+    "date": "2026-04-17T07:18:23.403303",
+    "passed_keywords": false
   }
 }
