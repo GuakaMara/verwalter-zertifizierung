@@ -625,5 +625,24 @@
     "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/wowi-gix-index-fuer-die-wohnungswirtschaft_260_670948.html",
     "date": "2026-04-17T07:18:23.403303",
     "passed_keywords": false
+  },
+  "df8953b8067c": {
+    "title": "Informationsplattform gegründet: Neue Lobby für serielles Sanieren am Start",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/deutsche-allianz-fuer-serielle-sanierung-dass_84342_683256.html",
+    "date": "2026-04-18T06:55:33.264107",
+    "passed_keywords": true,
+    "score": 4
+  },
+  "7b32c675b0f7": {
+    "title": "3 Fragen an Jörn Stobbe: Steine und Beine",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/fussball-und-wohnungsbau-3-fragen-an-joern-stobbe_260_683218.html",
+    "date": "2026-04-18T06:55:33.264133",
+    "passed_keywords": false
+  },
+  "7b7f6c6bb40d": {
+    "title": "Empirica-Ranking: Inflation lässt Preise für neue Wohnungen steigen",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/empirica-index-aktuelle-entwicklung-der-immobilienpreise_84324_514048.html",
+    "date": "2026-04-18T06:55:33.264151",
+    "passed_keywords": false
   }
 }
