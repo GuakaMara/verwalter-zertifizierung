@@ -644,5 +644,30 @@
     "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/empirica-index-aktuelle-entwicklung-der-immobilienpreise_84324_514048.html",
     "date": "2026-04-18T06:55:33.264151",
     "passed_keywords": false
+  },
+  "f7d6b83f0820": {
+    "title": "Pilotprojekt des Bundesjustizministeriums: Streit um Mietkaution: Bald online klagen?",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/mietkaution-gewinn-steht-mieter-zu_84342_571824.html",
+    "date": "2026-04-21T07:21:05.197639",
+    "passed_keywords": false
+  },
+  "dbe75c4b3f03": {
+    "title": "IfW-Analyse für den GREIX: Wohnungsangebot am regulären Mietmarkt schrumpft",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/wohnungsmarkt-so-entwickeln-sich-die-mieten-in-deutschland_84324_499438.html",
+    "date": "2026-04-21T07:21:05.197672",
+    "passed_keywords": false
+  },
+  "a871a141503e": {
+    "title": "Mehr genehmigte Wohnungen: Hohe Kosten und Bürokratie bremsen den Baubeginn",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/destatis-baugenehmigungen-fuer-wohnungen-deutlich-gestiegen_84324_511962.html",
+    "date": "2026-04-21T07:21:05.197694",
+    "passed_keywords": false
+  },
+  "2e2e4dac0cc9": {
+    "title": "L'Immo, der Podcast für die Immobilienwirtschaft: Praxis schlägt Hype: Digitalpioniere der Wohnungswirtschaft",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/limmo-podcast-digitalpioniere-der-wohnungswirtschaft_260_683286.html",
+    "date": "2026-04-21T07:21:05.197715",
+    "passed_keywords": true,
+    "score": 4
   }
 }
