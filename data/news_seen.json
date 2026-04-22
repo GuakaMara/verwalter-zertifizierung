@@ -669,5 +669,24 @@
     "date": "2026-04-21T07:21:05.197715",
     "passed_keywords": true,
     "score": 4
+  },
+  "310deef25b0e": {
+    "title": "Evaluierungsbericht: CO2-Kostenaufteilung – Stufenmodell in der Kritik",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/co2-preis-inwiefern-muessen-sich-vermieter-beteiligen_84342_525922.html",
+    "date": "2026-04-22T07:19:01.566584",
+    "passed_keywords": true,
+    "score": 7
+  },
+  "47c792000f50": {
+    "title": "Immobilien und Investitionen: Neuigkeiten bei der Expo Real 2026",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/expo-real_84342_573194.html",
+    "date": "2026-04-22T07:19:01.566612",
+    "passed_keywords": false
+  },
+  "5c6f669eb738": {
+    "title": "Heizkosten und Warmwasser: Die häufigsten Fehler bei der Nebenkostenabrechnung",
+    "url": "https://www.haufe.de/immobilien/verwaltung/nebenkostenabrechnung-19-prozent-der-mieter-hatten-schon-streit_258_344778.html",
+    "date": "2026-04-22T07:19:01.566635",
+    "passed_keywords": false
   }
 }
