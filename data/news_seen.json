@@ -688,5 +688,31 @@
     "url": "https://www.haufe.de/immobilien/verwaltung/nebenkostenabrechnung-19-prozent-der-mieter-hatten-schon-streit_258_344778.html",
     "date": "2026-04-22T07:19:01.566635",
     "passed_keywords": false
+  },
+  "18bf0e01decf": {
+    "title": "Grünes Licht im Ausschuss: Kurzzeitvermietung über Airbnb & Co.: Neue Daten-Regeln",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/wohnungsmarkt-vermieten-ueber-airbnb-wird-komplizierter_84342_486768.html",
+    "date": "2026-04-23T07:20:58.922345",
+    "passed_keywords": false
+  },
+  "8324ccd2effe": {
+    "title": "BGH: AGB-Verstoß kippt Wertsicherungsklausel von Anfang an",
+    "url": "https://www.haufe.de/immobilien/verwaltung/agb-verstoss-wertsicherungsklausel-von-anfang-an-unwirksam_258_683630.html",
+    "date": "2026-04-23T07:20:58.922382",
+    "passed_keywords": false
+  },
+  "1b105e5c4590": {
+    "title": "Verwalterentgeltstudie 2026: WEG- und Mietverwaltung: Preise und Vergütung",
+    "url": "https://www.haufe.de/immobilien/verwaltung/welche-gehaelter-und-bedingungen-bieten-immobilienverwaltungen_258_568998.html",
+    "date": "2026-04-23T07:20:58.922399",
+    "passed_keywords": true,
+    "score": 9,
+    "published": true
+  },
+  "4179b8ad4fe2": {
+    "title": "Abschreibung: Sonder-AfA für Neubau von Mietwohnungen: Tipps & Fallstricke",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/abschreibung-beim-mietwohnungsbau_84342_572146.html",
+    "date": "2026-04-23T07:20:58.922409",
+    "passed_keywords": false
   }
 }
