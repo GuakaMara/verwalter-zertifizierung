@@ -714,5 +714,31 @@
     "url": "https://www.haufe.de/immobilien/wirtschaft-politik/abschreibung-beim-mietwohnungsbau_84342_572146.html",
     "date": "2026-04-23T07:20:58.922409",
     "passed_keywords": false
+  },
+  "10fdd59f2307": {
+    "title": "Whitepaper: Mieten statt Preis: Trends bei Wohninvestments",
+    "url": "https://www.haufe.de/immobilien/investment/institutionelle-anleger-nehmen-wohninvestments-in-visier_256_662322.html",
+    "date": "2026-04-24T07:47:18.593067",
+    "passed_keywords": false
+  },
+  "fd4c82975ec5": {
+    "title": "Wohnungswirtschaft will nachschärfen: Vergabebeschleunigungsgesetz: Ziel verfehlt?",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/deutschlandfonds_84342_634976.html",
+    "date": "2026-04-24T07:47:18.593107",
+    "passed_keywords": false
+  },
+  "826278dcefcc": {
+    "title": "EZB und Geopolitik: Immobilienkredite und Entwicklung der Bauzinsen",
+    "url": "https://www.haufe.de/immobilien/investment/immobilienfinanzierung-die-zinswende-ist-da_256_455806.html",
+    "date": "2026-04-24T07:47:18.593130",
+    "passed_keywords": true,
+    "score": 4
+  },
+  "b2a097cba5e1": {
+    "title": "Reformvorhaben: Mietrechtliche Fragen bremsen Gebäudemodernisierungsgesetz",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/gebaeudemodernisierungsgesetz-gmg_84342_683694.html",
+    "date": "2026-04-24T07:47:18.593138",
+    "passed_keywords": true,
+    "score": 6
   }
 }
