@@ -740,5 +740,26 @@
     "date": "2026-04-24T07:47:18.593138",
     "passed_keywords": true,
     "score": 6
+  },
+  "8cd1f8399f32": {
+    "title": "BGH: GdWE ist immer für Balkonsanierung zuständig",
+    "url": "https://www.haufe.de/immobilien/verwaltung/bgh-gdwe-ist-immer-fuer-balkonsanierung-zustaendig_258_683860.html",
+    "date": "2026-04-25T07:01:45.325375",
+    "passed_keywords": true,
+    "score": 10,
+    "published": true
+  },
+  "acde8afcfcc7": {
+    "title": "3 Fragen an Franziska Magin-Kohl : Excel-frei als Challenge",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/digitalpioniere-3-fragen-an-franziska-magin-kohl_260_683818.html",
+    "date": "2026-04-25T07:01:45.325394",
+    "passed_keywords": true,
+    "score": 4
+  },
+  "96b359e68005": {
+    "title": "Whitepaper: Ertrag statt Preis zählt: Trends bei Wohninvestments",
+    "url": "https://www.haufe.de/immobilien/investment/institutionelle-anleger-nehmen-wohninvestments-in-visier_256_662322.html",
+    "date": "2026-04-25T07:01:45.325406",
+    "passed_keywords": false
   }
 }
