@@ -775,5 +775,37 @@
     "url": "https://www.haufe.de/immobilien/wirtschaft-politik/haufe-hr-online-konferenz_84342_683854.html",
     "date": "2026-04-27T08:03:41.670410",
     "passed_keywords": false
+  },
+  "34fcdef8f7c9": {
+    "title": "Immobilienverwaltung: Förderprogramme für die Digitalisierung kaum genutzt",
+    "url": "https://www.haufe.de/immobilien/verwaltung/immobilienverwaltung-foerdermittel-fuer-die-digitalisierung_258_684020.html",
+    "date": "2026-04-28T08:04:49.334527",
+    "passed_keywords": true,
+    "score": 5
+  },
+  "47ad7159b38c": {
+    "title": "L'Immo, der Podcast für die Immobilienwirtschaft: Die Magie der Unterlegscheibe",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/limmo-podcast-die-magie-der-unterlegscheibe_84342_683966.html",
+    "date": "2026-04-28T08:04:49.334550",
+    "passed_keywords": false
+  },
+  "0e9d80f17cf6": {
+    "title": "GREIX-Portfolioanalyse: Wohninvestment: Höhere Preiszuwächse durch Streuung",
+    "url": "https://www.haufe.de/immobilien/investment/immobilieninvestment-weniger-ertragsrisiko-in-top-staedten_256_507684.html",
+    "date": "2026-04-28T08:04:49.334580",
+    "passed_keywords": false
+  },
+  "ee9b20a7362e": {
+    "title": "IW-Wohnindex: Energieeffizienz bleibt ein Preistreiber",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/iw-wohnindex-entwicklung-kaufpreise-und-mieten_84324_615168.html",
+    "date": "2026-04-28T08:04:49.334614",
+    "passed_keywords": false
+  },
+  "b03de100a296": {
+    "title": "Keine 65-Prozent-Regel mehr, aber ...: Hubertz will Vermieter an Anstieg bei Heizkosten beteiligen",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/heizungsgesetz_84342_596382.html",
+    "date": "2026-04-28T08:04:49.334636",
+    "passed_keywords": true,
+    "score": 6
   }
 }
