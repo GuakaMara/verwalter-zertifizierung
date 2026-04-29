@@ -807,5 +807,51 @@
     "date": "2026-04-28T08:04:49.334636",
     "passed_keywords": true,
     "score": 6
+  },
+  "0e1acaf1623e": {
+    "title": "Zukunft des (klima-)effizienten Heizens: Zehn Wärmetechnologien im Vergleich: Vor -und Nachteile",
+    "url": "https://www.haufe.de/immobilien/verwaltung/energieversorgung-der-zukunft-sieben-moeglichkeiten_258_441040.html",
+    "date": "2026-04-29T07:58:46.211335",
+    "passed_keywords": true,
+    "score": 7
+  },
+  "283c0e3e50f4": {
+    "title": "Save the date!: Transformation – Thema der Real Estate Arena 2026",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/real-estate-arena_260_624188.html",
+    "date": "2026-04-29T07:58:46.211361",
+    "passed_keywords": false
+  },
+  "3642335b6fdd": {
+    "title": "Nachfrage nach Wohnimmobilien in Europa: Deutschland auf Platz eins der Investoren-Wunschliste",
+    "url": "https://www.haufe.de/immobilien/investment/studie-situation-des-wohnungsmarktes-in-deutschland_256_490504.html",
+    "date": "2026-04-29T07:58:46.211387",
+    "passed_keywords": false
+  },
+  "e9cd0b7be20d": {
+    "title": "Verwaltungsvereinbarung 2026/2027: Eine Milliarde Euro für die Städtebauförderung",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/staedtebaufoerderung-bund-stellt-rekordsumme-bereit_84342_489964.html",
+    "date": "2026-04-29T07:58:46.211409",
+    "passed_keywords": true,
+    "score": 2
+  },
+  "8c075f77db55": {
+    "title": "In eigener Sache: Digitalpioniere: Bewerbungsfrist verlängert bis 10. Mai",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/award-digitalpioniere-der-wohnungswirtschaft_260_564776.html",
+    "date": "2026-04-29T07:58:46.211420",
+    "passed_keywords": false
+  },
+  "248d1d1373ba": {
+    "title": "Banken: EU-Taxonomie bremst Renovierungstätigkeit",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/eu-taxonomie-mehr-nachhaltigkeit-fuer-die-immobilienbranche_84342_589310.html",
+    "date": "2026-04-29T07:58:46.211446",
+    "passed_keywords": false
+  },
+  "cf5ae33e9c94": {
+    "title": "EU-Gebäuderichtlinie (EPBD): Energieausweise: wichtige Änderungen im Mai",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/energieausweis-pflichten-und-fristen_84342_534562.html",
+    "date": "2026-04-29T07:58:46.211477",
+    "passed_keywords": true,
+    "score": 7,
+    "published": true
   }
 }
