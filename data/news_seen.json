@@ -853,5 +853,30 @@
     "passed_keywords": true,
     "score": 7,
     "published": true
+  },
+  "dda6046a2e26": {
+    "title": "Interview mit Verena Fink: \"Es braucht Menschen, um KI ins Laufen zu bringen\"",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/ki-in-der-wohnungswirtschaft-wie-der-einstieg-gelingt_260_684254.html",
+    "date": "2026-04-30T08:01:49.676582",
+    "passed_keywords": false
+  },
+  "bd3cef45edeb": {
+    "title": "IW-Simulation : So wirken die Energiepreise auf die Inflation",
+    "url": "https://www.haufe.de/immobilien/investment/inflation-und-immobilienmaerkte-ist-das-schreckgespenst-zurueck_256_552802.html",
+    "date": "2026-04-30T08:01:49.676618",
+    "passed_keywords": true,
+    "score": 3
+  },
+  "93d3a44d7cc1": {
+    "title": "Gesetzgebung: Kabinett beschließt Mietrechtsänderung",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/mietrechtsreform-2026_84342_684280.html",
+    "date": "2026-04-30T08:01:49.676635",
+    "passed_keywords": false
+  },
+  "4fd8948ed18b": {
+    "title": "Innovative Wohnprojekte: Deutscher Bauherrenpreis 2026: die Nominierten",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/bauherrenpreis_260_625874.html",
+    "date": "2026-04-30T08:01:49.676653",
+    "passed_keywords": false
   }
 }
