@@ -878,5 +878,37 @@
     "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/bauherrenpreis_260_625874.html",
     "date": "2026-04-30T08:01:49.676653",
     "passed_keywords": false
+  },
+  "b1a0d5eaec75": {
+    "title": "PropTechs vs. Immobilienunternehmen: Wer bremst hier eigentlich wen?",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/ki-in-der-immobilienbranche-wer-bremst-die-digitalisierung_84342_684500.html",
+    "date": "2026-05-01T08:00:15.173486",
+    "passed_keywords": true,
+    "score": 4
+  },
+  "a17c71dcb6bd": {
+    "title": "3 Fragen an Jan-Hendrik Goldbeck: Streicheleinheiten für den Bauturbo",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/bezahlbarer-wohnungsbau-3-fragen-an-jan-henrik-goldbeck_84342_684486.html",
+    "date": "2026-05-01T08:00:15.173505",
+    "passed_keywords": false
+  },
+  "ca5d02e5b51d": {
+    "title": "Geldpolitik und Immobilienmarkt: EZB-Entscheid und Iran-Krieg: Ansage zu Bauzinsen",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/immobilienkredit-zinsanstieg-nach-ezb-entscheidung_84342_429476.html",
+    "date": "2026-05-01T08:00:15.173529",
+    "passed_keywords": false
+  },
+  "51bfdd040226": {
+    "title": "Kabinett einigt sich beim Mieterschutz: Gebäudemodernisierungsgesetz: alle Änderungen im Überblick",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/gebaeudemodernisierungsgesetz-gmg_84342_683694.html",
+    "date": "2026-05-01T08:00:15.173554",
+    "passed_keywords": false
+  },
+  "7fe50b3ea51e": {
+    "title": "Bundesregierung verlängert Fristen: Heizungsgesetz: 65-Prozent-Regel wird ausgesetzt",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/heizungsgesetz_84342_596382.html",
+    "date": "2026-05-01T08:00:15.173584",
+    "passed_keywords": true,
+    "score": 8
   }
 }
