@@ -910,5 +910,41 @@
     "date": "2026-05-01T08:00:15.173584",
     "passed_keywords": true,
     "score": 8
+  },
+  "466a80a73c4e": {
+    "title": "Risiko oder Renditechance?: Wohnimmobilien als Inflationsschutz",
+    "url": "https://www.haufe.de/immobilien/investment/investmentmarkt-immobilienverkaeufer-optimistisch_256_582642.html",
+    "date": "2026-05-05T07:52:44.417522",
+    "passed_keywords": false
+  },
+  "88c38dd08577": {
+    "title": "Experten-Prognosen: So verändert die EZB-Entscheidung den Immobilienmarkt",
+    "url": "https://www.haufe.de/immobilien/investment/einfluss-der-zinspolitik-auf-die-immobilienmaerkte_256_572510.html",
+    "date": "2026-05-05T07:52:44.417555",
+    "passed_keywords": false
+  },
+  "324be2a0f69b": {
+    "title": "L'Immo, der Podcast für die Immobilienwirtschaft: Raus aus der Wohnungsbaukrise",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/limmo-podcast-raus-aus-der-wohnungsbaukrise_260_684030.html",
+    "date": "2026-05-05T07:52:44.417578",
+    "passed_keywords": false
+  },
+  "3de542026f9d": {
+    "title": "Nach Klingbeil-Vorschlag: Bundesbaugesellschaft: Wissenschaftliche Einordnung",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/wohnungsmarkt-deutschland-steckt-in-einem-baustau_84342_505656.html",
+    "date": "2026-05-05T07:52:44.417605",
+    "passed_keywords": false
+  },
+  "ffa808703ce2": {
+    "title": "Gesetzesvorhaben: Erweiterter Mieterschutz: Reaktionen zu Mietrecht II und GMG",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/wohnungspolitik-im-wahlkampf-kommt-der-bundes-mietendeckel_84342_541230.html",
+    "date": "2026-05-05T07:52:44.417626",
+    "passed_keywords": false
+  },
+  "4c4b41903025": {
+    "title": "Immobilienmarkt: EZB-Geldpolitik und Iran-Krieg: Ansage zu Bauzinsen",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/immobilienkredit-zinsanstieg-nach-ezb-entscheidung_84342_429476.html",
+    "date": "2026-05-05T07:52:44.417654",
+    "passed_keywords": false
   }
 }
