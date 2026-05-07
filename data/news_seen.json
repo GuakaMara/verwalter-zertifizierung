@@ -952,5 +952,43 @@
     "url": "https://www.haufe.de/immobilien/investment/bei-der-logistik-tut-sich-was-tummelplatz-fuer-investoren_256_520238.html",
     "date": "2026-05-06T08:05:47.099144",
     "passed_keywords": false
+  },
+  "ef0125dac7f1": {
+    "title": "Beispiele aus der Rechtsprechung: WEG-Versammlung: Wann ist der Zeitpunkt unzumutbar?",
+    "url": "https://www.haufe.de/immobilien/verwaltung/weg-versammlung-wann-ist-der-zeitpunkt-unzumutbar_258_685244.html",
+    "date": "2026-05-07T08:13:23.540124",
+    "passed_keywords": true,
+    "score": 9,
+    "published": true
+  },
+  "d5c2db3feec2": {
+    "title": "Kreditangebot: Wer jetzt noch Immobilien finanziert",
+    "url": "https://www.haufe.de/immobilien/investment/deutscher-immobilienfinanzierungsindex-difi_256_511716.html",
+    "date": "2026-05-07T08:13:23.540142",
+    "passed_keywords": false
+  },
+  "c25bb32a0ef3": {
+    "title": "Energie als strategischer Werttreiber: Wie Stromverfügbarkeit die Immobilienbewertung verändert",
+    "url": "https://www.haufe.de/immobilien/investment/druck-auf-property-manager-waechst-nachhaltigkeit-ist-gefragt_256_450824.html",
+    "date": "2026-05-07T08:13:23.540169",
+    "passed_keywords": false
+  },
+  "1e1f168fffb7": {
+    "title": "Referentenentwurf liegt vor: Gebäudemodernisierungsgesetz: Änderungen im Überblick",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/gebaeudemodernisierungsgesetz-gmg_84342_683694.html",
+    "date": "2026-05-07T08:13:23.540202",
+    "passed_keywords": false
+  },
+  "8ae08b915b82": {
+    "title": "Für KI, Käufer und Google: Sprache in Immobilienanzeigen: was Makler wissen müssen",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/rekordumsatz-am-deutschen-immobilienmarkt_84324_472264.html",
+    "date": "2026-05-07T08:13:23.540235",
+    "passed_keywords": false
+  },
+  "1ea6e80d5b78": {
+    "title": "Gesetzesvorhaben: Erweiterter Mieterschutz: Reaktionen zu Mietrecht II und GModG",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/wohnungspolitik-im-wahlkampf-kommt-der-bundes-mietendeckel_84342_541230.html",
+    "date": "2026-05-07T08:13:23.540264",
+    "passed_keywords": false
   }
 }
