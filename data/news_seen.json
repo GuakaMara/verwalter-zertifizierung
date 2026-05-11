@@ -1038,5 +1038,30 @@
     "url": "https://www.haufe.de/immobilien/wirtschaft-politik/digitaler-notarvertrag_84342_513880.html",
     "date": "2026-05-09T07:41:36.082907",
     "passed_keywords": false
+  },
+  "21717669782d": {
+    "title": "L'Immo, der Podcast für die Immobilienwirtschaft: Real Estate Arena – wo die Immobilienwirtschaft steht",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/limmo-podcast-real-estate-arena-2026_84342_685550.html",
+    "date": "2026-05-11T08:56:39.736827",
+    "passed_keywords": false
+  },
+  "81bd76d225d5": {
+    "title": "Destatis: Mehr als jeder Zehnte in Deutschland wohnt zu eng",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/mietkostenbelastung-konstant-wohnflaechenkonsum-stagniert_84324_497470.html",
+    "date": "2026-05-11T08:56:39.736866",
+    "passed_keywords": true,
+    "score": 3
+  },
+  "6eee55cdbbd5": {
+    "title": "Green Leases: Erfolgsfaktoren bei grünen Mietverträgen",
+    "url": "https://www.haufe.de/immobilien/green-leases-gruene-mietvertraege_22_685516.html",
+    "date": "2026-05-11T08:56:39.736875",
+    "passed_keywords": false
+  },
+  "41f0e47a84d6": {
+    "title": "GREIX-Kaufpreisindex: Eigentumswohnungen schwächeln – Einfamilienhäuser performen",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/greix-trends-bei-immobilienpreisen-in-staedten_84324_594560.html",
+    "date": "2026-05-11T08:56:39.736900",
+    "passed_keywords": false
   }
 }
