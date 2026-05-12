@@ -1063,5 +1063,25 @@
     "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/greix-trends-bei-immobilienpreisen-in-staedten_84324_594560.html",
     "date": "2026-05-11T08:56:39.736900",
     "passed_keywords": false
+  },
+  "cbc82874da82": {
+    "title": "Von Vorreitern lernen: Hausverwaltung: 5 Tipps für die Digitalisierung",
+    "url": "https://www.haufe.de/immobilien/verwaltung/hausverwaltung-5-tipps-fuer-die-digitalisierung_258_684628.html",
+    "date": "2026-05-12T08:23:47.302070",
+    "passed_keywords": true,
+    "score": 7
+  },
+  "ba34944cf5fc": {
+    "title": "Entschließung der Länder: Bundesrat will Misstände in Problemimmobilien angehen",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/problemimmobilien-bbsr-legt-leitfaden-fuer-kommunen-vor_84342_510748.html",
+    "date": "2026-05-12T08:23:47.302093",
+    "passed_keywords": true,
+    "score": 3
+  },
+  "f5ed9f3d2e3d": {
+    "title": "vdp-Immobilienpreisindex: Selbst genutztes Wohneigentum verteuert sich um 2,5 Prozent",
+    "url": "https://www.haufe.de/immobilien/investment/vdp-immobilienpreisindex_256_515900.html",
+    "date": "2026-05-12T08:23:47.302105",
+    "passed_keywords": false
   }
 }
