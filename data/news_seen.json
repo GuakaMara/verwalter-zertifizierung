@@ -1119,5 +1119,30 @@
     "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/klimaschutz-verein-initiative-wohnen-2050-gegruendet_260_508642.html",
     "date": "2026-05-13T08:32:05.430125",
     "passed_keywords": false
+  },
+  "03b6c6f9ec11": {
+    "title": "Koalitionsausschuss: CO2-Preis soll 2027 nicht steigen",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/eu-recht-reform-von-emissionshandel-und-co2-bepreisung_84342_642252.html",
+    "date": "2026-05-14T08:26:16.463419",
+    "passed_keywords": false
+  },
+  "28d625f051cb": {
+    "title": "GEG-Reform: Kabinett beschließt Gebäudemodernisierungsgesetz",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/gebaeudemodernisierungsgesetz-gmg_84342_683694.html",
+    "date": "2026-05-14T08:26:16.463454",
+    "passed_keywords": true,
+    "score": 8
+  },
+  "a69817a730b9": {
+    "title": "Inflationsraten von mehr als vier Prozent?: Chefbanker stellt Zinserhöhung durch EZB im Juni in Aussicht",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/die-zinswende-rueckt-naeher-folgen-fuer-die-immobilienbranche_84342_568456.html",
+    "date": "2026-05-14T08:26:16.463473",
+    "passed_keywords": false
+  },
+  "062faf99de47": {
+    "title": "Deutsche Hypo Immobilienklima: Qualitative Verschiebung am Investmentmarkt",
+    "url": "https://www.haufe.de/immobilien/investment/deutsche-hypo-index-immobilienklima_256_510892.html",
+    "date": "2026-05-14T08:26:16.463492",
+    "passed_keywords": false
   }
 }
