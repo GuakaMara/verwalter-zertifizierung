@@ -1168,5 +1168,24 @@
     "url": "https://www.haufe.de/immobilien/verwaltung/datenschutz-smarte-rauchmelder-in-mietwohnungen_258_686230.html",
     "date": "2026-05-16T07:48:11.053426",
     "passed_keywords": false
+  },
+  "db52a3a0ccf3": {
+    "title": "L'Immo, der Podcast für die Immobilienwirtschaft: Nachhaltiges Bauen: In Zukunft keine Wahl mehr",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/limmo-podcast-nachhaltiges-bauen_84342_686380.html",
+    "date": "2026-05-18T09:37:23.517972",
+    "passed_keywords": false
+  },
+  "7766d42ae618": {
+    "title": "Iran-Krieg könnte Aufschwung bremsen: Baugenehmigungen für Wohnungen steigen stark",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/destatis-baugenehmigungen-fuer-wohnungen-deutlich-gestiegen_84324_511962.html",
+    "date": "2026-05-18T09:37:23.518011",
+    "passed_keywords": false
+  },
+  "b7e7678da2d3": {
+    "title": "Entlastung bei Energiepreisen: Senkung der Stromsteuer für alle: die Pläne",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/heizkosten-vielerorts-drohen-nachzahlungen_84342_440906.html",
+    "date": "2026-05-18T09:37:23.518032",
+    "passed_keywords": true,
+    "score": 5
   }
 }
