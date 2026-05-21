@@ -1223,5 +1223,26 @@
     "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/bundesweiter-mietendeckel-folgen-fuer-den-wohnungsmarkt_84324_631584.html",
     "date": "2026-05-20T08:51:24.836965",
     "passed_keywords": false
+  },
+  "2f11fc0338a2": {
+    "title": "2026 wird zum Stresstest: So wirkt Basel III auf Immobilienkredite",
+    "url": "https://www.haufe.de/immobilien/investment/basel-iii-immobilienkredite-werden-teurer_256_435770.html",
+    "date": "2026-05-21T08:54:02.429909",
+    "passed_keywords": false
+  },
+  "0de9f5f49232": {
+    "title": "Neue Daten zur Randbebauung: Wohnen am Tempelhofer Feld: In Berlin dreht sich der Wind",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/berlin-spd-politiker-fuer-wohnungsbau-am-tempelhofer-feld_84342_494218.html",
+    "date": "2026-05-21T08:54:02.429945",
+    "passed_keywords": true,
+    "score": 2
+  },
+  "2df745d02b43": {
+    "title": "Wohnungseigentumsrecht: BGH schränkt Umstieg auf Objektprinzip ein",
+    "url": "https://www.haufe.de/immobilien/verwaltung/bgh-kostenverteilung-nach-objektprinzip_258_686424.html",
+    "date": "2026-05-21T08:54:02.429960",
+    "passed_keywords": true,
+    "score": 10,
+    "published": true
   }
 }
