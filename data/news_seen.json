@@ -1244,5 +1244,35 @@
     "passed_keywords": true,
     "score": 10,
     "published": true
+  },
+  "f9c9eda01ce4": {
+    "title": "Studie zum Immobilien- und Wohnungsmarkt : Olympia in der Stadt: Was das mit Mieten und Preisen macht",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/mieten-kaum-noch-im-verhaeltnis-zur-kaufkraft_84324_395352.html",
+    "date": "2026-05-22T08:47:14.404617",
+    "passed_keywords": false
+  },
+  "e6d3589140a8": {
+    "title": "3 Fragen an Hoang Anh Nguyen: Beton zum Klimaretter machen",
+    "url": "https://www.haufe.de/immobilien/co2-negativer-beton-3-fragen-an-hoang-anh-nguyen_22_686638.html",
+    "date": "2026-05-22T08:47:14.404650",
+    "passed_keywords": false
+  },
+  "a29fbb02664e": {
+    "title": "Bundesratsinitiative angekündigt: Bayern will Verbot von Enteignungen durchsetzen",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/bbu-rechtsgutachten-zur-enteignung-von-wohnungsunternehmen_84342_486566.html",
+    "date": "2026-05-22T08:47:14.404677",
+    "passed_keywords": false
+  },
+  "e986d7858db8": {
+    "title": "Empirica-Index: Brisanz einer Immobilienblase: aktuelle Entwicklung",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/empirica-empirica-blasenindex-steigt_84324_326394.html",
+    "date": "2026-05-22T08:47:14.404705",
+    "passed_keywords": false
+  },
+  "47019d5308a3": {
+    "title": "Für eigene Regeln beim Heizen: GModG: Hamburg fordert Länderöffnungsklausel",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/hamburg-volksinitiativen-mischen-wohnungsmarkt-auf_84342_506162.html",
+    "date": "2026-05-22T08:47:14.404729",
+    "passed_keywords": false
   }
 }
