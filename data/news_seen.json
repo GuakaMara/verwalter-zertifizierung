@@ -1292,5 +1292,24 @@
     "url": "https://www.haufe.de/immobilien/investment/investment-immobilien-mit-wertsteigerungspotenzial_256_490294.html",
     "date": "2026-05-26T09:33:32.372780",
     "passed_keywords": false
+  },
+  "52093affef78": {
+    "title": "Energy Sharing: Strom teilen mit dem Nachbarn: das ist neu ab Juni",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/future-energy-lab_260_524000.html",
+    "date": "2026-05-27T08:59:13.858806",
+    "passed_keywords": false
+  },
+  "5b05fed1b399": {
+    "title": "Solaranlagen und Denkmalschutz: Sonnenkraft auf alter Pracht",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/photovoltaikanlage-und-denkmalschutz_260_686670.html",
+    "date": "2026-05-27T08:59:13.858836",
+    "passed_keywords": false
+  },
+  "826a15074b3d": {
+    "title": "Mietrecht und WEG-Recht: Grillen: Regeln für Balkon, Terrasse und Garten",
+    "url": "https://www.haufe.de/immobilien/verwaltung/mietrecht-und-weg-recht-grillen-im-mehrfamilienhaus_258_645746.html",
+    "date": "2026-05-27T08:59:13.858859",
+    "passed_keywords": true,
+    "score": 6
   }
 }
