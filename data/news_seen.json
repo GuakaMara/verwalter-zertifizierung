@@ -1311,5 +1311,29 @@
     "date": "2026-05-27T08:59:13.858859",
     "passed_keywords": true,
     "score": 6
+  },
+  "b52d35b8e4f1": {
+    "title": "CRE-Immobilienstrategie: Workplace Experience und Daten bestimmen die Arbeitswelt",
+    "url": "https://www.haufe.de/immobilien/investment/50-prozent-der-cre-flaechen-muessen-bis-2030-ersetzt-werden_256_487046.html",
+    "date": "2026-05-28T09:42:58.805607",
+    "passed_keywords": false
+  },
+  "378bb1fcb3d2": {
+    "title": "Flächenverbrauch: Forscher plädieren für höhere Baudichte",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/flaechenverbrauch-netto-null-ziel-bis-2050_84342_631446.html",
+    "date": "2026-05-28T09:42:58.805646",
+    "passed_keywords": false
+  },
+  "be05ee40ee90": {
+    "title": "Reform der Netzentgelte: Eigentümer von PV-Anlagen sollen mehr für Strom zahlen",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/osterpaket-eeg-und-solarstrom_84342_564586.html",
+    "date": "2026-05-28T09:42:58.805670",
+    "passed_keywords": false
+  },
+  "e89306de776b": {
+    "title": "Wohnungsbau soll Vorrang kriegen: Baugesetzbuch: Upgrade im Kabinett beschlossen",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/bundestag-beschliesst-novelle-des-baugesetzbuchs_84342_175786.html",
+    "date": "2026-05-28T09:42:58.805698",
+    "passed_keywords": false
   }
 }
