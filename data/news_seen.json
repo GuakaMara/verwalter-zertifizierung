@@ -1432,5 +1432,36 @@
     "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/wohnungsmarkt-im-weniger-flaeche-fuer-immer-mehr-geld_84324_469582.html",
     "date": "2026-06-03T10:41:11.877294",
     "passed_keywords": false
+  },
+  "c83033d62e2c": {
+    "title": "Märkte: Wohneigentum vs. Miete: Was lohnt sich wo?",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/wohneigentum-kaufen-bundesweit-guenstiger-als-mieten_84324_488982.html",
+    "date": "2026-06-04T09:41:23.373890",
+    "passed_keywords": false
+  },
+  "65356ca4de32": {
+    "title": "Digitale Mieterkommunikation: Die 5 größten Fehler – wie sie sich vermeiden lassen",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/digitale-mieterkommunikation_260_688212.html",
+    "date": "2026-06-04T09:41:23.373959",
+    "passed_keywords": true,
+    "score": 4
+  },
+  "386c80e47b17": {
+    "title": "Ausstehende Mietzahlungen: Wenn Überschuldung im Quartier ankommt",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/ueberschuldung-bei-mietern-fruehzeitig-verhindern_260_687996.html",
+    "date": "2026-06-04T09:41:23.373979",
+    "passed_keywords": false
+  },
+  "7602aa65a686": {
+    "title": "EPBD im GModG: EU-Gebäuderichtlinie: Fahrplan für Sanierungen",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/green-deal-eu-liefert-investitionsplan-fuer-gebaeudesektor_84342_507868.html",
+    "date": "2026-06-04T09:41:23.374005",
+    "passed_keywords": false
+  },
+  "7984e654ce2b": {
+    "title": "Makler: Wertstabil: Häuser und Wohnungen an der deutschen Küste",
+    "url": "https://www.haufe.de/immobilien/investment/wohnen-mit-wasserblick-wo-die-immobilienwerte-steigen_256_529782.html",
+    "date": "2026-06-04T09:41:23.374032",
+    "passed_keywords": false
   }
 }
