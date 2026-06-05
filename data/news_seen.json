@@ -1463,5 +1463,24 @@
     "url": "https://www.haufe.de/immobilien/investment/wohnen-mit-wasserblick-wo-die-immobilienwerte-steigen_256_529782.html",
     "date": "2026-06-04T09:41:23.374032",
     "passed_keywords": false
+  },
+  "1c35df2481f6": {
+    "title": "Kreislaufwirtschaft: Kabinett kündigt Novelle der Ersatzbaustoffverordnung an",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/bauboom-und-rohstoffknappheit-das-recycling-haus-kommt_84342_488756.html",
+    "date": "2026-06-05T09:27:55.236905",
+    "passed_keywords": false
+  },
+  "83557e375a1e": {
+    "title": "3 Fragen an Christian Westphal : Halligalli kommt später",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/3-fragen-an-crem-solutions-ceo-christian-westphal_260_644178.html",
+    "date": "2026-06-05T09:27:55.236934",
+    "passed_keywords": false
+  },
+  "1fb8c0181ec2": {
+    "title": "Digitale Mieterkommunikation: Die 5 größten Fehler – und wie sie sich vermeiden lassen",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/digitale-mieterkommunikation_260_688212.html",
+    "date": "2026-06-05T09:27:55.236965",
+    "passed_keywords": true,
+    "score": 4
   }
 }
