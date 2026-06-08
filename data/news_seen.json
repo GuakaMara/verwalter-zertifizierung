@@ -1489,5 +1489,18 @@
     "date": "2026-06-06T08:22:28.269254",
     "passed_keywords": true,
     "score": 4
+  },
+  "8d1309b468f9": {
+    "title": "gif/Cres-Consensus-Prognose: Top-Büromärkte: Wo die Spitzenmieten 2026 zulegen",
+    "url": "https://www.haufe.de/immobilien/investment/gifcres-spitzenrenditen-an-buerohochburgen_256_306864.html",
+    "date": "2026-06-08T10:14:42.538682",
+    "passed_keywords": false
+  },
+  "7cb1e7d7413c": {
+    "title": "BGH: Nachforderung von Grundsteuer nach Einspruch gegen Bescheid",
+    "url": "https://www.haufe.de/immobilien/verwaltung/bgh-nachforderung-grundsteuer-abrechnungsfrist_258_688390.html",
+    "date": "2026-06-08T10:14:42.538719",
+    "passed_keywords": true,
+    "score": 5
   }
 }
