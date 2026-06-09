@@ -1502,5 +1502,23 @@
     "date": "2026-06-08T10:14:42.538719",
     "passed_keywords": true,
     "score": 5
+  },
+  "309c31c13cda": {
+    "title": "Investorenumfrage: Iran-Krise trifft Finanzierungskonditionen spürbar",
+    "url": "https://www.haufe.de/immobilien/investment/berlin-hyp-trendbarometer-lage-am-deutschen-immobilienmarkt_256_520362.html",
+    "date": "2026-06-09T08:57:26.928840",
+    "passed_keywords": false
+  },
+  "6861b16e7a07": {
+    "title": "Lünendonk-Liste 2026: Digitale Reife im Facility Management nimmt zu",
+    "url": "https://www.haufe.de/immobilien/verwaltung/facility-management-multidienstleister-sind-gefragt_258_456200.html",
+    "date": "2026-06-09T08:57:26.928877",
+    "passed_keywords": false
+  },
+  "b6028bc1d6e0": {
+    "title": "L'Immo, der Podcast für die Immobilienwirtschaft: Moderne Wohnkonzepte – Komplexität als Renditequelle",
+    "url": "https://www.haufe.de/immobilien/investment/limmo-podcast-moderne-wohnkonzepte-und-rendite_256_688436.html",
+    "date": "2026-06-09T08:57:26.928897",
+    "passed_keywords": false
   }
 }
