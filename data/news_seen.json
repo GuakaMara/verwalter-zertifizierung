@@ -1520,5 +1520,36 @@
     "url": "https://www.haufe.de/immobilien/investment/limmo-podcast-moderne-wohnkonzepte-und-rendite_256_688436.html",
     "date": "2026-06-09T08:57:26.928897",
     "passed_keywords": false
+  },
+  "4a6a247979e5": {
+    "title": "Speichern von Mieterdaten: DSGVO-Bußgeld gegen Deutsche Wohnen: neues Urteil",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/deutsche-wohnen-wehrt-sich-gegen-bussgeld-wegen-dsgvo-verstoss_260_503486.html",
+    "date": "2026-06-10T09:38:24.362220",
+    "passed_keywords": true,
+    "score": 6
+  },
+  "249a0aca98ec": {
+    "title": "Digitalisierung: Warum Scheitern der Schlüssel zur Transformation ist",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/digitalisierung-scheitern-als-schluessel-zur-transformation_260_688298.html",
+    "date": "2026-06-10T09:38:24.362250",
+    "passed_keywords": false
+  },
+  "09243ec0094b": {
+    "title": "Data-Center-Boom in Deutschland: Rechenzentren: Markt wächst abseits der Hot-Spots",
+    "url": "https://www.haufe.de/immobilien/investment/rechenzentren-assetklasse-mit-potenzial_256_521950.html",
+    "date": "2026-06-10T09:38:24.362279",
+    "passed_keywords": false
+  },
+  "da056c0cb1e2": {
+    "title": "Europace Hauspreisindex (EPX): Werte für Eigenheime drehen deutlich ins Plus",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/europace-hauspreisindex-epx_84324_615960.html",
+    "date": "2026-06-10T09:38:24.362299",
+    "passed_keywords": false
+  },
+  "e661313ef90b": {
+    "title": "EZB unter Inflationsdruck: Bauzinsen und Kreditkosten: Wie geht es weiter?",
+    "url": "https://www.haufe.de/immobilien/investment/immobilienfinanzierung-die-zinswende-ist-da_256_455806.html",
+    "date": "2026-06-10T09:38:24.362327",
+    "passed_keywords": false
   }
 }
