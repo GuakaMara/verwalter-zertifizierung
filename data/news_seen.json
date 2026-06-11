@@ -1551,5 +1551,44 @@
     "url": "https://www.haufe.de/immobilien/investment/immobilienfinanzierung-die-zinswende-ist-da_256_455806.html",
     "date": "2026-06-10T09:38:24.362327",
     "passed_keywords": false
+  },
+  "977a3c2311f7": {
+    "title": "Was Immobilieneigentümer wissen müssen: Hitzeschutz: Regeln und geförderte Maßnahmen",
+    "url": "https://www.haufe.de/immobilien/verwaltung/hitzeschutz-diese-massnahmen-werden-gefoerdert_258_655002.html",
+    "date": "2026-06-11T10:03:03.457037",
+    "passed_keywords": true,
+    "score": 6
+  },
+  "ff0f4734d8a2": {
+    "title": "Award: \"Digitalpioniere der Wohnungswirtschaft\": Siegerteams gekürt",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/award-digitalpioniere-der-wohnungswirtschaft-siegerprojekte_260_603792.html",
+    "date": "2026-06-11T10:03:03.457054",
+    "passed_keywords": false
+  },
+  "1ca8e5ddb731": {
+    "title": "Fortbildungspflicht: Verwalter müssen sich auch künftig fortbilden, Makler nicht",
+    "url": "https://www.haufe.de/immobilien/verwaltung/fortbildungspflicht-fuer-immobilienverwalter-und-makler_258_432572.html",
+    "date": "2026-06-11T10:03:03.457079",
+    "passed_keywords": true,
+    "score": 9
+  },
+  "61875c56390e": {
+    "title": "Mehrfamilienhäuser: Glasfaserausbau: TKG-Novelle nach Kabinettsbeschluss",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/kostenloser-glasfaseranschluss-fuer-die-mietwohnung_84342_594892.html",
+    "date": "2026-06-11T10:03:03.457089",
+    "passed_keywords": false
+  },
+  "2540bd22596c": {
+    "title": "Statistik und Vergleichsstudie: Wärmepumpen im Neubau, fossil im Bestand: die Trends",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/neue-wohnhaeuser-heizen-ueberwiegend-mit-erneuerbaren-energien_84324_454212.html",
+    "date": "2026-06-11T10:03:03.457115",
+    "passed_keywords": true,
+    "score": 6
+  },
+  "ca54f8c87035": {
+    "title": "Deutsche Hypo : Immobilienklima: Warten auf den Bürokratieabbau",
+    "url": "https://www.haufe.de/immobilien/investment/deutsche-hypo-index-immobilienklima_256_510892.html",
+    "date": "2026-06-11T10:03:03.457133",
+    "passed_keywords": false
   }
 }
