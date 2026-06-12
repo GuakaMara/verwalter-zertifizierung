@@ -1590,5 +1590,26 @@
     "url": "https://www.haufe.de/immobilien/investment/deutsche-hypo-index-immobilienklima_256_510892.html",
     "date": "2026-06-11T10:03:03.457133",
     "passed_keywords": false
+  },
+  "5675a1c1fbfb": {
+    "title": "Erste Lesung im Bundestag: Gebäudemodernisierungsgesetz kontrovers beraten",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/gebaeudemodernisierungsgesetz-gmg_84342_683694.html",
+    "date": "2026-06-12T09:55:01.484393",
+    "passed_keywords": true,
+    "score": 8,
+    "published": true
+  },
+  "185b8e4f49da": {
+    "title": "Immobilienmarkt: EZB leitet Hochzinsphase ein",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/immobilienkredit-zinsanstieg-nach-ezb-entscheidung_84342_429476.html",
+    "date": "2026-06-12T09:55:01.484420",
+    "passed_keywords": true,
+    "score": 3
+  },
+  "cb9245e0fb28": {
+    "title": "Fußballweltmeisterschaft: WM, Feiern & Mietrecht",
+    "url": "https://www.haufe.de/immobilien/verwaltung/fussballweltmeisterschaft-wm-und-mietrecht_258_688858.html",
+    "date": "2026-06-12T09:55:01.484428",
+    "passed_keywords": false
   }
 }
