@@ -1624,5 +1624,36 @@
     "date": "2026-06-13T08:45:24.394096",
     "passed_keywords": true,
     "score": 3
+  },
+  "e04688096c48": {
+    "title": "Real Estate Arena 2026: Messe wird zur ganzjährigen Community",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/real-estate-arena-nachbericht_260_648856.html",
+    "date": "2026-06-15T11:43:18.623650",
+    "passed_keywords": false
+  },
+  "d005873c170e": {
+    "title": "L'Immo, der Podcast für die Immobilienwirtschaft: Facility Services 2026 – Wachstum unter Druck",
+    "url": "https://www.haufe.de/immobilien/verwaltung/limmo-podcast-facility-services-wachstum-unter-druck_258_689054.html",
+    "date": "2026-06-15T11:43:18.623689",
+    "passed_keywords": false
+  },
+  "0219775132d7": {
+    "title": "Regulierungspläne : Mietenkataster in Berlin kurz vor der Verabschiedung",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/berlin-das-sind-die-plaene-nach-dem-mietendeckel_84342_544236.html",
+    "date": "2026-06-15T11:43:18.623716",
+    "passed_keywords": true,
+    "score": 3
+  },
+  "715ea0701951": {
+    "title": "Haufe HR-Online-Konferenz 2026 : Transformation als Daueraufgabe: 6 Insights",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/haufe-hr-online-konferenz-2026-6-insights_260_689026.html",
+    "date": "2026-06-15T11:43:18.623725",
+    "passed_keywords": false
+  },
+  "89967edbdea4": {
+    "title": "ZIA-IW-Immobilienstimmungsindex (ISI): Abwärtstrend am Wohnungsmarkt: politischer Beriebsunfall?",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/zia-iw-immobilienstimmungsindex-geschaeftslage-und-aussicht_84324_525722.html",
+    "date": "2026-06-15T11:43:18.623748",
+    "passed_keywords": false
   }
 }
