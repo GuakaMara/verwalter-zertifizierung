@@ -1679,5 +1679,30 @@
     "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/energiebilanz-immobilienwert-und-preisentwicklung_84324_579820.html",
     "date": "2026-06-17T10:23:44.489509",
     "passed_keywords": false
+  },
+  "179f8699f7f0": {
+    "title": "Kapital für Wohnungsbau mobilisieren: Genehmigt ist nicht gebaut: Politische Bremsen lösen",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/destatis-baugenehmigungen-fuer-wohnungen-deutlich-gestiegen_84324_511962.html",
+    "date": "2026-06-18T10:02:58.585970",
+    "passed_keywords": false
+  },
+  "8e783446c16b": {
+    "title": "Institut der deutschen Wirtschaft (IW): Müllgebühren-Ranking: 100 Städte im Vergleich",
+    "url": "https://www.haufe.de/immobilien/verwaltung/muellgebuehren-in-deutschland-sehr-unterschiedlich_258_363580.html",
+    "date": "2026-06-18T10:02:58.586005",
+    "passed_keywords": false
+  },
+  "d353f778d111": {
+    "title": "Prognosen nach EZB-Entscheid: Bauzinsen bleiben auf dem hohen Niveau",
+    "url": "https://www.haufe.de/immobilien/investment/einfluss-der-zinspolitik-auf-die-immobilienmaerkte_256_572510.html",
+    "date": "2026-06-18T10:02:58.586027",
+    "passed_keywords": true,
+    "score": 3
+  },
+  "346859aca2f2": {
+    "title": "Not in der Stadt, Überangebot auf dem Land: Deutschland baut Wohnungen an der falschen Stelle",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/immer-mehr-genehmigte-wohnungen-werden-nicht-gebaut_84324_453466.html",
+    "date": "2026-06-18T10:02:58.586036",
+    "passed_keywords": false
   }
 }
