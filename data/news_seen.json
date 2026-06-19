@@ -1704,5 +1704,25 @@
     "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/immer-mehr-genehmigte-wohnungen-werden-nicht-gebaut_84324_453466.html",
     "date": "2026-06-18T10:02:58.586036",
     "passed_keywords": false
+  },
+  "eeb181b27a6a": {
+    "title": "Überblick über die Rechtslage: Hitzewelle und Mietminderung: relevante Urteile",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/sommer-sonne-hitze-in-der-wohnung-nicht-immer-mietmangel_84342_492588.html",
+    "date": "2026-06-19T10:10:42.114131",
+    "passed_keywords": true,
+    "score": 4
+  },
+  "66c613b56023": {
+    "title": "Google & Co.: Tech-Konzerne sollen Werkswohnungen bauen",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/leben-bei-amazon-wenn-tech-giganten-wohnungen-bauen_84342_551878.html",
+    "date": "2026-06-19T10:10:42.114148",
+    "passed_keywords": true,
+    "score": 2
+  },
+  "269dd571e3f7": {
+    "title": "Pflicht für Online-Verträge ab dem 19. Juni: Neuer Widerrufsbutton: Was Immobilienmakler wissen müssen",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/widerrufsbutton-pflicht-fuer-online-vertraege_84342_689588.html",
+    "date": "2026-06-19T10:10:42.114186",
+    "passed_keywords": false
   }
 }
