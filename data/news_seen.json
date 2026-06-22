@@ -1730,5 +1730,18 @@
     "url": "https://www.haufe.de/immobilien/wirtschaft-politik/neubaustandard-eh40_84342_605890.html",
     "date": "2026-06-20T08:38:54.096249",
     "passed_keywords": false
+  },
+  "68284d2c6082": {
+    "title": "L'Immo, der Podcast für die Immobilienwirtschaft: Wohnungsunternehmen werden Software-Entwickler",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/limmo-podcast-wohnungsunternehmen-als-software-entwickler_260_689710.html",
+    "date": "2026-06-22T11:31:50.976154",
+    "passed_keywords": true,
+    "score": 4
+  },
+  "0fd0d226834d": {
+    "title": "Durch Förderprogramme und Steueranreize : Wohnen bietet Buy-and-Hold-Investoren attraktive Renditen",
+    "url": "https://www.haufe.de/immobilien/investment/institutionelle-anleger-weiten-wohninvestments-aus_256_377050.html",
+    "date": "2026-06-22T11:31:50.976184",
+    "passed_keywords": false
   }
 }
