@@ -1743,5 +1743,25 @@
     "url": "https://www.haufe.de/immobilien/investment/institutionelle-anleger-weiten-wohninvestments-aus_256_377050.html",
     "date": "2026-06-22T11:31:50.976184",
     "passed_keywords": false
+  },
+  "1238a1a1f5b7": {
+    "title": "BGH: Keine Maklerprovision für Hausverwalter",
+    "url": "https://www.haufe.de/immobilien/verwaltung/bgh-keine-maklerprovision-fuer-hausverwalter_258_689768.html",
+    "date": "2026-06-23T08:56:41.074351",
+    "passed_keywords": true,
+    "score": 7,
+    "published": true
+  },
+  "6c34344de504": {
+    "title": "AG Frankfurt am Main: Gericht hält Mietpreisbremse in Hessen für unwirksam",
+    "url": "https://www.haufe.de/immobilien/verwaltung/mietpreisbremse-in-hessen-urteil_258_689750.html",
+    "date": "2026-06-23T08:56:41.074371",
+    "passed_keywords": false
+  },
+  "c8492fbf6765": {
+    "title": "Erstinstanzliche Urteile: Auch Grundsteuergesetz in Niedersachsen verfassungsgemäß",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/klage-gegen-grundsteuergesetz-in-hessen-gescheitert_84342_642592.html",
+    "date": "2026-06-23T08:56:41.074390",
+    "passed_keywords": false
   }
 }
