@@ -1811,5 +1811,18 @@
     "url": "https://www.haufe.de/immobilien/wirtschaft-politik/solarpflicht-plaene-der-eu_84342_566328.html",
     "date": "2026-06-25T08:45:41.336079",
     "passed_keywords": false
+  },
+  "666f1ccc2e00": {
+    "title": "Korrekturen in den Bundesländern: Grundsteuer: Schieflage bei Wohneigentum – ein Überblick",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/grundsteuer-mehr-kommunen-mit-hohem-hebesatz_84342_497048.html",
+    "date": "2026-06-26T08:48:32.919428",
+    "passed_keywords": true,
+    "score": 6
+  },
+  "642b05a009f0": {
+    "title": "Statistisches Bundesamt Häuserpreisindex: Immobilienpreise steigen langsamer",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/wohnungsmieten-und-kaufpreise-steigen-langsamer_84324_494302.html",
+    "date": "2026-06-26T08:48:32.919469",
+    "passed_keywords": false
   }
 }
