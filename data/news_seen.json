@@ -1874,5 +1874,50 @@
     "date": "2026-06-30T08:54:23.828958",
     "passed_keywords": true,
     "score": 3
+  },
+  "11630cdcce2e": {
+    "title": "Ausschreibung: VDIV sucht Immobilienverwaltung des Jahres",
+    "url": "https://www.haufe.de/immobilien/verwaltung/immobilienverwalter-des-jahres-ausschreibung_258_410430.html",
+    "date": "2026-07-01T09:27:06.228950",
+    "passed_keywords": true,
+    "score": 4
+  },
+  "7b1019d66781": {
+    "title": "Wohnen im Alter: Barrierefreiheit im Bestand als Schlüssel",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/seniorenwohnen-in-deutschland-digital-vernetzt-und-hip_84324_546976.html",
+    "date": "2026-07-01T09:27:06.228968",
+    "passed_keywords": false
+  },
+  "d3958f8a58fe": {
+    "title": "Bebauungsplan in Kraft: München bekommt seine umstrittene Skyline",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/immer-mehr-staedte-denken-ueber-wohnhochhaeuser-nach_84342_482258.html",
+    "date": "2026-07-01T09:27:06.228993",
+    "passed_keywords": false
+  },
+  "bf915e9eaf44": {
+    "title": "BGH: Beschlusszwang vor Umbau gilt auch in Zweier-Gemeinschaft",
+    "url": "https://www.haufe.de/immobilien/verwaltung/bgh-beschlusszwang-vor-umbau-in-zweier-gemeinschaft_258_690546.html",
+    "date": "2026-07-01T09:27:06.229016",
+    "passed_keywords": true,
+    "score": 9,
+    "published": true
+  },
+  "dff0ea97413f": {
+    "title": "In eigener Sache: DW-Zukunftspreis der Immobilienwirtschaft 2026 verliehen",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/dw-zukunftspreis-der-immobilienwirtschaft-preistraeger_260_524406.html",
+    "date": "2026-07-01T09:27:06.229025",
+    "passed_keywords": false
+  },
+  "c25eaad5447f": {
+    "title": "Gewerbe zu Wohnen : Förderung für Umnutzung ab Juli: die Konditionen",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/foerderprogramm-gewerbe-zu-wohnen_84342_658820.html",
+    "date": "2026-07-01T09:27:06.229043",
+    "passed_keywords": false
+  },
+  "f1dca20812a1": {
+    "title": "Innovative Wohnprojekte: Gewinner beim Deutschen Bauherrenpreis 2026",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/bauherrenpreis_260_625874.html",
+    "date": "2026-07-01T09:27:06.229068",
+    "passed_keywords": false
   }
 }
