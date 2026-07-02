@@ -1919,5 +1919,24 @@
     "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/bauherrenpreis_260_625874.html",
     "date": "2026-07-01T09:27:06.229068",
     "passed_keywords": false
+  },
+  "2c9ec7cd51a8": {
+    "title": "Wohnzukunftstag 2026: Wohnen, Wandel, Widerstandsfähigkeit",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/gdw-wohnzukunftstag_260_517734.html",
+    "date": "2026-07-02T08:40:07.785647",
+    "passed_keywords": false
+  },
+  "ab2c8df111f5": {
+    "title": "Trinkwasser im Mehrfamilienhaus: Mietminderung bei Legionellen: Wann ist sie möglich?",
+    "url": "https://www.haufe.de/immobilien/verwaltung/mietminderung-bei-legionellen-urteile-im-ueberblick_258_635484.html",
+    "date": "2026-07-02T08:40:07.785676",
+    "passed_keywords": true,
+    "score": 6
+  },
+  "328f4d8f1c10": {
+    "title": "Inserierte Wohnungen und Häuser: Kaufpreise und Nachfrage: Wo die Dynamik am größten ist",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/kaufpreise-fuer-wohnimmobilien-pendeln-sich-ein_84324_222470.html",
+    "date": "2026-07-02T08:40:07.785690",
+    "passed_keywords": false
   }
 }
