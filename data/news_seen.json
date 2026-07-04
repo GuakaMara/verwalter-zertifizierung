@@ -1962,5 +1962,26 @@
     "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/wowi-gix-index-fuer-die-wohnungswirtschaft_260_670948.html",
     "date": "2026-07-03T08:46:29.511599",
     "passed_keywords": false
+  },
+  "a2c9b38cb280": {
+    "title": "Verfassungsklage gegen GModG: Linke will neues Heizungsgesetz noch stoppen",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/bundesverfassungsgericht-stoppt-heizungsgesetz_84342_599912.html",
+    "date": "2026-07-04T08:22:03.284814",
+    "passed_keywords": true,
+    "score": 6
+  },
+  "f9757826140c": {
+    "title": "Nachbarschaftsstreit in Hessen: Hecken ohne Höhenlimit – wenn der Abstand stimmt",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/bgh-zum-nachbarrecht-hoehenbegrenzung-fuer-hecken_84342_645270.html",
+    "date": "2026-07-04T08:22:03.284842",
+    "passed_keywords": true,
+    "score": 3
+  },
+  "f35560d14dc0": {
+    "title": "Datenbank gegen zu hohe Mieten: Berlin bekommt als erstes Bundesland ein Mietenkataster",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/berlin-das-sind-die-plaene-nach-dem-mietendeckel_84342_544236.html",
+    "date": "2026-07-04T08:22:03.284855",
+    "passed_keywords": true,
+    "score": 4
   }
 }
