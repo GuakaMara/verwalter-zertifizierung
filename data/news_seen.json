@@ -1983,5 +1983,24 @@
     "date": "2026-07-04T08:22:03.284855",
     "passed_keywords": true,
     "score": 4
+  },
+  "57d83aa19434": {
+    "title": "L'Immo, der Podcast für die Immobilienwirtschaft: Wohnungsunternehmen erfolgreich managen",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/limmo-podcast-wohnungsunternehmen-erfolgreich-managen_260_690916.html",
+    "date": "2026-07-06T09:53:20.977117",
+    "passed_keywords": false
+  },
+  "39a4915c6f21": {
+    "title": "BF.Quartalsbarometer der Immobilienfinanzierer: Inflation, Zinsen, Krieg – das Neugeschäft leidet",
+    "url": "https://www.haufe.de/immobilien/investment/bfquartalsbarometer-truebe-lage-bei-immobilienfinanzierung_256_509400.html",
+    "date": "2026-07-06T09:53:20.977150",
+    "passed_keywords": false
+  },
+  "6ccd4db6b471": {
+    "title": "Fachkräftemangel im Wohnungsmarkt: Die gefragtesten Jobs der Branche",
+    "url": "https://www.haufe.de/immobilien/verwaltung/property-management-allrounder-verzweifelt-gesucht_258_481458.html",
+    "date": "2026-07-06T09:53:20.977171",
+    "passed_keywords": true,
+    "score": 5
   }
 }
