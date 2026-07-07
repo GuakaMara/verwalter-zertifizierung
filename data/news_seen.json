@@ -2002,5 +2002,38 @@
     "date": "2026-07-06T09:53:20.977171",
     "passed_keywords": true,
     "score": 5
+  },
+  "3277a23015a0": {
+    "title": "Corporate Real Estate: Warum Unternehmen Immobilien verkaufen",
+    "url": "https://www.haufe.de/immobilien/investment/unternehmensimmobilien-fuer-kaeufer-und-verkaeufer-interessant_256_521512.html",
+    "date": "2026-07-07T09:21:38.774589",
+    "passed_keywords": false
+  },
+  "7b8b774c590a": {
+    "title": "Hauspreisindex Juni 2026: Immobilienpreise: Stabile Lage schafft Planungssicherheit",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/europace-hauspreisindex-epx_84324_615960.html",
+    "date": "2026-07-07T09:21:38.774615",
+    "passed_keywords": false
+  },
+  "7e9c2716fa0e": {
+    "title": "WEG-Vergütung: Hausverwaltung zum Pauschalpreis?",
+    "url": "https://www.haufe.de/immobilien/verwaltung/martin-kassler-im-interview-hausverwaltung-zum-pauschalpreis_258_691070.html",
+    "date": "2026-07-07T09:21:38.774637",
+    "passed_keywords": true,
+    "score": 8,
+    "published": true
+  },
+  "fd606bea95e6": {
+    "title": "Steuerliche Ungleichbehandlung: Eigenheim vs. Vermietung: Wo Deutschland falsch liegt",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/iw-koeln-junge-menschen-koennen-kaum-noch-wohneigentum-bilden_84324_496482.html",
+    "date": "2026-07-07T09:21:38.774643",
+    "passed_keywords": true,
+    "score": 3
+  },
+  "e40902d8d7c2": {
+    "title": "Markt kehrt Schritt für Schritt zurück: Diese Wohnimmobilien stehen auf Kauf bei Investoren",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/wohnimmobilien-investmentmarkt-deutschland_84324_527002.html",
+    "date": "2026-07-07T09:21:38.774650",
+    "passed_keywords": false
   }
 }
