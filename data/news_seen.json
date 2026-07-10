@@ -2059,5 +2059,43 @@
     "url": "https://www.haufe.de/immobilien/wirtschaft-politik/bundeskabinett-erhoeht-foerderung-fuer-wohnungsbau_84342_344588.html",
     "date": "2026-07-08T08:05:59.838912",
     "passed_keywords": false
+  },
+  "d8e12de8a46c": {
+    "title": "Erste Lesung im Bundestag: Mietrechtsreform 2026: Was CDU und CSU noch ändern wollen",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/mietrechtsreform-2026_84342_684280.html",
+    "date": "2026-07-10T08:59:13.283518",
+    "passed_keywords": false
+  },
+  "f805ae3265d0": {
+    "title": "BVerfG macht Weg frei für GModG: Klage gegen neues Heizungsgesetz gescheitert",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/bundesverfassungsgericht-stoppt-heizungsgesetz_84342_599912.html",
+    "date": "2026-07-10T08:59:13.283552",
+    "passed_keywords": true,
+    "score": 6
+  },
+  "5a0ee126f032": {
+    "title": "Bauturbo trifft Bestandsschutz: Wohnen im Gewerbegebiet: Welcher Lärmschutz gilt?",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/baulandkommission-mehr-regelungen-fuer-den-wohnungsneubau_84342_493184.html",
+    "date": "2026-07-10T08:59:13.283562",
+    "passed_keywords": false
+  },
+  "ed93e0b5577c": {
+    "title": "Eckpunkte stehen fest: Heizungstausch 2026: BEG-Förderung mit neuen Regeln",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/klimaschutz-oelheizung-austauschen-was-wird-gefoerdert_84342_507378.html",
+    "date": "2026-07-10T08:59:13.283585",
+    "passed_keywords": false
+  },
+  "afb204872ad0": {
+    "title": "Greyfield Index 2026: Bestand wird zur prägenden Bauform",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/bauen-im-bestand-der-neue-standard-der-immobilienbranche_84342_655242.html",
+    "date": "2026-07-10T08:59:13.283606",
+    "passed_keywords": false
+  },
+  "30d878053788": {
+    "title": "Wohnungsbau: Gebäudetyp E: Rechtsgutachten konkretisiert Weg zum Gesetz",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/gebaeudetyp-e-rechtliche-einordnung_84342_648296.html",
+    "date": "2026-07-10T08:59:13.283623",
+    "passed_keywords": true,
+    "score": 4
   }
 }
