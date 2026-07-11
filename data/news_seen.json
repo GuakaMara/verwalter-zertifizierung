@@ -2097,5 +2097,19 @@
     "date": "2026-07-10T08:59:13.283623",
     "passed_keywords": true,
     "score": 4
+  },
+  "15be4c65c1be": {
+    "title": "Neues Heizungsrecht: Gebäudemodernisierungsgesetz verabschiedet",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/gebaeudemodernisierungsgesetz-gmg_84342_683694.html",
+    "date": "2026-07-11T07:38:04.038572",
+    "passed_keywords": true,
+    "score": 8,
+    "published": true
+  },
+  "b0ca38ce91ff": {
+    "title": "Was jetzt für Anträge gilt: Heizungstausch 2026: BEG-Förderung mit neuen Regeln",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/klimaschutz-oelheizung-austauschen-was-wird-gefoerdert_84342_507378.html",
+    "date": "2026-07-11T07:38:04.038603",
+    "passed_keywords": false
   }
 }
