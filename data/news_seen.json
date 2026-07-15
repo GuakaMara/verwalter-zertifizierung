@@ -2135,5 +2135,30 @@
     "url": "https://www.haufe.de/immobilien/wirtschaft-politik/energieeffienz-in-gebaeuden-fahrplan-der-bundesregierung_84342_520684.html",
     "date": "2026-07-14T07:44:44.183478",
     "passed_keywords": false
+  },
+  "040723f5b140": {
+    "title": "Geomap-Analyse 2026: Wo der Wohnungsbau anzieht – und warum Metropolen dominieren",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/wohnimmobilien-ein-heiss-umkaempftes-pflaster_84324_428540.html",
+    "date": "2026-07-15T07:48:33.453966",
+    "passed_keywords": false
+  },
+  "a3a2d4f8b762": {
+    "title": "VdW-Kampagne gegen häusliche Gewalt: \"Wegschauen ist keine Option\"",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/wie-wohnungsunternehmen-haeusliche-gewalt-bekaempfen_260_691670.html",
+    "date": "2026-07-15T07:48:33.453998",
+    "passed_keywords": true,
+    "score": 3
+  },
+  "34ba77e03225": {
+    "title": "Pflicht für Millionen Haushalte: Smart Meter: Wer muss handeln – und wer profitiert?",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/smart-meter-rollout-was-bringt-er-der-wohnungswirtschaft_260_515532.html",
+    "date": "2026-07-15T07:48:33.454008",
+    "passed_keywords": false
+  },
+  "73001ce47430": {
+    "title": "Von der Immobilienbranche entwickelt: Neues Open-Source-Tool: Bewertung von Klimarisiken",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/esg-klimarating-wo-immobilien-besonders-gefaehrdet-sind_84324_575616.html",
+    "date": "2026-07-15T07:48:33.454037",
+    "passed_keywords": false
   }
 }
