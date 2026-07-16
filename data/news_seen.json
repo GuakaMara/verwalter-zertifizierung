@@ -2160,5 +2160,32 @@
     "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/esg-klimarating-wo-immobilien-besonders-gefaehrdet-sind_84324_575616.html",
     "date": "2026-07-15T07:48:33.454037",
     "passed_keywords": false
+  },
+  "cb3f2b3181a7": {
+    "title": "Weniger Bürokratie ab September: NRW streicht Vorschriften für mehr Baufreiheit",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/nrw-reform-der-bauordnung_84342_531940.html",
+    "date": "2026-07-16T07:53:05.979679",
+    "passed_keywords": false
+  },
+  "ab4dd6090b1b": {
+    "title": "Kabinettsbeschluss: Genossenschaftsgesetz: Was die Reform bringt",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/gesetzentwurf-schutz-der-rechtsform-genossenschaft_260_493880.html",
+    "date": "2026-07-16T07:53:05.979708",
+    "passed_keywords": false
+  },
+  "7f4b0a723fb6": {
+    "title": "Elementarschäden: Extremwetter: Kommt bald die Pflichtversicherung?",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/sturmschaeden-fuer-die-versicherung-dokumentieren_84342_212002.html",
+    "date": "2026-07-16T07:53:05.979733",
+    "passed_keywords": true,
+    "score": 7,
+    "published": true
+  },
+  "ba2506326ab4": {
+    "title": "Markteinschätzung: Talsohle durchschritten? Immobilienklima dreht deutlich",
+    "url": "https://www.haufe.de/immobilien/investment/deutsche-hypo-index-immobilienklima_256_510892.html",
+    "date": "2026-07-16T07:53:05.979751",
+    "passed_keywords": true,
+    "score": 3
   }
 }
