@@ -2187,5 +2187,29 @@
     "date": "2026-07-16T07:53:05.979751",
     "passed_keywords": true,
     "score": 3
+  },
+  "10dc246a8dca": {
+    "title": "BGH zum Halbteilungsgrundsatz: Zweifamilienhaus zählt nicht als Einfamilienhaus",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/maklerprovision-halbteilungsgrundsatz-einfamilienhaus_84342_692012.html",
+    "date": "2026-07-17T07:50:38.726004",
+    "passed_keywords": false
+  },
+  "4a39cc6c8a16": {
+    "title": "Zahlen des Statistischen Bundesamts: Wohnungsbestand wächst – Entlastung bleibt aus",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/destatis-wohnungsbau-zahl-der-fertigstellungen-steigt-erneut_84324_361884.html",
+    "date": "2026-07-17T07:50:38.726034",
+    "passed_keywords": false
+  },
+  "2513ec456db3": {
+    "title": "BEHG-Novelle: CO2-Preis: Kein Anstieg vor 2028",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/eu-recht-reform-von-emissionshandel-und-co2-bepreisung_84342_642252.html",
+    "date": "2026-07-17T07:50:38.726053",
+    "passed_keywords": false
+  },
+  "f362e44620ce": {
+    "title": "Wärmepumpe schlägt Heizkessel: Heizungstausch und Klimapolitik: Trendwende mit Fragezeichen",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/neue-wohnhaeuser-heizen-ueberwiegend-mit-erneuerbaren-energien_84324_454212.html",
+    "date": "2026-07-17T07:50:38.726066",
+    "passed_keywords": false
   }
 }
