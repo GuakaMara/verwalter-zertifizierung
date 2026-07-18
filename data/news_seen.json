@@ -2211,5 +2211,26 @@
     "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/neue-wohnhaeuser-heizen-ueberwiegend-mit-erneuerbaren-energien_84324_454212.html",
     "date": "2026-07-17T07:50:38.726066",
     "passed_keywords": false
+  },
+  "0f0b26ace67c": {
+    "title": "Gebäudemodernisierungsgesetz und die Folgen: CO2-Kostenaufteilungsgesetz: Höhere Last für Vermieter",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/co2-preis-inwiefern-muessen-sich-vermieter-beteiligen_84342_525922.html",
+    "date": "2026-07-18T07:25:46.548267",
+    "passed_keywords": true,
+    "score": 6
+  },
+  "cda8c92aac66": {
+    "title": "Immobilienfinanzierung: Bessere Rahmenbedingungen für Kreditnehmer",
+    "url": "https://www.haufe.de/immobilien/investment/deutscher-immobilienfinanzierungsindex-difi_256_511716.html",
+    "date": "2026-07-18T07:25:46.548293",
+    "passed_keywords": false
+  },
+  "d401ecc407fe": {
+    "title": "BGH: Wohnungseigentümer dürfen Klimaanlage einbauen",
+    "url": "https://www.haufe.de/immobilien/verwaltung/bgh-wohnungseigentuemer-duerfen-klimaanlage-einbauen_258_692022.html",
+    "date": "2026-07-18T07:25:46.548314",
+    "passed_keywords": true,
+    "score": 9,
+    "published": true
   }
 }
