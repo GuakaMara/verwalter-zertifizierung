@@ -2232,5 +2232,25 @@
     "passed_keywords": true,
     "score": 9,
     "published": true
+  },
+  "39d860aeb2cf": {
+    "title": "L'Immo, der Podcast für die Immobilienwirtschaft: IT-Projekte scheitern oft – diese Fehler sind der Grund",
+    "url": "https://www.haufe.de/immobilien/verwaltung/limmo-podcast-it-projekte-wie-man-fehler-vermeidet_258_692056.html",
+    "date": "2026-07-20T08:37:06.490236",
+    "passed_keywords": false
+  },
+  "975633381bba": {
+    "title": "Erneuerbare-Energien-Gesetz wird neu aufgelegt: Kleine Solaranlagen: Förderung läuft ab 2027 anders",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/eeg-erneuerbare-energien-gesetz_84342_559758.html",
+    "date": "2026-07-20T08:37:06.490271",
+    "passed_keywords": false
+  },
+  "7cabe63bf812": {
+    "title": "Makler, Verwalter – eine Person: Warum die Provision jetzt zum Risiko wird",
+    "url": "https://www.haufe.de/immobilien/verwaltung/makler-verwalter-eine-person-provision-als-risiko_258_691918.html",
+    "date": "2026-07-20T08:37:06.490296",
+    "passed_keywords": true,
+    "score": 7,
+    "published": true
   }
 }
