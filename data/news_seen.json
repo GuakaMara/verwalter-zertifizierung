@@ -2252,5 +2252,42 @@
     "passed_keywords": true,
     "score": 7,
     "published": true
+  },
+  "b2ed00698a5e": {
+    "title": "Bundesförderung effiziente Gebäude ab 21. Juli: BEG-Förderung 2026: Neue Regeln im Überblick",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/klimaschutz-oelheizung-austauschen-was-wird-gefoerdert_84342_507378.html",
+    "date": "2026-07-21T08:05:30.895058",
+    "passed_keywords": false
+  },
+  "925e07527422": {
+    "title": "Erste offene Immobilienfonds schließen: \"Ich befürchte, das ist erst der Anfang\"",
+    "url": "https://www.haufe.de/immobilien/investment/offene-immobilienfonds-marktlage-risiken-ausblick_256_691986.html",
+    "date": "2026-07-21T08:05:30.895097",
+    "passed_keywords": false
+  },
+  "707f46d098c0": {
+    "title": "Postbank Wohnatlas 2026: Wo Kaufen statt Mieten das Einkommen schont",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/postbank-wohnatlas-erschwinglichkeit-wohnungskauf-vs-miete_84324_692112.html",
+    "date": "2026-07-21T08:05:30.895119",
+    "passed_keywords": false
+  },
+  "06b8bd8108d2": {
+    "title": "IW-Wohnindex: Mieten steigen stark, Kaufpreise bleiben moderat",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/iw-wohnindex-entwicklung-kaufpreise-und-mieten_84324_615168.html",
+    "date": "2026-07-21T08:05:30.895138",
+    "passed_keywords": true,
+    "score": 3
+  },
+  "2eac1fbf2441": {
+    "title": "EY-Parthenon-Prognose 2026: Deutschlands Baukrise: Wann kommt die Wende?",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/ey-parthenon-wachstumstrend-im-hochbau-schwaecht-sich-ab_84324_449830.html",
+    "date": "2026-07-21T08:05:30.895154",
+    "passed_keywords": false
+  },
+  "95cbb3c53c57": {
+    "title": "Erneuerbare-Energien-Gesetz neu aufgelegt: Kleine Solaranlagen: Förderung läuft ab 2027 anders",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/eeg-erneuerbare-energien-gesetz_84342_559758.html",
+    "date": "2026-07-21T08:05:30.895174",
+    "passed_keywords": false
   }
 }
