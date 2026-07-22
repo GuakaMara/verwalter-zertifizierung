@@ -2289,5 +2289,24 @@
     "url": "https://www.haufe.de/immobilien/wirtschaft-politik/eeg-erneuerbare-energien-gesetz_84342_559758.html",
     "date": "2026-07-21T08:05:30.895174",
     "passed_keywords": false
+  },
+  "af021479576a": {
+    "title": "GREIX-Mietpreisindex: Wo sich Vermieten 2026 noch lohnt",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/wohnungsmarkt-so-entwickeln-sich-die-mieten-in-deutschland_84324_499438.html",
+    "date": "2026-07-22T08:06:10.466889",
+    "passed_keywords": false
+  },
+  "bf43b5830325": {
+    "title": "KI in der Immobilienverwaltung: Die Erlaubnis zum Rumspielen",
+    "url": "https://www.haufe.de/immobilien/verwaltung/ki-in-der-immobilienverwaltung-tipps-von-experten_258_692238.html",
+    "date": "2026-07-22T08:06:10.466914",
+    "passed_keywords": true,
+    "score": 6
+  },
+  "58860c1cbab9": {
+    "title": "Wohnungsmarkt 2026: Zinsen, Neubaukrise, Mythen: Warum die Preise stagnieren",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/empirica-index-aktuelle-entwicklung-der-immobilienpreise_84324_514048.html",
+    "date": "2026-07-22T08:06:10.466925",
+    "passed_keywords": false
   }
 }
