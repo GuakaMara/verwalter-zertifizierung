@@ -2308,5 +2308,30 @@
     "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/empirica-index-aktuelle-entwicklung-der-immobilienpreise_84324_514048.html",
     "date": "2026-07-22T08:06:10.466925",
     "passed_keywords": false
+  },
+  "9e8e90de3348": {
+    "title": "Heizungstausch & Klimaschutz: BEG-Förderung Wärmepumpe 2026: Jetzt berechnen",
+    "url": "https://www.haufe.de/immobilien/verwaltung/neuer-online-waermekostenrechner-vergleicht-heizungssysteme_258_487832.html",
+    "date": "2026-07-23T08:09:13.508633",
+    "passed_keywords": false
+  },
+  "f7598777eaa0": {
+    "title": "Verstöße gegen die Mietpreisbremse: Mietenscan nimmt Berliner Vermieter in den Blick",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/berlin-stillstand-in-der-wohnungspolitik_84342_432564.html",
+    "date": "2026-07-23T08:09:13.508665",
+    "passed_keywords": true,
+    "score": 3
+  },
+  "ef0ada13e41a": {
+    "title": "Energiekosten: Heizungsart entscheidet mit über den Immobilienwert",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/energiebilanz-immobilienwert-und-preisentwicklung_84324_579820.html",
+    "date": "2026-07-23T08:09:13.508683",
+    "passed_keywords": false
+  },
+  "091b286ce563": {
+    "title": "Baukulturbericht 2026/27: Bundesregierung: So soll Bauen in Deutschland besser werden",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/baukulturbericht-bundesstiftung-baukultur_84342_520480.html",
+    "date": "2026-07-23T08:09:13.508707",
+    "passed_keywords": false
   }
 }
