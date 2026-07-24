@@ -2333,5 +2333,30 @@
     "url": "https://www.haufe.de/immobilien/wirtschaft-politik/baukulturbericht-bundesstiftung-baukultur_84342_520480.html",
     "date": "2026-07-23T08:09:13.508707",
     "passed_keywords": false
+  },
+  "52a32a55aa48": {
+    "title": "Bericht der Bundesregierung: Stadtflucht der Familien – und Zuzug der Jungen",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/stadt-der-zukunft-konzepte_84342_576588.html",
+    "date": "2026-07-24T08:05:11.911588",
+    "passed_keywords": false
+  },
+  "892a127c6195": {
+    "title": "3 Fragen an Daniel Kress: Raus aus der Digitalfalle",
+    "url": "https://www.haufe.de/immobilien/neue-immobiliensoftware-einfuehren-3-fragen-an-daniel-kress_22_692412.html",
+    "date": "2026-07-24T08:05:11.911623",
+    "passed_keywords": false
+  },
+  "3e15e2c69b2a": {
+    "title": "Inflation durch Ölpreisschock : EZB hält still – kommt der nächste Schlag im September?",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/immobilienkredit-zinsanstieg-nach-ezb-entscheidung_84342_429476.html",
+    "date": "2026-07-24T08:05:11.911648",
+    "passed_keywords": false
+  },
+  "4e619a5c8a04": {
+    "title": "BVerfG verwirft Klage zum Heizungsgesetz: Wie schnell darf ein Gesetz kommen? Karlsruhe hat entschieden",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/bundesverfassungsgericht-stoppt-heizungsgesetz_84342_599912.html",
+    "date": "2026-07-24T08:05:11.911670",
+    "passed_keywords": true,
+    "score": 6
   }
 }
