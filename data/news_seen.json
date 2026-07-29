@@ -2378,5 +2378,24 @@
     "date": "2026-07-27T09:26:44.941079",
     "passed_keywords": true,
     "score": 3
+  },
+  "b2bbf3133afe": {
+    "title": "Neue Berechnungen für Gebäude: 68 Prozent des Bestands unter Hitzestress – Klimarisiko wächst",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/extremwetter-bbsr-webtool-beurteilt-risiken-fuer-immobilien_84342_504408.html",
+    "date": "2026-07-29T08:17:21.213003",
+    "passed_keywords": false
+  },
+  "85ad5ed2b7f5": {
+    "title": "ERP & KI in der Wohnungswirtschaft : Der Rückstand sitzt in den Daten",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/erp-in-der-wohnungswirtschaft-ki-cloud-und-zukunft_260_692654.html",
+    "date": "2026-07-29T08:17:21.213037",
+    "passed_keywords": false
+  },
+  "389b1517bc3d": {
+    "title": "Workplace-Trends: Mehr Raum für soziale Verbindung im Büro",
+    "url": "https://www.haufe.de/immobilien/investment/50-prozent-der-cre-flaechen-muessen-bis-2030-ersetzt-werden_256_487046.html",
+    "date": "2026-07-29T08:17:21.213066",
+    "passed_keywords": true,
+    "score": 2
   }
 }
