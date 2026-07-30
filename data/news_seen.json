@@ -2397,5 +2397,25 @@
     "date": "2026-07-29T08:17:21.213066",
     "passed_keywords": true,
     "score": 2
+  },
+  "0e436cc28bfe": {
+    "title": "Kabinett beschließt EEG-Novelle 2027: Solar-Förderung: 3 Jahre Vergütung statt 20 Jahre Sicherheit",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/eeg-erneuerbare-energien-gesetz_84342_559758.html",
+    "date": "2026-07-30T08:05:21.038929",
+    "passed_keywords": false
+  },
+  "27921d1e970d": {
+    "title": "BGH: Absenkungsbeschluss ist isoliert anfechtbar",
+    "url": "https://www.haufe.de/immobilien/verwaltung/bgh-absenkungsbeschluss-ist-isoliert-anfechtbar_258_692736.html",
+    "date": "2026-07-30T08:05:21.038962",
+    "passed_keywords": true,
+    "score": 9,
+    "published": true
+  },
+  "0f3fac489c73": {
+    "title": "Erweiterter Mieterschutz: Grüne wollen Eigenbedarfskündigung einschränken",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/wohnungspolitik-im-wahlkampf-kommt-der-bundes-mietendeckel_84342_541230.html",
+    "date": "2026-07-30T08:05:21.038972",
+    "passed_keywords": false
   }
 }
