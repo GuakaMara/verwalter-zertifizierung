@@ -2417,5 +2417,38 @@
     "url": "https://www.haufe.de/immobilien/wirtschaft-politik/wohnungspolitik-im-wahlkampf-kommt-der-bundes-mietendeckel_84342_541230.html",
     "date": "2026-07-30T08:05:21.038972",
     "passed_keywords": false
+  },
+  "8d0c88e46512": {
+    "title": "KI im Unternehmen: EU AI Act: Neue Transparenzpflicht ab August 2026",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/ki-kompetenz-neue-pflichten-fuer-die-immobilienbranche_84342_642524.html",
+    "date": "2026-07-31T08:31:29.207164",
+    "passed_keywords": false
+  },
+  "410d3a41612e": {
+    "title": "3 Fragen an Jan Phillip Unger: Der kürzeste Weg durch den Bürokratiedschungel",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/baugenehmigung-in-60-stunden-3-fragen-an-jan-phillip-unger_84342_692912.html",
+    "date": "2026-07-31T08:31:29.207198",
+    "passed_keywords": true,
+    "score": 3
+  },
+  "cbc72938b985": {
+    "title": "Zinsen aus Mitteln des Bundes verbilligt: Jung kauft Alt: KfW erhöht Kredit im August",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/wohneigentum-kfw-familien-foerderprogramm-jung-kauft-alt_84342_630926.html",
+    "date": "2026-07-31T08:31:29.207208",
+    "passed_keywords": false
+  },
+  "e71c101edc19": {
+    "title": "Interhyp-IW-Erschwinglichkeitsindex 2026: Autokrise trifft Immobilienmarkt: Was Verkäufer riskieren",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/interhyp-iw-erschwinglichkeitsindex_84324_656382.html",
+    "date": "2026-07-31T08:31:29.207239",
+    "passed_keywords": false
+  },
+  "7e49b9937ed6": {
+    "title": "Neues Heizungsrecht: Gebäudemodernisierungsgesetz in Kraft getreten",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/gebaeudemodernisierungsgesetz-gmg_84342_683694.html",
+    "date": "2026-07-31T08:31:29.207263",
+    "passed_keywords": true,
+    "score": 9,
+    "published": true
   }
 }
