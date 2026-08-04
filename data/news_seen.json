@@ -2456,5 +2456,30 @@
     "url": "https://www.haufe.de/immobilien/wirtschaft-politik/kfw-zuschuesse-fuer-barrierefreies-wohnen_84342_464458.html",
     "date": "2026-08-03T08:59:31.933325",
     "passed_keywords": false
+  },
+  "e8c69d5574c3": {
+    "title": "Wer umzieht, kann nicht bleiben: Berlins Arbeitersiedlungen: Neumieten werden unbezahlbar",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/berliner-wohnungsmarkt-zieht-weiter-an_84324_395478.html",
+    "date": "2026-08-04T08:16:45.971063",
+    "passed_keywords": false
+  },
+  "add74319454d": {
+    "title": "Betriebliches Gesundheitsmanagement: Warum die Immobilienwirtschaft jetzt handeln muss",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/betriebliches-gesundheitsmanagement-in-immobilienunternehmen_84342_683388.html",
+    "date": "2026-08-04T08:16:45.971096",
+    "passed_keywords": false
+  },
+  "de16e79615aa": {
+    "title": "Verfassungsbeschwerde angekündigt: Neues Heizungsgesetz soll im September vor Gericht",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/heizungsgesetz_84342_596382.html",
+    "date": "2026-08-04T08:16:45.971131",
+    "passed_keywords": true,
+    "score": 6
+  },
+  "e0c7d6b3c2b7": {
+    "title": "L'Immo, der Podcast für die Immobilienwirtschaft: Das IT-Ökosystem ist größer als ERP",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/limmo-podcast-das-it-oekosystem-ist-groesser-als-erp_260_693080.html",
+    "date": "2026-08-04T08:16:45.971154",
+    "passed_keywords": false
   }
 }
