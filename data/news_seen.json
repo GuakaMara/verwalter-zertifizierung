@@ -2481,5 +2481,30 @@
     "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/limmo-podcast-das-it-oekosystem-ist-groesser-als-erp_260_693080.html",
     "date": "2026-08-04T08:16:45.971154",
     "passed_keywords": false
+  },
+  "e1feed776534": {
+    "title": "Neues Lünendonk-Whitepaper : Potenzial von Robotik im Facility Management",
+    "url": "https://www.haufe.de/immobilien/verwaltung/facility-management-kernkompetenzen-gefragt_258_456958.html",
+    "date": "2026-08-05T08:14:12.931476",
+    "passed_keywords": false
+  },
+  "dfdb95e2691b": {
+    "title": "KI in der Immobilienwirtschaft: \"Wir sind fünf nach zwölf\"",
+    "url": "https://www.haufe.de/immobilien/ki-in-der-immobilienbranche-herausforderungen-potenziale_22_693196.html",
+    "date": "2026-08-05T08:14:12.931507",
+    "passed_keywords": false
+  },
+  "6a9fe9f5dcc3": {
+    "title": "Reform des CO2KostAufG: CO2-Kosten: Vermieter zahlen deutlich mehr",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/co2-preis-inwiefern-muessen-sich-vermieter-beteiligen_84342_525922.html",
+    "date": "2026-08-05T08:14:12.931535",
+    "passed_keywords": true,
+    "score": 6
+  },
+  "a7534d7ecf58": {
+    "title": "Forschungsbericht: Bauabfälle reduzieren: Was Planung und Logistik leisten können",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/wohnungsbau-kies-ist-knapp-wie-waere-es-mit-holz_84342_532840.html",
+    "date": "2026-08-05T08:14:12.931551",
+    "passed_keywords": false
   }
 }
