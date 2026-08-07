@@ -2520,5 +2520,17 @@
     "date": "2026-08-06T08:12:55.758376",
     "passed_keywords": true,
     "score": 3
+  },
+  "1f223380eff8": {
+    "title": "3 Fragen an Daniel Bruder: Befreit die Daten",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/erp-it-in-der-wohnungswirtschaft-3-fragen-an-daniel-bruder_260_693630.html",
+    "date": "2026-08-07T06:58:10.024626",
+    "passed_keywords": false
+  },
+  "26ecdb0eb128": {
+    "title": "German Real Estate Index (GREIX): Wohnimmobilien: Preisanstieg verliert deutlich an Schwung",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/greix-trends-bei-immobilienpreisen-in-staedten_84324_594560.html",
+    "date": "2026-08-07T06:58:10.024712",
+    "passed_keywords": false
   }
 }
