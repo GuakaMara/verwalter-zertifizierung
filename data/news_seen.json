@@ -2544,5 +2544,25 @@
     "url": "https://www.haufe.de/immobilien/wirtschaft-politik/lichtsteuerung-in-nichtwohngebaeuden-epbd-konform-sparen_84342_693624.html",
     "date": "2026-08-08T06:32:10.232707",
     "passed_keywords": false
+  },
+  "0d818143b999": {
+    "title": "Immobilienmarkt Deutschland: Wohnungspreise in Metropolen: Hamburg legt am stärksten zu",
+    "url": "https://www.haufe.de/immobilien/investment/vdp-immobilienpreisindex_256_515900.html",
+    "date": "2026-08-11T06:44:37.568754",
+    "passed_keywords": false
+  },
+  "26e8ac497a46": {
+    "title": "GModG fasst Regelungen neu: Energieausweise ab 2027: Was sich alles ändert",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/energieausweis-pflichten-und-fristen_84342_534562.html",
+    "date": "2026-08-11T06:44:37.568787",
+    "passed_keywords": true,
+    "score": 7,
+    "published": true
+  },
+  "59c5f36f6399": {
+    "title": "L'Immo, der Podcast für die Immobilienwirtschaft: Die Zeiten haben sich geändert",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/limmo-podcast-tempelhofer-feld-bebauen-oder-nicht_84342_693742.html",
+    "date": "2026-08-11T06:44:37.568805",
+    "passed_keywords": false
   }
 }
