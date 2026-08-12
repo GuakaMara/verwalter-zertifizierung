@@ -2564,5 +2564,36 @@
     "url": "https://www.haufe.de/immobilien/wirtschaft-politik/limmo-podcast-tempelhofer-feld-bebauen-oder-nicht_84342_693742.html",
     "date": "2026-08-11T06:44:37.568805",
     "passed_keywords": false
+  },
+  "29e3ab2e139b": {
+    "title": "BGH zur Mietpreisbremse: Sanierter Altbau kann als Neubau gelten",
+    "url": "https://www.haufe.de/immobilien/verwaltung/mietpreisbremse-sanierter-altbau-kann-als-neubau-gelten_258_694116.html",
+    "date": "2026-08-12T07:06:03.093544",
+    "passed_keywords": false
+  },
+  "b54662d78e81": {
+    "title": "Wohntrends 2026: Small Sized Living: Gleiche Fläche, mehr Lebensqualität",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/small-sized-living-weniger-flaeche-mehr-lebensqualitaet_260_694016.html",
+    "date": "2026-08-12T07:06:03.093576",
+    "passed_keywords": false
+  },
+  "891e43e6a817": {
+    "title": "Empirica-Index warnt: Immobilienblase: Wann kippt das fragile Gleichgewicht?",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/empirica-empirica-blasenindex-steigt_84324_326394.html",
+    "date": "2026-08-12T07:06:03.093598",
+    "passed_keywords": false
+  },
+  "556c34451639": {
+    "title": "Makler: Einfamilienhäuser: So verteilen sich Preise regional",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/makler-bewerten-markt-fuer-wohnimmobilien_84324_520976.html",
+    "date": "2026-08-12T07:06:03.093624",
+    "passed_keywords": false
+  },
+  "d63defc3da22": {
+    "title": "BGH zur Mietpreisbremse: Versäumte Auskunft schlägt nicht auf Folgemietvertrag durch",
+    "url": "https://www.haufe.de/immobilien/verwaltung/bgh-mietpreisbremse-auskunft_258_693220.html",
+    "date": "2026-08-12T07:06:03.093647",
+    "passed_keywords": true,
+    "score": 3
   }
 }
