@@ -2595,5 +2595,17 @@
     "date": "2026-08-12T07:06:03.093647",
     "passed_keywords": true,
     "score": 3
+  },
+  "e01dc76dde07": {
+    "title": "Assetklassen im Wandel: Wo Immobilieninvestoren ihr Kapital parken",
+    "url": "https://www.haufe.de/immobilien/investment/deutsche-hypo-index-immobilienklima_256_510892.html",
+    "date": "2026-08-13T07:09:39.066854",
+    "passed_keywords": false
+  },
+  "2222e3c4649a": {
+    "title": "Künstliche Intelligenz: KI trifft Gewerbeimmobilien: MIT-Studie zeigt 4 Szenarien",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/immobilienwirtschaft-kuenstliche-intelligenz-in-der-praxis_260_605582.html",
+    "date": "2026-08-13T07:09:39.066893",
+    "passed_keywords": false
   }
 }
