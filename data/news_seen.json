@@ -2651,5 +2651,37 @@
     "date": "2026-08-15T06:18:35.464742",
     "passed_keywords": true,
     "score": 6
+  },
+  "abc898800238": {
+    "title": "Zweckentfremdung: Wohnungen zu Büros zu Wohnungen?",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/zweckentfremdung-bueros-in-wohnungen-so-gehen-staedte-vor_260_695304.html",
+    "date": "2026-08-18T06:23:12.943279",
+    "passed_keywords": false
+  },
+  "616b94a5283d": {
+    "title": "Immobilienpreise: Bestandshäuser holen auf, Wohnungen geben nach",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/europace-hauspreisindex-epx_84324_615960.html",
+    "date": "2026-08-18T06:23:12.943309",
+    "passed_keywords": false
+  },
+  "35c980528c72": {
+    "title": "PV-Anlagen & Netzentgelte: Einspeisevergütung sichern: Frist läuft Ende 2026 ab",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/osterpaket-eeg-und-solarstrom_84342_564586.html",
+    "date": "2026-08-18T06:23:12.943331",
+    "passed_keywords": false
+  },
+  "ee143b530791": {
+    "title": "L'Immo, der Podcast für die Immobilienwirtschaft: Immobilienwirtschaft verschläft EU AI Act",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/limmo-podcast-ai-act-der-eu-immobilienwirtschaft_84342_694984.html",
+    "date": "2026-08-18T06:23:12.943349",
+    "passed_keywords": false
+  },
+  "d12d8e4e8094": {
+    "title": "WEG-Beschlüsse, Haftung, Rücksichtnahmegebot : Blumenkästen am Balkon: Was das Nachbarrecht erlaubt",
+    "url": "https://www.haufe.de/immobilien/verwaltung/mietrecht-verbot-von-blumenkaesten-an-balkonaussenseite_258_155580.html",
+    "date": "2026-08-18T06:23:12.943367",
+    "passed_keywords": true,
+    "score": 7,
+    "published": true
   }
 }
