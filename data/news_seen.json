@@ -2719,5 +2719,19 @@
     "url": "https://www.haufe.de/immobilien/investment/immobilienfinanzierung-real-estate-debt-als-trend_256_620262.html",
     "date": "2026-08-20T06:25:09.965261",
     "passed_keywords": false
+  },
+  "09ba6d88ae60": {
+    "title": "3 Fragen an Rebekka Ruppel: EU AI Act beendet die Narrenfreiheit",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/immobilienunternehmen-und-ai-act-3-fragen-an-rebekka-ruppel_84342_696104.html",
+    "date": "2026-08-21T06:25:29.031999",
+    "passed_keywords": false
+  },
+  "55a0659051c6": {
+    "title": "Immobilienverwaltung 2026: Starkes Wachstum, überlastetes Personal",
+    "url": "https://www.haufe.de/immobilien/verwaltung/vdiv-branchenbarometer-die-ergebnisse_258_520868.html",
+    "date": "2026-08-21T06:25:29.032029",
+    "passed_keywords": true,
+    "score": 8,
+    "published": true
   }
 }
