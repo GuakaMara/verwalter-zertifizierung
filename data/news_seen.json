@@ -2775,5 +2775,18 @@
     "url": "https://www.haufe.de/immobilien/verwaltung/limmo-podcast-geodaten-lageanalyse-fuer-immobilienprofis_258_696158.html",
     "date": "2026-08-25T06:25:53.630527",
     "passed_keywords": false
+  },
+  "2bc8d0a23bee": {
+    "title": "Auswertung Kleinanzeigen 2026: Klimaanlage wird zum Verkaufsargument",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/wohntrends-worauf-legen-mieter-und-kaeufer-von-wohnungen-wert_84342_534284.html",
+    "date": "2026-08-26T06:27:43.319224",
+    "passed_keywords": false
+  },
+  "d353a10d6175": {
+    "title": "Urteil: Glasfaser im Haus: Kein Ausbau ohne Eigentümer",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/glasfaserausbau-urteile-zur-tkg-novelle_260_696268.html",
+    "date": "2026-08-26T06:27:43.319269",
+    "passed_keywords": true,
+    "score": 7
   }
 }
