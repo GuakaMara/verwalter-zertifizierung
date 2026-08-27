@@ -2788,5 +2788,35 @@
     "date": "2026-08-26T06:27:43.319269",
     "passed_keywords": true,
     "score": 7
+  },
+  "857a0667545d": {
+    "title": "Linke stellt Modell für bundesweite Regelung vor: Mietendeckel: Jurist sieht grünes Licht im Grundgesetz",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/bundesweiter-mietendeckel-folgen-fuer-den-wohnungsmarkt_84324_631584.html",
+    "date": "2026-08-27T17:02:00.922523",
+    "passed_keywords": false
+  },
+  "daae549a5300": {
+    "title": "KfW-Umfrage: Mieter hängen bei der Energiewende zurück",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/ohne-digitalisierung-kann-es-keine-nachhaltigkeit-geben_84324_530864.html",
+    "date": "2026-08-27T17:02:00.922569",
+    "passed_keywords": false
+  },
+  "c41d2e3fc9d8": {
+    "title": "Fernwärme auf dem Prüfstand: Wärmenetzgesetz 2026: Das plant die Bundesregierung",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/bundesregierung-sieht-sich-mit-energiegesetz-auf-kurs_84342_479294.html",
+    "date": "2026-08-27T17:02:00.922593",
+    "passed_keywords": false
+  },
+  "99b4b0eef21c": {
+    "title": "Deutschland fehlen 1,35 Millionen Wohnungen: Wohnungsbau stürzt ab und kostet ein Prozent Wohlstand",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/immobilienwirtschaft-hat-hohe-volkswirtschaftliche-bedeutung_84342_415880.html",
+    "date": "2026-08-27T17:02:00.922619",
+    "passed_keywords": false
+  },
+  "de52168ded43": {
+    "title": "Transparenz im Bund-Länder-Vergleich: Lobbyranking 2026: Deutschland hat noch viel zu tun",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/lobbyregister-fuer-mehr-transparenz-was-bund-und-laender-planen_84342_536182.html",
+    "date": "2026-08-27T17:02:00.922641",
+    "passed_keywords": false
   }
 }
