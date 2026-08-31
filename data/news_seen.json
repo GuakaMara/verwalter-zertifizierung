@@ -2836,5 +2836,24 @@
     "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/iot-daten-wie-vermieter-vom-eu-data-act-profitieren_260_696296.html",
     "date": "2026-08-28T17:50:43.976872",
     "passed_keywords": false
+  },
+  "9ebc436bac8a": {
+    "title": "L'Immo, der Podcast für die Immobilienwirtschaft: Klimaschutz vs. Kaltmiete: Wer zahlt die Wärmewende?",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/limmo-podcast-klimaschutz-waermewende-vs-kaltmiete_260_696768.html",
+    "date": "2026-08-31T12:04:18.738560",
+    "passed_keywords": true,
+    "score": 4
+  },
+  "69bb64cd9d12": {
+    "title": "Marktcheck für Makler: Balkon beim Wohnungskauf: 19 Prozent mehr Nachfrage",
+    "url": "https://www.haufe.de/immobilien/investment/wohnungsverkauf-wo-ein-balkon-den-quadratmeter-preis-treibt_256_522196.html",
+    "date": "2026-08-31T12:04:18.738577",
+    "passed_keywords": false
+  },
+  "0432669ccdb0": {
+    "title": "BauGB-Novelle 2026: KI in der Bauleitplanung: Bundesrat fordert mehr Spielraum",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/bauleitplanung-schneller-planen-und-bauen_84342_583064.html",
+    "date": "2026-08-31T12:04:18.738601",
+    "passed_keywords": false
   }
 }
