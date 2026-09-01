@@ -2855,5 +2855,31 @@
     "url": "https://www.haufe.de/immobilien/wirtschaft-politik/bauleitplanung-schneller-planen-und-bauen_84342_583064.html",
     "date": "2026-08-31T12:04:18.738601",
     "passed_keywords": false
+  },
+  "c88d77c559e9": {
+    "title": "Zutritt zur Mietwohnung: Besichtigungsrecht: Was Vermieter dürfen – und was nicht",
+    "url": "https://www.haufe.de/immobilien/verwaltung/wohnungsbesichtigung-das-sind-die-rechte-des-vermieters_258_615190.html",
+    "date": "2026-09-01T10:42:36.151052",
+    "passed_keywords": true,
+    "score": 4
+  },
+  "d1f9203dad45": {
+    "title": "Was sich ab dem 1. September ändert: Wann Bauherren in NRW keine Genehmigung mehr brauchen",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/nrw-reform-der-bauordnung_84342_531940.html",
+    "date": "2026-09-01T10:42:36.151074",
+    "passed_keywords": false
+  },
+  "6b723cccc30b": {
+    "title": "BGH: Doppelmakler verliert bei Widerruf nur eine Provision",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/bgh-doppelmakler-erhaelt-kaeuferprovision-trotz-widerruf_84342_696804.html",
+    "date": "2026-09-01T10:42:36.151096",
+    "passed_keywords": true,
+    "score": 3
+  },
+  "a57a0882518b": {
+    "title": "Offene Immobilienfonds: Neue Krise, alte Schwächen",
+    "url": "https://www.haufe.de/immobilien/investment/offene-immobilienfonds-vom-boom-zur-krise_256_696800.html",
+    "date": "2026-09-01T10:42:36.151109",
+    "passed_keywords": false
   }
 }
