@@ -2911,5 +2911,30 @@
     "url": "https://www.haufe.de/immobilien/verwaltung/vermietung-an-angehoerige-so-wird-die-ortsuebliche-miete-berechnet_258_375876.html",
     "date": "2026-09-03T10:18:56.752150",
     "passed_keywords": false
+  },
+  "4f555be70340": {
+    "title": "München führt in Europa mit 3,2 Prozent pro Jahr: Deutsche Logistikmieten wachsen bis 2031 überdurchschnittlich",
+    "url": "https://www.haufe.de/immobilien/investment/logistikimmobilien-flaechenknappheit-sorgt-fuer-druck-auf-mieten_256_444054.html",
+    "date": "2026-09-04T10:06:57.598387",
+    "passed_keywords": false
+  },
+  "76bb5ee58dd9": {
+    "title": "EU AI Act: So werden Immobilienunternehmen KI-compliant",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/digitalization-of-enterprise_84342_473872.html",
+    "date": "2026-09-04T10:06:57.598420",
+    "passed_keywords": false
+  },
+  "5f84890532dc": {
+    "title": "3 Fragen Dr. Susanne Schmitt: \"Jeder Euro kann nur einmal ausgegeben werden\"",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/wohnungsmangel-klimaziele-3-fragen-an-dr-susanne-schmitt_260_697168.html",
+    "date": "2026-09-04T10:06:57.598447",
+    "passed_keywords": true,
+    "score": 3
+  },
+  "4a5168b96228": {
+    "title": "Hahn-Report 2026/2027: Investoren setzen wieder auf Handelsimmobilien",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/handelsimmobilien-fuer-investoren-ueberdurchschnittlich-attraktiv_84324_135984.html",
+    "date": "2026-09-04T10:06:57.598461",
+    "passed_keywords": false
   }
 }
