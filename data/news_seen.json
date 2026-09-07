@@ -2936,5 +2936,31 @@
     "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/handelsimmobilien-fuer-investoren-ueberdurchschnittlich-attraktiv_84324_135984.html",
     "date": "2026-09-04T10:06:57.598461",
     "passed_keywords": false
+  },
+  "30dc9a783d9e": {
+    "title": "Verwertungsgesellschaften scheitern vor Gericht: BGH stärkt WEGs: Interne Rundfunkweiterleitung lizenzfrei",
+    "url": "https://www.haufe.de/immobilien/verwaltung/bgh-staerkt-wegs-interne-rundfunkweiterleitung-lizenzfrei_258_697290.html",
+    "date": "2026-09-07T10:58:16.513522",
+    "passed_keywords": true,
+    "score": 9,
+    "published": true
+  },
+  "e950fe87b91b": {
+    "title": "L'Immo, der Podcast für die Immobilienwirtschaft: Coworking in der Krise: Warum Flex Office die Antwort ist",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/limmo-podcast-coworking-trifft-wohnungsgesellschaft_84324_697272.html",
+    "date": "2026-09-07T10:58:16.513542",
+    "passed_keywords": false
+  },
+  "57e682f109cd": {
+    "title": "Kleine Großsiedlungen in Kleinstädten: Auslaufmodell oder Siedlungstyp mit Perspektive?",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/studie-kleine-grosssiedlungen-in-ostdeutschland_260_697262.html",
+    "date": "2026-09-07T10:58:16.513563",
+    "passed_keywords": false
+  },
+  "404c5e9adf26": {
+    "title": "München führt in Europa mit 3,2 Prozent: Deutsche Logistikmieten wachsen bis 2031 überdurchschnittlich",
+    "url": "https://www.haufe.de/immobilien/investment/logistikimmobilien-flaechenknappheit-sorgt-fuer-druck-auf-mieten_256_444054.html",
+    "date": "2026-09-07T10:58:16.513584",
+    "passed_keywords": false
   }
 }
