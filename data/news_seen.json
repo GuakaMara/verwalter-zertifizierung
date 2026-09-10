@@ -2992,5 +2992,25 @@
     "url": "https://www.haufe.de/immobilien/wirtschaft-politik/eu-recht-reform-von-emissionshandel-und-co2-bepreisung_84342_642252.html",
     "date": "2026-09-09T10:19:16.752613",
     "passed_keywords": false
+  },
+  "a5acc13c15f1": {
+    "title": "Immobilienfinanzierung: Private Debt: Kreditgeber sitzen wieder am längeren Hebel",
+    "url": "https://www.haufe.de/immobilien/investment/immobilienfinanzierung-wettbewerbsdruck-bleibt-hoch_256_456408.html",
+    "date": "2026-09-10T10:12:29.978092",
+    "passed_keywords": false
+  },
+  "8e42b6d73c78": {
+    "title": "Bundesweite Studie zur Arbeitsmobilität: BBSR: 20 Millionen Pendler – Wohndruck in Großstädten",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/immobilienpreise-steigen-auch-im-umland-von-metropolen-an_84324_168850.html",
+    "date": "2026-09-10T10:12:29.978122",
+    "passed_keywords": false
+  },
+  "063af1211ced": {
+    "title": "Rechtsunsicherheit und Mehrkosten: Neue CO2-Kostenaufteilung: Gasheizung wirtschaftlich riskant",
+    "url": "https://www.haufe.de/immobilien/verwaltung/neue-co2-kostenaufteilung-gasheizung-wirtschaftlich-riskant_258_697480.html",
+    "date": "2026-09-10T10:12:29.978145",
+    "passed_keywords": true,
+    "score": 7,
+    "published": true
   }
 }
