@@ -3067,5 +3067,30 @@
     "url": "https://www.haufe.de/immobilien/verwaltung/haushaltsnahe-dienstleistungen-in-der-betriebskostenabrechnung_258_429660.html",
     "date": "2026-09-14T11:10:35.565404",
     "passed_keywords": false
+  },
+  "39b652e5a158": {
+    "title": "Pestel-Studie 2026: Wohneigentum in Deutschland systematisch benachteiligt",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/wohneigentum-in-deutschland-fehlt-es-an-foerderung_84324_386484.html",
+    "date": "2026-09-15T10:38:17.078580",
+    "passed_keywords": false
+  },
+  "a0c56f5183cf": {
+    "title": "Gesetzesänderung trifft Beratungsalltag: Energieausweis 2027: Neue Pflichten für Makler durch GModG",
+    "url": "https://www.haufe.de/immobilien/verwaltung/rechtsprechung-energieausweis-und-maklerpflichten_258_443284.html",
+    "date": "2026-09-15T10:38:17.078627",
+    "passed_keywords": true,
+    "score": 5
+  },
+  "9959096d9781": {
+    "title": "Kosten, Förderung, Skalierung: Serielles Sanieren: Warum der Markt zögert",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/serielles-sanieren-kosten-foerderung-und-skalierung_84342_698050.html",
+    "date": "2026-09-15T10:38:17.078655",
+    "passed_keywords": false
+  },
+  "ea504c297657": {
+    "title": "Expertengruppe Mietrecht: Bußgeld plus Rückzahlung: Hubig will Mietpreisbremse schärfen",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/bundestag-beraet-ueber-schaerferen-mietwucher-paragrafen_84342_507688.html",
+    "date": "2026-09-15T10:38:17.078704",
+    "passed_keywords": false
   }
 }
