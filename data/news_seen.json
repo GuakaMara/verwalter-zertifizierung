@@ -3104,5 +3104,31 @@
     "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/smart-home-in-der-wohnungswirtschaft-chancen-fuer-vermieter_260_697742.html",
     "date": "2026-09-16T10:26:54.657577",
     "passed_keywords": false
+  },
+  "8bf813a68c39": {
+    "title": "Branchentreffen 2026: Deutscher Verwaltertag in Berlin eröffnet",
+    "url": "https://www.haufe.de/immobilien/verwaltung/21-deutscher-verwaltertag-in-berlin-eroeffnet_258_200204.html",
+    "date": "2026-09-17T10:36:07.936262",
+    "passed_keywords": true,
+    "score": 6
+  },
+  "27d4265e19f7": {
+    "title": "Urteile mit Signalwirkung: Milieuschutz und Zweckentfremdung vor Gericht",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/urteile-zu-ferienwohnungen-umwandlung-und-zweckentfremdung_84342_627076.html",
+    "date": "2026-09-17T10:36:07.936281",
+    "passed_keywords": true,
+    "score": 4
+  },
+  "b7b2bf8dce90": {
+    "title": "Welche Instrumente wirklich wirken: Mehr Geld, weniger Wohnungen – Deutschlands Förderdilemma",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/staatliche-wohnungsbaufoerderung-wird-falsch-gefoerdert_84342_522362.html",
+    "date": "2026-09-17T10:36:07.936292",
+    "passed_keywords": false
+  },
+  "fb92f95b37fb": {
+    "title": "Deutsche Hypo Index: Zinsbelastung bremst Investitionsklima",
+    "url": "https://www.haufe.de/immobilien/investment/deutsche-hypo-index-immobilienklima_256_510892.html",
+    "date": "2026-09-17T10:36:07.936318",
+    "passed_keywords": false
   }
 }
