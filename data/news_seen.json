@@ -3130,5 +3130,30 @@
     "url": "https://www.haufe.de/immobilien/investment/deutsche-hypo-index-immobilienklima_256_510892.html",
     "date": "2026-09-17T10:36:07.936318",
     "passed_keywords": false
+  },
+  "974b3cabed9a": {
+    "title": "Die Branche feiert ihre Besten: Immobilienverwalter des Jahres: Die Preisträger 2026",
+    "url": "https://www.haufe.de/immobilien/verwaltung/immobilienverwalter-des-jahres-2013-ausgezeichnet_258_200534.html",
+    "date": "2026-09-18T10:12:15.958361",
+    "passed_keywords": true,
+    "score": 4
+  },
+  "9647c3ef492f": {
+    "title": "3 Fragen an Jens Böhnlein: Die Immobilie im Wettbewerb um Kapital",
+    "url": "https://www.haufe.de/immobilien/investment/immobilien-vs-anleihen-3-fragen-an-jens-boehnlein_256_698474.html",
+    "date": "2026-09-18T10:12:15.958379",
+    "passed_keywords": false
+  },
+  "d3b85f69b8fd": {
+    "title": "BGH fragt EuGH zum Haushaltsprivileg: Heimlich gefilmt in der Wohnküche: Wann schützt die DSGVO?",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/bgh-laesst-dsgvo-haushaltsausnahme-vom-eugh-klaeren_84342_698422.html",
+    "date": "2026-09-18T10:12:15.958397",
+    "passed_keywords": false
+  },
+  "0a151cce7070": {
+    "title": "Wohnungsunternehmen unter Zugzwang: EmpCo: Verbot von Greenwashing in der Kommunikation",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/empco-verbot-von-greenwashing-in-der-kommunikation_260_698406.html",
+    "date": "2026-09-18T10:12:15.958418",
+    "passed_keywords": false
   }
 }
