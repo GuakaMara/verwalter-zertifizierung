@@ -3191,5 +3191,31 @@
     "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/dena-gebaeudereport_84324_544666.html",
     "date": "2026-09-21T11:21:26.732731",
     "passed_keywords": false
+  },
+  "e2bab898ffe3": {
+    "title": "Öl, Pellets, Gas im Vergleich: Heizperiode 2026 bringt höhere Kosten",
+    "url": "https://www.haufe.de/immobilien/verwaltung/trendwende-heizkosten-steigen-wieder_258_430210.html",
+    "date": "2026-09-22T10:30:52.962281",
+    "passed_keywords": false
+  },
+  "468aa8cc6d6a": {
+    "title": "Nach Linken-Wahlsieg in Berlin: Union forciert rasches Enteignungsverbot",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/bbu-rechtsgutachten-zur-enteignung-von-wohnungsunternehmen_84342_486566.html",
+    "date": "2026-09-22T10:30:52.962313",
+    "passed_keywords": true,
+    "score": 3
+  },
+  "f263f12a7bfc": {
+    "title": "EmpCo-Richtlinie und neue UWG-Regeln: Umweltwerbung wird zur Abmahnfalle für Makler",
+    "url": "https://www.haufe.de/immobilien/verwaltung/ab-2792026-umweltwerbung-wird-zur-abmahnfalle-fuer-makler_258_698628.html",
+    "date": "2026-09-22T10:30:52.962332",
+    "passed_keywords": false
+  },
+  "246f5dd08e74": {
+    "title": "Die Branche feiert ihre Besten: Immobilienverwaltung des Jahres: Die Preisträger 2026",
+    "url": "https://www.haufe.de/immobilien/verwaltung/immobilienverwalter-des-jahres-2013-ausgezeichnet_258_200534.html",
+    "date": "2026-09-22T10:30:52.962354",
+    "passed_keywords": true,
+    "score": 5
   }
 }
