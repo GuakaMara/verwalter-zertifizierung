@@ -3217,5 +3217,23 @@
     "date": "2026-09-22T10:30:52.962354",
     "passed_keywords": true,
     "score": 5
+  },
+  "caa10123610d": {
+    "title": "Trotz Mietpreisbremse: Berliner Neumieten 64 Prozent über Mietspiegel",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/trotz-mietpreisbremse-steigende-preise_84324_299088.html",
+    "date": "2026-09-23T10:25:47.409053",
+    "passed_keywords": false
+  },
+  "46550885de7f": {
+    "title": "UBS-Studie warnt vor Zürich, Tokio und Miami: Frankfurt und München trotzen der Blasengefahr",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/wohnungsmarkt-blasengefahr-in-muenchen-weltweit-am-groessten_84324_501008.html",
+    "date": "2026-09-23T10:25:47.409088",
+    "passed_keywords": false
+  },
+  "fc7f2e0e73a4": {
+    "title": "Aktuelle Verordnung läuft am 31.12.2026 aus: Baden-Württemberg will Mietpreisbremse & Co. verlängern",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/mietpreisbremse-in-baden-wuerttemberg_84342_321932.html",
+    "date": "2026-09-23T10:25:47.409114",
+    "passed_keywords": false
   }
 }
