@@ -3235,5 +3235,45 @@
     "url": "https://www.haufe.de/immobilien/wirtschaft-politik/mietpreisbremse-in-baden-wuerttemberg_84342_321932.html",
     "date": "2026-09-23T10:25:47.409114",
     "passed_keywords": false
+  },
+  "382961d73e41": {
+    "title": "Neugeschäft wächst: Immobilienfinanzierer kehren zurück auf Kurs",
+    "url": "https://www.haufe.de/immobilien/investment/bfquartalsbarometer-truebe-lage-bei-immobilienfinanzierung_256_509400.html",
+    "date": "2026-09-24T10:41:55.502238",
+    "passed_keywords": false
+  },
+  "f0aa5d533c65": {
+    "title": "Wohnungsbau soll Vorrang kriegen: BauGB-Novelle passiert Anhörung im Bundestag",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/bundestag-beschliesst-novelle-des-baugesetzbuchs_84342_175786.html",
+    "date": "2026-09-24T10:41:55.502272",
+    "passed_keywords": false
+  },
+  "4110982021f1": {
+    "title": "Transformation der Wohnungswirtschaft: Klimaneutralität braucht eine neue Finanzierungslogik",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/wohnungswirtschaft-finanzierung-der-klimaneutralitaet_260_698916.html",
+    "date": "2026-09-24T10:41:55.502296",
+    "passed_keywords": true,
+    "score": 5
+  },
+  "5e338fd43728": {
+    "title": "Eigenheim und Steuervorteil: Steuerförderung für energetische Sanierung nutzen",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/energetische-sanierung-steuerliche-foerderung_84342_539834.html",
+    "date": "2026-09-24T10:41:55.502315",
+    "passed_keywords": false
+  },
+  "0ebbfa1d12c2": {
+    "title": "VDIV-Chef Kaßler spricht Klartext: Warum Marge die Immobilienverwaltung rettet",
+    "url": "https://www.haufe.de/immobilien/verwaltung/vdiv-warnt-verwalter-vor-wachstum-um-jeden-preis_258_698830.html",
+    "date": "2026-09-24T10:41:55.502336",
+    "passed_keywords": true,
+    "score": 8,
+    "published": true
+  },
+  "1eacfec43ff7": {
+    "title": "Angespannter Wohnungsmarkt: Bundesbaugesellschaft: Ablenkungsmanöver statt Problemlösung?",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/bundesbaugesellschaft-ablenkungsmanoever-statt-wohnungsbau_260_698826.html",
+    "date": "2026-09-24T10:41:55.502345",
+    "passed_keywords": true,
+    "score": 3
   }
 }
