@@ -3275,5 +3275,36 @@
     "date": "2026-09-24T10:41:55.502345",
     "passed_keywords": true,
     "score": 3
+  },
+  "1d1ff964e73c": {
+    "title": "In eigener Sache: DW-Zukunftspreis 2027: Jetzt bewerben!",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/dw-zukunftspreis-der-immobilienwirtschaft_260_468052.html",
+    "date": "2026-09-25T10:46:09.271945",
+    "passed_keywords": true,
+    "score": 2
+  },
+  "95a5b49f06ca": {
+    "title": "Bundestag berät Brennstoffemissionshandel: CO2-Preis für Heizöl bleibt 2027 eingefroren",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/eu-recht-reform-von-emissionshandel-und-co2-bepreisung_84342_642252.html",
+    "date": "2026-09-25T10:46:09.271968",
+    "passed_keywords": false
+  },
+  "2608cf8157bc": {
+    "title": "Miethöhe: Hessen plant längere Mietpreisbremse für 71 Kommunen",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/mietpreisbremse-in-hessen_84342_328508.html",
+    "date": "2026-09-25T10:46:09.271991",
+    "passed_keywords": false
+  },
+  "dfcf89c78823": {
+    "title": "Häuserpreisindex Statistisches Bundesamt: Immobilienpreise in den Metropolen werden günstiger",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/wohnungsmieten-und-kaufpreise-steigen-langsamer_84324_494302.html",
+    "date": "2026-09-25T10:46:09.272017",
+    "passed_keywords": false
+  },
+  "97cd024d405c": {
+    "title": "Studie belegt strukturelles Versagen: Immobilienbranche verschenkt Führungspotenzial von Frauen",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/studie-frauen-in-der-immobilienwirtschaft-sind-gut-ausgebildet_84324_378622.html",
+    "date": "2026-09-25T10:46:09.272042",
+    "passed_keywords": false
   }
 }
