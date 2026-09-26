@@ -3306,5 +3306,18 @@
     "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/studie-frauen-in-der-immobilienwirtschaft-sind-gut-ausgebildet_84324_378622.html",
     "date": "2026-09-25T10:46:09.272042",
     "passed_keywords": false
+  },
+  "842079272b7d": {
+    "title": "BGH: Wohnungseigentümer dürfen Fassadenkunstwerk beschließen",
+    "url": "https://www.haufe.de/immobilien/verwaltung/bgh-wohnungseigentuemer-duerfen-fassaden-kunstwerk-beschliessen_258_699110.html",
+    "date": "2026-09-26T10:28:05.274903",
+    "passed_keywords": true,
+    "score": 9
+  },
+  "20ea12d37cdc": {
+    "title": "Bundestag berät Ende der Ökostromgarantien: EEG-Reform soll Solar-Förderung auf 3 Jahre kürzen",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/eeg-erneuerbare-energien-gesetz_84342_559758.html",
+    "date": "2026-09-26T10:28:05.274921",
+    "passed_keywords": false
   }
 }
