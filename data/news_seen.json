@@ -3319,5 +3319,30 @@
     "url": "https://www.haufe.de/immobilien/wirtschaft-politik/eeg-erneuerbare-energien-gesetz_84342_559758.html",
     "date": "2026-09-26T10:28:05.274921",
     "passed_keywords": false
+  },
+  "9fb11c39c224": {
+    "title": "L'Immo, der Podcast für die Immobilienwirtschaft: So revolutioniert KI das Immobiliengeschäft",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/limmo-podcast-so-revolutioniert-ki-das-immobiliengeschaeft_84342_699186.html",
+    "date": "2026-09-28T12:16:45.495234",
+    "passed_keywords": false
+  },
+  "2baded0a5b5d": {
+    "title": "JLL-Studie zum Extremwetterkongress Hamburg: Klimarisiken zwingen Immobilieninvestoren zur Kooperation",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/extremwetter-bbsr-webtool-beurteilt-risiken-fuer-immobilien_84342_504408.html",
+    "date": "2026-09-28T12:16:45.495255",
+    "passed_keywords": false
+  },
+  "d6af865ebe00": {
+    "title": "Preisspiegel 2026/27: Wohneigentum wird erschwinglicher, aber Eigenkapital fehlt",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/baufinanzierung-wohneigentum-bleibt-erschwinglich_84324_393030.html",
+    "date": "2026-09-28T12:16:45.495268",
+    "passed_keywords": true,
+    "score": 3
+  },
+  "c87bb1db09ae": {
+    "title": "BGH-Makler-Urteil: Provisionshinweis unter E-Mail-Signatur unwirksam",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/projekte-deals/bgh-textform-bei-hinweis-auf-maklerprovision-in-e-mail_254_698470.html",
+    "date": "2026-09-28T12:16:45.495272",
+    "passed_keywords": false
   }
 }
