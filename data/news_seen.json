@@ -3344,5 +3344,24 @@
     "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/projekte-deals/bgh-textform-bei-hinweis-auf-maklerprovision-in-e-mail_254_698470.html",
     "date": "2026-09-28T12:16:45.495272",
     "passed_keywords": false
+  },
+  "8d752696b847": {
+    "title": "Verfassungsbeschwerde gegen GModG: Umwelthilfe klagt gegen neues Heizungsgesetz",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/heizungsgesetz_84342_596382.html",
+    "date": "2026-09-29T11:44:58.910605",
+    "passed_keywords": true,
+    "score": 5
+  },
+  "4ff6435ae1eb": {
+    "title": "Immowelt-Analyse Ostdeutschland 2026: Halle überholt Leipzig beim Wohnungspreis",
+    "url": "https://www.haufe.de/immobilien/investment/wohnungsmarkt-ost-und-westdeutschland-im-vergleich_256_526272.html",
+    "date": "2026-09-29T11:44:58.910665",
+    "passed_keywords": false
+  },
+  "fadf48eba823": {
+    "title": "Bundesrat contra EEG-Novelle 2027: Kürzungen bei Solaranlagen stehen auf der Kippe",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/eeg-erneuerbare-energien-gesetz_84342_559758.html",
+    "date": "2026-09-29T11:44:58.910694",
+    "passed_keywords": false
   }
 }
