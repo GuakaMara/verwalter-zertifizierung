@@ -3381,5 +3381,42 @@
     "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/wohnimmobilien-umland-nicht-unbedingt-guenstiger-als-stadt_84324_488106.html",
     "date": "2026-09-30T11:31:37.884499",
     "passed_keywords": false
+  },
+  "c1dd3931206d": {
+    "title": "Mietminderung in der Heizsaison: Welche Mindesttemperatur Vermieter schulden",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/mindesttemperatur-rechtlich-knifflige-fragen-fuer-vermieter_84342_571228.html",
+    "date": "2026-10-01T12:00:22.787685",
+    "passed_keywords": false
+  },
+  "adcf992c90f9": {
+    "title": "Machtkampf nach der Wahl: Berlins Landeseigene erhöhen Mieten und kontern die Linke",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/mietenmoratorium-bei-kommunalen-wohnungsunternehmen_260_578234.html",
+    "date": "2026-10-01T12:00:22.787716",
+    "passed_keywords": true,
+    "score": 2
+  },
+  "31b65e8db3b9": {
+    "title": "Strategien für Wohnungsunternehmen: Wachsen statt verwalten",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/meravis-digitalisierung-und-bestand-machen-wohnen-bezahlbar_260_699420.html",
+    "date": "2026-10-01T12:00:22.787739",
+    "passed_keywords": false
+  },
+  "e37e6d147811": {
+    "title": "WOWI-GIX: Wohnungswirtschaft kämpft mit Zinsen und Regulierung",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/wowi-gix-index-fuer-die-wohnungswirtschaft_260_670948.html",
+    "date": "2026-10-01T12:00:22.787762",
+    "passed_keywords": false
+  },
+  "f5a99a2e86d1": {
+    "title": "EuGH kippt BGH-3-Jahreslösung: Fernwärme: Verbraucher können Geld ab 2023 zurückfordern",
+    "url": "https://www.haufe.de/immobilien/verwaltung/fernwaerme-eugh-kippt-bgh-regel-zu-preisanpassungsklauseln_258_699366.html",
+    "date": "2026-10-01T12:00:22.787787",
+    "passed_keywords": false
+  },
+  "894da4968fcd": {
+    "title": "MLP-Report 2026: Strukturelle Knappheit macht Studentenwohnen zum Investmentthema",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/mietkosten-wohnen-wird-fuer-studenten-immer-teurer_84324_500780.html",
+    "date": "2026-10-01T12:00:22.787831",
+    "passed_keywords": false
   }
 }
