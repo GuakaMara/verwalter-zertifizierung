@@ -3418,5 +3418,37 @@
     "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/mietkosten-wohnen-wird-fuer-studenten-immer-teurer_84324_500780.html",
     "date": "2026-10-01T12:00:22.787831",
     "passed_keywords": false
+  },
+  "1f342f63e2c9": {
+    "title": "3 Fragen an Viktor Weber: Jenseits des Prompts",
+    "url": "https://www.haufe.de/immobilien/ki-in-der-immobilienbranche-3-fragen-an-viktor-weber_22_699586.html",
+    "date": "2026-10-02T11:31:47.784907",
+    "passed_keywords": false
+  },
+  "8bc601179381": {
+    "title": "JLL und HWWI melden Stimmungseinbruch: Finanzierer kapitulieren vor Zinsen und Inflation",
+    "url": "https://www.haufe.de/immobilien/investment/deutscher-immobilienfinanzierungsindex-difi_256_511716.html",
+    "date": "2026-10-02T11:31:47.784937",
+    "passed_keywords": false
+  },
+  "864a9830bfcc": {
+    "title": "EuGH-Urteil zur Direktleitung im Energierecht: Kundenanlagen: Öffnet sich ein Weg aus der Netzregulierung?",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/eugh-klaert-direktleitung-und-staerkt-kundenanlagen_84342_699536.html",
+    "date": "2026-10-02T11:31:47.784957",
+    "passed_keywords": true,
+    "score": 5
+  },
+  "fa7852c16cc7": {
+    "title": "Postbank Wohnatlas 2026: So viel mehr kostet Neubau gegenüber Bestand",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/postbank-wohnatlas-neubau-vs-bestand_84324_699236.html",
+    "date": "2026-10-02T11:31:47.784966",
+    "passed_keywords": true,
+    "score": 3
+  },
+  "4b1bf631cc89": {
+    "title": "Techem Atlas 2026 zu Energie und Wärme: Heizkosten klettern 45 Prozent über Vorkrisenniveau",
+    "url": "https://www.haufe.de/immobilien/verwaltung/techem-atlas-fuer-energie-waerme-wasser_258_633942.html",
+    "date": "2026-10-02T11:31:47.784974",
+    "passed_keywords": false
   }
 }
