@@ -3518,5 +3518,42 @@
     "url": "https://www.haufe.de/immobilien/wirtschaft-politik/wohnungswirtschaft-kampagne-gegen-haeusliche-gewalt_84342_671036.html",
     "date": "2026-10-06T12:22:32.963527",
     "passed_keywords": false
+  },
+  "44ed05196ae8": {
+    "title": "Maklerportale: Mietwohnungen: Nachfrage wächst schneller als das Angebot",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/wohnkostenbelastung-in-deutschland-miete-versus-einkommen_84324_521164.html",
+    "date": "2026-10-07T12:15:22.964304",
+    "passed_keywords": false
+  },
+  "ef47434d7e9e": {
+    "title": "GdW-Chef Gedaschko schlägt Alarm: Mietrechtsreform stoppt Wohnungsinvestitionen",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/mietrechtsreform_260_699368.html",
+    "date": "2026-10-07T12:15:22.964333",
+    "passed_keywords": false
+  },
+  "dfa25944c702": {
+    "title": "Expo Real 2026: Resilienz schlägt Nachhaltigkeit",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/expo-real-2026-resilienz-schlaegt-nachhaltigkeit_84342_699800.html",
+    "date": "2026-10-07T12:15:22.964365",
+    "passed_keywords": false
+  },
+  "fad8186e043d": {
+    "title": "Wachstumschancengesetz: E-Rechnungspflicht für Vermieter gilt stufenweise",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/e-rechnung-was-vermieter-wissen-muessen_84342_639574.html",
+    "date": "2026-10-07T12:15:22.964388",
+    "passed_keywords": false
+  },
+  "57c7725a6a28": {
+    "title": "Erfahrungen mit dem Wohnungseigentumsgesetz: Onlineumfrage zur WEG-Evaluation 2027 startet",
+    "url": "https://www.haufe.de/immobilien/verwaltung/umfrage-zum-weg_258_699780.html",
+    "date": "2026-10-07T12:15:22.964407",
+    "passed_keywords": true,
+    "score": 9
+  },
+  "3e0ab4e8cf7f": {
+    "title": "Gesetzentwurf aus dem Justizministerium: Häusliche Gewalt: Opfer sollen leichter aus Mietvertrag kommen",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/wohnungswirtschaft-kampagne-gegen-haeusliche-gewalt_84342_671036.html",
+    "date": "2026-10-07T12:15:22.964416",
+    "passed_keywords": false
   }
 }
