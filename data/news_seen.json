@@ -3599,5 +3599,30 @@
     "url": "https://www.haufe.de/immobilien/wirtschaft-politik/infrastruktur-vs-immobilien-3-fragen-an-dr-britta-nielsen_84342_700178.html",
     "date": "2026-10-09T12:14:16.738836",
     "passed_keywords": false
+  },
+  "39320c360930": {
+    "title": "Bonitätsprüfungen und Scoring: KI bei der Mieterauswahl: Wo die rechtlichen Grenzen liegen",
+    "url": "https://www.haufe.de/immobilien/ki-bei-der-mieterauswahl-was-vermieter-beachten-muessen_22_700252.html",
+    "date": "2026-10-12T13:48:34.457225",
+    "passed_keywords": false
+  },
+  "01b83f4cd199": {
+    "title": "Bundesrat hat bereits Stellung genommen: TKG-Novelle im Bundestag: Kommt das Recht auf Glasfaser?",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/kostenloser-glasfaseranschluss-fuer-die-mietwohnung_84342_594892.html",
+    "date": "2026-10-12T13:48:34.457264",
+    "passed_keywords": false
+  },
+  "d50ec46333de": {
+    "title": "Pflicht trotz Eigentümerwechsel: Millionen Euro Schadensersatz: Gericht erzwingt Sozialvermietung",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/sozialwohnungen-vermieten-pflicht-trotz-eigentuemerwechsel_84342_700060.html",
+    "date": "2026-10-12T13:48:34.457291",
+    "passed_keywords": true,
+    "score": 4
+  },
+  "f2bdc2b6941e": {
+    "title": "L'Immo, der Podcast für die Immobilienwirtschaft: Expo Real 2026 – Messe der 1.000 Stimmen",
+    "url": "https://www.haufe.de/immobilien/limmo-podcast-expo-real-2026-messe-der-1000-stimmen_22_700258.html",
+    "date": "2026-10-12T13:48:34.457303",
+    "passed_keywords": false
   }
 }
