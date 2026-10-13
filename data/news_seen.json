@@ -3624,5 +3624,24 @@
     "url": "https://www.haufe.de/immobilien/limmo-podcast-expo-real-2026-messe-der-1000-stimmen_22_700258.html",
     "date": "2026-10-12T13:48:34.457303",
     "passed_keywords": false
+  },
+  "dfe77e4cfed5": {
+    "title": "Bezahlbares Wohnen: KfW-40-Standard als Förderbedingung soll fallen",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/wohnen-bezahlbare-mieten-masterziel-der-bundesregierung_84342_513802.html",
+    "date": "2026-10-13T13:07:14.732004",
+    "passed_keywords": false
+  },
+  "b5fd2dc54a1b": {
+    "title": "CDU-Führungsklausur: Merz verspricht Stromsteuersenkung für alle",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/heizkosten-vielerorts-drohen-nachzahlungen_84342_440906.html",
+    "date": "2026-10-13T13:07:14.732026",
+    "passed_keywords": false
+  },
+  "9b4b232a43c4": {
+    "title": "Bayern klagt gegen einheitliche Erbschaftsteuer: Immobilienerben warten auf Karlsruhe",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/haus-grund-fordert-abschaffung-der-erbschaftsteuer_84342_141706.html",
+    "date": "2026-10-13T13:07:14.732040",
+    "passed_keywords": true,
+    "score": 4
   }
 }
