@@ -3643,5 +3643,23 @@
     "date": "2026-10-13T13:07:14.732040",
     "passed_keywords": true,
     "score": 4
+  },
+  "8cc3477ab25b": {
+    "title": "Neue BBSR-Studie: Sicherheit entscheidet über Wohnzufriedenheit",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/wohntrends-2035-so-wollen-die-deutschen-der-zukunft-leben_84324_477722.html",
+    "date": "2026-10-14T10:48:00.620008",
+    "passed_keywords": false
+  },
+  "6ea7c8a99bfc": {
+    "title": "Wettbewerb für Quartiersprojekte: Preis Soziale Stadt 2027: Kriterien, Frist und Chancen",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/gewalt-in-quartieren-und-gegen-wohnungsunternehmen-nimmt-zu_260_504088.html",
+    "date": "2026-10-14T10:48:00.620037",
+    "passed_keywords": false
+  },
+  "dbb2ed9018e9": {
+    "title": "BGH: Mietpreisbremse kann auch für umgebaute Gewerberäume gelten",
+    "url": "https://www.haufe.de/immobilien/verwaltung/bgh-mietpreisbremse-kann-auch-fuer-umgebaute-gewerberaeume-gelten_258_700420.html",
+    "date": "2026-10-14T10:48:00.620060",
+    "passed_keywords": false
   }
 }
