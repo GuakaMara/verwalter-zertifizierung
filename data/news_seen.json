@@ -3679,5 +3679,25 @@
     "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/mietendeckel-und-co-bezahlbares-wohnen-in-deutschland_84324_501068.html",
     "date": "2026-10-15T10:30:52.912402",
     "passed_keywords": false
+  },
+  "5bc3673885c2": {
+    "title": "Destatis meldet Erholung im Wohnungsneubau: Baugenehmigungen steigen, der Bauüberhang bleibt das Problem",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/destatis-baugenehmigungen-fuer-wohnungen-deutlich-gestiegen_84324_511962.html",
+    "date": "2026-10-16T10:18:01.136759",
+    "passed_keywords": false
+  },
+  "1d3cb296cac8": {
+    "title": "Tipps & Tools: Starkregen: Haus gegen Elementarschäden schützen",
+    "url": "https://www.haufe.de/immobilien/verwaltung/elementarschadenversicherung-fuer-immobilieneigentuemer_258_577840.html",
+    "date": "2026-10-16T10:18:01.136787",
+    "passed_keywords": true,
+    "score": 6
+  },
+  "a7978f3af4e1": {
+    "title": "Auf dem Weg zur klimaneutralen Wohnungswirtschaft: Wohnen und Klimaschutz: Zwischen Zielen und Kostenrealität",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/klimaschutz-im-gebaeudesektor-foerderung-und-wirtschaftlichkeit_260_700608.html",
+    "date": "2026-10-16T10:18:01.136798",
+    "passed_keywords": true,
+    "score": 6
   }
 }
