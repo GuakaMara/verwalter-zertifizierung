@@ -3718,5 +3718,24 @@
     "url": "https://www.haufe.de/immobilien/wirtschaft-politik/buendnis-bezahlbarer-wohnraum-auf-bundesebene_84342_565636.html",
     "date": "2026-10-17T09:51:31.841599",
     "passed_keywords": false
+  },
+  "96ea96c49276": {
+    "title": "Einigung in Berlin: Vom Sondieren zur Vergesellschaftung",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/berlin-gescheitertes-labor-der-wohnungspolitik_84342_599272.html",
+    "date": "2026-10-19T11:28:53.667991",
+    "passed_keywords": false
+  },
+  "6c718c7aba86": {
+    "title": "L'Immo, der Podcast für die Immobilienwirtschaft: Was Wohnungsgenossenschaften in Sachsen-Anhalt leisten",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/wohnungsgenossenschaften-staerken-sachsen-anhalts-quartiere_260_700984.html",
+    "date": "2026-10-19T11:28:53.668025",
+    "passed_keywords": false
+  },
+  "dfaf4c1bc8e6": {
+    "title": "Branche im Umbruch: 7 Fragen, die Immobilienverwalter nicht schlafen lassen",
+    "url": "https://www.haufe.de/immobilien/verwaltung/entwicklung-des-verwaltermarkts_258_574398.html",
+    "date": "2026-10-19T11:28:53.668047",
+    "passed_keywords": true,
+    "score": 6
   }
 }
