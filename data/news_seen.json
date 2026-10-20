@@ -3737,5 +3737,24 @@
     "date": "2026-10-19T11:28:53.668047",
     "passed_keywords": true,
     "score": 6
+  },
+  "f3affbd5a8cb": {
+    "title": "Digitale Infrastruktur führt: So erkennen Investoren die besten Immobilienchancen",
+    "url": "https://www.haufe.de/immobilien/investment/berlin-hyp-trendbarometer-lage-am-deutschen-immobilienmarkt_256_520362.html",
+    "date": "2026-10-20T10:34:59.361052",
+    "passed_keywords": false
+  },
+  "27001ac24306": {
+    "title": "Hausverwaltung: Steuersparmodell für die Eigentümer",
+    "url": "https://www.haufe.de/immobilien/verwaltung/hausverwaltung-vorteile-der-umsatzsteuerpflicht-fuer-weg_258_701034.html",
+    "date": "2026-10-20T10:34:59.361081",
+    "passed_keywords": true,
+    "score": 7
+  },
+  "aefe3c58ba62": {
+    "title": "Netzentgeltreform: Solaranlage: Drei Fristen, die jetzt alles entscheiden",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/osterpaket-eeg-und-solarstrom_84342_564586.html",
+    "date": "2026-10-20T10:34:59.361091",
+    "passed_keywords": false
   }
 }
