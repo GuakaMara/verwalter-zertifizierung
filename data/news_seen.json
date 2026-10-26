@@ -3831,5 +3831,31 @@
     "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/iw-wohnindex-entwicklung-kaufpreise-und-mieten_84324_615168.html",
     "date": "2026-10-24T09:57:08.616121",
     "passed_keywords": false
+  },
+  "3aeccdb325a4": {
+    "title": "L'Immo, der Podcast für die Immobilienwirtschaft: Was wurde aus den Rettern der Branche?",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/limmo-podcast-proptechs-in-der-krise_84342_701678.html",
+    "date": "2026-10-26T11:48:08.259100",
+    "passed_keywords": true,
+    "score": 3
+  },
+  "89a46fec4461": {
+    "title": "Gesetzentwurf zum Gebäudetyp E ist fertig: Günstiger bauen – aber erst ab Mitte 2027",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/gebaeudetyp-e_84342_627988.html",
+    "date": "2026-10-26T11:48:08.259127",
+    "passed_keywords": false
+  },
+  "da85da45f405": {
+    "title": "Investitionsschutzgesetz gegen Vergesellschaftung: Kaum gewählt, schon ausgebremst? Linke gegen Dobrindt",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/bbu-rechtsgutachten-zur-enteignung-von-wohnungsunternehmen_84342_486566.html",
+    "date": "2026-10-26T11:48:08.259162",
+    "passed_keywords": true,
+    "score": 3
+  },
+  "60fdc8cc788c": {
+    "title": "Podiumsgespräch mit GdW, Aareon und Techem: Wohnungswirtschaft setzt KI produktiv ein und will mehr",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/ki-in-der-wohnungswirtschaft-automatisierung-daten-chancen_260_701604.html",
+    "date": "2026-10-26T11:48:08.259180",
+    "passed_keywords": false
   }
 }
