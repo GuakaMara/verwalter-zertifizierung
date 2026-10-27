@@ -3857,5 +3857,18 @@
     "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/ki-in-der-wohnungswirtschaft-automatisierung-daten-chancen_260_701604.html",
     "date": "2026-10-26T11:48:08.259180",
     "passed_keywords": false
+  },
+  "514171e7c3cf": {
+    "title": "Business Intelligence für Wohnungsunternehmen: Transparente Daten für die Unternehmenssteuerung",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/wohnungswirtschaft-effekt-von-business-intelligence-plattform_260_701706.html",
+    "date": "2026-10-27T11:13:36.224369",
+    "passed_keywords": false
+  },
+  "aa13fe74d5c7": {
+    "title": "Verkehrssicherungspflicht: Wer bei Sturmschäden haftet",
+    "url": "https://www.haufe.de/immobilien/verwaltung/sturmschaeden-das-muessen-immobilienverwalter-beachten_258_510194.html",
+    "date": "2026-10-27T11:13:36.224402",
+    "passed_keywords": true,
+    "score": 9
   }
 }
