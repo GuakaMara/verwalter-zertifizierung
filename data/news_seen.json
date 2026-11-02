@@ -3955,5 +3955,30 @@
     "date": "2026-10-31T11:22:46.610400",
     "passed_keywords": true,
     "score": 6
+  },
+  "6565e0b6f021": {
+    "title": "Jahressteuergesetz 2026 verschärft die Spielregeln: Kaufpreisaufteilung und AfA: Was der neue § 6f EStG ändert",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/neuer-6f-estg-kaufpreisaufteilung-und-afa-bei-immobilien_84342_702222.html",
+    "date": "2026-11-02T14:05:56.566098",
+    "passed_keywords": false
+  },
+  "f4227cbc9e35": {
+    "title": "Wissenschaftlicher Beirat : Wohnungsmangel bremst Wirtschaft: Was Reiches Berater fordern",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/baulandmodelle-der-kommunen_84324_577948.html",
+    "date": "2026-11-02T14:05:56.566135",
+    "passed_keywords": false
+  },
+  "769445e18f1f": {
+    "title": "L'Immo, der Podcast für die Immobilienwirtschaft: Die Tücken beim Gebäudemodernisierungsgesetz",
+    "url": "https://www.haufe.de/immobilien/verwaltung/limmo-podcast-gmodg-kosten-foerderung-heizungstausch_258_702190.html",
+    "date": "2026-11-02T14:05:56.566158",
+    "passed_keywords": true,
+    "score": 8
+  },
+  "56835244553f": {
+    "title": "Gaussian Splatting trifft Wohnungswirtschaft: \"Wir machen digitale Zwillinge alltagstauglich\"",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/hubitation-innovationen-in-der-wohnungswirtschaft_260_607442.html",
+    "date": "2026-11-02T14:05:56.566168",
+    "passed_keywords": false
   }
 }
