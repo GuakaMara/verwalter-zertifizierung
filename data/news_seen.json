@@ -3980,5 +3980,32 @@
     "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/hubitation-innovationen-in-der-wohnungswirtschaft_260_607442.html",
     "date": "2026-11-02T14:05:56.566168",
     "passed_keywords": false
+  },
+  "9e3773707238": {
+    "title": "Marktchance für Makler: Diese Wohnungen boomen in B-Städten",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/wohnungsmarkt-enorme-regionale-preisunterschiede_84324_415824.html",
+    "date": "2026-11-03T13:11:50.459361",
+    "passed_keywords": false
+  },
+  "f41f857477b0": {
+    "title": "VDIV-Umfrage: KI-Zuschriften belasten Verwalter zunehmend",
+    "url": "https://www.haufe.de/immobilien/verwaltung/ki-zuschriften-belasten-verwalter-laut-umfrage-zunehmend_258_702268.html",
+    "date": "2026-11-03T13:11:50.459393",
+    "passed_keywords": true,
+    "score": 7,
+    "published": true
+  },
+  "f3fa844e5753": {
+    "title": "Ingeborg-Warschke-Nachwuchsförderpreis: Drei Frauen forschen, was die Branche nicht löst",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/nachwuchsfoerderpreisderfraueninderimmobilienwirtschaft_84342_202528.html",
+    "date": "2026-11-03T13:11:50.459405",
+    "passed_keywords": false
+  },
+  "d992309fc8bc": {
+    "title": "Grenzen der Energiewende im Großbestand: Sanieren ja – aber nicht auf Kosten der Mieter",
+    "url": "https://www.haufe.de/immobilien/verwaltung/howoge-sanierung-und-mieterschutz-im-grossbestand_258_701646.html",
+    "date": "2026-11-03T13:11:50.459428",
+    "passed_keywords": true,
+    "score": 3
   }
 }
