@@ -4007,5 +4007,37 @@
     "date": "2026-11-03T13:11:50.459428",
     "passed_keywords": true,
     "score": 3
+  },
+  "35dcae353b6c": {
+    "title": "Makler: ESG-Transparenz beschleunigt den Immobilienverkauf",
+    "url": "https://www.haufe.de/immobilien/investment/esg-due-diligence-fuer-immobilien_256_584716.html",
+    "date": "2026-11-04T13:26:02.584976",
+    "passed_keywords": false
+  },
+  "28a1701b49dc": {
+    "title": "Bilanz der Bundesregierung: Der Bauturbo: Ein Gesetz feiert sich selbst",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/fiskus-setzt-falsche-anreize-fuer-den-wohnungsbau_260_183576.html",
+    "date": "2026-11-04T13:26:02.585008",
+    "passed_keywords": true,
+    "score": 4
+  },
+  "ccdac9778133": {
+    "title": "Für private Vermieter und KMU: Wallbox-Förderung im Mehrfamilienhaus: Frist bis 10. November",
+    "url": "https://www.haufe.de/immobilien/verwaltung/ladesaeulen-in-wohnanlagen-es-gibt-noch-luft-nach-oben_258_520286.html",
+    "date": "2026-11-04T13:26:02.585014",
+    "passed_keywords": true,
+    "score": 6
+  },
+  "1b5a0c869065": {
+    "title": "GdW-Gutachten zum TKG-Änderungsgesetz 2026: Glasfaserausbau: Vermieter bleiben auf Kosten sitzen",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/tkg-novelle-was-wohnungsunternehmen-jetzt-tun-muessen_260_609686.html",
+    "date": "2026-11-04T13:26:02.585019",
+    "passed_keywords": false
+  },
+  "2a153b675963": {
+    "title": "GEIG-Novelle 2027: Neue Pflichten für Ladeinfrastruktur im Mehrfamilienhaus",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/e-mobilitaet-und-geig-ladesaeulenpflicht-im-gebaeudesektor_84342_509892.html",
+    "date": "2026-11-04T13:26:02.585034",
+    "passed_keywords": false
   }
 }
