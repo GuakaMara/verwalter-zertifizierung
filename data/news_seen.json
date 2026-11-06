@@ -4057,5 +4057,31 @@
     "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/greix-trends-bei-immobilienpreisen-in-staedten_84324_594560.html",
     "date": "2026-11-05T13:40:11.970382",
     "passed_keywords": false
+  },
+  "72793e0d244f": {
+    "title": "LG Frankfurt am Main kippt Verlängerung: Hessische Mietpreisbremse scheitert an Begründungsmangel",
+    "url": "https://www.haufe.de/immobilien/verwaltung/mietpreisbremse-in-hessen-urteil_258_689750.html",
+    "date": "2026-11-06T13:24:30.418945",
+    "passed_keywords": true,
+    "score": 4
+  },
+  "d65625dfbf8e": {
+    "title": "Immer weniger Bundesländer kassieren: Straßenausbaubeiträge: Wer zahlt noch – und wer ist befreit?",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/erschliessungsbeitrag-gesetze-in-den-bundeslaendern_84342_562446.html",
+    "date": "2026-11-06T13:24:30.418966",
+    "passed_keywords": false
+  },
+  "67cf9221c87c": {
+    "title": "FIU-Jahresbericht: Was die Geldwäschebehörde über den Immobiliensektor meldet",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/die-immobilienbranche-im-visier-krimineller-machenschaften_84342_465646.html",
+    "date": "2026-11-06T13:24:30.418989",
+    "passed_keywords": false
+  },
+  "3b462c5c7515": {
+    "title": "3 Fragen an Dr. Günther Westner: Gebäudemodernisierungsgesetz: Das große Aber",
+    "url": "https://www.haufe.de/immobilien/verwaltung/gebaeudemodernisierungsgesetz-3-fragen-an-dr-guenther-westner_258_702680.html",
+    "date": "2026-11-06T13:24:30.419008",
+    "passed_keywords": true,
+    "score": 8
   }
 }
