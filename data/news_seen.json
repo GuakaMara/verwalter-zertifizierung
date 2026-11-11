@@ -4121,5 +4121,44 @@
     "passed_keywords": true,
     "score": 9,
     "published": true
+  },
+  "ffe377e0cd36": {
+    "title": "Ausweitung auf 133 Städte und Gemeinden: Baden-Württemberg verlängert Mietpreisbremse",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/mietpreisbremse-in-baden-wuerttemberg_84342_321932.html",
+    "date": "2026-11-11T13:08:22.881306",
+    "passed_keywords": false
+  },
+  "253d244625b1": {
+    "title": "Unterjährige Verbrauchsinformation: Ab 2027 gilt UVI-Pflicht für alle Verwalter",
+    "url": "https://www.haufe.de/immobilien/verwaltung/unterjaehrige-verbrauchsinformation-fristen-fuer-verwalter_258_644426.html",
+    "date": "2026-11-11T13:08:22.881335",
+    "passed_keywords": true,
+    "score": 8
+  },
+  "1597783afe05": {
+    "title": "Deutsche Hypo Index November 2026: ESG ersetzt keinen Cashflow: Immobilien neu bewertet",
+    "url": "https://www.haufe.de/immobilien/investment/deutsche-hypo-index-immobilienklima_256_510892.html",
+    "date": "2026-11-11T13:08:22.881343",
+    "passed_keywords": false
+  },
+  "09f36671a35e": {
+    "title": "Käufer und Investoren zahlen mehr: EZB-Zinspause: Immobilienfinanzierung bleibt teuer",
+    "url": "https://www.haufe.de/immobilien/investment/einfluss-der-zinspolitik-auf-die-immobilienmaerkte_256_572510.html",
+    "date": "2026-11-11T13:08:22.881362",
+    "passed_keywords": false
+  },
+  "7db7adb72fad": {
+    "title": "Wohnungseigentumsrecht: Die WEG-Jahresabrechnung vor Gericht",
+    "url": "https://www.haufe.de/immobilien/verwaltung/wohnungeigentumsrecht-jahresabrechnung-in-der-weg_258_702942.html",
+    "date": "2026-11-11T13:08:22.881376",
+    "passed_keywords": true,
+    "score": 10
+  },
+  "1784be1d6b4b": {
+    "title": "Wohnungsmarkt: Mieten steigen fast viermal schneller als Kaufpreise",
+    "url": "https://www.haufe.de/immobilien/investment/vdp-immobilienpreisindex_256_515900.html",
+    "date": "2026-11-11T13:08:22.881382",
+    "passed_keywords": true,
+    "score": 4
   }
 }
