@@ -4160,5 +4160,23 @@
     "date": "2026-11-11T13:08:22.881382",
     "passed_keywords": true,
     "score": 4
+  },
+  "90ebd725fd75": {
+    "title": "Baulandmobilisierungsgesetz: Berlin verlängert – Umwandlungsverbot & Co. im Ländervergleich",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/baulandmobilisierungsgesetz-das-planen-die-bundeslaender_84342_547308.html",
+    "date": "2026-11-12T14:11:20.704514",
+    "passed_keywords": false
+  },
+  "565410befe47": {
+    "title": "Empirica-Index: Blasenrisiko sinkt – aber 262 Kreise und Städte bleiben gefährdet",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/empirica-empirica-blasenindex-steigt_84324_326394.html",
+    "date": "2026-11-12T14:11:20.704548",
+    "passed_keywords": false
+  },
+  "f34477186f57": {
+    "title": "Klimaschutz: Dekarbonisierung Ost: Altschulden bremsen Klimapfad",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/dekarbonisierung-ost-altschulden-bremsen-klimapfad_260_703070.html",
+    "date": "2026-11-12T14:11:20.704572",
+    "passed_keywords": false
   }
 }
