@@ -4202,5 +4202,25 @@
     "url": "https://www.haufe.de/immobilien/wirtschaft-politik/ki-in-der-immobilienwirtschaft-3-fragen-an-klaus-leuchtmann_84342_703164.html",
     "date": "2026-11-13T13:35:08.946629",
     "passed_keywords": false
+  },
+  "35a6c4ff3e2d": {
+    "title": "Kabelanbieter scheitern in Karlsruhe: BVerfG bestätigt Sonderkündigungsrecht bei Kabel-TV-Verträgen",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/novelle-des-telekommunikationsgesetzes_84342_523396.html",
+    "date": "2026-11-16T14:13:21.117599",
+    "passed_keywords": false
+  },
+  "844fa3a0d16d": {
+    "title": "Bereinigungshaushalt im Ausschuss: Bund stockt Bauetat 2027 auf und steuert beim Wohnen um",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/bundeshaushalt_84342_634714.html",
+    "date": "2026-11-16T14:13:21.117629",
+    "passed_keywords": true,
+    "score": 3
+  },
+  "22d232195e7f": {
+    "title": "L'Immo, der Podcast für die Immobilienwirtschaft: KI in der Hausverwaltung: Boom oder Flop?",
+    "url": "https://www.haufe.de/immobilien/verwaltung/limmo-podcast-ki-in-der-hausverwaltung-boom-oder-flop_258_703210.html",
+    "date": "2026-11-16T14:13:21.117649",
+    "passed_keywords": true,
+    "score": 6
   }
 }
