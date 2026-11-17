@@ -4222,5 +4222,43 @@
     "date": "2026-11-16T14:13:21.117649",
     "passed_keywords": true,
     "score": 6
+  },
+  "297bf3b9a55c": {
+    "title": "Tag der Wohnungswirtschaft 2026: Gedaschko rechnet mit Deutschlands Wohnungspolitik ab",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/gdw-tag-der-wohnungswirtschaft_260_529700.html",
+    "date": "2026-11-17T15:05:47.132001",
+    "passed_keywords": false
+  },
+  "96e10857e17d": {
+    "title": "Beschleunigungsgesetz – Grüne legen nach: Grüner Wasserstoff: Warum er im Heizungskeller scheitert",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/kommentar-keine-waermewende-ohne-wasserstoff_84342_552834.html",
+    "date": "2026-11-17T15:05:47.132030",
+    "passed_keywords": false
+  },
+  "f7606996686c": {
+    "title": "Mecklenburg-Vorpommern: Koalitionsvertrag verankert Tilgung von DDR-Altschulden",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/520-millionen-euro-ddr-altschulden-auf-wohnungsunternehmen_84342_481582.html",
+    "date": "2026-11-17T15:05:47.132056",
+    "passed_keywords": false
+  },
+  "bf47536b2c19": {
+    "title": "Stimmungsbarometer November 2026: Makler glauben nicht mehr an den Aufschwung",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/was-kunden-von-ihrem-immobilienmakler-erwarten_84342_524784.html",
+    "date": "2026-11-17T15:05:47.132079",
+    "passed_keywords": true,
+    "score": 2
+  },
+  "c926d1221cc0": {
+    "title": "Digitalkompetenz im C-Level: KI wartet nicht – und was machen die Chefs?",
+    "url": "https://www.haufe.de/immobilien/ki-in-der-immobilienwirtschaft-aufgabe-fuer-die-fuehrungsebene_22_703250.html",
+    "date": "2026-11-17T15:05:47.132084",
+    "passed_keywords": false
+  },
+  "7ce0bdd7a14b": {
+    "title": "100 Innovatoren bei KPMG in München: KI lässt der Immobilienbranche keine Wahl mehr",
+    "url": "https://www.haufe.de/immobilien/investment/digitalisierung-der-immobilienbranche-es-gibt-noch-viel-zu-tun_256_530060.html",
+    "date": "2026-11-17T15:05:47.132112",
+    "passed_keywords": true,
+    "score": 5
   }
 }
