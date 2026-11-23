@@ -4337,5 +4337,24 @@
     "passed_keywords": true,
     "score": 7,
     "published": true
+  },
+  "438b3b4fbd53": {
+    "title": "Facility Management: Die Lage ist ernst, nicht aber hoffnungslos",
+    "url": "https://www.haufe.de/immobilien/verwaltung/facility-management-trends-herausforderungen-und-chancen_258_703774.html",
+    "date": "2026-11-23T16:45:34.904159",
+    "passed_keywords": false
+  },
+  "16e6097fbd39": {
+    "title": "Berliner Wohnungsstreit: Vonovia-Chef Mucic drängt auf Dialog",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/vonovia-steigert-mieteinnahmen-und-gewinn_84342_489382.html",
+    "date": "2026-11-23T16:45:34.904190",
+    "passed_keywords": false
+  },
+  "bf0e3d6bb002": {
+    "title": "L'Immo, der Podcast für die Immobilienwirtschaft: Glasfaser im Mehrfamilienhaus: So klappt der Anschluss",
+    "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/limmo-podcast-glasfaser-im-mehrfamilienhaus_260_703692.html",
+    "date": "2026-11-23T16:45:34.904216",
+    "passed_keywords": true,
+    "score": 7
   }
 }
