@@ -4380,5 +4380,37 @@
     "url": "https://www.haufe.de/immobilien/wohnungswirtschaft/facility-management-eigene-hausmeister-oder-dienstleister_260_703754.html",
     "date": "2026-11-24T16:40:11.219773",
     "passed_keywords": false
+  },
+  "b794b93656e4": {
+    "title": "RICS Sustainability Report 2026: Embodied Carbon – die blinde Stelle der Branche",
+    "url": "https://www.haufe.de/immobilien/investment/vermietungsmarkt-treibt-nachfrage-nach-green-buildings_256_341794.html",
+    "date": "2026-11-25T16:23:38.878148",
+    "passed_keywords": false
+  },
+  "e0abd2603e4d": {
+    "title": "Referentenentwurf des Bundesfinanzministeriums: Neue Grunderwerbsteuer soll Tricks mit Share Deals stoppen",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/grunderwerbsteuer-laender-nehmen-rekordsummen-ein_84342_440652.html",
+    "date": "2026-11-25T16:23:38.878195",
+    "passed_keywords": false
+  },
+  "462fa7c5a3c4": {
+    "title": "Fraunhofer ISE liefert neue Belege: Wärmepumpen werden effizienter, leiser und günstiger",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/neue-wohnhaeuser-heizen-ueberwiegend-mit-erneuerbaren-energien_84324_454212.html",
+    "date": "2026-11-25T16:23:38.878224",
+    "passed_keywords": false
+  },
+  "2e9aa4422f40": {
+    "title": "BGH: Zwei Wege zur Anpassung von Vereinbarungen",
+    "url": "https://www.haufe.de/immobilien/verwaltung/bgh-anpassung-von-vereinbarungen_258_703760.html",
+    "date": "2026-11-25T16:23:38.878254",
+    "passed_keywords": true,
+    "score": 9,
+    "published": true
+  },
+  "5bdb4c389dac": {
+    "title": "Haufe KI-Online-Konferenz 2027: KI produktiv im Arbeitsalltag einsetzen",
+    "url": "https://www.haufe.de/immobilien/verwaltung/haufe-ki-online-konferenz-2027_258_703910.html",
+    "date": "2026-11-25T16:23:38.878262",
+    "passed_keywords": false
   }
 }
