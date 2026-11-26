@@ -4412,5 +4412,30 @@
     "url": "https://www.haufe.de/immobilien/verwaltung/haufe-ki-online-konferenz-2027_258_703910.html",
     "date": "2026-11-25T16:23:38.878262",
     "passed_keywords": false
+  },
+  "21c0db3b0023": {
+    "title": "BGH-Urteil: Optik allein rechtfertigt kein Verbot von Balkonkraftwerk",
+    "url": "https://www.haufe.de/immobilien/verwaltung/bgh-kein-pauschales-verbot-fuer-balkonkraftwerke_258_704154.html",
+    "date": "2026-11-26T15:57:54.461813",
+    "passed_keywords": false
+  },
+  "4aafc3a7c78a": {
+    "title": "ICG legt Leitfaden vor: Wie privates Kapital bezahlbares Wohnen ermöglichen kann",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/krieg-in-der-ukraine-folgen-fuer-den-immobilienmarkt_84324_563072.html",
+    "date": "2026-11-26T15:57:54.461847",
+    "passed_keywords": false
+  },
+  "7ffe1229b265": {
+    "title": "Hamburg baut Meldestelle weiter aus: Taskforce Mietwucher zeigt erste Vermieter an",
+    "url": "https://www.haufe.de/immobilien/wirtschaft-politik/studie-mietenpolitik-in-hamburg-effizienter-als-in-berlin_84342_543986.html",
+    "date": "2026-11-26T15:57:54.461868",
+    "passed_keywords": true,
+    "score": 3
+  },
+  "b3bca3861ced": {
+    "title": "Fraunhofer ISE liefert neue Belege: Wärmepumpen werden effizienter und Altbau-tauglicher",
+    "url": "https://www.haufe.de/immobilien/entwicklung-vermarktung/marktanalysen/neue-wohnhaeuser-heizen-ueberwiegend-mit-erneuerbaren-energien_84324_454212.html",
+    "date": "2026-11-26T15:57:54.461877",
+    "passed_keywords": false
   }
 }
